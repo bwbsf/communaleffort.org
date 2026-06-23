@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<article class="home-shell container">
+  <section class="hero" aria-labelledby="home-title">
+    <p class="eyebrow">Burners Without Borders Collaboration Map</p>
+    <div class="hero-grid">
+      <div>
+        <h1 id="home-title">{{ site.title }}</h1>
+        <p class="lede">{{ page.description | default: site.description }}</p>
+        <div class="button-row">
+          <a class="button-link" href="{{ '/chapters/' | relative_url }}">Browse Chapters</a>
+          <a class="button-link button-link-secondary" href="{{ '/categories/' | relative_url }}">Explore Collaboration Categories</a>
+        </div>
+      </div>
+      <aside class="hero-panel" aria-label="Current project phase">
+        <h2>Current Focus</h2>
+        <p>Build a chapter-by-chapter inventory and map local organizations that may fit each chapter's collaboration needs.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="page-body readme-content" aria-label="Project overview">
+    {{ content }}
+  </section>
+
+  <section class="grid-cards" aria-label="Core site sections">
+    <article class="card">
+      <h2>Chapter Directory</h2>
+      <p>Metro/region-first chapter pages organized by continent, not country-first borders.</p>
+      <p><a href="{{ '/chapters/' | relative_url }}">Open the chapter directory</a></p>
+    </article>
+    <article class="card">
+      <h2>Collaboration Categories</h2>
+      <p>Reusable partner categories for chapter research, from mutual aid to direct-service providers.</p>
+      <p><a href="{{ '/categories/' | relative_url }}">Review the taxonomy</a></p>
+    </article>
+    <article class="card">
+      <h2>Background Reference</h2>
+      <p>History, structure, activity patterns, and collaboration principles for BWB chapter mapping.</p>
+      <p><a href="{{ '/background/' | relative_url }}">Read the background</a></p>
+    </article>
+  </section>
+
+  {% include latest-posts.html %}
+</article>

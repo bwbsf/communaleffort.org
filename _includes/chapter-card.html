@@ -1,0 +1,12 @@
+{% assign chapter = include.chapter %}
+<article class="card">
+  <h2><a href="{{ chapter.page_url | relative_url }}">{{ chapter.name }}</a></h2>
+  <p>{{ chapter.metro_or_region }}{% if chapter.continent %}, {{ chapter.continent }}{% endif %}</p>
+  {% if chapter.focus_areas %}
+  <ul class="inline-list">
+    {% for area in chapter.focus_areas %}
+    <li>{{ area }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</article>

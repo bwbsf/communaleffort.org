@@ -1,0 +1,9 @@
+- slug: north-america
+  name: North America
+  kind: continent
+- slug: san-francisco
+  name: San Francisco Bay Area
+  kind: metro_or_region
+  continent: north-america
+  country: United States
+  state_or_province: California

@@ -1,0 +1,11 @@
+<div class="category-grid">
+  {% for category in site.data.collaboration_categories %}
+  <article class="card">
+    <h2>{{ category.name }}</h2>
+    <p>{{ category.description }}</p>
+    {% if category.examples %}
+    <p class="meta-row">Examples: {{ category.examples | join: ", " }}</p>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>

@@ -29,3 +29,10 @@ For each chapter, the project will build local partner lists by collaboration ca
 ## Background Reference
 
 The longer background document lives in [`README.background.md`](README.background.md). It explains BWB's history, structure, chapter activity patterns, collaboration principles, and the framework for building chapter-by-chapter partner inventories.
+
+## Website Sections
+
+- [Chapters](chapters/) lists chapter research pages using the continent-to-metro/region taxonomy.
+- [Collaboration Categories](categories/) defines the partner categories used across chapter inventories.
+- [Updates](updates/) will publish collaboration announcements, chapter updates, research notes, and calls for partners.
+- [Sources](sources/) describes the source standards for chapter and collaborator research.

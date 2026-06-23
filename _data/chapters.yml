@@ -1,0 +1,24 @@
+- name: BWB SF Bay Area
+  slug: sf-bay-area
+  status: active
+  continent: north-america
+  metro_or_region: san-francisco
+  country: United States
+  state_or_province: California
+  city_or_area: San Francisco Bay Area
+  latitude:
+  longitude:
+  official_url: https://bwbsf.org/
+  contact_url:
+  contact_note: Use the chapter's public website for current contact options.
+  page_url: /chapters/north-america/san-francisco/
+  collaborators_url: /chapters/north-america/san-francisco/collaborators/
+  focus_areas:
+    - mutual aid
+    - community development
+    - disaster preparation
+    - disaster response
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://bwbsf.org/

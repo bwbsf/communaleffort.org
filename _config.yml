@@ -1,0 +1,58 @@
+title: Communal Effort
+description: Practical mapping for Burners Without Borders chapters and local collaboration opportunities.
+url: ""
+baseurl: ""
+timezone: America/Los_Angeles
+markdown: kramdown
+highlighter: rouge
+permalink: /updates/:categories/:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: "README.md"
+    values:
+      layout: readme-home
+      title: Communal Effort
+      permalink: /
+      description: Practical mapping for Burners Without Borders chapters and local collaboration opportunities.
+  - scope:
+      path: "README.background.md"
+    values:
+      layout: page
+      title: Background
+      permalink: /background/
+      description: Background on Burners Without Borders history, structure, and chapter collaboration context.
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: "chapters"
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - .agents
+  - .codex
+  - AGENTS.md
+  - CLAUDE.md
+  - CODEX.md
+  - GEMINI.md
+  - OPENCODE.md
+  - agents
+  - downtime
+  - journal
+  - kanban
+  - plans
+  - playbooks
+  - references
+  - scripts
+  - templates
+  - third_party
