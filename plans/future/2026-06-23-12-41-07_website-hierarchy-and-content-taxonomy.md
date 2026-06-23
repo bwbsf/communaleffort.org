@@ -1,0 +1,233 @@
+---
+plan_id: 2026-06-23-12-41-07_website-hierarchy-and-content-taxonomy
+title: Website Hierarchy and Content Taxonomy
+summary: Build a GitHub Pages/Jekyll site hierarchy where README.md remains the homepage and normal GitHub README while metro/region-first chapter pages, collaborator data, and collaboration posts scale cleanly.
+status: future
+created_at: 2026-06-23-12-41-07
+---
+
+# Website Hierarchy and Content Taxonomy
+
+Key: `[ ]` pending task, `[x]` completed task, `[?]` needs validation, `[-]` closed task
+
+- [ ] 1. Confirm site architecture assumptions.
+  - [ ] 1.1 Review current project content.
+    - [ ] 1.1.1 Read `README.md` for the intended homepage/front-page copy.
+    - [ ] 1.1.2 Read `README.background.md` for background, taxonomy, and chapter-inventory requirements.
+    - [ ] 1.1.3 Review existing top-level files so generated website files do not collide with agent framework files.
+  - [ ] 1.2 Review the reference Jekyll site.
+    - [ ] 1.2.1 Read `third_party/bwbsf.org/_config.yml`.
+    - [ ] 1.2.2 Read `third_party/bwbsf.org/_layouts/default.html`.
+    - [ ] 1.2.3 Read `third_party/bwbsf.org/_layouts/page.html`.
+    - [ ] 1.2.4 Read `third_party/bwbsf.org/_layouts/post.html`.
+    - [ ] 1.2.5 Read `third_party/bwbsf.org/_includes/header.html`.
+    - [ ] 1.2.6 Read `third_party/bwbsf.org/_includes/footer.html`.
+    - [ ] 1.2.7 Read `third_party/bwbsf.org/assets/css/site.css`.
+    - [ ] 1.2.8 Read `third_party/bwbsf.org/blog/index.md`.
+    - [ ] 1.2.9 Read representative files in `third_party/bwbsf.org/_posts/`.
+  - [ ] 1.3 Confirm GitHub Pages behavior.
+    - [ ] 1.3.1 Confirm whether GitHub Pages renders root `README.md` as the homepage when no `index.md` or `index.html` exists.
+    - [ ] 1.3.2 Confirm whether `_config.yml` front matter defaults apply to root `README.md` without adding YAML front matter.
+    - [ ] 1.3.3 If README layout defaults do not apply, propose a fallback that preserves README readability before implementing.
+
+- [ ] 2. Define the URL and directory taxonomy.
+  - [ ] 2.1 Keep the homepage source at `README.md`.
+    - [ ] 2.1.1 Do not add YAML front matter to `README.md`.
+    - [ ] 2.1.2 Do not create `index.md` or `index.html` unless validation proves it is necessary and the user approves the fallback.
+    - [ ] 2.1.3 Keep `README.md` readable on GitHub as a normal project README.
+  - [ ] 2.2 Create the regional chapter hierarchy.
+    - [ ] 2.2.1 Create `chapters/index.md` as the global chapter directory landing page.
+    - [ ] 2.2.2 Create continent-level directories using lowercase slugs, for example `chapters/north-america/index.md`.
+    - [ ] 2.2.3 Create metro/region-level directories directly under continents, for example `chapters/north-america/san-francisco/index.md`.
+    - [ ] 2.2.4 Use `chapters/{continent}/{metro-or-region}/` as the default chapter URL pattern.
+    - [ ] 2.2.5 Add a final chapter slug only when a metro/region contains multiple distinct chapters or working groups, for example `chapters/north-america/san-francisco/bwb-sf-bay-area/index.md`.
+    - [ ] 2.2.6 Create chapter collaborator pages beside the chapter page, for example `chapters/north-america/san-francisco/collaborators.md`.
+    - [ ] 2.2.7 Do not use country, state, or province as default URL path levels.
+    - [ ] 2.2.8 Store country, state/province, and other formal jurisdiction labels only as metadata for search, maps, source verification, and disambiguation.
+    - [ ] 2.2.9 Use stable slugs based on commonly recognized metro/region names rather than temporary research labels.
+    - [ ] 2.2.10 Disambiguate same-name places in slugs only when needed, for example `portland-oregon`, `portland-maine`, `vancouver-bc`, or `san-jose-california`.
+    - [ ] 2.2.11 Prefer local identity and chapter usage over government-boundary precision when choosing the public URL slug.
+    - [ ] 2.2.12 Treat this continent-to-metro/region structure as the durable standard because it better fits a “Without Borders” project.
+  - [ ] 2.3 Create the updates and posts hierarchy.
+    - [ ] 2.3.1 Create `updates/index.md` as the public index for all posts and announcements.
+    - [ ] 2.3.2 Use `_posts/collaborations/` for successful collaboration announcements and case studies.
+    - [ ] 2.3.3 Use `_posts/chapter-updates/` for new chapter profiles, chapter changes, and chapter activity updates.
+    - [ ] 2.3.4 Use `_posts/research-notes/` for inventory methodology, research progress, and source-review notes.
+    - [ ] 2.3.5 Use `_posts/calls-for-partners/` for open collaboration needs and partner-seeking announcements.
+    - [ ] 2.3.6 Configure post permalinks so category URLs are readable, for example `/updates/:categories/:year/:month/:day/:title/`.
+  - [ ] 2.4 Define support pages.
+    - [ ] 2.4.1 Create `about/index.md` for project purpose, scope, and methodology.
+    - [ ] 2.4.2 Create `categories/index.md` for collaboration category definitions.
+    - [ ] 2.4.3 Create `sources/index.md` for source standards and research transparency.
+    - [ ] 2.4.4 Link `README.background.md` from the homepage and relevant methodology pages.
+
+- [ ] 3. Define the data model.
+  - [ ] 3.1 Create shared data files.
+    - [ ] 3.1.1 Create `_data/collaboration_categories.yml`.
+    - [ ] 3.1.2 Create `_data/places.yml`.
+    - [ ] 3.1.3 Create `_data/chapters.yml`.
+  - [ ] 3.2 Create per-chapter collaborator data files.
+    - [ ] 3.2.1 Create `_data/collaborators/` as the collaborator data directory.
+    - [ ] 3.2.2 Create one collaborator data file per chapter slug, for example `_data/collaborators/sf-bay-area.yml`.
+    - [ ] 3.2.3 Use one record per potential collaborator.
+  - [ ] 3.3 Define required chapter fields.
+    - [ ] 3.3.1 Include `name`.
+    - [ ] 3.3.2 Include `slug`.
+    - [ ] 3.3.3 Include `status` using controlled values such as `active`, `inactive`, `unknown`, or `defunct`.
+    - [ ] 3.3.4 Include `continent`.
+    - [ ] 3.3.5 Include `metro_or_region`.
+    - [ ] 3.3.6 Include `country` as metadata only, not as a URL path level.
+    - [ ] 3.3.7 Include `state_or_province` as metadata only, not as a URL path level.
+    - [ ] 3.3.8 Include `city_or_area`.
+    - [ ] 3.3.9 Include `latitude` and `longitude` when reliable source data is available.
+    - [ ] 3.3.10 Include `official_url` when available.
+    - [ ] 3.3.11 Include `contact_url` or `contact_note` when available.
+    - [ ] 3.3.12 Include `focus_areas`.
+    - [ ] 3.3.13 Include `recent_projects`.
+    - [ ] 3.3.14 Include `known_collaborators`.
+    - [ ] 3.3.15 Include `sources`.
+  - [ ] 3.4 Define required collaborator fields.
+    - [ ] 3.4.1 Include `name`.
+    - [ ] 3.4.2 Include `url`.
+    - [ ] 3.4.3 Include `category`.
+    - [ ] 3.4.4 Include `geographic_area`.
+    - [ ] 3.4.5 Include `why_it_may_fit`.
+    - [ ] 3.4.6 Include `known_relationship`.
+    - [ ] 3.4.7 Include `source_url`.
+    - [ ] 3.4.8 Include `source_note`.
+    - [ ] 3.4.9 Include `last_verified`.
+  - [ ] 3.5 Define collaboration category records.
+    - [ ] 3.5.1 Include residents and neighborhood leaders.
+    - [ ] 3.5.2 Include mutual-aid groups.
+    - [ ] 3.5.3 Include nonprofits and community-based organizations.
+    - [ ] 3.5.4 Include local government and public agencies.
+    - [ ] 3.5.5 Include schools, colleges, universities, libraries, and community centers.
+    - [ ] 3.5.6 Include environmental and resilience organizations.
+    - [ ] 3.5.7 Include arts and culture organizations.
+    - [ ] 3.5.8 Include makerspaces, tool libraries, repair groups, and practical infrastructure partners.
+    - [ ] 3.5.9 Include local businesses and social enterprises.
+    - [ ] 3.5.10 Include labor unions and worker centers.
+    - [ ] 3.5.11 Include food banks, shelters, hygiene programs, and direct-service providers.
+    - [ ] 3.5.12 Include funders, community foundations, and fiscal sponsors.
+    - [ ] 3.5.13 Do not include faith or religious institutions as a recommended category.
+
+- [ ] 4. Implement the Jekyll template strategy.
+  - [ ] 4.1 Create GitHub Pages configuration.
+    - [ ] 4.1.1 Create `_config.yml`.
+    - [ ] 4.1.2 Set `title` to `Communal Effort`.
+    - [ ] 4.1.3 Set `description` to the short project description from `README.md`.
+    - [ ] 4.1.4 Set `timezone` to `America/Los_Angeles`.
+    - [ ] 4.1.5 Set `markdown` to `kramdown`.
+    - [ ] 4.1.6 Set `highlighter` to `rouge`.
+    - [ ] 4.1.7 Set the post permalink pattern to the approved updates URL structure.
+    - [ ] 4.1.8 Exclude agent and planning files from the public site where appropriate.
+  - [ ] 4.2 Configure README homepage defaults.
+    - [ ] 4.2.1 Add a `_config.yml` default scoped to `README.md`.
+    - [ ] 4.2.2 Set the README default layout to `readme-home`.
+    - [ ] 4.2.3 Set the README default title to `Communal Effort`.
+    - [ ] 4.2.4 Set the README default permalink to `/`.
+    - [ ] 4.2.5 Confirm `README.md` still has no YAML front matter after configuration.
+  - [ ] 4.3 Create shared layouts.
+    - [ ] 4.3.1 Create `_layouts/default.html`.
+    - [ ] 4.3.2 Create `_layouts/readme-home.html`.
+    - [ ] 4.3.3 Create `_layouts/page.html`.
+    - [ ] 4.3.4 Create `_layouts/chapter.html`.
+    - [ ] 4.3.5 Create `_layouts/post.html`.
+  - [ ] 4.4 Create shared includes.
+    - [ ] 4.4.1 Create `_includes/header.html`.
+    - [ ] 4.4.2 Create `_includes/footer.html`.
+    - [ ] 4.4.3 Create `_includes/chapter-card.html`.
+    - [ ] 4.4.4 Create `_includes/collaborator-list.html`.
+    - [ ] 4.4.5 Create `_includes/category-list.html`.
+    - [ ] 4.4.6 Create `_includes/latest-posts.html`.
+  - [ ] 4.5 Keep README content clean.
+    - [ ] 4.5.1 Do not put Liquid loops inside `README.md`.
+    - [ ] 4.5.2 Append website-only homepage sections from `_layouts/readme-home.html`.
+    - [ ] 4.5.3 Keep navigation, cards, latest posts, and generated lists in layouts/includes.
+  - [ ] 4.6 Add site styling.
+    - [ ] 4.6.1 Create `assets/css/site.css`.
+    - [ ] 4.6.2 Reuse structural ideas from `third_party/bwbsf.org/assets/css/site.css` without copying chapter-specific branding blindly.
+    - [ ] 4.6.3 Style homepage sections, directory cards, data tables, post lists, and mobile navigation.
+
+- [ ] 5. Create initial content files.
+  - [ ] 5.1 Create directory landing pages.
+    - [ ] 5.1.1 Create `chapters/index.md`.
+    - [ ] 5.1.2 Create `updates/index.md`.
+    - [ ] 5.1.3 Create `about/index.md`.
+    - [ ] 5.1.4 Create `categories/index.md`.
+    - [ ] 5.1.5 Create `sources/index.md`.
+  - [ ] 5.2 Create initial regional stubs.
+    - [ ] 5.2.1 Create `chapters/north-america/index.md`.
+    - [ ] 5.2.2 Create `chapters/north-america/san-francisco/index.md`.
+    - [ ] 5.2.3 Create additional continent-to-metro/region stubs only after chapter source data is available.
+  - [ ] 5.3 Create initial chapter stubs.
+    - [ ] 5.3.1 Treat `chapters/north-america/san-francisco/index.md` as the initial SF Bay Area chapter page unless source data shows multiple local chapters need nested pages.
+    - [ ] 5.3.2 Create `chapters/north-america/san-francisco/collaborators.md`.
+    - [ ] 5.3.3 Create additional chapter stubs only after chapter source data is available.
+  - [ ] 5.4 Create initial post examples only if approved.
+    - [ ] 5.4.1 Ask whether to add sample posts before creating them.
+    - [ ] 5.4.2 If approved, create one sample collaboration post in `_posts/collaborations/`.
+    - [ ] 5.4.3 If approved, create one research-note post in `_posts/research-notes/`.
+    - [ ] 5.4.4 If sample posts are not approved, create empty category directories only if Git tracking requires `.gitkeep`.
+
+- [ ] 6. Define post front matter standards.
+  - [ ] 6.1 Define required post fields.
+    - [ ] 6.1.1 Include `title`.
+    - [ ] 6.1.2 Include `date`.
+    - [ ] 6.1.3 Include `categories`.
+    - [ ] 6.1.4 Include `chapter_slug` when a post relates to a chapter.
+    - [ ] 6.1.5 Include `collaboration_categories` when a post relates to partner categories.
+    - [ ] 6.1.6 Include `summary`.
+  - [ ] 6.2 Define optional post fields.
+    - [ ] 6.2.1 Include `author` when useful.
+    - [ ] 6.2.2 Include `partner_names` when the post announces a collaboration.
+    - [ ] 6.2.3 Include `source_urls` for research-note posts.
+    - [ ] 6.2.4 Include `status` for calls for partners, such as `open`, `filled`, or `archived`.
+  - [ ] 6.3 Define post content expectations.
+    - [ ] 6.3.1 Collaboration posts should state who collaborated.
+    - [ ] 6.3.2 Collaboration posts should state where the collaboration happened.
+    - [ ] 6.3.3 Collaboration posts should state what community need was addressed.
+    - [ ] 6.3.4 Collaboration posts should state what each partner contributed.
+    - [ ] 6.3.5 Collaboration posts should state what follow-up is needed.
+    - [ ] 6.3.6 Research notes should state source status and uncertainty.
+
+- [ ] 7. Update documentation.
+  - [ ] 7.1 Update `README.md` if the public site structure becomes user-facing.
+    - [ ] 7.1.1 Add a short “Site Structure” section only if it remains human-friendly.
+    - [ ] 7.1.2 Do not add build-tool noise to the main README unless the user approves.
+  - [ ] 7.2 Create developer-facing site documentation if needed.
+    - [ ] 7.2.1 Create `docs/site-structure.md` if implementation details would clutter `README.md`.
+    - [ ] 7.2.2 Document directory purpose.
+    - [ ] 7.2.3 Document data-file schemas.
+    - [ ] 7.2.4 Document post categories.
+    - [ ] 7.2.5 Document local preview commands.
+  - [ ] 7.3 Update journal and plan state.
+    - [ ] 7.3.1 Append a journal checkpoint for each implementation checkpoint.
+    - [ ] 7.3.2 Promote this plan from `plans/future/` to `plans/current/` immediately before implementation begins.
+    - [ ] 7.3.3 Archive this plan to `plans/past/` when no follow-up implementation remains.
+    - [ ] 7.3.4 Regenerate plan indexes after every plan move or checklist update.
+
+- [ ] 8. Verify the implementation.
+  - [ ] 8.1 Run static structure checks.
+    - [ ] 8.1.1 Confirm `README.md` has no YAML front matter.
+    - [ ] 8.1.2 Confirm no root `index.md` or `index.html` exists unless explicitly approved.
+    - [ ] 8.1.3 Confirm `_config.yml` exists and contains expected defaults.
+    - [ ] 8.1.4 Confirm `_layouts/` and `_includes/` files exist.
+    - [ ] 8.1.5 Confirm chapter hierarchy paths exist.
+    - [ ] 8.1.6 Confirm chapter URL paths do not use country, state, or province levels by default.
+    - [ ] 8.1.7 Confirm formal jurisdiction labels remain metadata rather than URL hierarchy.
+    - [ ] 8.1.8 Confirm post category directories or files exist as approved.
+    - [ ] 8.1.9 Confirm `_data/` files parse as YAML.
+  - [ ] 8.2 Run local build checks when tooling is available.
+    - [ ] 8.2.1 Check whether Ruby and Bundler are installed.
+    - [ ] 8.2.2 If project dependencies exist, run the smallest local Jekyll build command available.
+    - [ ] 8.2.3 If dependencies are missing and network access is required, ask before installing.
+    - [ ] 8.2.4 Confirm the homepage renders from `README.md`.
+    - [ ] 8.2.5 Confirm chapter pages render.
+    - [ ] 8.2.6 Confirm updates index renders posts.
+    - [ ] 8.2.7 Confirm generated links are relative and GitHub Pages compatible.
+  - [ ] 8.3 Review final repository state.
+    - [ ] 8.3.1 Run `git status --short`.
+    - [ ] 8.3.2 Review relevant diffs.
+    - [ ] 8.3.3 Confirm no agent framework files were unintentionally published or exposed.
+    - [ ] 8.3.4 Suggest a task-scoped commit message.

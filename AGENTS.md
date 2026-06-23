@@ -13,3 +13,15 @@ Host integration notes:
 - Runtime shim files (`AGENTS.md`, `CODEX.md`, `CLAUDE.md`, `GEMINI.md`, and `OPENCODE.md`) direct agents to that policy.
 - Host-managed framework working copies live in `./playbooks/`, `./references/`, `./templates/`, and `./scripts/`.
 - Host-owned operational artifacts live in `./plans/`, `./journal/`, `./kanban/`, and `./downtime/reports/`.
+
+Website taxonomy standard:
+- The public site is for Burners Without Borders chapter and collaborator mapping.
+- Chapter URLs must use a continent-to-metro/region taxonomy by default: `chapters/{continent}/{metro-or-region}/`.
+- Example preferred path: `chapters/north-america/san-francisco/`.
+- Do not use country, state, or province as default URL hierarchy levels.
+- Store country, state/province, and other formal jurisdiction labels only as metadata for search, maps, source verification, and disambiguation.
+- Add a final chapter slug only when a metro/region contains multiple distinct chapters or working groups, for example `chapters/north-america/san-francisco/bwb-sf-bay-area/`.
+- Disambiguate same-name places only when needed, for example `portland-oregon`, `portland-maine`, `vancouver-bc`, or `san-jose-california`.
+- Prefer local identity and chapter usage over government-boundary precision when choosing public URL slugs.
+- This convention is intentional: it better fits a “Without Borders” project than a jurisdiction-first hierarchy.
+- Future plans, page paths, data schemas, navigation, and generated links should preserve this taxonomy unless the user explicitly approves a replacement standard.
