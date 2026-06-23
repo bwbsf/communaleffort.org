@@ -43,6 +43,10 @@ Country, state, and province labels are metadata only. They should not become de
 - `_data/chapters.yml`: Chapter metadata.
 - `_data/collaborators/{chapter-slug}.yml`: Potential collaborator records for one chapter.
 
+Chapter `status` values should use `active`, `dormant`, or `unknown`. Use `unknown` when a source confirms the chapter exists but does not expose a reliable per-chapter active/dormant value. Chapter cards may link to a local `page_url` or to an external `official_url` while local chapter pages are still being built.
+
+Chapter contact fields include `contact_names`, `phone_numbers`, `email_addresses`, `external_websites`, and `social_media`. Copy only values visible on the matching official chapter page or another listed source, and leave empty arrays when that contact type is not published.
+
 ## Post Types
 
 Use subdirectories under `_posts/`:

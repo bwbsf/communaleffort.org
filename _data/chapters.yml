@@ -1,3 +1,991 @@
+- name: BWB Alberta, Calgary
+  slug: alberta-calgary
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: calgary
+  country: Canada
+  state_or_province: Alberta
+  city_or_area: Calgary
+  official_url: "https://burnerswithoutborders.org/chapters/bwb-alberta-the-league-of-extraordinary-albertans/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/burnerswithoutbordersalberta"
+  external_websites:
+    - label: Website
+      url: "https://www.extraordinaryalbertans.ca/burners-without-borders/"
+  email_addresses:
+    - alberta@burnerswithoutborders.org
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/bwb-alberta-the-league-of-extraordinary-albertans/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Arizona
+  slug: arizona
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: arizona
+  country: United States
+  state_or_province: Arizona
+  city_or_area: Arizona
+  official_url: "https://burnerswithoutborders.org/chapters/arizona/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/BWBaz"
+  external_websites:
+    - label: Website
+      url: "https://azbwb.org/projects/"
+  email_addresses:
+    - azburnerswithoutborders@gmail.com
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/arizona/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Austin
+  slug: austin
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: austin
+  country: United States
+  state_or_province: Texas
+  city_or_area: Austin
+  official_url: "https://burnerswithoutborders.org/chapters/austin-tx/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/478355546359656/"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/austin-tx/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Boston
+  slug: boston
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: boston
+  country: United States
+  state_or_province: Massachusetts
+  city_or_area: Boston
+  official_url: "https://burnerswithoutborders.org/chapters/boston-massachusetts-usa/"
+  contact_url:
+  social_media: []
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/boston-massachusetts-usa/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Chicago
+  slug: chicago
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: chicago
+  country: United States
+  state_or_province: Illinois
+  city_or_area: Chicago
+  official_url: "https://burnerswithoutborders.org/chapters/bwb-chicago/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/bwbchicago"
+    - platform: instagram
+      url: "https://www.instagram.com/bwbchicago/"
+  external_websites:
+    - label: Website
+      url: "https://www.bwbchicago.org/"
+  email_addresses:
+    - chicago@burnerswithoutborders.org
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/bwb-chicago/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Colombia
+  slug: colombia
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: south-america
+  metro_or_region: colombia
+  country: Colombia
+  state_or_province:
+  city_or_area: Colombia
+  official_url: "https://burnerswithoutborders.org/chapters/colombia/"
+  contact_url:
+  social_media:
+    - platform: instagram
+      url: "https://www.instagram.com/burnerswithoutborderscolombia/"
+  external_websites: []
+  email_addresses:
+    - colombia@burnerswithoutborders.org
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/colombia/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Colorado
+  slug: colorado
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: colorado
+  country: United States
+  state_or_province: Colorado
+  city_or_area: Colorado
+  official_url: "https://burnerswithoutborders.org/chapters/bwb-colorado/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/BurnersWithoutBordersColorado/"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/bwb-colorado/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Corpus Christi
+  slug: corpus-christi
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: corpus-christi
+  country: United States
+  state_or_province: Texas
+  city_or_area: Corpus Christi
+  official_url: "https://burnerswithoutborders.org/chapters/corpus-christi/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/BurnersForBetterWetlandsBeaches"
+    - platform: facebook
+      url: "https://www.facebook.com/groups/662157823810955/"
+    - platform: instagram
+      url: "https://www.instagram.com/burnerswithoutborderscc/"
+  external_websites: []
+  email_addresses:
+    - bwbcc0@gmail.com
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/corpus-christi/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Corumbau
+  slug: corumbau
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: south-america
+  metro_or_region: corumbau
+  country: Brazil
+  state_or_province: Bahia
+  city_or_area: Corumbau, Prado-Bahia
+  official_url: "https://burnerswithoutborders.org/chapters/bwb-brazil/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/corumburn"
+    - platform: instagram
+      url: "https://www.instagram.com/corumburn/"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/bwb-brazil/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Detroit
+  slug: detroit
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: detroit
+  country: United States
+  state_or_province: Michigan
+  city_or_area: Detroit
+  official_url: "https://burnerswithoutborders.org/chapters/bwb-detroit/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/BWBDetroit"
+  external_websites:
+    - label: Website
+      url: "https://bwbdetroit.wordpress.com/"
+  email_addresses:
+    - detroit@burnerswithoutborders.org
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/bwb-detroit/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Europe
+  slug: europe
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: europe
+  metro_or_region: europe
+  country:
+  state_or_province:
+  city_or_area: Europe
+  official_url: "https://burnerswithoutborders.org/chapters/bwb-europe/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/576320739210649/"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/bwb-europe/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Florida
+  slug: florida
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: florida
+  country: United States
+  state_or_province: Florida
+  city_or_area: Florida
+  official_url: "https://burnerswithoutborders.org/chapters/bwb-florida/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/194140180628293/"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/bwb-florida/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Fly Ranch
+  slug: fly-ranch
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: fly-ranch
+  country: United States
+  state_or_province: Nevada
+  city_or_area: Fly Ranch
+  official_url: "https://burnerswithoutborders.org/chapters/fly-ranch/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/123421705118758/"
+  external_websites:
+    - label: Website
+      url: "https://flyranch.burningman.org/"
+  email_addresses:
+    - bwb@burningman.org
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/fly-ranch/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Galveston
+  slug: galveston
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: galveston
+  country: United States
+  state_or_province: Texas
+  city_or_area: Galveston
+  official_url: "https://burnerswithoutborders.org/chapters/bwb-galveston/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/BWBGalvestonCounty/"
+    - platform: instagram
+      url: "https://www.instagram.com/bwbgalveston/"
+  external_websites: []
+  email_addresses:
+    - bwbgalveston@hotmail.com
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/bwb-galveston/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Georgia
+  slug: georgia
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: georgia
+  country: United States
+  state_or_province: Georgia
+  city_or_area: Georgia
+  official_url: "https://burnerswithoutborders.org/chapters/georgia/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/BWBGA"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/georgia/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Hawaii
+  slug: hawaii
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: hawaii
+  country: United States
+  state_or_province: Hawaii
+  city_or_area: Hawaii
+  official_url: "https://burnerswithoutborders.org/chapters/hawaii/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/BWBHawaii"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/hawaii/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Heartland
+  slug: heartland
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: heartland
+  country: United States
+  state_or_province: Kansas
+  city_or_area: Heartland
+  official_url: "https://burnerswithoutborders.org/chapters/bwb-heartland/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/176455269486198/"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names:
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/bwb-heartland/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Houston
+  slug: houston
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: houston
+  country: United States
+  state_or_province: Texas
+  city_or_area: Houston
+  official_url: "https://burnerswithoutborders.org/chapters/bwb-houston/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/bwbhouston/"
+  external_websites: []
+  email_addresses:
+    - bwbhtx@gmail.com
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/bwb-houston/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Los Angeles
+  slug: los-angeles
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: los-angeles
+  country: United States
+  state_or_province: California
+  city_or_area: Los Angeles
+  official_url: "https://burnerswithoutborders.org/chapters/los-angeles-california-usa/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/BurnersWithoutBordersLosAngeles/?fref=ts"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/los-angeles-california-usa/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Madison
+  slug: madison
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: madison
+  country: United States
+  state_or_province: Wisconsin
+  city_or_area: Madison
+  official_url: "https://burnerswithoutborders.org/chapters/madison-wisconsin-usa/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/227021010117091"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/madison-wisconsin-usa/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Melbourne
+  slug: melbourne
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: oceania
+  metro_or_region: melbourne
+  country: Australia
+  state_or_province: Victoria
+  city_or_area: Melbourne
+  official_url: "https://burnerswithoutborders.org/chapters/melbourne-vic-australia/"
+  contact_url:
+  social_media: []
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/melbourne-vic-australia/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Mexico
+  slug: mexico
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: mexico
+  country: Mexico
+  state_or_province:
+  city_or_area: Mexico
+  official_url: "https://burnerswithoutborders.org/chapters/bwb-mexico/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/1762331634063997/"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/bwb-mexico/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Minnesota
+  slug: minnesota
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: minnesota
+  country: United States
+  state_or_province: Minnesota
+  city_or_area: Minnesota
+  official_url: "https://burnerswithoutborders.org/chapters/minnesota-usa/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/1242774555748508/"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/minnesota-usa/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB New Mexico
+  slug: new-mexico
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: new-mexico
+  country: United States
+  state_or_province: New Mexico
+  city_or_area: New Mexico
+  official_url: "https://burnerswithoutborders.org/chapters/new-mexico/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/679950126152387/"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/new-mexico/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB New Orleans
+  slug: new-orleans
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: new-orleans
+  country: United States
+  state_or_province: Louisiana
+  city_or_area: New Orleans
+  official_url: "https://burnerswithoutborders.org/chapters/new-orleans-louisiana-usa/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/1067484619994553/"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/new-orleans-louisiana-usa/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB New York City
+  slug: new-york-city
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: new-york-city
+  country: United States
+  state_or_province: New York
+  city_or_area: New York City
+  official_url: "https://burnerswithoutborders.org/chapters/new-york-city/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/BurnersWithoutBordersNYC"
+    - platform: instagram
+      url: "https://www.instagram.com/bwbnewyork/"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/new-york-city/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB North Carolina
+  slug: north-carolina
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: north-carolina
+  country: United States
+  state_or_province: North Carolina
+  city_or_area: North Carolina
+  official_url: "https://burnerswithoutborders.org/chapters/north-carolina-usa/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/247313390051"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/north-carolina-usa/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB North Texas
+  slug: north-texas
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: north-texas
+  country: United States
+  state_or_province: Texas
+  city_or_area: North Texas
+  official_url: "https://burnerswithoutborders.org/chapters/bwb-north-texas/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/pages/North-Texas-Burners-Without-Borders/243506662361760"
+  external_websites: []
+  email_addresses:
+    - ntxburnerswithoutborders@gmail.com
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/bwb-north-texas/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Orange County
+  slug: orange-county
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: orange-county
+  country: United States
+  state_or_province: California
+  city_or_area: Orange County
+  official_url: "https://burnerswithoutborders.org/chapters/orange-county-california-usa/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/345252962573563/"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/orange-county-california-usa/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Perth
+  slug: perth
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: oceania
+  metro_or_region: perth
+  country: Australia
+  state_or_province: Western Australia
+  city_or_area: Perth
+  official_url: "https://burnerswithoutborders.org/chapters/perth-wa-australia/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/blazerswithoutbordersperth"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/perth-wa-australia/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Philadelphia
+  slug: philadelphia
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: philadelphia
+  country: United States
+  state_or_province: Pennsylvania
+  city_or_area: Philadelphia
+  official_url: "https://burnerswithoutborders.org/chapters/bwb-philadelphia/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/1650424075240834/"
+  external_websites:
+    - label: Website
+      url: "http://www.bwbphilly.org/"
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/bwb-philadelphia/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Portland
+  slug: portland-oregon
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: portland-oregon
+  country: United States
+  state_or_province: Oregon
+  city_or_area: Portland
+  official_url: "https://burnerswithoutborders.org/chapters/bwb-portland/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/bwbpdx"
+  external_websites: []
+  email_addresses:
+    - burnerswithoutbordersportland@gmail.com
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/bwb-portland/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Reno
+  slug: reno
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: reno
+  country: United States
+  state_or_province: Nevada
+  city_or_area: Reno
+  official_url: "https://burnerswithoutborders.org/chapters/bwb-nevada/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/251067086438"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/bwb-nevada/
+    - https://burnerswithoutborders.org/chapters/
+
+
 - name: BWB SF Bay Area
   slug: sf-bay-area
   status: active
@@ -8,8 +996,19 @@
   city_or_area: San Francisco Bay Area
   latitude:
   longitude:
-  official_url: https://bwbsf.org/
+  official_url: "https://burnerswithoutborders.org/chapters/san-francisco-bay-area/"
   contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/2026667817560697/"
+  external_websites:
+    - label: BWB SF Bay Area
+      url: https://bwbsf.org/
+  email_addresses:
+    - cj@cjtrowbridge.com
+  phone_numbers: []
+  contact_names:
+    - CJ
   contact_note: Use the chapter's public website for current contact options.
   page_url: /chapters/north-america/san-francisco/
   collaborators_url: /chapters/north-america/san-francisco/collaborators/
@@ -18,7 +1017,373 @@
     - community development
     - disaster preparation
     - disaster response
+    - mesh networks
   recent_projects: []
   known_collaborators: []
   sources:
+    - https://burnerswithoutborders.org/chapters/san-francisco-bay-area/
     - https://bwbsf.org/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Sacramento
+  slug: sacramento
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: sacramento
+  country: United States
+  state_or_province: California
+  city_or_area: Sacramento
+  official_url: "https://burnerswithoutborders.org/chapters/bwb-sacramento/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/590458291689813/"
+  external_websites:
+    - label: Website
+      url: "https://bwbsacreg.com/"
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/bwb-sacramento/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB San Antonio
+  slug: san-antonio
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: san-antonio
+  country: United States
+  state_or_province: Texas
+  city_or_area: San Antonio
+  official_url: "https://burnerswithoutborders.org/chapters/san-antonio-texas/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/1755787588083170/"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/san-antonio-texas/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB San Diego
+  slug: san-diego
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: san-diego
+  country: United States
+  state_or_province: California
+  city_or_area: San Diego
+  official_url: "https://burnerswithoutborders.org/chapters/san-diego-ca/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/175306429892621/"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/san-diego-ca/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB South Afrika
+  slug: south-afrika
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: africa
+  metro_or_region: south-afrika
+  country: South Africa
+  state_or_province:
+  city_or_area: South Afrika
+  official_url: "https://burnerswithoutborders.org/chapters/south-afrika-africa/"
+  contact_url:
+  social_media: []
+  external_websites: []
+  email_addresses:
+    - gerhard@afrikaburn.com
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/south-afrika-africa/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB South Bay
+  slug: south-bay
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: south-bay
+  country: United States
+  state_or_province: California
+  city_or_area: South Bay, Northern California
+  official_url: "https://burnerswithoutborders.org/chapters/south-bay-n-california-usa/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://facebook.com/groups/1491923515837738/"
+    - platform: instagram
+      url: "https://instagram.com/bwbsouthbay"
+  external_websites: []
+  email_addresses:
+    - genghis@burningman.org
+  phone_numbers: []
+  contact_names:
+    - Genghis
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/south-bay-n-california-usa/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Southern Nevada
+  slug: southern-nevada
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: southern-nevada
+  country: United States
+  state_or_province: Nevada
+  city_or_area: Southern Nevada
+  official_url: "https://burnerswithoutborders.org/chapters/southern-nevada-usa/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/BWBSNV/"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/southern-nevada-usa/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Sydney
+  slug: sydney
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: oceania
+  metro_or_region: sydney
+  country: Australia
+  state_or_province: New South Wales
+  city_or_area: Sydney
+  official_url: "https://burnerswithoutborders.org/chapters/australia/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/beneficentburnerssydney/"
+    - platform: facebook
+      url: "https://www.facebook.com/bwbaustralia/"
+  external_websites: []
+  email_addresses:
+    - cali@burningseed.com
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/australia/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB United Kingdom
+  slug: united-kingdom
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: europe
+  metro_or_region: united-kingdom
+  country: United Kingdom
+  state_or_province:
+  city_or_area: United Kingdom
+  official_url: "https://burnerswithoutborders.org/chapters/united-kingdom-europe/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/161567677783666/"
+  external_websites: []
+  email_addresses:
+    - jj@burnerswithoutborders.org
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/united-kingdom-europe/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Utah
+  slug: utah
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: utah
+  country: United States
+  state_or_province: Utah
+  city_or_area: Utah
+  official_url: "https://burnerswithoutborders.org/chapters/utah-usa/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/210995262359378/"
+  external_websites: []
+  email_addresses:
+    - kameron.hammond@burningman.org
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/utah-usa/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Vancouver
+  slug: vancouver-bc
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: vancouver-bc
+  country: Canada
+  state_or_province: British Columbia
+  city_or_area: Vancouver
+  official_url: "https://burnerswithoutborders.org/chapters/bwb-vancouver/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/groups/464377673674043/"
+  external_websites: []
+  email_addresses:
+    - bwbvancouver@gmail.com
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/bwb-vancouver/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Washington D.C.
+  slug: washington-dc
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: washington-dc
+  country: United States
+  state_or_province: District of Columbia
+  city_or_area: Washington D.C.
+  official_url: "https://burnerswithoutborders.org/chapters/bwb-dc/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/BWBDC/"
+    - platform: facebook
+      url: "https://www.facebook.com/groups/115935765705831"
+  external_websites: []
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/bwb-dc/
+    - https://burnerswithoutborders.org/chapters/
+
+
+- name: BWB Washington State
+  slug: washington-state
+  status: unknown
+  status_note: Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import.
+  continent: north-america
+  metro_or_region: washington-state
+  country: United States
+  state_or_province: Washington
+  city_or_area: Washington State
+  official_url: "https://burnerswithoutborders.org/chapters/bwb-washington-state/"
+  contact_url:
+  social_media:
+    - platform: facebook
+      url: "https://www.facebook.com/bwbseattle"
+  external_websites:
+    - label: Website
+      url: "http://www.bwbseattle.org/"
+  email_addresses: []
+  phone_numbers: []
+  contact_names: []
+  contact_note: Verify current contact details from the official BWB chapter page before outreach.
+  page_url:
+  collaborators_url:
+  focus_areas: []
+  recent_projects: []
+  known_collaborators: []
+  sources:
+    - https://burnerswithoutborders.org/chapters/bwb-washington-state/
+    - https://burnerswithoutborders.org/chapters/

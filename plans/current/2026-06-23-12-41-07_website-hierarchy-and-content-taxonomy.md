@@ -110,6 +110,22 @@ Key: `[ ]` pending task, `[x]` completed task, `[?]` needs validation, `[-]` clo
     - [x] 3.5.11 Include food banks, shelters, hygiene programs, and direct-service providers.
     - [x] 3.5.12 Include funders, community foundations, and fiscal sponsors.
     - [x] 3.5.13 Do not include faith or religious institutions as a recommended category.
+  - [x] 3.6 Import official BWB chapter directory records.
+    - [x] 3.6.1 Use the official BWB Chapters/Working Groups directory as the source for the initial global chapter inventory.
+    - [x] 3.6.2 Add one `_data/chapters.yml` record for each visible listed chapter or working group except Second Life.
+    - [x] 3.6.3 Preserve the existing SF Bay Area local chapter record and local page links.
+    - [x] 3.6.4 Set new chapter statuses to `unknown` when the official page confirms active/dormant totals but does not expose reliable per-chapter status in accessible text.
+    - [x] 3.6.5 Keep country, state, province, and jurisdiction labels as metadata only.
+    - [x] 3.6.6 Do not create local chapter page stubs for every imported chapter until individual page content is ready.
+  - [x] 3.7 Enrich chapter records from official chapter pages.
+    - [x] 3.7.1 Fetch each official chapter page linked from the BWB chapter directory.
+    - [x] 3.7.2 Copy visible phone numbers into chapter records when present.
+    - [x] 3.7.3 Copy visible email addresses into chapter records when present.
+    - [x] 3.7.4 Copy visible external websites into chapter records when present.
+    - [x] 3.7.5 Copy visible social-media links into chapter records when present.
+    - [x] 3.7.6 Keep extracted contact values scoped to the matching chapter record.
+    - [x] 3.7.7 Leave fields empty when the official page does not expose that contact type.
+    - [x] 3.7.8 Preserve source URLs for every enriched record.
 
 - [x] 4. Implement the Jekyll template strategy.
   - [x] 4.1 Create GitHub Pages configuration.
@@ -201,6 +217,8 @@ Key: `[ ]` pending task, `[x]` completed task, `[?]` needs validation, `[-]` clo
     - [x] 7.2.3 Document data-file schemas.
     - [x] 7.2.4 Document post categories.
     - [x] 7.2.5 Document local preview commands.
+    - [x] 7.2.6 Document chapter status values and external official-link fallback behavior.
+    - [x] 7.2.7 Document chapter contact enrichment fields.
   - [?] 7.3 Update journal and plan state.
     - [x] 7.3.1 Append a journal checkpoint for each implementation checkpoint.
     - [x] 7.3.2 Promote this plan from `plans/future/` to `plans/current/` immediately before implementation begins.
