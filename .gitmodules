@@ -1,0 +1,6 @@
+[submodule "agents"]
+	path = agents
+	url = https://github.com/cjtrowbridge/agents.git
+[submodule "third_party/bwbsf.org"]
+	path = third_party/bwbsf.org
+	url = https://github.com/bwbsf/bwbsf.org.git
