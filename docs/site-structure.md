@@ -32,7 +32,6 @@ Country, state, and province labels are metadata only. They should not become de
 - `_includes/`: Reusable navigation, cards, lists, and post summaries.
 - `_data/`: Shared support data when a content type does not need its own page collection.
 - `chapters/`: Canonical chapter profile pages.
-- `opportunities/`: Canonical collaboration opportunity pages.
 - `updates/`: Public update index.
 - `_posts/`: Dated updates grouped by type.
 - `assets/css/`: Site styles.
@@ -41,14 +40,15 @@ Country, state, and province labels are metadata only. They should not become de
 
 - `_data/places.yml`: Continents and metro/region place metadata.
 - `chapters/{continent}/{metro-or-region}/index.md`: Canonical chapter metadata and editable chapter notes.
-- `opportunities/{continent}/{metro-or-region}/{opportunity-slug}/index.md`: Canonical opportunity metadata and editable opportunity notes.
 - `categories/{category-slug}/index.md`: Canonical collaboration category metadata and category notes.
 
 Chapter `status` values should use `active`, `dormant`, or `unknown`. Use `unknown` when a source confirms the chapter exists but does not expose a reliable per-chapter active/dormant value. Chapter directory links should point to local chapter pages; external BWB pages and social links are supporting profile links only.
 
 Chapter contact fields include `contact_names`, `phone_numbers`, `email_addresses`, `external_websites`, and `social_media`. Copy only values visible on the matching official chapter page or another listed source, and leave empty arrays when that contact type is not published.
 
-Opportunity pages use the same continent-to-metro/region spine as chapter pages, but they live under `opportunities/` so they remain first-class records rather than chapter-owned subpages. Link opportunities to chapters with `chapter_slugs`, to categories with `category_slug`, and to posts with `opportunity_slug` or `opportunity_slugs`.
+Chapter collaboration opportunities live inside each chapter page's front matter as an `opportunities` array. Each opportunity can include `opportunity_slug`, `organization_name`, `category_slug`, `status`, `website`, `why_it_may_fit`, `possible_collaboration_shapes`, `source_urls`, `research_notes`, and `last_verified`.
+
+Category pages aggregate opportunities from chapter front matter by matching `category_slug`. Do not create standalone opportunity pages unless the user explicitly changes this content model.
 
 ## Post Types
 
@@ -70,7 +70,7 @@ Required fields:
 - `categories`
 - `summary`
 
-Use `chapter_slug` when a post relates to one chapter and `chapter_slugs` when it relates to multiple chapters. Use `opportunity_slug` or `opportunity_slugs` when a post relates to specific opportunity pages. Use `category_slug` when a post primarily concerns one collaboration category, and `collaboration_categories` when it spans multiple categories.
+Use `chapter_slug` when a post relates to one chapter and `chapter_slugs` when it relates to multiple chapters. Use `opportunity_slug` or `opportunity_slugs` when a post relates to specific chapter-contained opportunities. Use `category_slug` when a post primarily concerns one collaboration category, and `collaboration_categories` when it spans multiple categories.
 
 Optional fields:
 
@@ -80,6 +80,10 @@ Optional fields:
 - `status` for calls for partners, using values such as `open`, `filled`, or `archived`
 
 Collaboration posts should state who collaborated, where the work happened, what community need was addressed, what each partner contributed, and what follow-up is needed. Research notes should state source status and uncertainty.
+
+## Visual Standard
+
+The public site uses dark mode by default. New layouts, includes, and content components should use the shared CSS variables in `assets/css/site.css` rather than hard-coded light surfaces.
 
 ## Local Preview
 

@@ -24,7 +24,7 @@ The next major step is to compile a complete list of BWB chapters. Each chapter 
 
 ## Local Partner Lists
 
-For each chapter, the project will build local opportunity pages by collaboration category. Each opportunity should include its organization name, website, geographic area, relevant category, reason for fit, source links, and any known relationship to BWB, Burning Man communities, or local civic projects.
+For each chapter, the project will build a local collaboration-opportunity list organized by category. Each opportunity should include its organization name, website, geographic area, relevant category, reason for fit, source links, and any known relationship to BWB, Burning Man communities, or local civic projects.
 
 ## Background Reference
 
@@ -33,7 +33,6 @@ The longer background document lives in [`README.background.md`](README.backgrou
 ## Website Sections
 
 - [Chapters](chapters/) lists chapter research pages using the continent-to-metro/region taxonomy.
-- [Opportunities](opportunities/) lists regional collaboration opportunities connected to chapters and categories.
 - [Collaboration Categories](categories/) defines the partner categories used across chapter inventories.
 - [Updates](updates/) will publish collaboration announcements, chapter updates, research notes, and calls for partners.
 - [Sources](sources/) describes the source standards for chapter and collaborator research.

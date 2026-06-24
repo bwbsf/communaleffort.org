@@ -1,32 +1,40 @@
-{% assign opportunities = site.pages | where: "layout", "opportunity" | sort: "title" %}
+{% assign opportunities = include.opportunities %}
 {% assign rendered_opportunity_count = 0 %}
 <ul class="opportunity-list">
   {% for opportunity in opportunities %}
-  {% assign include_opportunity = true %}
-  {% if include.category_slug %}
-    {% if opportunity.category_slug != include.category_slug %}
-      {% assign include_opportunity = false %}
-    {% endif %}
-  {% endif %}
-  {% if include.chapter_slug %}
-    {% unless opportunity.chapter_slugs contains include.chapter_slug %}
-      {% assign include_opportunity = false %}
-    {% endunless %}
-  {% endif %}
-  {% if include_opportunity %}
   {% assign rendered_opportunity_count = rendered_opportunity_count | plus: 1 %}
   <li class="opportunity-list-item">
-    <h3><a href="{{ opportunity.url | relative_url }}">{{ opportunity.title }}</a></h3>
-    {% if opportunity.description %}
-    <p>{{ opportunity.description }}</p>
+    <h3>
+      {% if opportunity.website %}
+      <a href="{{ opportunity.website }}">{{ opportunity.organization_name }}</a>
+      {% else %}
+      {{ opportunity.organization_name }}
+      {% endif %}
+    </h3>
+    {% if include.parent_chapter %}
+    <p class="meta-row">Chapter: <a href="{{ include.parent_chapter.url | relative_url }}">{{ include.parent_chapter.title }}</a></p>
+    {% endif %}
+    {% if opportunity.why_it_may_fit %}
+    <p>{{ opportunity.why_it_may_fit }}</p>
     {% endif %}
     <p class="opportunity-meta">
       {% if opportunity.status %}Status: {{ opportunity.status }}{% endif %}
       {% if opportunity.category_slug %}{% if opportunity.status %} | {% endif %}Category: <a href="{{ '/categories/' | append: opportunity.category_slug | append: '/' | relative_url }}">{{ opportunity.category_slug }}</a>{% endif %}
-      {% if opportunity.metro_or_region %} | Region: {{ opportunity.metro_or_region }}{% endif %}
+      {% if opportunity.last_verified %} | Verified: {{ opportunity.last_verified }}{% endif %}
     </p>
+    {% if opportunity.possible_collaboration_shapes %}
+    {% if opportunity.possible_collaboration_shapes.size > 0 %}
+    <ul class="nested-list">
+      {% for shape in opportunity.possible_collaboration_shapes %}
+      <li>{{ shape }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    {% endif %}
+    {% if opportunity.research_notes %}
+    <p class="meta-row">{{ opportunity.research_notes }}</p>
+    {% endif %}
   </li>
-  {% endif %}
   {% endfor %}
 </ul>
 {% if rendered_opportunity_count == 0 %}

@@ -18,6 +18,38 @@ layout: default
     {{ content }}
 
     <h2>Matching Opportunities</h2>
-    {% include opportunity-list.html category_slug=page.category_slug empty_message="No opportunity pages have been added for this category yet." %}
+    {% assign rendered_opportunity_count = 0 %}
+    {% assign chapter_pages = site.pages | where: "layout", "chapter" | sort: "title" %}
+    <ul class="opportunity-list">
+    {% for chapter in chapter_pages %}
+      {% if chapter.opportunities %}
+        {% for opportunity in chapter.opportunities %}
+          {% if opportunity.category_slug == page.category_slug %}
+          {% assign rendered_opportunity_count = rendered_opportunity_count | plus: 1 %}
+          <li class="opportunity-list-item">
+            <h3>
+              {% if opportunity.website %}
+              <a href="{{ opportunity.website }}">{{ opportunity.organization_name }}</a>
+              {% else %}
+              {{ opportunity.organization_name }}
+              {% endif %}
+            </h3>
+            <p class="meta-row">Chapter: <a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></p>
+            {% if opportunity.why_it_may_fit %}
+            <p>{{ opportunity.why_it_may_fit }}</p>
+            {% endif %}
+            <p class="opportunity-meta">
+              {% if opportunity.status %}Status: {{ opportunity.status }}{% endif %}
+              {% if opportunity.last_verified %}{% if opportunity.status %} | {% endif %}Verified: {{ opportunity.last_verified }}{% endif %}
+            </p>
+          </li>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+    </ul>
+    {% if rendered_opportunity_count == 0 %}
+    <p>No chapter opportunities have been added for this category yet.</p>
+    {% endif %}
   </div>
 </article>

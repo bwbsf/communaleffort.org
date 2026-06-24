@@ -25,6 +25,7 @@ contact_note: Verify current contact details from the official BWB chapter page 
 focus_areas: []
 recent_projects: []
 known_collaborators: []
+opportunities: []
 sources:
   - "https://burnerswithoutborders.org/chapters/bwb-mexico/"
   - "https://burnerswithoutborders.org/chapters/"

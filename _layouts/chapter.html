@@ -15,7 +15,7 @@ layout: default
     {{ content }}
 
     <h2>Collaboration Opportunities</h2>
-    {% include opportunity-list.html chapter_slug=page.chapter_slug empty_message="No collaboration opportunity pages have been added for this chapter yet." %}
+    {% include opportunity-list.html opportunities=page.opportunities empty_message="No collaboration opportunities have been added for this chapter yet." %}
 
     <p><a href="{{ '/categories/' | relative_url }}">Explore collaboration categories</a></p>
 

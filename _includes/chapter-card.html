@@ -1,10 +1,7 @@
 {% assign chapter = include.chapter %}
-<li class="chapter-list-item">
+<article class="chapter-list-item">
   <h3><a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></h3>
-  <p>{{ chapter.city_or_area | default: chapter.metro_or_region }}{% if chapter.continent_name %}, {{ chapter.continent_name }}{% endif %}</p>
-  {% if chapter.status %}
-  <p class="meta-row">Status: {{ chapter.status }}</p>
-  {% endif %}
+  <p class="chapter-meta">{{ chapter.city_or_area | default: chapter.metro_or_region }}{% if chapter.continent_name %}, {{ chapter.continent_name }}{% endif %}{% if chapter.status %} <span class="status-badge">{{ chapter.status }}</span>{% endif %}</p>
   {% if chapter.focus_areas %}
   <ul class="inline-list">
     {% for area in chapter.focus_areas %}
@@ -12,7 +9,4 @@
     {% endfor %}
   </ul>
   {% endif %}
-  {% if chapter.official_url %}
-  <p class="meta-row"><a href="{{ chapter.official_url }}">Official BWB chapter page</a></p>
-  {% endif %}
-</li>
+</article>

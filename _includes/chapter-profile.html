@@ -15,30 +15,35 @@
 
 <section class="profile-section">
   <h2>Contact and Links</h2>
-  {% if chapter.contact_names and chapter.contact_names.size > 0 %}
+  {% assign contact_name_count = chapter.contact_names | size %}
+  {% if contact_name_count > 0 %}
   <p><strong>Contacts:</strong> {{ chapter.contact_names | join: ", " }}</p>
   {% endif %}
-  {% if chapter.email_addresses and chapter.email_addresses.size > 0 %}
+  {% assign email_address_count = chapter.email_addresses | size %}
+  {% if email_address_count > 0 %}
   <p><strong>Email:</strong>
     {% for email in chapter.email_addresses %}
     <a href="mailto:{{ email }}">{{ email }}</a>{% unless forloop.last %}, {% endunless %}
     {% endfor %}
   </p>
   {% endif %}
-  {% if chapter.phone_numbers and chapter.phone_numbers.size > 0 %}
+  {% assign phone_number_count = chapter.phone_numbers | size %}
+  {% if phone_number_count > 0 %}
   <p><strong>Phone:</strong> {{ chapter.phone_numbers | join: ", " }}</p>
   {% endif %}
   {% if chapter.official_url %}
   <p><strong>Official BWB page:</strong> <a href="{{ chapter.official_url }}">{{ chapter.official_url }}</a></p>
   {% endif %}
-  {% if chapter.external_websites and chapter.external_websites.size > 0 %}
+  {% assign external_website_count = chapter.external_websites | size %}
+  {% if external_website_count > 0 %}
   <p><strong>External websites:</strong>
     {% for website in chapter.external_websites %}
     <a href="{{ website.url }}">{{ website.label | default: website.url }}</a>{% unless forloop.last %}, {% endunless %}
     {% endfor %}
   </p>
   {% endif %}
-  {% if chapter.social_media and chapter.social_media.size > 0 %}
+  {% assign social_media_count = chapter.social_media | size %}
+  {% if social_media_count > 0 %}
   <p><strong>Social media:</strong>
     {% for social in chapter.social_media %}
     <a href="{{ social.url }}">{{ social.platform | default: social.url }}</a>{% unless forloop.last %}, {% endunless %}
@@ -47,7 +52,8 @@
   {% endif %}
 </section>
 
-{% if chapter.sources and chapter.sources.size > 0 %}
+{% assign source_count = chapter.sources | size %}
+{% if source_count > 0 %}
 <section class="profile-section">
   <h2>Sources</h2>
   <ul>

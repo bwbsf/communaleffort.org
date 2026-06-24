@@ -35,6 +35,7 @@ focus_areas:
   - mesh networks
 recent_projects: []
 known_collaborators: []
+opportunities: []
 sources:
   - "https://burnerswithoutborders.org/chapters/san-francisco-bay-area/"
   - "https://bwbsf.org/"

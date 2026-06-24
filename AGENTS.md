@@ -26,5 +26,7 @@ Website taxonomy standard:
 - This convention is intentional: it better fits a “Without Borders” project than a jurisdiction-first hierarchy.
 - Future plans, page paths, data schemas, navigation, and generated links should preserve this taxonomy unless the user explicitly approves a replacement standard.
 - Chapter pages under `chapters/{continent}/{metro-or-region}/` are canonical chapter records; chapter metadata belongs in page front matter, and editable chapter notes belong in the Markdown body.
-- Collaboration opportunity pages are first-class records under `opportunities/{continent}/{metro-or-region}/{opportunity-slug}/`; they use the same regional spine as chapter pages but do not live under chapter directories.
-- Chapter-name links should point to local chapter pages, and opportunity-name links should point to local opportunity pages. External websites, official BWB pages, and social links are supporting profile links only.
+- Collaboration opportunities belong inside the relevant chapter page's `opportunities` front matter array, not in standalone opportunity pages.
+- Category pages should aggregate chapter-contained opportunities by `category_slug`.
+- Chapter-name links should point to local chapter pages. External websites, official BWB pages, and social links are supporting profile links only.
+- The public website should use dark mode by default; new styling should use shared variables in `assets/css/site.css` instead of hard-coded light surfaces.

@@ -8,7 +8,6 @@
     <nav class="site-nav" aria-label="Primary">
       <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
       <a href="{{ '/chapters/' | relative_url }}"{% if page.url contains '/chapters/' %} aria-current="page"{% endif %}>Chapters</a>
-      <a href="{{ '/opportunities/' | relative_url }}"{% if page.url contains '/opportunities/' %} aria-current="page"{% endif %}>Opportunities</a>
       <a href="{{ '/categories/' | relative_url }}"{% if page.url contains '/categories/' %} aria-current="page"{% endif %}>Categories</a>
       <a href="{{ '/updates/' | relative_url }}"{% if page.url contains '/updates/' %} aria-current="page"{% endif %}>Updates</a>
       <a href="{{ '/about/' | relative_url }}"{% if page.url contains '/about/' %} aria-current="page"{% endif %}>About</a>

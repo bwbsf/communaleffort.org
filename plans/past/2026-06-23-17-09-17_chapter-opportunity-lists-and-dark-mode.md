@@ -1,0 +1,181 @@
+---
+plan_id: 2026-06-23-17-09-17_chapter-opportunity-lists-and-dark-mode
+title: Chapter Opportunity Lists and Dark Mode
+summary: Replace separate opportunity pages with nested per-chapter opportunity lists, repair chapter-directory formatting, and convert the site to a cohesive dark-mode design.
+status: past
+created_at: 2026-06-23-17-09-17
+---
+
+# Chapter Opportunity Lists and Dark Mode
+
+Key: `[ ]` pending task, `[x]` completed task, `[?]` needs validation, `[-]` closed task
+
+- [x] 1. Confirm current implementation state.
+  - [x] 1.1 Review chapter-directory rendering.
+    - [x] 1.1.1 Read `chapters/index.md`.
+    - [x] 1.1.2 Read `_includes/chapter-card.html`.
+    - [x] 1.1.3 Read `chapters/north-america/index.md`.
+    - [x] 1.1.4 Identify markup causing bullet/list indentation and spacing problems in the chapter directory.
+  - [x] 1.2 Review per-chapter opportunity rendering.
+    - [x] 1.2.1 Read `_layouts/chapter.html`.
+    - [x] 1.2.2 Read `_includes/opportunity-list.html`.
+    - [x] 1.2.3 Read `_layouts/opportunity.html`.
+    - [x] 1.2.4 Read `_includes/opportunity-profile.html`.
+    - [x] 1.2.5 Read `opportunities/index.md`.
+  - [x] 1.3 Review category rendering.
+    - [x] 1.3.1 Read `categories/index.md`.
+    - [x] 1.3.2 Read `_layouts/category.html`.
+    - [x] 1.3.3 Read `_includes/category-list.html`.
+  - [x] 1.4 Review current visual system.
+    - [x] 1.4.1 Read `assets/css/site.css`.
+    - [x] 1.4.2 Identify all light-mode color variables and hard-coded light backgrounds.
+    - [x] 1.4.3 Identify navigation overflow behavior visible in the screenshot.
+
+- [x] 2. Define the revised opportunity model.
+  - [x] 2.1 Treat collaboration opportunities as nested chapter content.
+    - [x] 2.1.1 Do not create standalone opportunity pages for now.
+    - [x] 2.1.2 Remove the assumption that opportunities need their own top-level `opportunities/{continent}/{region}/{slug}/` URL.
+    - [x] 2.1.3 Store collaboration opportunities inside each chapter page's YAML front matter or Markdown body.
+    - [x] 2.1.4 Render opportunities as a nested list on the matching chapter page.
+    - [x] 2.1.5 Keep each opportunity structured enough to include category, organization name, website, fit rationale, status, source URLs, and notes.
+  - [x] 2.2 Define chapter front matter structure for opportunities.
+    - [x] 2.2.1 Add an `opportunities` array to chapter page front matter.
+    - [x] 2.2.2 Give each opportunity an `opportunity_slug`.
+    - [x] 2.2.3 Give each opportunity an `organization_name`.
+    - [x] 2.2.4 Give each opportunity a `category_slug`.
+    - [x] 2.2.5 Give each opportunity a `status` such as `research-lead`, `contacted`, `active`, `completed`, or `archived`.
+    - [x] 2.2.6 Give each opportunity a `website` when known.
+    - [x] 2.2.7 Give each opportunity a `why_it_may_fit` text field.
+    - [x] 2.2.8 Give each opportunity a `possible_collaboration_shapes` list.
+    - [x] 2.2.9 Give each opportunity a `source_urls` list.
+    - [x] 2.2.10 Give each opportunity a `research_notes` text field.
+    - [x] 2.2.11 Give each opportunity a `last_verified` date when known.
+  - [x] 2.3 Define optional chapter Markdown structure for opportunity notes.
+    - [x] 2.3.1 Allow a `## Collaboration Opportunities` Markdown section when richer prose is needed.
+    - [x] 2.3.2 Keep generated opportunity list rendering separate from editable narrative notes.
+    - [x] 2.3.3 Avoid duplicating the same opportunity in both YAML and Markdown unless the Markdown adds narrative context.
+
+- [x] 3. Implement nested chapter opportunity rendering.
+  - [x] 3.1 Replace page-based opportunity lookup.
+    - [x] 3.1.1 Update `_layouts/chapter.html` to render opportunities from `page.opportunities`.
+    - [x] 3.1.2 Stop filtering `site.pages` for `layout: opportunity` on chapter pages.
+    - [x] 3.1.3 Update `_includes/opportunity-list.html` to accept an explicit opportunity array.
+    - [x] 3.1.4 Ensure an empty-state message appears when `page.opportunities` is empty or absent.
+  - [x] 3.2 Remove standalone opportunity-page infrastructure.
+    - [x] 3.2.1 Delete `_layouts/opportunity.html`.
+    - [x] 3.2.2 Delete `_includes/opportunity-profile.html`.
+    - [x] 3.2.3 Delete `_includes/related-opportunity-posts.html`.
+    - [x] 3.2.4 Delete `opportunities/index.md`.
+    - [x] 3.2.5 Remove the Opportunities link from `_includes/header.html`.
+    - [x] 3.2.6 Remove the Opportunities card from `_layouts/readme-home.html`.
+    - [x] 3.2.7 Update README website sections to describe opportunities as nested chapter content rather than a top-level section.
+  - [x] 3.3 Update related-post handling.
+    - [x] 3.3.1 Keep chapter related posts on chapter pages.
+    - [x] 3.3.2 Support `opportunity_slug` and `opportunity_slugs` only as optional post metadata that can be matched inside the chapter page later.
+    - [x] 3.3.3 Do not render separate opportunity related-post sections until nested opportunity posts are actually needed.
+
+- [x] 4. Update category pages for nested opportunities.
+  - [x] 4.1 Render category pages from chapter-contained opportunities.
+    - [x] 4.1.1 Update `_layouts/category.html` to scan chapter pages.
+    - [x] 4.1.2 For each chapter page, iterate over `chapter.opportunities`.
+    - [x] 4.1.3 Render only opportunities whose `category_slug` matches `page.category_slug`.
+    - [x] 4.1.4 Include the parent chapter title and link for every listed opportunity.
+    - [x] 4.1.5 Show a category empty-state message when no chapter opportunities match.
+  - [x] 4.2 Update `_includes/opportunity-list.html`.
+    - [x] 4.2.1 Support rendering a chapter page's opportunities.
+    - [x] 4.2.2 Support rendering category-filtered opportunities grouped by parent chapter.
+    - [x] 4.2.3 Keep opportunity list items nested and compact.
+    - [x] 4.2.4 Link category slugs to their category pages.
+    - [x] 4.2.5 Link parent chapter titles to local chapter pages.
+
+- [x] 5. Repair chapter-directory formatting.
+  - [x] 5.1 Replace invalid nested block markup.
+    - [x] 5.1.1 Stop placing multi-paragraph card markup inside plain list bullets.
+    - [x] 5.1.2 Change `chapters/index.md` chapter groups from `<ul>` to block-level containers if card-like rows are desired.
+    - [x] 5.1.3 Change `_includes/chapter-card.html` from `<li>` output to `<article>` output if the parent is no longer a list.
+    - [x] 5.1.4 Apply the same pattern to `chapters/north-america/index.md`.
+  - [x] 5.2 Improve chapter row content.
+    - [x] 5.2.1 Render chapter title as a prominent local link.
+    - [x] 5.2.2 Render region and continent on one compact metadata line.
+    - [x] 5.2.3 Render status as a compact badge or metadata span.
+    - [x] 5.2.4 Remove the `Official BWB chapter page` link from chapter-directory rows.
+    - [x] 5.2.5 Hide empty focus-area lists.
+    - [x] 5.2.6 Keep official BWB links available on individual chapter profile pages.
+  - [x] 5.3 Improve directory navigation.
+    - [x] 5.3.1 Keep the continent jump navigation as a real list.
+    - [x] 5.3.2 Do not render continent links as inline pills.
+    - [x] 5.3.3 Add visible spacing between continent groups.
+    - [x] 5.3.4 Avoid excessive vertical whitespace inside individual chapter rows.
+
+- [x] 6. Convert the website to dark mode.
+  - [x] 6.1 Redefine global color variables.
+    - [x] 6.1.1 Set `--bg` to a dark near-black.
+    - [x] 6.1.2 Set `--panel` to a dark elevated surface.
+    - [x] 6.1.3 Set `--panel-strong` to a slightly lighter dark surface.
+    - [x] 6.1.4 Set `--text` to a high-contrast warm off-white.
+    - [x] 6.1.5 Set `--muted` to a readable gray-blue.
+    - [x] 6.1.6 Set `--line` to a subtle dark border.
+    - [x] 6.1.7 Set `--accent`, `--accent-2`, and `--link` to accessible colors on dark backgrounds.
+  - [x] 6.2 Remove hard-coded light surfaces.
+    - [x] 6.2.1 Replace `#fff`, `#ffffff`, and `#fffaf2` backgrounds in `assets/css/site.css`.
+    - [x] 6.2.2 Replace light hero gradients with dark gradients.
+    - [x] 6.2.3 Replace light skip-link styles with accessible dark-mode styles.
+    - [x] 6.2.4 Replace table and code block backgrounds with dark surfaces.
+  - [x] 6.3 Update navigation styling.
+    - [x] 6.3.1 Make the header dark.
+    - [x] 6.3.2 Make active navigation state readable on dark mode.
+    - [x] 6.3.3 Ensure navigation wraps or scrolls cleanly instead of overflowing.
+    - [x] 6.3.4 Preserve visible focus and hover states.
+  - [x] 6.4 Update content components.
+    - [x] 6.4.1 Style chapter rows for dark mode.
+    - [x] 6.4.2 Style opportunity nested lists for dark mode.
+    - [x] 6.4.3 Style category cards for dark mode.
+    - [x] 6.4.4 Style profile sections and metadata rows for dark mode.
+    - [x] 6.4.5 Ensure links meet contrast expectations.
+
+- [x] 7. Update documentation and standards.
+  - [x] 7.1 Update `docs/site-structure.md`.
+    - [x] 7.1.1 Remove standalone opportunity-page path guidance.
+    - [x] 7.1.2 Document per-chapter `opportunities` arrays.
+    - [x] 7.1.3 Document category pages as aggregating nested chapter opportunities.
+    - [x] 7.1.4 Document dark mode as the default visual standard.
+  - [x] 7.2 Update `AGENTS.md`.
+    - [x] 7.2.1 Remove instruction that opportunities are first-class records under `opportunities/`.
+    - [x] 7.2.2 Add instruction that per-chapter collaboration opportunities live nested inside chapter pages.
+    - [x] 7.2.3 Add instruction that dark mode is the default site presentation.
+  - [x] 7.3 Update README if needed.
+    - [x] 7.3.1 Keep README human-oriented.
+    - [x] 7.3.2 Mention opportunities as chapter-page content rather than a separate site section.
+  - [x] 7.4 Update journal and plan indexes.
+    - [x] 7.4.1 Append a journal checkpoint after implementation.
+    - [x] 7.4.2 Regenerate plan indexes after plan changes or lifecycle moves.
+
+- [x] 8. Verify the implementation.
+  - [x] 8.1 Verify content model changes.
+    - [x] 8.1.1 Confirm no standalone `opportunities/` pages remain unless explicitly retained.
+    - [x] 8.1.2 Confirm `_layouts/opportunity.html` is removed if standalone opportunity pages are removed.
+    - [x] 8.1.3 Confirm every chapter page still renders with or without `opportunities`.
+    - [x] 8.1.4 Confirm category pages render with or without matching nested opportunities.
+  - [x] 8.2 Verify chapter-directory rendering.
+    - [x] 8.2.1 Confirm the chapter directory no longer uses broken list/card nesting.
+    - [x] 8.2.2 Confirm chapter rows are block-level and visually compact.
+    - [x] 8.2.3 Confirm continent groups are visibly separated.
+    - [x] 8.2.4 Confirm chapter-name links point to local chapter pages.
+    - [x] 8.2.5 Confirm official BWB links do not appear in chapter-directory rows.
+    - [x] 8.2.6 Confirm official BWB links still appear on individual chapter profile pages.
+    - [x] 8.2.7 Confirm the continent navigation is a list, not inline pills.
+  - [x] 8.3 Verify dark-mode styling.
+    - [x] 8.3.1 Search `assets/css/site.css` for hard-coded light backgrounds.
+    - [x] 8.3.2 Confirm header, hero, cards, tables, code blocks, and rows use dark variables.
+    - [x] 8.3.3 Confirm text and links remain readable.
+    - [x] 8.3.4 Confirm responsive navigation does not overflow at common narrow widths.
+  - [x] 8.4 Run available local validation.
+    - [x] 8.4.1 Run static Liquid syntax searches for risky `where_exp` or compound conditions.
+    - [x] 8.4.2 Run a static page/front matter consistency check.
+    - [-] 8.4.3 Run a local Jekyll build if Ruby/Jekyll tooling is available.
+    - [x] 8.4.4 If local Jekyll tooling is unavailable, note that GitHub Pages must validate the build.
+  - [x] 8.5 Review final repository state.
+    - [x] 8.5.1 Run `git status --short`.
+    - [x] 8.5.2 Review relevant diffs.
+    - [x] 8.5.3 Confirm no unrelated files changed.
+    - [x] 8.5.4 Suggest a task-scoped commit message.

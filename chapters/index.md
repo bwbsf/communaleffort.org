@@ -10,9 +10,10 @@ This directory uses a **continent → metro/region** structure rather than a cou
 
 {% assign chapter_pages = site.pages | where: "layout", "chapter" | sort: "metro_or_region" %}
 {% assign chapter_groups = chapter_pages | group_by: "continent_name" | sort: "name" %}
+{% assign chapter_group_count = chapter_groups | size %}
 
-{% if chapter_groups and chapter_groups.size > 0 %}
-<ul class="inline-list">
+{% if chapter_group_count > 0 %}
+<ul class="continent-list">
 {% for group in chapter_groups %}
   <li><a href="#{{ group.name | slugify }}">{{ group.name }}</a></li>
 {% endfor %}
@@ -23,17 +24,17 @@ No chapter records have been added yet.
 
 ## Chapter Records
 
-{% if chapter_groups and chapter_groups.size > 0 %}
+{% if chapter_group_count > 0 %}
 <div class="chapter-directory">
 {% for group in chapter_groups %}
   <section class="chapter-continent-group" id="{{ group.name | slugify }}">
     <h2>{{ group.name }}</h2>
     {% assign group_chapters = group.items | sort: "metro_or_region" %}
-    <ul class="chapter-list">
+    <div class="chapter-list">
     {% for chapter in group_chapters %}
       {% include chapter-card.html chapter=chapter %}
     {% endfor %}
-    </ul>
+    </div>
   </section>
 {% endfor %}
 </div>

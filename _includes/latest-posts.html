@@ -7,13 +7,15 @@
     <a class="button-link" href="{{ '/updates/' | relative_url }}">View All Updates</a>
   </div>
 
-  {% if site.posts and site.posts.size > 0 %}
+  {% assign post_count = site.posts | size %}
+  {% if post_count > 0 %}
   <ul class="post-list">
     {% for post in site.posts limit: 5 %}
     <li class="post-list-item">
       <p class="meta-row">
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-        {% if post.categories and post.categories.size > 0 %} | {{ post.categories | join: ", " }}{% endif %}
+        {% assign post_category_count = post.categories | size %}
+        {% if post_category_count > 0 %} | {{ post.categories | join: ", " }}{% endif %}
       </p>
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
