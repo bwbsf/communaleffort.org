@@ -32,3 +32,7 @@ Website taxonomy standard:
 - The public website should use dark mode by default; new styling should use shared variables in `assets/css/site.css` instead of hard-coded light surfaces.
 - Deep-research prompt artifacts are generated local working files under `research/generated/` and must not be committed.
 - The reusable deep-research boilerplate lives at `templates/deep_research_opportunity_prompt.md`; `scripts/generate_research_prompts.py` transposes chapter and category metadata into one prompt artifact per chapter.
+- Completed deep-research reports under `research/completed/` are high-value source artifacts and should be committed and preserved until integration.
+- After selected findings are integrated, move the completed report to `research/archive/` and update affected `completed_report` paths in `research/status.yml`.
+- `research/status.yml` is the durable chapter-category research checklist; do not regenerate targets marked `completed`, `integrated`, or `no-good-leads` unless the user explicitly resets them.
+- Use `playbooks/how_to_integrate_deep_research_results.md` before importing completed reports into chapter `opportunities` arrays or resetting prior results.

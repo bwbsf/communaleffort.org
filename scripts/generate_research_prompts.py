@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import shutil
 from dataclasses import dataclass
 from pathlib import Path
 from string import Template
@@ -14,10 +15,13 @@ from typing import Iterable
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_TEMPLATE = REPO_ROOT / "templates" / "deep_research_opportunity_prompt.md"
 DEFAULT_OUTPUT_DIR = REPO_ROOT / "research" / "generated"
+DEFAULT_STATUS_FILE = REPO_ROOT / "research" / "status.yml"
 FRONT_MATTER_BOUNDARY = "---"
 TOP_LEVEL_KEY_PATTERN = re.compile(r"^([A-Za-z0-9_]+):(?:\s*(.*))?$")
 CATEGORY_SLUG_PATTERN = re.compile(r"^\s*-?\s*category_slug:\s*['\"]?([^'\"\s]+)['\"]?")
 PLACEHOLDER_PATTERN = re.compile(r"{{\s*([A-Za-z0-9_]+)\s*}}")
+STATUS_SKIP_VALUES = {"completed", "integrated", "no-good-leads"}
+STATUS_PROMPT_VALUES = {"needed", "needs-rerun", "reset"}
 
 
 @dataclass(frozen=True)
@@ -45,6 +49,17 @@ class Chapter:
     existing_category_slugs: frozenset[str]
 
 
+@dataclass(frozen=True)
+class ResearchTargetStatus:
+    chapter_slug: str
+    category_slug: str
+    status: str
+    completed_report: str
+    completed_at: str
+    integrated_at: str
+    notes: str
+
+
 def extract_front_matter(path: Path) -> list[str]:
     lines = path.read_text(encoding="utf-8").splitlines()
     if len(lines) < 3 or lines[0].strip() != FRONT_MATTER_BOUNDARY:
@@ -62,6 +77,15 @@ def unquote(value: str) -> str:
     if len(value) >= 2 and value[0] == value[-1] and value[0] in {'"', "'"}:
         return value[1:-1]
     return value
+
+
+def parse_scalar(value: str) -> str:
+    value = value.strip()
+    if not value:
+        return ""
+    if value == "[]":
+        return ""
+    return unquote(value)
 
 
 def parse_simple_front_matter(path: Path) -> dict[str, object]:
@@ -83,7 +107,7 @@ def parse_simple_front_matter(path: Path) -> dict[str, object]:
             index += 1
             continue
         if raw_value:
-            data[key] = unquote(raw_value)
+            data[key] = parse_scalar(raw_value)
             index += 1
             continue
 
@@ -94,12 +118,55 @@ def parse_simple_front_matter(path: Path) -> dict[str, object]:
             if nested_line.startswith("- "):
                 item = nested_line[2:].strip()
                 if item:
-                    values.append(unquote(item))
+                    values.append(parse_scalar(item))
             nested_index += 1
         data[key] = values
         index = nested_index
 
     return data
+
+
+def parse_research_status_file(path: Path) -> dict[tuple[str, str], ResearchTargetStatus]:
+    if not path.exists():
+        return {}
+
+    records: list[dict[str, str]] = []
+    current: dict[str, str] | None = None
+
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        stripped = raw_line.strip()
+        if not stripped or stripped.startswith("#") or stripped == "targets:":
+            continue
+        if stripped.startswith("- "):
+            if current:
+                records.append(current)
+            current = {}
+            stripped = stripped[2:].strip()
+        if current is None or ":" not in stripped:
+            continue
+        key, value = stripped.split(":", 1)
+        current[key.strip()] = parse_scalar(value)
+
+    if current:
+        records.append(current)
+
+    statuses: dict[tuple[str, str], ResearchTargetStatus] = {}
+    for record in records:
+        chapter_slug = record.get("chapter_slug", "")
+        category_slug = record.get("category_slug", "")
+        if not chapter_slug or not category_slug:
+            continue
+        statuses[(chapter_slug, category_slug)] = ResearchTargetStatus(
+            chapter_slug=chapter_slug,
+            category_slug=category_slug,
+            status=record.get("status", "needed"),
+            completed_report=record.get("completed_report", ""),
+            completed_at=record.get("completed_at", ""),
+            integrated_at=record.get("integrated_at", ""),
+            notes=record.get("notes", ""),
+        )
+
+    return statuses
 
 
 def parse_existing_opportunity_category_slugs(path: Path) -> frozenset[str]:
@@ -209,22 +276,76 @@ def write_json(path: Path, payload: object) -> None:
     path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
 
+def display_path(path: Path) -> str:
+    try:
+        return path.resolve().relative_to(REPO_ROOT).as_posix()
+    except ValueError:
+        return path.as_posix()
+
+
 def generate(args: argparse.Namespace) -> None:
-    categories = discover_categories(args.categories_dir)
-    chapters = discover_chapters(args.chapters_dir)
-    template_text = args.template.read_text(encoding="utf-8")
-    prompts_dir = args.output_dir / "prompts"
+    chapters_dir = args.chapters_dir.resolve()
+    categories_dir = args.categories_dir.resolve()
+    template_path = args.template.resolve()
+    output_dir = args.output_dir.resolve()
+    status_file = args.status_file.resolve()
+
+    categories = discover_categories(categories_dir)
+    chapters = discover_chapters(chapters_dir)
+    research_statuses = parse_research_status_file(status_file)
+    template_text = template_path.read_text(encoding="utf-8")
+    prompts_dir = output_dir / "prompts"
+    if prompts_dir.exists():
+        shutil.rmtree(prompts_dir)
     prompts_dir.mkdir(parents=True, exist_ok=True)
 
     manifest: list[dict[str, object]] = []
     total_missing_targets = 0
+    total_prompt_artifacts = 0
+    status_summary = {
+        "completed": 0,
+        "integrated": 0,
+        "no-good-leads": 0,
+        "covered-by-chapter": 0,
+        "needed": 0,
+        "needs-rerun": 0,
+        "reset": 0,
+    }
 
     for chapter in chapters:
-        missing_categories = [category for category in categories if category.slug not in chapter.existing_category_slugs]
+        missing_categories: list[Category] = []
+        skipped_by_status: dict[str, list[str]] = {}
+        prompt_by_status: dict[str, list[str]] = {}
+        covered_by_chapter: list[str] = []
+
+        for category in categories:
+            status_record = research_statuses.get((chapter.slug, category.slug))
+            if category.slug in chapter.existing_category_slugs:
+                covered_by_chapter.append(category.slug)
+                status_summary["covered-by-chapter"] += 1
+                continue
+            if status_record and status_record.status in STATUS_SKIP_VALUES:
+                skipped_by_status.setdefault(status_record.status, []).append(category.slug)
+                status_summary[status_record.status] += 1
+                continue
+            if status_record and status_record.status in STATUS_PROMPT_VALUES:
+                prompt_by_status.setdefault(status_record.status, []).append(category.slug)
+                status_summary[status_record.status] += 1
+                missing_categories.append(category)
+                continue
+
+            prompt_by_status.setdefault("needed", []).append(category.slug)
+            status_summary["needed"] += 1
+            missing_categories.append(category)
+
         total_missing_targets += len(missing_categories)
-        prompt_path = prompts_dir / chapter.continent_name.lower().replace(" ", "-") / f"{chapter.metro_or_region}.md"
-        prompt_path.parent.mkdir(parents=True, exist_ok=True)
-        prompt_path.write_text(render_prompt(template_text, chapter, missing_categories), encoding="utf-8")
+        prompt_path = None
+        if missing_categories:
+            prompt_path = prompts_dir / chapter.continent_name.lower().replace(" ", "-") / f"{chapter.metro_or_region}.md"
+            prompt_path.parent.mkdir(parents=True, exist_ok=True)
+            prompt_path.write_text(render_prompt(template_text, chapter, missing_categories), encoding="utf-8")
+            total_prompt_artifacts += 1
+
         manifest.append(
             {
                 "chapter_title": chapter.title,
@@ -232,19 +353,26 @@ def generate(args: argparse.Namespace) -> None:
                 "chapter_path": chapter.rel_path,
                 "city_or_area": chapter.city_or_area,
                 "continent_name": chapter.continent_name,
+                "prompt_generated": bool(missing_categories),
                 "missing_target_count": len(missing_categories),
                 "missing_category_slugs": [category.slug for category in missing_categories],
-                "prompt_path": prompt_path.relative_to(REPO_ROOT).as_posix(),
+                "prompt_category_slugs_by_status": prompt_by_status,
+                "skipped_category_slugs_by_status": skipped_by_status,
+                "covered_by_chapter_category_slugs": covered_by_chapter,
+                "prompt_path": display_path(prompt_path) if prompt_path else "",
             }
         )
 
-    args.output_dir.mkdir(parents=True, exist_ok=True)
+    output_dir.mkdir(parents=True, exist_ok=True)
     write_json(
-        args.output_dir / "missing-research-targets.json",
+        output_dir / "missing-research-targets.json",
         {
             "chapter_count": len(chapters),
             "category_count": len(categories),
             "missing_target_count": total_missing_targets,
+            "prompt_artifact_count": total_prompt_artifacts,
+            "status_file": display_path(status_file) if status_file.exists() else "",
+            "status_summary": status_summary,
             "chapters": manifest,
         },
     )
@@ -252,8 +380,9 @@ def generate(args: argparse.Namespace) -> None:
     print(f"Chapters: {len(chapters)}")
     print(f"Categories: {len(categories)}")
     print(f"Missing chapter-category targets: {total_missing_targets}")
-    print(f"Prompt artifacts: {len(chapters)}")
-    print(f"Output directory: {args.output_dir.relative_to(REPO_ROOT).as_posix()}")
+    print(f"Prompt artifacts: {total_prompt_artifacts}")
+    print(f"Status file: {display_path(status_file) if status_file.exists() else 'none'}")
+    print(f"Output directory: {display_path(output_dir)}")
 
 
 def parse_args() -> argparse.Namespace:
@@ -262,6 +391,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--categories-dir", type=Path, default=REPO_ROOT / "categories")
     parser.add_argument("--template", type=Path, default=DEFAULT_TEMPLATE)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
+    parser.add_argument("--status-file", type=Path, default=DEFAULT_STATUS_FILE)
     return parser.parse_args()
 
 

@@ -14,8 +14,10 @@ layout: default
     {% include chapter-profile.html chapter=page %}
     {{ content }}
 
-    <h2>Collaboration Opportunities</h2>
-    {% include opportunity-list.html opportunities=page.opportunities empty_message="No collaboration opportunities have been added for this chapter yet." %}
+    {% include chapter-volunteer.html chapter=page %}
+
+    <h2>Potential Collaboration Opportunities</h2>
+    {% include opportunity-list.html opportunities=page.opportunities empty_message="No potential collaboration opportunities have been added for this chapter yet." %}
 
     <p><a href="{{ '/categories/' | relative_url }}">Explore collaboration categories</a></p>
 

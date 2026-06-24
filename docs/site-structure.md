@@ -53,11 +53,15 @@ Chapter collaboration opportunities live inside each chapter page's front matter
 
 Category pages aggregate opportunities from chapter front matter by matching `category_slug`. Do not create standalone opportunity pages unless the user explicitly changes this content model.
 
+Chapter volunteer guidance can use optional `volunteer_summary` text and `volunteer_links` entries with `label` and `url`. When those fields are absent, chapter pages render fallback volunteer links from official chapter, external website, social, or email contact fields.
+
 ## Research Prompt Workflow
 
-Use `scripts/generate_research_prompts.py` to create deep-research prompt artifacts for missing chapter-category opportunity targets. The script reads chapter pages, category pages, and `templates/deep_research_opportunity_prompt.md`, then writes one verbose prompt per chapter plus a missing-target manifest under `research/generated/`.
+Use `scripts/generate_research_prompts.py` to create deep-research prompt artifacts for missing chapter-category opportunity targets. The script reads chapter pages, category pages, `research/status.yml`, and `templates/deep_research_opportunity_prompt.md`, then writes one verbose prompt per chapter with remaining prompt-generating targets plus a missing-target manifest under `research/generated/`.
 
-`research/generated/` is intentionally ignored by git. Commit the generator script, boilerplate, and workflow documentation; do not commit generated prompts or manifests.
+`research/status.yml` is the durable chapter-category checklist. Targets marked `completed`, `integrated`, or `no-good-leads` are skipped by the generator; targets marked `needed`, `needs-rerun`, or `reset` are regenerated.
+
+`research/completed/` stores completed deep-research reports awaiting review or integration. `research/archive/` stores completed reports after their selected findings have been integrated. Both completed and archived reports should be committed as high-value source material. `research/generated/` is intentionally ignored by git; do not commit generated prompts or manifests.
 
 ## Post Types
 

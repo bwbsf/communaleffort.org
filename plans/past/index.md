@@ -2,6 +2,8 @@
 
 Format: `last_modified | path | title | summary`
 
+2026-06-24-08-23-39 | plans/past/2026-06-24-08-22-06_deep-research-archive-folder.md | Deep Research Archive Folder | Add an archive folder and workflow rules for moving completed deep-research reports after integration while preserving status tracking.
+2026-06-24-08-05-21 | plans/past/2026-06-24-07-55-10_deep-research-completion-governance.md | Deep Research Completion Governance | Preserve completed deep-research reports, track completed chapter-category targets, skip completed targets in prompt generation, add integration/reset playbook governance, and update chapter opportunity/volunteer presentation.
 2026-06-23-17-30-40 | plans/past/2026-06-23-17-27-13_research-prompt-generator.md | Research Prompt Generator | Create an ignored generated-artifact workflow for chapter-by-category collaboration research prompts.
 2026-06-23-17-19-39 | plans/past/2026-06-23-17-09-17_chapter-opportunity-lists-and-dark-mode.md | Chapter Opportunity Lists and Dark Mode | Replace separate opportunity pages with nested per-chapter opportunity lists, repair chapter-directory formatting, and convert the site to a cohesive dark-mode design.
 2026-06-23-17-03-56 | plans/past/2026-06-23-17-03-35_fix-github-pages-liquid-build.md | Fix GitHub Pages Liquid Build | Replace GitHub Pages-incompatible compound Liquid `where_exp` filters with page/post loops that render the same chapter, category, opportunity, and related-post lists.

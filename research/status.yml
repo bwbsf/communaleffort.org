@@ -1,0 +1,339 @@
+# Deep research completion status for chapter-category targets.
+# Status values: needed, completed, integrated, no-good-leads, needs-rerun, reset.
+targets:
+  - chapter_slug: fly-ranch
+    category_slug: arts-culture-organizations
+    status: completed
+    completed_report: research/completed/deep-research-report-fly-ranch.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: fly-ranch
+    category_slug: direct-service-providers
+    status: completed
+    completed_report: research/completed/deep-research-report-fly-ranch.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: fly-ranch
+    category_slug: environmental-resilience-organizations
+    status: completed
+    completed_report: research/completed/deep-research-report-fly-ranch.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: fly-ranch
+    category_slug: funders-fiscal-sponsors
+    status: completed
+    completed_report: research/completed/deep-research-report-fly-ranch.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: fly-ranch
+    category_slug: labor-unions-worker-centers
+    status: completed
+    completed_report: research/completed/deep-research-report-fly-ranch.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: fly-ranch
+    category_slug: local-businesses-social-enterprises
+    status: completed
+    completed_report: research/completed/deep-research-report-fly-ranch.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: fly-ranch
+    category_slug: local-government-public-agencies
+    status: completed
+    completed_report: research/completed/deep-research-report-fly-ranch.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: fly-ranch
+    category_slug: makerspaces-tool-libraries-repair-groups
+    status: completed
+    completed_report: research/completed/deep-research-report-fly-ranch.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: fly-ranch
+    category_slug: mutual-aid-groups
+    status: completed
+    completed_report: research/completed/deep-research-report-fly-ranch.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: fly-ranch
+    category_slug: nonprofits-cbos
+    status: completed
+    completed_report: research/completed/deep-research-report-fly-ranch.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: fly-ranch
+    category_slug: residents-neighborhood-leaders
+    status: completed
+    completed_report: research/completed/deep-research-report-fly-ranch.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: fly-ranch
+    category_slug: schools-libraries-community-centers
+    status: completed
+    completed_report: research/completed/deep-research-report-fly-ranch.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: reno
+    category_slug: arts-culture-organizations
+    status: completed
+    completed_report: research/completed/deep-research-report-reno.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: reno
+    category_slug: direct-service-providers
+    status: completed
+    completed_report: research/completed/deep-research-report-reno.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: reno
+    category_slug: environmental-resilience-organizations
+    status: completed
+    completed_report: research/completed/deep-research-report-reno.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: reno
+    category_slug: funders-fiscal-sponsors
+    status: completed
+    completed_report: research/completed/deep-research-report-reno.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: reno
+    category_slug: labor-unions-worker-centers
+    status: completed
+    completed_report: research/completed/deep-research-report-reno.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: reno
+    category_slug: local-businesses-social-enterprises
+    status: completed
+    completed_report: research/completed/deep-research-report-reno.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: reno
+    category_slug: local-government-public-agencies
+    status: completed
+    completed_report: research/completed/deep-research-report-reno.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: reno
+    category_slug: makerspaces-tool-libraries-repair-groups
+    status: completed
+    completed_report: research/completed/deep-research-report-reno.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: reno
+    category_slug: mutual-aid-groups
+    status: completed
+    completed_report: research/completed/deep-research-report-reno.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: reno
+    category_slug: nonprofits-cbos
+    status: completed
+    completed_report: research/completed/deep-research-report-reno.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: reno
+    category_slug: residents-neighborhood-leaders
+    status: completed
+    completed_report: research/completed/deep-research-report-reno.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: reno
+    category_slug: schools-libraries-community-centers
+    status: completed
+    completed_report: research/completed/deep-research-report-reno.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: sf-bay-area
+    category_slug: arts-culture-organizations
+    status: completed
+    completed_report: research/completed/deep-research-report-sf-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: sf-bay-area
+    category_slug: direct-service-providers
+    status: completed
+    completed_report: research/completed/deep-research-report-sf-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: sf-bay-area
+    category_slug: environmental-resilience-organizations
+    status: completed
+    completed_report: research/completed/deep-research-report-sf-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: sf-bay-area
+    category_slug: funders-fiscal-sponsors
+    status: completed
+    completed_report: research/completed/deep-research-report-sf-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: sf-bay-area
+    category_slug: labor-unions-worker-centers
+    status: completed
+    completed_report: research/completed/deep-research-report-sf-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: sf-bay-area
+    category_slug: local-businesses-social-enterprises
+    status: completed
+    completed_report: research/completed/deep-research-report-sf-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: sf-bay-area
+    category_slug: local-government-public-agencies
+    status: completed
+    completed_report: research/completed/deep-research-report-sf-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: sf-bay-area
+    category_slug: makerspaces-tool-libraries-repair-groups
+    status: completed
+    completed_report: research/completed/deep-research-report-sf-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: sf-bay-area
+    category_slug: mutual-aid-groups
+    status: completed
+    completed_report: research/completed/deep-research-report-sf-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: sf-bay-area
+    category_slug: nonprofits-cbos
+    status: completed
+    completed_report: research/completed/deep-research-report-sf-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: sf-bay-area
+    category_slug: residents-neighborhood-leaders
+    status: completed
+    completed_report: research/completed/deep-research-report-sf-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: sf-bay-area
+    category_slug: schools-libraries-community-centers
+    status: completed
+    completed_report: research/completed/deep-research-report-sf-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: south-bay
+    category_slug: arts-culture-organizations
+    status: completed
+    completed_report: research/completed/deep-research-report-south-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: south-bay
+    category_slug: direct-service-providers
+    status: completed
+    completed_report: research/completed/deep-research-report-south-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: south-bay
+    category_slug: environmental-resilience-organizations
+    status: completed
+    completed_report: research/completed/deep-research-report-south-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: south-bay
+    category_slug: funders-fiscal-sponsors
+    status: completed
+    completed_report: research/completed/deep-research-report-south-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: south-bay
+    category_slug: labor-unions-worker-centers
+    status: completed
+    completed_report: research/completed/deep-research-report-south-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: south-bay
+    category_slug: local-businesses-social-enterprises
+    status: completed
+    completed_report: research/completed/deep-research-report-south-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: south-bay
+    category_slug: local-government-public-agencies
+    status: completed
+    completed_report: research/completed/deep-research-report-south-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: south-bay
+    category_slug: makerspaces-tool-libraries-repair-groups
+    status: completed
+    completed_report: research/completed/deep-research-report-south-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: south-bay
+    category_slug: mutual-aid-groups
+    status: no-good-leads
+    completed_report: research/completed/deep-research-report-south-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report found insufficient durable public evidence for South Bay mutual-aid leads."
+  - chapter_slug: south-bay
+    category_slug: nonprofits-cbos
+    status: completed
+    completed_report: research/completed/deep-research-report-south-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: south-bay
+    category_slug: residents-neighborhood-leaders
+    status: completed
+    completed_report: research/completed/deep-research-report-south-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+  - chapter_slug: south-bay
+    category_slug: schools-libraries-community-centers
+    status: completed
+    completed_report: research/completed/deep-research-report-south-bay.md
+    completed_at: 2026-06-24
+    integrated_at:
+    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."

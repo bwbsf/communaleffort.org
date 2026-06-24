@@ -28,6 +28,8 @@ Research the following chapter-category targets. For each category, identify hig
 
 {{ target_list }}
 
+Only research the targets listed in this prompt. If a category is not listed, treat it as already completed or intentionally skipped.
+
 ## What To Find For Each Opportunity
 
 For every useful opportunity, collect enough information to create a structured entry with these fields:
@@ -52,6 +54,8 @@ For every useful opportunity, collect enough information to create a structured 
 
 - Prefer official organization websites, official public-agency pages, reputable local directories, public filings, and credible local news.
 - Include source URLs for every organization and for every important claim.
+- Do not include internal Deep Research citation tokens or proprietary citation blobs such as `cite...` in YAML fields.
+- Put durable, public source URLs in `source_urls`; use the final `source_index` to explain what each URL supports.
 - Do not invent contact details, program details, partnerships, activity status, or geographic scope.
 - Distinguish active organizations from stale, defunct, or unclear leads.
 - Mark uncertainty explicitly in `research_notes`.
@@ -78,7 +82,7 @@ Return the results in this order:
 
 1. A short summary of the strongest collaboration patterns for {{ city_or_area }}.
 2. A YAML-ready `opportunities` list grouped by `category_slug`.
-3. A `no_good_leads_found` list for any category where you could not find enough credible local evidence.
+3. A `no_good_leads_found` list for any category where you could not find enough credible local evidence, including the category slug and a plain-language reason.
 4. A `follow_up_questions` list for human review.
 5. A `source_index` list of all URLs consulted with one-line notes about what each source supports.
 

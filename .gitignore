@@ -1,0 +1,6 @@
+# Generated deep-research prompt artifacts
+/research/generated/
+
+# Python local cache files
+__pycache__/
+*.py[cod]

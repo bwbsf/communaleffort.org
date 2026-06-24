@@ -1,0 +1,42 @@
+{% assign chapter = include.chapter %}
+<section class="profile-section">
+  <h2>Volunteer With This Chapter</h2>
+  {% if chapter.volunteer_summary %}
+  <p>{{ chapter.volunteer_summary }}</p>
+  {% else %}
+  <p>Start with the chapter's public contact links to ask about current volunteer needs, upcoming projects, and the best way to plug in locally.</p>
+  {% endif %}
+
+  {% assign volunteer_link_count = chapter.volunteer_links | size %}
+  {% if volunteer_link_count > 0 %}
+  <ul>
+    {% for link in chapter.volunteer_links %}
+    <li><a href="{{ link.url }}">{{ link.label | default: link.url }}</a></li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <ul>
+    {% if chapter.official_url %}
+    <li><a href="{{ chapter.official_url }}">Official BWB chapter page</a></li>
+    {% endif %}
+    {% assign external_website_count = chapter.external_websites | size %}
+    {% if external_website_count > 0 %}
+      {% for website in chapter.external_websites %}
+      <li><a href="{{ website.url }}">{{ website.label | default: website.url }}</a></li>
+      {% endfor %}
+    {% endif %}
+    {% assign social_media_count = chapter.social_media | size %}
+    {% if social_media_count > 0 %}
+      {% for social in chapter.social_media %}
+      <li><a href="{{ social.url }}">{{ social.platform | default: social.url }}</a></li>
+      {% endfor %}
+    {% endif %}
+    {% assign email_address_count = chapter.email_addresses | size %}
+    {% if email_address_count > 0 %}
+      {% for email in chapter.email_addresses %}
+      <li><a href="mailto:{{ email }}">{{ email }}</a></li>
+      {% endfor %}
+    {% endif %}
+  </ul>
+  {% endif %}
+</section>
