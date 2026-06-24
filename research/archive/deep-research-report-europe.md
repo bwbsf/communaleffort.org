@@ -1,30 +1,10 @@
----
-layout: chapter
-title: BWB Europe
-description: "BWB Europe chapter profile, contacts, collaboration opportunities, and related updates."
-permalink: /chapters/europe/europe/
-chapter_slug: europe
-continent_name: Europe
-status: unknown
-status_note: "Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import."
-continent: europe
-metro_or_region: europe
-country:
-state_or_province:
-city_or_area: Europe
-official_url: "https://burnerswithoutborders.org/chapters/bwb-europe/"
-contact_url:
-social_media:
-  - platform: facebook
-    url: "https://www.facebook.com/groups/576320739210649/"
-external_websites: []
-email_addresses: []
-phone_numbers: []
-contact_names: []
-contact_note: Verify current contact details from the official BWB chapter page before outreach.
-focus_areas: []
-recent_projects: []
-known_collaborators: []
+## Summary: strongest collaboration patterns for BWB Europe
+
+BWB Europe is best treated as a **pan-European routing chapter** rather than a city-level chapter: the official page says there is a legacy of BWB work in Europe but that “leadership is needed,” so the strongest opportunities are networks that can connect BWB volunteers to **local venues, member organizations, fiscal infrastructure, city governments, repair/reuse groups, and direct-service providers** in specific countries. ([Burners Without Borders][1])
+
+The strongest patterns are: public-participation arts venues, repair/reuse/circular-economy infrastructure, food and aid logistics, community-organizing networks, public-library/community learning spaces, and fiscal-hosting/grant pathways. These are supported by Europe-wide networks such as Trans Europe Halles, FEBA, Zero Waste Europe, ICLEI Europe, Repair Café, Distribute Aid, and Public Libraries 2030, all of which have documented member networks or programs across multiple European countries. ([Trans Europe Halles][2])
+
+```yaml
 opportunities:
   # arts-culture-organizations
   - opportunity_slug: trans-europe-halles
@@ -268,26 +248,69 @@ opportunities:
       - https://publiclibraries2030.eu/
     research_notes: Public Libraries 2030 is a network and advocacy organization. Implementation requires identifying a specific local library system or community library with available space, staff support, and compatible public-programming goals.
     last_verified: 2026-06-24
+```
 
-sources:
-  - "https://burnerswithoutborders.org/chapters/bwb-europe/"
-  - "https://burnerswithoutborders.org/chapters/"
----
+```yaml
+no_good_leads_found: []
+```
 
-## Local Context
+Credible leads were found for every requested category. The main caveat is that many are **network/gateway leads** rather than single neighborhood organizations, because the chapter geography is “Europe” rather than a specific city.
 
-Add notes about the Europe community, local priorities, existing relationships, and regional context.
+```yaml
+follow_up_questions:
+  - Which country or city should BWB Europe prioritize first for actual outreach?
+  - Is BWB Europe trying to restart general chapter leadership, or is there a specific near-term project such as repair, food support, disaster response, art, climate resilience, or mutual aid?
+  - Should the Europe page include UK, Ukraine, Balkans, and non-EU European partners, or should it stay EU-focused?
+  - Does BWB Europe need an independent fiscal host for projects, or would funds flow through an existing Burning Man/BWB structure?
+  - Are there known BWB Europe volunteers, past project leads, or Burner regional contacts who should review these leads before outreach?
+  - Should maintainers prefer one lead per category on the public page, or include multiple Europe-wide routing partners where useful?
+```
 
-## Collaboration Priorities
+## Source index
 
-Add the kinds of collaboration opportunities that may fit this chapter.
+* [https://burnerswithoutborders.org/chapters/bwb-europe/](https://burnerswithoutborders.org/chapters/bwb-europe/) — Official BWB Europe page; supports the conclusion that the chapter is continent-wide, sparse, and needs renewed leadership. ([Burners Without Borders][1])
+* [https://www.teh.net/](https://www.teh.net/) — Official Trans Europe Halles site; supports member-led network, independent cultural centres, repurposed spaces, and Europe-wide arts/culture routing fit. ([Trans Europe Halles][2])
+* [https://www.eurofoodbank.org/](https://www.eurofoodbank.org/) — Official FEBA site; supports food-bank federation role, surplus-food redistribution, member network, charity links, and volunteer scale. ([FEBA][3])
+* [https://zerowasteeurope.eu/the-movement/our-network/](https://zerowasteeurope.eu/the-movement/our-network/) — Official Zero Waste Europe network page; supports local/national NGO network, zero-waste municipalities, and waste-prevention/circularity fit. ([Zero Waste Europe][4])
+* [https://www.oceurope.org/](https://www.oceurope.org/) — Official Open Collective Europe site; supports fiscal-hosting, cross-border collaboration, fundraising, reimbursements, and administrative infrastructure fit. ([oceurope.org][5])
+* [https://opencollective.com/fiscal-hosting](https://opencollective.com/fiscal-hosting) — Open Collective fiscal-hosting explainer; supports the definition of fiscal hosts and what they provide to unincorporated projects. ([opencollective.com][6])
+* [https://docs.opencollective.com/oceurope/faq/general-faqs](https://docs.opencollective.com/oceurope/faq/general-faqs) — Open Collective Europe FAQ; supports eligibility, budget transparency, grant/donation handling, reimbursements, and fee caveats. ([docs.opencollective.com][7])
+* [https://culturalfoundation.eu/programmes/culture-of-solidarity-fund/](https://culturalfoundation.eu/programmes/culture-of-solidarity-fund/) — European Cultural Foundation Culture of Solidarity page; supports flexible funding instruments, open calls, donor collaboratives, cross-border civic/cultural work, and Ukraine focus. ([culturalfoundation.eu][8])
+* [https://cultureofsolidarityfund.eu/](https://cultureofsolidarityfund.eu/) — Culture of Solidarity site; supports civil-society, cultural democracy, cross-border collaboration, and funding-history claims. ([cultureofsolidarityfund.eu][9])
+* [https://www.efbww.eu/about-efbww/organisation](https://www.efbww.eu/about-efbww/organisation) — Official EFBWW organization page; supports union federation scope, sectors, member countries, and health/safety/workforce fit. ([efbww.eu][10])
+* [https://www.rreuse.org/](https://www.rreuse.org/) — Official RREUSE site; supports social-enterprise circular-economy network, reuse/repair/recycling focus, and social-inclusion fit. ([rreuse.org][11])
+* [https://iclei-europe.org/](https://iclei-europe.org/) — Official ICLEI Europe site; supports local-government sustainability, climate neutrality, resilience, circular economy, and equitable-community focus. ([ICLEI Europe][12])
+* [https://iclei-europe.org/our-members/](https://iclei-europe.org/our-members/) — ICLEI Europe member page; supports the European local/regional government member-network claim. ([ICLEI Europe][13])
+* [https://www.urban-initiative.eu/what-european-urban-initiative](https://www.urban-initiative.eu/what-european-urban-initiative) — Official European Urban Initiative page; supports city innovation, capacity building, sustainable urban development, and public-authority-led funding caveats. ([urban-initiative.eu][14])
+* [https://www.repaircafe.org/en/about/](https://www.repaircafe.org/en/about/) — Official Repair Café International page; supports free repair meeting model, tools/materials/volunteer expertise, international movement, and school repair-learning fit. ([Repaircafe][15])
+* [https://distributeaid.org/](https://distributeaid.org/) — Official Distribute Aid site; supports mutual-aid logistics, needs assessments, frontline partner routing, supplies, and European grassroots-aid fit. ([distributeaid.org][16])
+* [https://www.eapn.eu/who-we-are/what-is-eapn/](https://www.eapn.eu/who-we-are/what-is-eapn/) — Official EAPN overview; supports anti-poverty network role, national networks, grassroots participation, and service/empowerment activities. ([eapn.eu][17])
+* [https://www.eapn.eu/the-european-anti-poverty-network-eapn/](https://www.eapn.eu/the-european-anti-poverty-network-eapn/) — EAPN network page; supports values, member structure, lobbying/campaigning, and direct participation of people experiencing poverty. ([eapn.eu][18])
+* [https://www.europeanvolunteercentre.org/about-us](https://www.europeanvolunteercentre.org/about-us) — Official Centre for European Volunteering page; supports volunteer-infrastructure network role and volunteer-enabling-environment fit. ([CEV][19])
+* [https://organizeeurope.org/](https://organizeeurope.org/) — Official European Community Organizing Network site; supports democracy, justice, sustainability, training, mentorship, solidarity, and grassroots-leadership fit. ([European Community Organizing Network][20])
+* [https://organizeeurope.org/about/](https://organizeeurope.org/about/) — ECON about page; supports community-organizing method, resident outreach, trust, accountability, and leadership-development fit. ([European Community Organizing Network][21])
+* [https://publiclibraries2030.eu/](https://publiclibraries2030.eu/) — Official Public Libraries 2030 site; supports libraries as inclusive civic institutions, network-building, EU-funded projects, sustainability, digital inclusion, and citizen-science programming. ([Public Libraries 2030][22])
 
-## Research Notes
+[1]: https://burnerswithoutborders.org/chapters/bwb-europe/ "BWB Europe - Burners Without Borders"
+[2]: https://www.teh.net/ "Trans Europe Halles - Trans Europe Halles"
+[3]: https://www.eurofoodbank.org/ "FEBA | European Food Banks Federation"
+[4]: https://zerowasteeurope.eu/the-movement/our-network/ "Our network - Zero Waste Europe"
+[5]: https://www.oceurope.org/ "Open Collective Europe"
+[6]: https://opencollective.com/fiscal-hosting "What Is Fiscal Hosting? - Open Collective"
+[7]: https://docs.opencollective.com/oceurope/faq/general-faqs "General FAQs | OCE"
+[8]: https://culturalfoundation.eu/programmes/culture-of-solidarity-fund/ "Culture of Solidarity – European Cultural Foundation"
+[9]: https://cultureofsolidarityfund.eu/ "Culture of Solidarity"
+[10]: https://www.efbww.eu/about-efbww/organisation "Organisation"
+[11]: https://www.rreuse.org/ "RREUSE | Putting Second-Hand First"
+[12]: https://iclei-europe.org/ "ICLEI Europe •• Home"
+[13]: https://iclei-europe.org/our-members/ "ICLEI Europe •• Our Members"
+[14]: https://www.urban-initiative.eu/what-european-urban-initiative "What is the European Urban Initiative? | EUI"
+[15]: https://www.repaircafe.org/en/about/ "About Repair Café - Repairing for a Sustainable Future"
+[16]: https://distributeaid.org/ "Distribute Aid — Your Mutual Aid Logistics Experts"
+[17]: https://www.eapn.eu/who-we-are/what-is-eapn/ "What is EAPN?"
+[18]: https://www.eapn.eu/the-european-anti-poverty-network-eapn/ "The European Anti-Poverty Network (EAPN)"
+[19]: https://www.europeanvolunteercentre.org/about-us "Centre for European Volunteering (CEV)"
+[20]: https://organizeeurope.org/about/ "About – European Community Organizing Network"
+[21]: https://organizeeurope.org/ "European Community Organizing Network – ECON is a hub for the community organizing movement in Europe."
+[22]: https://publiclibraries2030.eu/ "Public Libraries 2030 | Connect. Innovate. Advocate."
 
-Add verification notes, source caveats, and follow-up research tasks.
-
-## Open Questions
-
-- What local organizations should be prioritized first?
-- Which opportunities are already connected to this chapter?
-- What recent chapter activity should be reflected here?
