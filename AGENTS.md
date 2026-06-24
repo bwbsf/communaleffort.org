@@ -38,3 +38,6 @@ Website taxonomy standard:
 - After selected findings are integrated, move the completed report to `research/archive/` and update affected `completed_report` paths in `research/status.yml`.
 - `research/status.yml` is the durable chapter-category research checklist; do not regenerate targets marked `completed`, `integrated`, or `no-good-leads` unless the user explicitly resets them.
 - Use `playbooks/how_to_integrate_deep_research_results.md` before importing completed reports into chapter `opportunities` arrays or resetting prior results.
+- Localized source evidence lives under `evidence/`: commit `evidence/index.yml` and `evidence/notes/`, but do not commit ignored raw captures under `evidence/raw/` or generated pass reports under `evidence/reports/`.
+- Use `scripts/localize_evidence.py` to localize source URLs before importing source-backed opportunities; the script skips URLs already localized in `evidence/index.yml` when local evidence files exist and reports where each evidence note/raw capture lives.
+- Future validation passes should check local evidence notes and raw captures first, then re-fetch sources only when local evidence is missing, stale, disputed, or incomplete.

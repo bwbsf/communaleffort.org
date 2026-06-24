@@ -1,31 +1,10 @@
----
-layout: chapter
-title: BWB Perth
-description: "BWB Perth chapter profile, contacts, collaboration opportunities, and related updates."
-permalink: /chapters/oceania/perth/
-chapter_slug: perth
-continent_name: Oceania
-status: unknown
-status_note: "Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import."
-continent: oceania
-metro_or_region: perth
-country: Australia
-state_or_province: Western Australia
-city_or_area: Perth
-official_url: "https://burnerswithoutborders.org/chapters/perth-wa-australia/"
-contact_url:
-social_media:
-  - platform: facebook
-    url: "https://www.facebook.com/blazerswithoutbordersperth"
-external_websites: []
-email_addresses: []
-phone_numbers: []
-contact_names: []
-contact_note: Verify current contact details from the official BWB chapter page before outreach.
-focus_areas: []
-recent_projects: []
-known_collaborators: []
+Perth’s strongest collaboration pattern is a **practical civic-infrastructure network**: homelessness/food-relief logistics, public-space activation, circular-economy repair/reuse, environmental stewardship, and formal City/State grant or preparedness pathways. The official BWB Perth page describes “a legacy of work in Perth,” but also says leadership is needed and lists no current projects or updates, so these are framed as **research leads**, not assumed relationships. ([Burners Without Borders][1])
+
+The most immediately actionable clusters appear to be: service logistics with Tranby, Foodbank WA, and Orange Sky; repair/reuse/build capacity with Perth Artifactory, Tools n Things Library, Repair Café Perth, ReMida, and Good Sammy; public-space and neighborhood activation with FORM, DADAA, Northbridge Common, and City of Perth programs; and environmental stewardship with Perth NRM and Keep Australia Beautiful WA. ([Uniting WA][2])
+
+```yaml
 opportunities:
+  # arts-culture-organizations
   - opportunity_slug: form-building-a-state-of-creativity
     organization_name: FORM Building a State of Creativity
     category_slug: arts-culture-organizations
@@ -42,7 +21,6 @@ opportunities:
       - "https://www.acnc.gov.au/charity/charities/886b8c49-3aaf-e811-a960-000d3ad24282"
     research_notes: "Verify current project intake, community-program contacts, and whether FORM is open to grassroots co-production before outreach."
     last_verified: "2026-06-24"
-
 
   - opportunity_slug: dadaa
     organization_name: DADAA
@@ -61,7 +39,6 @@ opportunities:
     last_verified: "2026-06-24"
 
   # direct-service-providers
-
   - opportunity_slug: uniting-wa-tranby-engagement-hub
     organization_name: Uniting WA - Tranby Engagement Hub
     category_slug: direct-service-providers
@@ -77,7 +54,6 @@ opportunities:
       - "https://app.betterimpact.com/PublicOrganization/41329950-3e39-41c7-b216-4a445afacdf7/1"
     research_notes: "Direct outreach to people experiencing homelessness should be staff-led. Verify volunteer onboarding, safeguarding, privacy, and current donation needs before proposing any public activity."
     last_verified: "2026-06-24"
-
 
   - opportunity_slug: foodbank-wa
     organization_name: Foodbank WA
@@ -96,7 +72,6 @@ opportunities:
     research_notes: "Foodbank services generally operate through referral or partner pathways; verify volunteer slots, food-safety rules, and whether BWB Perth can support as a group."
     last_verified: "2026-06-24"
 
-
   - opportunity_slug: orange-sky-perth
     organization_name: Orange Sky Perth
     category_slug: direct-service-providers
@@ -114,7 +89,6 @@ opportunities:
     last_verified: "2026-06-24"
 
   # environmental-resilience-organizations
-
   - opportunity_slug: perth-nrm
     organization_name: Perth NRM
     category_slug: environmental-resilience-organizations
@@ -130,7 +104,6 @@ opportunities:
       - "https://nrmregionsaustralia.com.au/region/perth-nrm/"
     research_notes: "Verify current Perth NRM project sites, volunteer calendar, and whether a BWB chapter without local incorporation can participate directly or should partner through another entity."
     last_verified: "2026-06-24"
-
 
   - opportunity_slug: keep-australia-beautiful-wa-adopt-a-spot
     organization_name: Keep Australia Beautiful WA - Adopt-a-Spot
@@ -149,7 +122,6 @@ opportunities:
     last_verified: "2026-06-24"
 
   # funders-fiscal-sponsors
-
   - opportunity_slug: lotterywest
     organization_name: Lotterywest
     category_slug: funders-fiscal-sponsors
@@ -166,7 +138,6 @@ opportunities:
       - "https://lotterywest.wa.gov.au/grants/grant-recipients"
     research_notes: "Lotterywest is a funder, not a fiscal sponsor. Eligibility and auspicing should be verified; BWB Perth may need an incorporated WA partner or local government collaborator."
     last_verified: "2026-06-24"
-
 
   - opportunity_slug: fremantle-foundation
     organization_name: Fremantle Foundation
@@ -186,7 +157,6 @@ opportunities:
     last_verified: "2026-06-24"
 
   # labor-unions-worker-centers
-
   - opportunity_slug: unionswa
     organization_name: UnionsWA
     category_slug: labor-unions-worker-centers
@@ -201,7 +171,6 @@ opportunities:
       - "https://www.unionswa.com.au/"
     research_notes: "Keep any collaboration clearly civic, opt-in, and nonpartisan. Verify which affiliates, if any, are appropriate for practical build, safety, or worker-support activities."
     last_verified: "2026-06-24"
-
 
   - opportunity_slug: mates-in-construction-wa
     organization_name: MATES in Construction
@@ -220,7 +189,6 @@ opportunities:
     last_verified: "2026-06-24"
 
   # local-businesses-social-enterprises
-
   - opportunity_slug: remida-perth
     organization_name: ReMida Perth
     category_slug: local-businesses-social-enterprises
@@ -238,6 +206,24 @@ opportunities:
     research_notes: "Verify membership, material-access rules, donation standards, and whether ReMida is open to community project collaborations outside education settings."
     last_verified: "2026-06-24"
 
+  - opportunity_slug: good-sammy-enterprises
+    organization_name: Good Sammy Enterprises
+    category_slug: local-businesses-social-enterprises
+    status: research-lead
+    website: "https://goodsammy.com.au/"
+    why_it_may_fit: "Good Sammy is a WA social enterprise connected to op shops, donations, disability employment, and circular-economy reuse. It could support BWB Perth through donation drives, materials diversion, volunteer opportunities, and reuse-oriented community events."
+    possible_collaboration_shapes:
+      - "Coordinate a targeted donation drive for clothing, household goods, or reusable items aligned with Good Sammy’s current needs."
+      - "Develop a reuse or repair pop-up with makerspace partners to keep usable goods in circulation."
+      - "Recruit BWB volunteers for sorting or event-support roles where Good Sammy has approved pathways."
+    source_urls:
+      - "https://goodsammy.com.au/"
+      - "https://goodsammy.com.au/news/what-is-the-circular-economy-and-why-it-matters-to-good-sammy/"
+      - "https://goodsammy.com.au/latest-news/"
+    research_notes: "Verify which depots or stores can accept group support and confirm donation standards before organizing any public drive."
+    last_verified: "2026-06-24"
+
+  # local-government-public-agencies
   - opportunity_slug: city-of-perth
     organization_name: City of Perth
     category_slug: local-government-public-agencies
@@ -255,7 +241,6 @@ opportunities:
       - "https://perth.wa.gov.au/community/community-services-and-facilities/city-of-perth-library"
     research_notes: "Verify exact jurisdiction, because many Perth metro partners sit outside City of Perth boundaries. Public-space work may require permits, insurance, risk plans, and a local incorporated partner."
     last_verified: "2026-06-24"
-
 
   - opportunity_slug: department-of-fire-and-emergency-services-wa
     organization_name: Department of Fire and Emergency Services Western Australia
@@ -275,7 +260,6 @@ opportunities:
     last_verified: "2026-06-24"
 
   # makerspaces-tool-libraries-repair-groups
-
   - opportunity_slug: perth-artifactory
     organization_name: Perth Artifactory
     category_slug: makerspaces-tool-libraries-repair-groups
@@ -292,7 +276,6 @@ opportunities:
     research_notes: "Verify membership, tool access, supervision, insurance, and whether nonmember community build days are allowed."
     last_verified: "2026-06-24"
 
-
   - opportunity_slug: tools-n-things-library
     organization_name: Tools n Things Library
     category_slug: makerspaces-tool-libraries-repair-groups
@@ -308,7 +291,6 @@ opportunities:
       - "https://toolsnthingslibraryperthwa.myturn.com/"
     research_notes: "Verify membership requirements, borrowing limits, tool-condition policies, and group-use rules before planning a workday around borrowed tools."
     last_verified: "2026-06-24"
-
 
   - opportunity_slug: repair-cafe-perth
     organization_name: Repair Café Perth
@@ -327,7 +309,22 @@ opportunities:
     last_verified: "2026-06-24"
 
   # mutual-aid-groups
-
+  - opportunity_slug: perth-homeless-support-group
+    organization_name: Perth Homeless Support Group Inc.
+    category_slug: mutual-aid-groups
+    status: research-lead
+    website: "https://perthhomeless.com.au/"
+    why_it_may_fit: "Perth Homeless Support Group is a local charity and volunteer-supported network focused on practical support, donations, and essential resources for people facing homelessness. It is a strong lead for BWB Perth supply drives, volunteer transport, sorting, and low-barrier material support."
+    possible_collaboration_shapes:
+      - "Run a targeted supply drive for requested clothing, hygiene, food, or household items."
+      - "Provide BWB volunteers for collection, transport, sorting, and event logistics."
+      - "Coordinate a joint repair, care-pack, or resource-mapping day through the group’s existing outreach structure."
+    source_urls:
+      - "https://perthhomeless.com.au/"
+      - "https://perthhomeless.com.au/get-involved/"
+      - "https://www.acnc.gov.au/charity/charities/3225d94f-3aaf-e811-a95e-000d3ad24c60"
+    research_notes: "Verify current donation needs and outreach protocols. Avoid informal unsanctioned street distribution; work through the group’s established channels."
+    last_verified: "2026-06-24"
 
   - opportunity_slug: feed-it-forward-incorporated
     organization_name: Feed it Forward Incorporated
@@ -346,7 +343,6 @@ opportunities:
     last_verified: "2026-06-24"
 
   # nonprofits-cbos
-
   - opportunity_slug: volunteering-wa
     organization_name: Volunteering WA
     category_slug: nonprofits-cbos
@@ -361,7 +357,6 @@ opportunities:
       - "https://volunteeringwa.org.au/"
     research_notes: "BWB Perth may need a clear host organization, role descriptions, insurance, and safeguarding policies before listing opportunities."
     last_verified: "2026-06-24"
-
 
   - opportunity_slug: linkwest
     organization_name: Linkwest
@@ -378,7 +373,6 @@ opportunities:
       - "https://linkwest.asn.au/Web/Web/Centres/A-Unique-Network.aspx"
     research_notes: "Verify whether access to the network requires membership, formal partnership, or introduction through a specific local center."
     last_verified: "2026-06-24"
-
 
   - opportunity_slug: wacoss
     organization_name: Western Australian Council of Social Service
@@ -397,7 +391,6 @@ opportunities:
     last_verified: "2026-06-24"
 
   # residents-neighborhood-leaders
-
   - opportunity_slug: northbridge-common
     organization_name: Northbridge Common
     category_slug: residents-neighborhood-leaders
@@ -414,7 +407,6 @@ opportunities:
       - "https://perth.wa.gov.au/community/arts-and-community-groups/community-groups"
     research_notes: "Verify current leadership, meeting rhythm, and whether BWB Perth’s geographic scope includes Northbridge as an initial pilot area."
     last_verified: "2026-06-24"
-
 
   - opportunity_slug: east-perth-community-group
     organization_name: East Perth Community Group
@@ -434,7 +426,6 @@ opportunities:
     last_verified: "2026-06-24"
 
   # schools-libraries-community-centers
-
   - opportunity_slug: city-of-perth-library
     organization_name: City of Perth Library
     category_slug: schools-libraries-community-centers
@@ -451,227 +442,221 @@ opportunities:
     research_notes: "Verify room-booking rules, public-program lead times, insurance, and whether BWB Perth needs a City sponsorship or community partner."
     last_verified: "2026-06-24"
 
+  - opportunity_slug: state-library-of-western-australia
+    organization_name: State Library of Western Australia
+    category_slug: schools-libraries-community-centers
+    status: research-lead
+    website: "https://slwa.wa.gov.au/"
+    why_it_may_fit: "The State Library of Western Australia is a major public learning and cultural institution in the Perth Cultural Centre with public events and workshops. It could support civic storytelling, public education, resource mapping, and community-history projects linked to BWB Perth."
+    possible_collaboration_shapes:
+      - "Co-host a public talk or workshop on mutual aid, repair culture, or community resilience."
+      - "Develop a small civic archive or storytelling project documenting local grassroots care networks."
+      - "Use library programming as a public-facing venue for resource mapping or preparedness education."
+    source_urls:
+      - "https://slwa.wa.gov.au/"
+      - "https://slwa.wa.gov.au/whats-on/events"
+      - "https://culture.wa.gov.au/agencies/state-library-of-western-australia"
+    research_notes: "State-level cultural institutions often have long programming timelines. Verify the appropriate public-program contact and whether grassroots co-hosting is feasible."
+    last_verified: "2026-06-24"
 
-    - opportunity_slug: mccusker-centre-for-citizenship-uwa
-      organization_name: McCusker Centre for Citizenship at UWA
-      category_slug: schools-libraries-community-centers
-      status: research-lead
-      website: "https://mccuskercentre.uwa.edu.au/"
-      why_it_may_fit: "The McCusker Centre for Citizenship at the University of Western Australia connects students with community-engaged learning and internships. It could help BWB Perth with research, volunteer coordination, evaluation, resource mapping, and community-partner support."
-      possible_collaboration_shapes:
-        - "Host a student intern to map Perth civic partners, service gaps, and volunteer infrastructure."
-        - "Create a service-learning project around repair, environmental stewardship, or public-space activation."
-        - "Ask students to help evaluate a pilot BWB Perth project and produce a replicable project guide."
-      source_urls:
-        - "https://mccuskercentre.uwa.edu.au/"
-        - "https://mccuskercentre.uwa.edu.au/programs/internships"
-      research_notes: "Verify host-organization requirements, supervision capacity, timelines, and whether an unincorporated BWB chapter can host directly or needs a nonprofit partner."
-      last_verified: "2026-06-24"
-  ```
+  - opportunity_slug: mccusker-centre-for-citizenship-uwa
+    organization_name: McCusker Centre for Citizenship at UWA
+    category_slug: schools-libraries-community-centers
+    status: research-lead
+    website: "https://mccuskercentre.uwa.edu.au/"
+    why_it_may_fit: "The McCusker Centre for Citizenship at the University of Western Australia connects students with community-engaged learning and internships. It could help BWB Perth with research, volunteer coordination, evaluation, resource mapping, and community-partner support."
+    possible_collaboration_shapes:
+      - "Host a student intern to map Perth civic partners, service gaps, and volunteer infrastructure."
+      - "Create a service-learning project around repair, environmental stewardship, or public-space activation."
+      - "Ask students to help evaluate a pilot BWB Perth project and produce a replicable project guide."
+    source_urls:
+      - "https://mccuskercentre.uwa.edu.au/"
+      - "https://mccuskercentre.uwa.edu.au/programs/internships"
+    research_notes: "Verify host-organization requirements, supervision capacity, timelines, and whether an unincorporated BWB chapter can host directly or needs a nonprofit partner."
+    last_verified: "2026-06-24"
+```
 
-  ```yaml
-  no_good_leads_found: []
-  ```
+```yaml
+no_good_leads_found: []
+```
 
-  ```yaml
-  follow_up_questions:
-    - "Who, if anyone, is currently available to lead BWB Perth locally? The official page says leadership is needed, so outreach should not imply an active chapter team unless confirmed."
-    - "Does BWB Perth have an incorporated Australian auspice, fiscal sponsor, insurance, or local nonprofit partner for grants, venues, and volunteer risk management?"
-    - "Should the first Perth pilot focus on central City of Perth, Northbridge/East Perth, Fremantle, or the wider metro area?"
-    - "Which project track should be prioritized first: service logistics, repair/reuse, public art and placemaking, environmental stewardship, or preparedness education?"
-    - "Are there existing Burning Man or regional Burner networks in Perth that can supply volunteers, tools, artists, or storage?"
-    - "Before contacting service providers, what safeguarding standards should BWB Perth adopt for work involving homelessness, food relief, youth, disability inclusion, or crisis support?"
-    - "Should funder leads be treated only as grant pathways, or is the maintainer specifically looking for Australian auspicing/fiscal-sponsorship partners?"
-  ```
+```yaml
+follow_up_questions:
+  - "Who, if anyone, is currently available to lead BWB Perth locally? The official page says leadership is needed, so outreach should not imply an active chapter team unless confirmed."
+  - "Does BWB Perth have an incorporated Australian auspice, fiscal sponsor, insurance, or local nonprofit partner for grants, venues, and volunteer risk management?"
+  - "Should the first Perth pilot focus on central City of Perth, Northbridge/East Perth, Fremantle, or the wider metro area?"
+  - "Which project track should be prioritized first: service logistics, repair/reuse, public art and placemaking, environmental stewardship, or preparedness education?"
+  - "Are there existing Burning Man or regional Burner networks in Perth that can supply volunteers, tools, artists, or storage?"
+  - "Before contacting service providers, what safeguarding standards should BWB Perth adopt for work involving homelessness, food relief, youth, disability inclusion, or crisis support?"
+  - "Should funder leads be treated only as grant pathways, or is the maintainer specifically looking for Australian auspicing/fiscal-sponsorship partners?"
+```
 
-  ```yaml
-  source_index:
-    - url: "https://burnerswithoutborders.org/chapters/perth-wa-australia/"
-      supports: "Official BWB Perth chapter page; notes legacy work, leadership needed, no projects, and no updates."
-    - url: "https://burnerswithoutborders.org/chapters/"
-      supports: "Official BWB chapter directory listing Perth WA Australia."
+```yaml
+source_index:
+  - url: "https://burnerswithoutborders.org/chapters/perth-wa-australia/"
+    supports: "Official BWB Perth chapter page; notes legacy work, leadership needed, no projects, and no updates."
+  - url: "https://burnerswithoutborders.org/chapters/"
+    supports: "Official BWB chapter directory listing Perth WA Australia."
 
-    - url: "https://form.net.au/"
-      supports: "FORM organizational identity and WA creative/community mission."
-    - url: "https://form.net.au/donate"
-      supports: "FORM program areas including creative learning, public art, placemaking, cultural tourism, and community-facing arts."
-    - url: "https://www.acnc.gov.au/charity/charities/886b8c49-3aaf-e811-a960-000d3ad24282"
-      supports: "FORM charitable registration and Perth-based organizational details."
+  - url: "https://form.net.au/"
+    supports: "FORM organizational identity and WA creative/community mission."
+  - url: "https://form.net.au/donate"
+    supports: "FORM program areas including creative learning, public art, placemaking, cultural tourism, and community-facing arts."
+  - url: "https://www.acnc.gov.au/charity/charities/886b8c49-3aaf-e811-a960-000d3ad24282"
+    supports: "FORM charitable registration and Perth-based organizational details."
 
-    - url: "https://www.dadaa.org.au/"
-      supports: "DADAA public website and hub locations."
-    - url: "https://www.dadaa.org.au/about-us/"
-      supports: "DADAA mission, inclusive arts work, community partnerships, and cultural-development role."
+  - url: "https://www.dadaa.org.au/"
+    supports: "DADAA public website and hub locations."
+  - url: "https://www.dadaa.org.au/about-us/"
+    supports: "DADAA mission, inclusive arts work, community partnerships, and cultural-development role."
 
-    - url: "https://unitingwa.org.au/get-support/homelessness-housing/crisis-urgent-support/tranby-engagement-hub/"
-      supports: "Tranby Engagement Hub services for people sleeping rough or in crisis accommodation in and around the City of Perth."
-    - url: "https://app.betterimpact.com/PublicOrganization/41329950-3e39-41c7-b216-4a445afacdf7/1"
-      supports: "Tranby volunteer pathway and practical services such as meals, showers, computers, and visiting agencies."
+  - url: "https://unitingwa.org.au/get-support/homelessness-housing/crisis-urgent-support/tranby-engagement-hub/"
+    supports: "Tranby Engagement Hub services for people sleeping rough or in crisis accommodation in and around the City of Perth."
+  - url: "https://app.betterimpact.com/PublicOrganization/41329950-3e39-41c7-b216-4a445afacdf7/1"
+    supports: "Tranby volunteer pathway and practical services such as meals, showers, computers, and visiting agencies."
 
-    - url: "https://www.foodbank.org.au/wa/what-we-do/food-assistance/"
-      supports: "Foodbank WA food assistance model, Perth Airport branch, and mobile foodbank activity."
-    - url: "https://waconnect.org.au/foodbank-wa-perth-branch/"
-      supports: "Foodbank WA Perth branch listing and location details."
-    - url: "https://app.betterimpact.com/PublicOrganization/b11c3d4e-ecb7-4ade-af8c-7ffd0abc2645/Gvi/1c1a2463-47e8-4ce7-b572-9b70abda385a/1"
-      supports: "Foodbank WA mobile foodbank volunteer opportunity in Perth metro."
+  - url: "https://www.foodbank.org.au/wa/what-we-do/food-assistance/"
+    supports: "Foodbank WA food assistance model, Perth Airport branch, and mobile foodbank activity."
+  - url: "https://waconnect.org.au/foodbank-wa-perth-branch/"
+    supports: "Foodbank WA Perth branch listing and location details."
+  - url: "https://app.betterimpact.com/PublicOrganization/b11c3d4e-ecb7-4ade-af8c-7ffd0abc2645/Gvi/1c1a2463-47e8-4ce7-b572-9b70abda385a/1"
+    supports: "Foodbank WA mobile foodbank volunteer opportunity in Perth metro."
 
-    - url: "https://orangesky.org.au/locations/perth/"
-      supports: "Orange Sky Perth location and local service description."
-    - url: "https://orangesky.org.au/our-locations/"
-      supports: "Orange Sky national mobile laundry and shower service model."
+  - url: "https://orangesky.org.au/locations/perth/"
+    supports: "Orange Sky Perth location and local service description."
+  - url: "https://orangesky.org.au/our-locations/"
+    supports: "Orange Sky national mobile laundry and shower service model."
 
-    - url: "https://www.perthnrm.com/"
-      supports: "Perth NRM programs and environmental stewardship focus."
-    - url: "https://nrmregionsaustralia.com.au/region/perth-nrm/"
-      supports: "Perth NRM regional profile and work with councils, schools, community groups, and coastline projects."
+  - url: "https://www.perthnrm.com/"
+    supports: "Perth NRM programs and environmental stewardship focus."
+  - url: "https://nrmregionsaustralia.com.au/region/perth-nrm/"
+    supports: "Perth NRM regional profile and work with councils, schools, community groups, and coastline projects."
 
-    - url: "https://www.wa.gov.au/organisation/keep-australia-beautiful-wa/adopt-spot"
-      supports: "Keep Australia Beautiful WA Adopt-a-Spot program for groups, businesses, individuals, and public sites."
-    - url: "https://www.wa.gov.au/service/environment/environment-information-services/volunteering-keep-australia-beautiful-council"
-      supports: "Keep Australia Beautiful WA volunteering options and cleanup/event support."
+  - url: "https://www.wa.gov.au/organisation/keep-australia-beautiful-wa/adopt-spot"
+    supports: "Keep Australia Beautiful WA Adopt-a-Spot program for groups, businesses, individuals, and public sites."
+  - url: "https://www.wa.gov.au/service/environment/environment-information-services/volunteering-keep-australia-beautiful-council"
+    supports: "Keep Australia Beautiful WA volunteering options and cleanup/event support."
 
-    - url: "https://lotterywest.wa.gov.au/grants/grant-opportunities"
-      supports: "Lotterywest grant opportunities."
-    - url: "https://lotterywest.wa.gov.au/grants/about-lotterywest-grants"
-      supports: "Lotterywest eligibility, priority areas, and grant approach."
-    - url: "https://lotterywest.wa.gov.au/grants/grant-recipients"
-      supports: "Lotterywest grant recipient context and WA nonprofit/local-government funding role."
+  - url: "https://lotterywest.wa.gov.au/grants/grant-opportunities"
+    supports: "Lotterywest grant opportunities."
+  - url: "https://lotterywest.wa.gov.au/grants/about-lotterywest-grants"
+    supports: "Lotterywest eligibility, priority areas, and grant approach."
+  - url: "https://lotterywest.wa.gov.au/grants/grant-recipients"
+    supports: "Lotterywest grant recipient context and WA nonprofit/local-government funding role."
 
-    - url: "https://www.fremantlefoundation.org.au/"
-      supports: "Fremantle Foundation community foundation role and WA grantmaking."
-    - url: "https://www.acnc.gov.au/charity/charities/7e1daa95-39af-e811-a960-000d3ad24282/profile"
-      supports: "Fremantle Foundation charitable registration and administrative/grantmaking role."
-    - url: "https://static1.squarespace.com/static/5e9e76d1236654116d5fc9c8/t/67fdebbb8c01d228c30bc63f/1744694227821/Annual%2BStory%2B2024.pdf"
-      supports: "Fremantle Foundation recent annual story and grantmaking scale."
+  - url: "https://www.fremantlefoundation.org.au/"
+    supports: "Fremantle Foundation community foundation role and WA grantmaking."
+  - url: "https://www.acnc.gov.au/charity/charities/7e1daa95-39af-e811-a960-000d3ad24282/profile"
+    supports: "Fremantle Foundation charitable registration and administrative/grantmaking role."
+  - url: "https://static1.squarespace.com/static/5e9e76d1236654116d5fc9c8/t/67fdebbb8c01d228c30bc63f/1744694227821/Annual%2BStory%2B2024.pdf"
+    supports: "Fremantle Foundation recent annual story and grantmaking scale."
 
-    - url: "https://www.unionswa.com.au/"
-      supports: "UnionsWA role as WA peak union body and public worker/WHS information."
+  - url: "https://www.unionswa.com.au/"
+    supports: "UnionsWA role as WA peak union body and public worker/WHS information."
 
-    - url: "https://construction.mates.org.au/"
-      supports: "MATES in Construction program focus for construction-sector mental health and peer support."
-    - url: "https://mates.org.au/how-mates-works"
-      supports: "MATES training and workplace support model."
+  - url: "https://construction.mates.org.au/"
+    supports: "MATES in Construction program focus for construction-sector mental health and peer support."
+  - url: "https://mates.org.au/how-mates-works"
+    supports: "MATES training and workplace support model."
 
-    - url: "https://www.remidawa.com/"
-      supports: "ReMida Perth creative reuse center and material-rescue role."
-    - url: "https://www.remidawa.com/aboutremida"
-      supports: "ReMida mission, education/arts/environmental activity, and WA creative reuse context."
-    - url: "https://recyclingnearyou.com.au/business/15167"
-      supports: "ReMida listing as a reuse/recycling destination for business discards and offcuts."
+  - url: "https://www.remidawa.com/"
+    supports: "ReMida Perth creative reuse center and material-rescue role."
+  - url: "https://www.remidawa.com/aboutremida"
+    supports: "ReMida mission, education/arts/environmental activity, and WA creative reuse context."
+  - url: "https://recyclingnearyou.com.au/business/15167"
+    supports: "ReMida listing as a reuse/recycling destination for business discards and offcuts."
 
-    - url: "https://goodsammy.com.au/"
-      supports: "Good Sammy social enterprise, donation, op shop, and disability employment work."
-    - url: "https://goodsammy.com.au/news/what-is-the-circular-economy-and-why-it-matters-to-good-sammy/"
-      supports: "Good Sammy circular-economy and reuse framing."
-    - url: "https://goodsammy.com.au/latest-news/"
-      supports: "Good Sammy current organizational presence and contact context."
+  - url: "https://goodsammy.com.au/"
+    supports: "Good Sammy social enterprise, donation, op shop, and disability employment work."
+  - url: "https://goodsammy.com.au/news/what-is-the-circular-economy-and-why-it-matters-to-good-sammy/"
+    supports: "Good Sammy circular-economy and reuse framing."
+  - url: "https://goodsammy.com.au/latest-news/"
+    supports: "Good Sammy current organizational presence and contact context."
 
-    - url: "https://perth.wa.gov.au/community/sponsorship-and-grants"
-      supports: "City of Perth sponsorship and grants for community, cultural, and public-benefit projects."
-    - url: "https://perth.wa.gov.au/council/volunteers"
-      supports: "City of Perth volunteer programs including visitor service and Citiplace Community Centre."
-    - url: "https://perth.wa.gov.au/emergency"
-      supports: "City of Perth emergency information page."
-    - url: "https://perth.wa.gov.au/community/community-services-and-facilities/city-of-perth-library"
-      supports: "City of Perth Library facilities, programming, rooms, and community services."
+  - url: "https://perth.wa.gov.au/community/sponsorship-and-grants"
+    supports: "City of Perth sponsorship and grants for community, cultural, and public-benefit projects."
+  - url: "https://perth.wa.gov.au/council/volunteers"
+    supports: "City of Perth volunteer programs including visitor service and Citiplace Community Centre."
+  - url: "https://perth.wa.gov.au/emergency"
+    supports: "City of Perth emergency information page."
+  - url: "https://perth.wa.gov.au/community/community-services-and-facilities/city-of-perth-library"
+    supports: "City of Perth Library facilities, programming, rooms, and community services."
 
-    - url: "https://www.dfes.wa.gov.au/resilience-and-recovery-funding/disaster-resilience-grants"
-      supports: "DFES disaster-resilience grants and AWARE preparedness funding pathway."
-    - url: "https://dfes.vol.org.au/"
-      supports: "DFES emergency-services volunteering portal."
-    - url: "https://www.dfes.wa.gov.au/careers-and-volunteering"
-      supports: "DFES emergency-services role and volunteering/career information."
+  - url: "https://www.dfes.wa.gov.au/resilience-and-recovery-funding/disaster-resilience-grants"
+    supports: "DFES disaster-resilience grants and AWARE preparedness funding pathway."
+  - url: "https://dfes.vol.org.au/"
+    supports: "DFES emergency-services volunteering portal."
+  - url: "https://www.dfes.wa.gov.au/careers-and-volunteering"
+    supports: "DFES emergency-services role and volunteering/career information."
 
-    - url: "https://artifactory.org.au/"
-      supports: "Perth Artifactory official makerspace site."
-    - url: "https://makerspaces.com.au/place/perth-artifactory"
-      supports: "Perth Artifactory listing with maker tools, workshop capacities, open days, and community emphasis."
+  - url: "https://artifactory.org.au/"
+    supports: "Perth Artifactory official makerspace site."
+  - url: "https://makerspaces.com.au/place/perth-artifactory"
+    supports: "Perth Artifactory listing with maker tools, workshop capacities, open days, and community emphasis."
 
-    - url: "https://www.toolsnthingslibrary.org.au/"
-      supports: "Tools n Things Library official site and library-of-things model."
-    - url: "https://toolsnthingslibraryperthwa.myturn.com/"
-      supports: "Tools n Things borrowing catalogue and lending platform."
+  - url: "https://www.toolsnthingslibrary.org.au/"
+    supports: "Tools n Things Library official site and library-of-things model."
+  - url: "https://toolsnthingslibraryperthwa.myturn.com/"
+    supports: "Tools n Things borrowing catalogue and lending platform."
 
-    - url: "https://repaircafeperth.org.au/"
-      supports: "Repair Café Perth mission, North Perth location, and repair/community model."
-    - url: "https://www.wastesorted.wa.gov.au/blog/was-ultimate-repair-lab-and-repair-cafe-guide"
-      supports: "WA repair cafe/repair lab ecosystem context."
+  - url: "https://repaircafeperth.org.au/"
+    supports: "Repair Café Perth mission, North Perth location, and repair/community model."
+  - url: "https://www.wastesorted.wa.gov.au/blog/was-ultimate-repair-lab-and-repair-cafe-guide"
+    supports: "WA repair cafe/repair lab ecosystem context."
 
-    - url: "https://perthhomeless.com.au/"
-      supports: "Perth Homeless Support Group mission, donation-funded model, and practical support role."
-    - url: "https://perthhomeless.com.au/get-involved/"
-      supports: "Perth Homeless Support Group volunteer, donation, collection, and transport pathways."
-    - url: "https://www.acnc.gov.au/charity/charities/3225d94f-3aaf-e811-a95e-000d3ad24c60"
-      supports: "Perth Homeless Support Group ACNC registration and charity details."
+  - url: "https://perthhomeless.com.au/"
+    supports: "Perth Homeless Support Group mission, donation-funded model, and practical support role."
+  - url: "https://perthhomeless.com.au/get-involved/"
+    supports: "Perth Homeless Support Group volunteer, donation, collection, and transport pathways."
+  - url: "https://www.acnc.gov.au/charity/charities/3225d94f-3aaf-e811-a95e-000d3ad24c60"
+    supports: "Perth Homeless Support Group ACNC registration and charity details."
 
-    - url: "https://www.feeditforward.au/contact-us"
-      supports: "Feed it Forward public contact and food-relief access pathway."
-    - url: "https://www.acnc.gov.au/charity/charities/b63a0fb4-bf11-eb11-a813-000d3ad1fbf8"
-      supports: "Feed it Forward ACNC registration and food-rescue/distribution activity."
+  - url: "https://www.feeditforward.au/contact-us"
+    supports: "Feed it Forward public contact and food-relief access pathway."
+  - url: "https://www.acnc.gov.au/charity/charities/b63a0fb4-bf11-eb11-a813-000d3ad1fbf8"
+    supports: "Feed it Forward ACNC registration and food-rescue/distribution activity."
 
-    - url: "https://volunteeringwa.org.au/"
-      supports: "Volunteering WA peak-body role, volunteer resources, training, and network function."
+  - url: "https://volunteeringwa.org.au/"
+    supports: "Volunteering WA peak-body role, volunteer resources, training, and network function."
 
-    - url: "https://linkwest.asn.au/Web/Web/About-Us/What-is-Linkwest.aspx"
-      supports: "Linkwest role as WA peak association for neighbourhood and community resource centers."
-    - url: "https://linkwest.asn.au/Web/Web/Centres/A-Unique-Network.aspx"
-      supports: "Linkwest network reach and community-center connection."
+  - url: "https://linkwest.asn.au/Web/Web/About-Us/What-is-Linkwest.aspx"
+    supports: "Linkwest role as WA peak association for neighbourhood and community resource centers."
+  - url: "https://linkwest.asn.au/Web/Web/Centres/A-Unique-Network.aspx"
+    supports: "Linkwest network reach and community-center connection."
 
-    - url: "https://wacoss.org.au/"
-      supports: "WACOSS role as WA community-services peak body."
-    - url: "https://www.acnc.gov.au/charity/charities/54ceb315-2caf-e811-a961-000d3ad24182"
-      supports: "WACOSS charity profile and Community Relief and Resilience program reference."
+  - url: "https://wacoss.org.au/"
+    supports: "WACOSS role as WA community-services peak body."
+  - url: "https://www.acnc.gov.au/charity/charities/54ceb315-2caf-e811-a961-000d3ad24182"
+    supports: "WACOSS charity profile and Community Relief and Resilience program reference."
 
-    - url: "https://northbridgecommon.org.au/"
-      supports: "Northbridge Common mission, local Town Team identity, and community-activation role."
-    - url: "https://northbridgecommon.org.au/index.php/initiatives/"
-      supports: "Northbridge Common initiatives around local culture, arts, business, and community building."
-    - url: "https://perth.wa.gov.au/community/arts-and-community-groups/community-groups"
-      supports: "City of Perth list of community groups including Northbridge Common and East Perth Community Group."
+  - url: "https://northbridgecommon.org.au/"
+    supports: "Northbridge Common mission, local Town Team identity, and community-activation role."
+  - url: "https://northbridgecommon.org.au/index.php/initiatives/"
+    supports: "Northbridge Common initiatives around local culture, arts, business, and community building."
+  - url: "https://perth.wa.gov.au/community/arts-and-community-groups/community-groups"
+    supports: "City of Perth list of community groups including Northbridge Common and East Perth Community Group."
 
-    - url: "https://www.eastperthcommunity.org.au/"
-      supports: "East Perth Community Group public site and neighborhood focus."
-    - url: "https://www.eastperthcommunity.org.au/about"
-      supports: "East Perth Community Group purpose, volunteer management, and community-engagement role."
+  - url: "https://www.eastperthcommunity.org.au/"
+    supports: "East Perth Community Group public site and neighborhood focus."
+  - url: "https://www.eastperthcommunity.org.au/about"
+    supports: "East Perth Community Group purpose, volunteer management, and community-engagement role."
 
-    - url: "https://perth.wa.gov.au/community/community-services-and-facilities/city-of-perth-library/events"
-      supports: "City of Perth Library event and workshop programming."
+  - url: "https://perth.wa.gov.au/community/community-services-and-facilities/city-of-perth-library/events"
+    supports: "City of Perth Library event and workshop programming."
 
-    - url: "https://slwa.wa.gov.au/"
-      supports: "State Library of Western Australia public institution and services."
-    - url: "https://slwa.wa.gov.au/whats-on/events"
-      supports: "State Library of Western Australia public event programming."
-    - url: "https://culture.wa.gov.au/agencies/state-library-of-western-australia"
-      supports: "State Library of Western Australia agency context."
+  - url: "https://slwa.wa.gov.au/"
+    supports: "State Library of Western Australia public institution and services."
+  - url: "https://slwa.wa.gov.au/whats-on/events"
+    supports: "State Library of Western Australia public event programming."
+  - url: "https://culture.wa.gov.au/agencies/state-library-of-western-australia"
+    supports: "State Library of Western Australia agency context."
 
-    - url: "https://mccuskercentre.uwa.edu.au/"
-      supports: "McCusker Centre for Citizenship mission and community-engaged student pathway."
-    - url: "https://mccuskercentre.uwa.edu.au/programs/internships"
-      supports: "McCusker Centre internship program for student-community placements."
-  ```
+  - url: "https://mccuskercentre.uwa.edu.au/"
+    supports: "McCusker Centre for Citizenship mission and community-engaged student pathway."
+  - url: "https://mccuskercentre.uwa.edu.au/programs/internships"
+    supports: "McCusker Centre internship program for student-community placements."
+```
 
-  [1]: https://burnerswithoutborders.org/chapters/perth-wa-australia/ "BWB Perth, WA (Australia) - Burners Without Borders"
-  [2]: https://unitingwa.org.au/get-support/homelessness-housing/crisis-urgent-support/tranby-engagement-hub/?utm_source=chatgpt.com "Tranby Engagement Hub"
+[1]: https://burnerswithoutborders.org/chapters/perth-wa-australia/ "BWB Perth, WA (Australia) - Burners Without Borders"
+[2]: https://unitingwa.org.au/get-support/homelessness-housing/crisis-urgent-support/tranby-engagement-hub/?utm_source=chatgpt.com "Tranby Engagement Hub"
 
-sources:
-  - "https://burnerswithoutborders.org/chapters/perth-wa-australia/"
-  - "https://burnerswithoutborders.org/chapters/"
----
-
-## Local Context
-
-Add notes about the Perth community, local priorities, existing relationships, and regional context.
-
-## Collaboration Priorities
-
-Add the kinds of collaboration opportunities that may fit this chapter.
-
-## Research Notes
-
-Add verification notes, source caveats, and follow-up research tasks.
-
-## Open Questions
-
-- What local organizations should be prioritized first?
-- Which opportunities are already connected to this chapter?
-- What recent chapter activity should be reflected here?

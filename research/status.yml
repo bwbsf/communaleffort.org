@@ -505,3 +505,817 @@ targets:
     completed_at: 2026-06-24
     integrated_at: 2026-06-24
     notes: "Selected findings integrated into chapters/north-america/portland-oregon/index.md after website validation; archived report preserved for audit."
+  - chapter_slug: united-kingdom
+    category_slug: arts-culture-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-united-kingdom.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/europe/united-kingdom/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: united-kingdom
+    category_slug: direct-service-providers
+    status: integrated
+    completed_report: research/archive/deep-research-report-united-kingdom.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/europe/united-kingdom/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: united-kingdom
+    category_slug: environmental-resilience-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-united-kingdom.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/europe/united-kingdom/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: united-kingdom
+    category_slug: funders-fiscal-sponsors
+    status: integrated
+    completed_report: research/archive/deep-research-report-united-kingdom.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/europe/united-kingdom/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: united-kingdom
+    category_slug: labor-unions-worker-centers
+    status: integrated
+    completed_report: research/archive/deep-research-report-united-kingdom.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/europe/united-kingdom/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: united-kingdom
+    category_slug: local-businesses-social-enterprises
+    status: integrated
+    completed_report: research/archive/deep-research-report-united-kingdom.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/europe/united-kingdom/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: united-kingdom
+    category_slug: local-government-public-agencies
+    status: integrated
+    completed_report: research/archive/deep-research-report-united-kingdom.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/europe/united-kingdom/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: united-kingdom
+    category_slug: makerspaces-tool-libraries-repair-groups
+    status: integrated
+    completed_report: research/archive/deep-research-report-united-kingdom.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/europe/united-kingdom/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: united-kingdom
+    category_slug: mutual-aid-groups
+    status: integrated
+    completed_report: research/archive/deep-research-report-united-kingdom.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/europe/united-kingdom/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: united-kingdom
+    category_slug: nonprofits-cbos
+    status: integrated
+    completed_report: research/archive/deep-research-report-united-kingdom.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/europe/united-kingdom/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: united-kingdom
+    category_slug: residents-neighborhood-leaders
+    status: integrated
+    completed_report: research/archive/deep-research-report-united-kingdom.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/europe/united-kingdom/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: united-kingdom
+    category_slug: schools-libraries-community-centers
+    status: integrated
+    completed_report: research/archive/deep-research-report-united-kingdom.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/europe/united-kingdom/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: corumbau
+    category_slug: arts-culture-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-corumbau.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/south-america/corumbau/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: corumbau
+    category_slug: direct-service-providers
+    status: integrated
+    completed_report: research/archive/deep-research-report-corumbau.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/south-america/corumbau/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: corumbau
+    category_slug: environmental-resilience-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-corumbau.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/south-america/corumbau/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: corumbau
+    category_slug: funders-fiscal-sponsors
+    status: integrated
+    completed_report: research/archive/deep-research-report-corumbau.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/south-america/corumbau/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: corumbau
+    category_slug: local-businesses-social-enterprises
+    status: integrated
+    completed_report: research/archive/deep-research-report-corumbau.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/south-america/corumbau/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: corumbau
+    category_slug: local-government-public-agencies
+    status: integrated
+    completed_report: research/archive/deep-research-report-corumbau.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/south-america/corumbau/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: corumbau
+    category_slug: residents-neighborhood-leaders
+    status: integrated
+    completed_report: research/archive/deep-research-report-corumbau.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/south-america/corumbau/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: corumbau
+    category_slug: schools-libraries-community-centers
+    status: integrated
+    completed_report: research/archive/deep-research-report-corumbau.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/south-america/corumbau/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: corumbau
+    category_slug: labor-unions-worker-centers
+    status: needs-rerun
+    completed_report: research/archive/deep-research-report-corumbau.md
+    completed_at: 2026-06-24
+    notes: "Completed report had no website-validated leads for this category during integration; rerun or manually verify before import."
+  - chapter_slug: corumbau
+    category_slug: mutual-aid-groups
+    status: needs-rerun
+    completed_report: research/archive/deep-research-report-corumbau.md
+    completed_at: 2026-06-24
+    notes: "Completed report had no website-validated leads for this category during integration; rerun or manually verify before import."
+  - chapter_slug: corumbau
+    category_slug: nonprofits-cbos
+    status: needs-rerun
+    completed_report: research/archive/deep-research-report-corumbau.md
+    completed_at: 2026-06-24
+    notes: "Completed report had no website-validated leads for this category during integration; rerun or manually verify before import."
+  - chapter_slug: colombia
+    category_slug: arts-culture-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-colombia.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/south-america/colombia/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: colombia
+    category_slug: direct-service-providers
+    status: integrated
+    completed_report: research/archive/deep-research-report-colombia.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/south-america/colombia/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: colombia
+    category_slug: environmental-resilience-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-colombia.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/south-america/colombia/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: colombia
+    category_slug: funders-fiscal-sponsors
+    status: integrated
+    completed_report: research/archive/deep-research-report-colombia.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/south-america/colombia/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: colombia
+    category_slug: local-businesses-social-enterprises
+    status: integrated
+    completed_report: research/archive/deep-research-report-colombia.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/south-america/colombia/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: colombia
+    category_slug: local-government-public-agencies
+    status: integrated
+    completed_report: research/archive/deep-research-report-colombia.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/south-america/colombia/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: colombia
+    category_slug: makerspaces-tool-libraries-repair-groups
+    status: integrated
+    completed_report: research/archive/deep-research-report-colombia.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/south-america/colombia/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: colombia
+    category_slug: mutual-aid-groups
+    status: integrated
+    completed_report: research/archive/deep-research-report-colombia.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/south-america/colombia/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: colombia
+    category_slug: nonprofits-cbos
+    status: integrated
+    completed_report: research/archive/deep-research-report-colombia.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/south-america/colombia/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: colombia
+    category_slug: residents-neighborhood-leaders
+    status: integrated
+    completed_report: research/archive/deep-research-report-colombia.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/south-america/colombia/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: colombia
+    category_slug: schools-libraries-community-centers
+    status: integrated
+    completed_report: research/archive/deep-research-report-colombia.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/south-america/colombia/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: colombia
+    category_slug: labor-unions-worker-centers
+    status: needs-rerun
+    completed_report: research/archive/deep-research-report-colombia.md
+    completed_at: 2026-06-24
+    notes: "Completed report had no website-validated leads for this category during integration; rerun or manually verify before import."
+  - chapter_slug: chicago
+    category_slug: arts-culture-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-chicago.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/chicago/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: chicago
+    category_slug: direct-service-providers
+    status: integrated
+    completed_report: research/archive/deep-research-report-chicago.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/chicago/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: chicago
+    category_slug: environmental-resilience-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-chicago.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/chicago/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: chicago
+    category_slug: funders-fiscal-sponsors
+    status: integrated
+    completed_report: research/archive/deep-research-report-chicago.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/chicago/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: chicago
+    category_slug: labor-unions-worker-centers
+    status: integrated
+    completed_report: research/archive/deep-research-report-chicago.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/chicago/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: chicago
+    category_slug: local-businesses-social-enterprises
+    status: integrated
+    completed_report: research/archive/deep-research-report-chicago.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/chicago/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: chicago
+    category_slug: local-government-public-agencies
+    status: integrated
+    completed_report: research/archive/deep-research-report-chicago.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/chicago/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: chicago
+    category_slug: makerspaces-tool-libraries-repair-groups
+    status: integrated
+    completed_report: research/archive/deep-research-report-chicago.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/chicago/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: chicago
+    category_slug: mutual-aid-groups
+    status: integrated
+    completed_report: research/archive/deep-research-report-chicago.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/chicago/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: chicago
+    category_slug: nonprofits-cbos
+    status: integrated
+    completed_report: research/archive/deep-research-report-chicago.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/chicago/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: chicago
+    category_slug: residents-neighborhood-leaders
+    status: integrated
+    completed_report: research/archive/deep-research-report-chicago.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/chicago/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: chicago
+    category_slug: schools-libraries-community-centers
+    status: integrated
+    completed_report: research/archive/deep-research-report-chicago.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/chicago/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: washington-dc
+    category_slug: arts-culture-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-dc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/washington-dc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: washington-dc
+    category_slug: direct-service-providers
+    status: integrated
+    completed_report: research/archive/deep-research-report-dc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/washington-dc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: washington-dc
+    category_slug: environmental-resilience-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-dc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/washington-dc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: washington-dc
+    category_slug: funders-fiscal-sponsors
+    status: integrated
+    completed_report: research/archive/deep-research-report-dc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/washington-dc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: washington-dc
+    category_slug: local-businesses-social-enterprises
+    status: integrated
+    completed_report: research/archive/deep-research-report-dc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/washington-dc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: washington-dc
+    category_slug: local-government-public-agencies
+    status: integrated
+    completed_report: research/archive/deep-research-report-dc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/washington-dc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: washington-dc
+    category_slug: makerspaces-tool-libraries-repair-groups
+    status: integrated
+    completed_report: research/archive/deep-research-report-dc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/washington-dc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: washington-dc
+    category_slug: mutual-aid-groups
+    status: integrated
+    completed_report: research/archive/deep-research-report-dc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/washington-dc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: washington-dc
+    category_slug: nonprofits-cbos
+    status: integrated
+    completed_report: research/archive/deep-research-report-dc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/washington-dc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: washington-dc
+    category_slug: schools-libraries-community-centers
+    status: integrated
+    completed_report: research/archive/deep-research-report-dc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/washington-dc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sacramento
+    category_slug: arts-culture-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-sac.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/sacramento/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sacramento
+    category_slug: direct-service-providers
+    status: integrated
+    completed_report: research/archive/deep-research-report-sac.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/sacramento/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sacramento
+    category_slug: environmental-resilience-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-sac.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/sacramento/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sacramento
+    category_slug: funders-fiscal-sponsors
+    status: integrated
+    completed_report: research/archive/deep-research-report-sac.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/sacramento/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sacramento
+    category_slug: labor-unions-worker-centers
+    status: integrated
+    completed_report: research/archive/deep-research-report-sac.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/sacramento/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sacramento
+    category_slug: local-businesses-social-enterprises
+    status: integrated
+    completed_report: research/archive/deep-research-report-sac.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/sacramento/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sacramento
+    category_slug: local-government-public-agencies
+    status: integrated
+    completed_report: research/archive/deep-research-report-sac.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/sacramento/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sacramento
+    category_slug: makerspaces-tool-libraries-repair-groups
+    status: integrated
+    completed_report: research/archive/deep-research-report-sac.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/sacramento/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sacramento
+    category_slug: mutual-aid-groups
+    status: integrated
+    completed_report: research/archive/deep-research-report-sac.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/sacramento/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sacramento
+    category_slug: nonprofits-cbos
+    status: integrated
+    completed_report: research/archive/deep-research-report-sac.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/sacramento/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sacramento
+    category_slug: residents-neighborhood-leaders
+    status: integrated
+    completed_report: research/archive/deep-research-report-sac.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/sacramento/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sacramento
+    category_slug: schools-libraries-community-centers
+    status: integrated
+    completed_report: research/archive/deep-research-report-sac.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/sacramento/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: vancouver-bc
+    category_slug: arts-culture-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-vancouver-bc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/vancouver-bc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: vancouver-bc
+    category_slug: direct-service-providers
+    status: integrated
+    completed_report: research/archive/deep-research-report-vancouver-bc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/vancouver-bc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: vancouver-bc
+    category_slug: environmental-resilience-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-vancouver-bc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/vancouver-bc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: vancouver-bc
+    category_slug: funders-fiscal-sponsors
+    status: integrated
+    completed_report: research/archive/deep-research-report-vancouver-bc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/vancouver-bc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: vancouver-bc
+    category_slug: labor-unions-worker-centers
+    status: integrated
+    completed_report: research/archive/deep-research-report-vancouver-bc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/vancouver-bc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: vancouver-bc
+    category_slug: local-businesses-social-enterprises
+    status: integrated
+    completed_report: research/archive/deep-research-report-vancouver-bc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/vancouver-bc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: vancouver-bc
+    category_slug: makerspaces-tool-libraries-repair-groups
+    status: integrated
+    completed_report: research/archive/deep-research-report-vancouver-bc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/vancouver-bc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: vancouver-bc
+    category_slug: mutual-aid-groups
+    status: integrated
+    completed_report: research/archive/deep-research-report-vancouver-bc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/vancouver-bc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: vancouver-bc
+    category_slug: nonprofits-cbos
+    status: integrated
+    completed_report: research/archive/deep-research-report-vancouver-bc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/vancouver-bc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: vancouver-bc
+    category_slug: residents-neighborhood-leaders
+    status: integrated
+    completed_report: research/archive/deep-research-report-vancouver-bc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/vancouver-bc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: vancouver-bc
+    category_slug: schools-libraries-community-centers
+    status: integrated
+    completed_report: research/archive/deep-research-report-vancouver-bc.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/north-america/vancouver-bc/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: vancouver-bc
+    category_slug: local-government-public-agencies
+    status: needs-rerun
+    completed_report: research/archive/deep-research-report-vancouver-bc.md
+    completed_at: 2026-06-24
+    notes: "Completed report had no website-validated leads for this category during integration; rerun or manually verify before import."
+  - chapter_slug: melbourne
+    category_slug: arts-culture-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-melbourne.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/melbourne/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: melbourne
+    category_slug: direct-service-providers
+    status: integrated
+    completed_report: research/archive/deep-research-report-melbourne.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/melbourne/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: melbourne
+    category_slug: environmental-resilience-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-melbourne.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/melbourne/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: melbourne
+    category_slug: funders-fiscal-sponsors
+    status: integrated
+    completed_report: research/archive/deep-research-report-melbourne.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/melbourne/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: melbourne
+    category_slug: labor-unions-worker-centers
+    status: integrated
+    completed_report: research/archive/deep-research-report-melbourne.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/melbourne/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: melbourne
+    category_slug: local-businesses-social-enterprises
+    status: integrated
+    completed_report: research/archive/deep-research-report-melbourne.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/melbourne/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: melbourne
+    category_slug: local-government-public-agencies
+    status: integrated
+    completed_report: research/archive/deep-research-report-melbourne.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/melbourne/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: melbourne
+    category_slug: makerspaces-tool-libraries-repair-groups
+    status: integrated
+    completed_report: research/archive/deep-research-report-melbourne.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/melbourne/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: melbourne
+    category_slug: mutual-aid-groups
+    status: integrated
+    completed_report: research/archive/deep-research-report-melbourne.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/melbourne/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: melbourne
+    category_slug: nonprofits-cbos
+    status: integrated
+    completed_report: research/archive/deep-research-report-melbourne.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/melbourne/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: melbourne
+    category_slug: residents-neighborhood-leaders
+    status: integrated
+    completed_report: research/archive/deep-research-report-melbourne.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/melbourne/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: melbourne
+    category_slug: schools-libraries-community-centers
+    status: integrated
+    completed_report: research/archive/deep-research-report-melbourne.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/melbourne/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: perth
+    category_slug: arts-culture-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-perth.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/perth/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: perth
+    category_slug: direct-service-providers
+    status: integrated
+    completed_report: research/archive/deep-research-report-perth.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/perth/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: perth
+    category_slug: environmental-resilience-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-perth.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/perth/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: perth
+    category_slug: funders-fiscal-sponsors
+    status: integrated
+    completed_report: research/archive/deep-research-report-perth.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/perth/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: perth
+    category_slug: labor-unions-worker-centers
+    status: integrated
+    completed_report: research/archive/deep-research-report-perth.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/perth/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: perth
+    category_slug: local-businesses-social-enterprises
+    status: integrated
+    completed_report: research/archive/deep-research-report-perth.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/perth/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: perth
+    category_slug: local-government-public-agencies
+    status: integrated
+    completed_report: research/archive/deep-research-report-perth.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/perth/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: perth
+    category_slug: makerspaces-tool-libraries-repair-groups
+    status: integrated
+    completed_report: research/archive/deep-research-report-perth.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/perth/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: perth
+    category_slug: mutual-aid-groups
+    status: integrated
+    completed_report: research/archive/deep-research-report-perth.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/perth/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: perth
+    category_slug: nonprofits-cbos
+    status: integrated
+    completed_report: research/archive/deep-research-report-perth.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/perth/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: perth
+    category_slug: residents-neighborhood-leaders
+    status: integrated
+    completed_report: research/archive/deep-research-report-perth.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/perth/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: perth
+    category_slug: schools-libraries-community-centers
+    status: integrated
+    completed_report: research/archive/deep-research-report-perth.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/perth/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sydney
+    category_slug: arts-culture-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-sydney.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/sydney/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sydney
+    category_slug: direct-service-providers
+    status: integrated
+    completed_report: research/archive/deep-research-report-sydney.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/sydney/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sydney
+    category_slug: environmental-resilience-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-sydney.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/sydney/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sydney
+    category_slug: funders-fiscal-sponsors
+    status: integrated
+    completed_report: research/archive/deep-research-report-sydney.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/sydney/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sydney
+    category_slug: labor-unions-worker-centers
+    status: integrated
+    completed_report: research/archive/deep-research-report-sydney.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/sydney/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sydney
+    category_slug: local-businesses-social-enterprises
+    status: integrated
+    completed_report: research/archive/deep-research-report-sydney.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/sydney/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sydney
+    category_slug: local-government-public-agencies
+    status: integrated
+    completed_report: research/archive/deep-research-report-sydney.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/sydney/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sydney
+    category_slug: makerspaces-tool-libraries-repair-groups
+    status: integrated
+    completed_report: research/archive/deep-research-report-sydney.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/sydney/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sydney
+    category_slug: mutual-aid-groups
+    status: integrated
+    completed_report: research/archive/deep-research-report-sydney.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/sydney/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sydney
+    category_slug: nonprofits-cbos
+    status: integrated
+    completed_report: research/archive/deep-research-report-sydney.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/sydney/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sydney
+    category_slug: residents-neighborhood-leaders
+    status: integrated
+    completed_report: research/archive/deep-research-report-sydney.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/sydney/index.md; failed leads from the same report were excluded under the validation gate."
+  - chapter_slug: sydney
+    category_slug: schools-libraries-community-centers
+    status: integrated
+    completed_report: research/archive/deep-research-report-sydney.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected website-validated findings integrated into chapters/oceania/sydney/index.md; failed leads from the same report were excluded under the validation gate."

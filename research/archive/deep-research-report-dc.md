@@ -1,32 +1,8 @@
----
-layout: chapter
-title: BWB Washington D.C.
-description: "BWB Washington D.C. chapter profile, contacts, collaboration opportunities, and related updates."
-permalink: /chapters/north-america/washington-dc/
-chapter_slug: washington-dc
-continent_name: North America
-status: unknown
-status_note: "Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import."
-continent: north-america
-metro_or_region: washington-dc
-country: United States
-state_or_province: District of Columbia
-city_or_area: Washington D.C.
-official_url: "https://burnerswithoutborders.org/chapters/bwb-dc/"
-contact_url:
-social_media:
-  - platform: facebook
-    url: "https://www.facebook.com/BWBDC/"
-  - platform: facebook
-    url: "https://www.facebook.com/groups/115935765705831"
-external_websites: []
-email_addresses: []
-phone_numbers: []
-contact_names: []
-contact_note: Verify current contact details from the official BWB chapter page before outreach.
-focus_areas: []
-recent_projects: []
-known_collaborators: []
+# Collaboration patterns in Washington, D.C.
+
+Research reveals several strong partnership themes for BWB DC. The city has robust volunteer-driven social services and mutual aid networks: major hunger relief nonprofits (Capital Area Food Bank, DC Central Kitchen, Martha’s Table, SOME) host packing/distribution programs and need volunteers. Grassroots mutual‐aid groups (Ward 4 Mutual Aid, The Mutual Aid Movement DC, Food Not Bombs) run community food and supply distributions and welcome helpers. DC’s arts/culture scene offers venues and events for community engagement: organizations like the Washington Project for the Arts and Dance Place produce participatory art and welcome volunteers. Environmental and resilience groups are also active: Casey Trees and Rock Creek Conservancy organize park and street cleanups and plantings, and DOEE’s “Fix-It DC” repair clinics teach reuse skills. Government agencies provide volunteer infrastructure: DPR coordinates park & recreation volunteering, the Mayor’s Serve DC office manages citywide volunteer programs (AmeriCorps, disaster response), and DC VOAD links nonprofits in disaster coordination.  Funding and support organizations in D.C. include the Greater Washington Community Foundation (grants and fiscal sponsorship) and United Way NCA (community grants and volunteer campaigns). In summary, key collaboration opportunities involve joint volunteer events (food drives, park cleanups, repair cafes, community art projects), shared use of spaces, cross‐promotion of programs, and connecting BWB DC’s volunteers into existing networks. 
+
+```yaml
 opportunities:
   - opportunity_slug: washington-project-for-the-arts
     organization_name: Washington Project for the Arts
@@ -42,7 +18,6 @@ opportunities:
       - https://wpadc.org/about/
     research_notes: WPA is active and DC-based (not a museum); verify current programs for volunteer sign-up.
     last_verified: 2026-06-24
-
 
   - opportunity_slug: dance-place
     organization_name: Dance Place
@@ -60,7 +35,6 @@ opportunities:
     research_notes: Dance Place is NW DC, volunteer-run; confirm openness to external group events.
     last_verified: 2026-06-24
 
-
   - opportunity_slug: capital-area-food-bank
     organization_name: Capital Area Food Bank
     category_slug: direct-service-providers
@@ -75,7 +49,6 @@ opportunities:
       - https://www.capitalareafoodbank.org/volunteer/
     research_notes: CAFB serves DC/MD/VA; ensure focus on DC-based programs. Large organization with formal volunteer sign-up.
     last_verified: 2026-06-24
-
 
   - opportunity_slug: dc-central-kitchen
     organization_name: DC Central Kitchen
@@ -92,7 +65,6 @@ opportunities:
     research_notes: DCCK is in SW DC (9th Street); confirm shift schedules and sign-up.
     last_verified: 2026-06-24
 
-
   - opportunity_slug: marthas-table
     organization_name: Martha’s Table
     category_slug: direct-service-providers
@@ -107,7 +79,6 @@ opportunities:
       - https://marthastable.org/volunteer/ (opportunities)
     research_notes: Multiple sites in DC; good for family-friendly events. No partisan affiliation in programming.
     last_verified: 2026-06-24
-
 
   - opportunity_slug: some-so-others-might-eat
     organization_name: SOME (So Others Might Eat)
@@ -124,7 +95,6 @@ opportunities:
     research_notes: SOME operates in NW DC; active but ensure volunteer clearance process is known.
     last_verified: 2026-06-24
 
-
   - opportunity_slug: empower-dc
     organization_name: Empower DC
     category_slug: environmental-resilience-organizations
@@ -139,7 +109,6 @@ opportunities:
       - https://empowerdc.org/projects/ (campaigns)
     research_notes: Primarily advocacy-focused. Confirm interest in hands-on events vs. policy advocacy.
     last_verified: 2026-06-24
-
 
   - opportunity_slug: casey-trees
     organization_name: Casey Trees
@@ -156,7 +125,6 @@ opportunities:
     research_notes: Citywide mission; would need tools (provided) and registration.
     last_verified: 2026-06-24
 
-
   - opportunity_slug: anacostia-watershed-society
     organization_name: Anacostia Watershed Society
     category_slug: environmental-resilience-organizations
@@ -171,7 +139,6 @@ opportunities:
       - https://www.anacostiaws.org/volunteer (volunteer info)
     research_notes: AWS is MD-based but active in DC’s watershed; confirm events open to DC volunteers.
     last_verified: 2026-06-24
-
 
   - opportunity_slug: rock-creek-conservancy
     organization_name: Rock Creek Conservancy
@@ -188,7 +155,6 @@ opportunities:
     research_notes: Works exclusively in Rock Creek Park (NW DC); strong local focus.
     last_verified: 2026-06-24
 
-
   - opportunity_slug: greater-washington-community-foundation
     organization_name: Greater Washington Community Foundation
     category_slug: funders-fiscal-sponsors
@@ -203,7 +169,6 @@ opportunities:
       - https://www.thecommunityfoundation.org/ (about and grant programs)
     research_notes: Foundation covers DC metro; require $5K minimum. Verify current grant cycles and fiscal sponsor criteria.
     last_verified: 2026-06-24
-
 
   - opportunity_slug: united-way-nca
     organization_name: United Way of the National Capital Area
@@ -220,7 +185,6 @@ opportunities:
     research_notes: UW NCA covers DC/MD/VA; mainly convening role. Grants are often large-scale.
     last_verified: 2026-06-24
 
-
   - opportunity_slug: busboys-and-poets
     organization_name: Busboys and Poets
     category_slug: local-businesses-social-enterprises
@@ -235,7 +199,6 @@ opportunities:
       - https://busboysandpoets.com/events/ (community event listings)
     research_notes: Chain with multiple DC locations; known for activism. Business, but community-minded.
     last_verified: 2026-06-24
-
 
   - opportunity_slug: dc-department-of-parks-recreation
     organization_name: DC Department of Parks and Recreation (DPR)
@@ -252,7 +215,6 @@ opportunities:
     research_notes: DPR’s volunteer signup is formal (CERVIS system). Useful for event permits and youth programs.
     last_verified: 2026-06-24
 
-
   - opportunity_slug: dc-voluntary-orgs-active-in-disaster
     organization_name: DC VOAD (Voluntary Organizations Active in Disaster)
     category_slug: local-government-public-agencies
@@ -268,7 +230,6 @@ opportunities:
     research_notes: VOAD is non-profit-led but works closely with DC HSEMA; helpful for emergency coordination.
     last_verified: 2026-06-24
 
-
   - opportunity_slug: servedc-mayors-office-volunteerism
     organization_name: Mayor’s Office on Volunteerism and Partnerships (Serve DC)
     category_slug: local-government-public-agencies
@@ -283,7 +244,6 @@ opportunities:
       - https://communityaffairs.dc.gov/servedc/volunteer-opportunities (current programs)
     research_notes: City gov’t office; works with nonprofits. Great for broad volunteer mobilization but has bureaucratic steps.
     last_verified: 2026-06-24
-
 
   - opportunity_slug: dc-tool-library
     organization_name: DC Tool Library
@@ -301,7 +261,6 @@ opportunities:
 
     last_verified: 2026-06-24
 
-
   - opportunity_slug: fix-it-dc
     organization_name: Fix-It DC (DC Gov)
     category_slug: makerspaces-tool-libraries-repair-groups
@@ -316,7 +275,6 @@ opportunities:
       - https://doee.dc.gov/newsroom (event announcements)
     research_notes: Run by DOEE, city volunteers sign up through forms. Good for sustainability outreach.
     last_verified: 2026-06-24
-
 
   - opportunity_slug: dc-public-library-tool-library
     organization_name: DC Public Library – The Labs Tool Library
@@ -333,7 +291,6 @@ opportunities:
     research_notes: Tools require DC library card and waiver. Space available for community events (book meeting rooms if needed).
     last_verified: 2026-06-24
 
-
   - opportunity_slug: greenbelt-makerspace
     organization_name: Greenbelt Makerspace & Tool Library
     category_slug: makerspaces-tool-libraries-repair-groups
@@ -348,7 +305,6 @@ opportunities:
       - https://greenbeltmakers.org/repair-cafes/ (event info)
     research_notes: Located in Greenbelt, MD (~5 miles from DC). Membership-based but open to DC residents. Good for equipment and skilled volunteers.
     last_verified: 2026-06-24
-
 
   - opportunity_slug: ward-4-mutual-aid
     organization_name: Ward 4 Mutual Aid
@@ -365,7 +321,6 @@ opportunities:
     research_notes: Focuses on Ward 4 (upper NW); BWB volunteers would serve DC residents. Encourage cross-ward support.
     last_verified: 2026-06-24
 
-
   - opportunity_slug: mutual-aid-movement-dc
     organization_name: The Mutual Aid Movement DC (MAM DC)
     category_slug: mutual-aid-groups
@@ -381,7 +336,6 @@ opportunities:
     research_notes: Grassroots and volunteer-run; website last updated 2021, but still appear active. Verify current contacts.
     last_verified: 2026-06-24
 
-
   - opportunity_slug: dmv-mutual-aid
     organization_name: DMV Mutual Aid (resource hub)
     category_slug: mutual-aid-groups
@@ -396,6 +350,20 @@ opportunities:
     research_notes: Not an organization but a volunteer-run info aggregator. Keep an eye on community boards it links.
     last_verified: 2026-06-24
 
+  - opportunity_slug: food-not-bombs-dc
+    organization_name: Food Not Bombs Washington, DC
+    category_slug: mutual-aid-groups
+    status: research-lead
+    website: https://foodnotbombs.net/ (national site, DC chapter)
+    why_it_may_fit: Food Not Bombs DC is a volunteer-run mutual aid collective serving free vegan meals in DC each week (e.g. Saturdays in McPherson Square). BWB DC volunteers can assist in meal prep and distribution or publicize the service.
+    possible_collaboration_shapes:
+      - Volunteer to help cook and serve meals at Food Not Bombs gatherings.
+      - Coordinate joint community meal events or food drives with FNB DC.
+    source_urls:
+      - https://foodnotbombs.net/fnbfaqs/ (general FAQs)
+      - https://www.instagram.com/foodnotbombsdc (events – free Sat meals)
+    research_notes: FNB is loosely organized (often word-of-mouth). Volunteers should follow their no-identity/consent ethos.
+    last_verified: 2026-06-24
 
   - opportunity_slug: bread-for-the-city
     organization_name: Bread for the City
@@ -412,7 +380,6 @@ opportunities:
     research_notes: High-impact nonprofit; volunteers do require orientation. Many opportunities beyond just food.
     last_verified: 2026-06-24
 
-
   - opportunity_slug: miriams-kitchen
     organization_name: Miriam’s Kitchen
     category_slug: nonprofits-cbos
@@ -427,7 +394,6 @@ opportunities:
       - https://www.miriamskitchen.org/volunteer/ (volunteer info)
     research_notes: Located in NW DC. Look into volunteer training schedule and background checks.
     last_verified: 2026-06-24
-
 
   - opportunity_slug: community-of-hope
     organization_name: Community of Hope
@@ -444,81 +410,57 @@ opportunities:
     research_notes: Multi-faceted agency; ensure volunteers meet any training requirements for working with children.
     last_verified: 2026-06-24
 
+  - opportunity_slug: dc-public-library-the-labs
+    organization_name: DC Public Library – The Labs
+    category_slug: schools-libraries-community-centers
+    status: research-lead
+    website: https://www.dclibrary.org/
+    why_it_may_fit: DCPL’s flagship Martin Luther King Jr. Memorial Library includes The Labs makerspace, which has 3D printers and tools for public use. It also runs workshops and classes. BWB DC could use library rooms for workshops or collaborate on STEM/youth programs.
+    possible_collaboration_shapes:
+      - Co-develop maker/arts workshops (e.g. 3D printing for art) with The Labs staff.
+      - Host BWB project planning sessions or volunteer trainings in library meeting rooms.
+    source_urls:
+      - https://www.dclibrary.org/using-the-library/tool-library (The Labs tool library details)
+      - https://www.dclibrary.org/labs (about The Labs – not in sources but available)
+    research_notes: Public institutions encourage community use. Check reservation process.
+    last_verified: 2026-06-24
+```
 
-    - opportunity_slug: dc-public-library-the-labs
-      organization_name: DC Public Library – The Labs
-      category_slug: schools-libraries-community-centers
-      status: research-lead
-      website: https://www.dclibrary.org/
-      why_it_may_fit: DCPL’s flagship Martin Luther King Jr. Memorial Library includes The Labs makerspace, which has 3D printers and tools for public use. It also runs workshops and classes. BWB DC could use library rooms for workshops or collaborate on STEM/youth programs.
-      possible_collaboration_shapes:
-        - Co-develop maker/arts workshops (e.g. 3D printing for art) with The Labs staff.
-        - Host BWB project planning sessions or volunteer trainings in library meeting rooms.
-      source_urls:
-        - https://www.dclibrary.org/using-the-library/tool-library (The Labs tool library details)
-        - https://www.dclibrary.org/labs (about The Labs – not in sources but available)
-      research_notes: Public institutions encourage community use. Check reservation process.
-      last_verified: 2026-06-24
-  ```
+no_good_leads_found:
+  - labor-unions-worker-centers: "No obvious DC-wide labor or union volunteer programs were found. Construction trades unions focus on city contracts, and local worker centers in DC (e.g. SEIU or AFGE locals) do not list public volunteer initiatives relevant to BWB’s focus."
 
-  no_good_leads_found:
-    - labor-unions-worker-centers: "No obvious DC-wide labor or union volunteer programs were found. Construction trades unions focus on city contracts, and local worker centers in DC (e.g. SEIU or AFGE locals) do not list public volunteer initiatives relevant to BWB’s focus."
+follow_up_questions:
+  - "Should we reach out to any labor trade councils (e.g. DC Building Trades) for skill-share events, despite lack of obvious volunteer arms?"
+  - "Are universities or youth service organizations (e.g. DC public schools’ service clubs) considered under 'schools' category for outreach?"
+  - "Verify whether any local arts festivals (Fringe Fest, Atlas Arts Fest) could be added under arts-culture for seasonal events."
+  - "Confirm interest in partnering with local makerspaces beyond Greenbelt (e.g. Arlington’s The Makers Hub, TechShop DC if any)."
 
-  follow_up_questions:
-    - "Should we reach out to any labor trade councils (e.g. DC Building Trades) for skill-share events, despite lack of obvious volunteer arms?"
-    - "Are universities or youth service organizations (e.g. DC public schools’ service clubs) considered under 'schools' category for outreach?"
-    - "Verify whether any local arts festivals (Fringe Fest, Atlas Arts Fest) could be added under arts-culture for seasonal events."
-    - "Confirm interest in partnering with local makerspaces beyond Greenbelt (e.g. Arlington’s The Makers Hub, TechShop DC if any)."
-
-  source_index:
-  - Washington Project for the Arts – organization description (about) supports community art projects.
-  - Dance Place – mission to build dance community; volunteer program “hub of dance activity”.
-  - Capital Area Food Bank – food distribution stats and volunteer (warehouse) roles.
-  - DC Central Kitchen – volunteer meal prep roles.
-  - Martha’s Table – volunteers distribute food and clothing, serving 45,000 people/year.
-  - SOME (So Others Might Eat) – homeless services and volunteer needs.
-  - Empower DC – local environmental justice campaigns.
-  - Casey Trees – volunteer tree-planting, 40% canopy goal.
-  - Anacostia Watershed Society – river cleanup and habitat restoration volunteer activities.
-  - Rock Creek Conservancy – park restoration volunteer stats (trees, trash removed).
-  - Greater Washington Community Foundation – offers fiscal sponsorship and community grants.
-  - United Way NCA – community impact through volunteering, with specific event campaigns.
-  - Busboys & Poets – cultural hub promoting social change and community events.
-  - DC DPR – relies on volunteers to extend park/recreation programs.
-  - DC VOAD – coordinating nonprofit disaster response.
-  - Serve DC (Mayor’s Office on Volunteerism) – DC’s volunteer coordination office and AmeriCorps grants.
-  - DC Tool Library – non-profit tool lending program for residents.
-  - Fix-It DC (DOEE) – free community repair events led by volunteer coaches.
-  - DC Public Library Tool Library – “Labs” tool lending for DIY projects.
-  - Greenbelt Makerspace – tool library in MD offering loans and repair cafes.
-  - Ward 4 Mutual Aid – community aid distributing food/diapers monthly.
-  - Mutual Aid Movement DC – grassroots meal and produce deliveries (Ward 1).
-  - DMV Mutual Aid – aggregator of local mutual aid links (general resource).
-  - Food Not Bombs DC – weekly free vegan meals volunteer-run (IG listing).
-  - Bread for the City – food/clothing/social services provider (DC pantries).
-  - Miriam’s Kitchen – meals to homeless with volunteer shifts.
-  - Community of Hope – DC housing and health nonprofit (volunteer page).
-  - DC Public Library (Labs) – maker space and tool library at central library.
-
-sources:
-  - "https://burnerswithoutborders.org/chapters/bwb-dc/"
-  - "https://burnerswithoutborders.org/chapters/"
----
-
-## Local Context
-
-Add notes about the Washington D.C. community, local priorities, existing relationships, and regional context.
-
-## Collaboration Priorities
-
-Add the kinds of collaboration opportunities that may fit this chapter.
-
-## Research Notes
-
-Add verification notes, source caveats, and follow-up research tasks.
-
-## Open Questions
-
-- What local organizations should be prioritized first?
-- Which opportunities are already connected to this chapter?
-- What recent chapter activity should be reflected here?
+source_index:
+- Washington Project for the Arts – organization description (about) supports community art projects.
+- Dance Place – mission to build dance community; volunteer program “hub of dance activity”.
+- Capital Area Food Bank – food distribution stats and volunteer (warehouse) roles.
+- DC Central Kitchen – volunteer meal prep roles.
+- Martha’s Table – volunteers distribute food and clothing, serving 45,000 people/year.
+- SOME (So Others Might Eat) – homeless services and volunteer needs.
+- Empower DC – local environmental justice campaigns.
+- Casey Trees – volunteer tree-planting, 40% canopy goal.
+- Anacostia Watershed Society – river cleanup and habitat restoration volunteer activities.
+- Rock Creek Conservancy – park restoration volunteer stats (trees, trash removed).
+- Greater Washington Community Foundation – offers fiscal sponsorship and community grants.
+- United Way NCA – community impact through volunteering, with specific event campaigns.
+- Busboys & Poets – cultural hub promoting social change and community events.
+- DC DPR – relies on volunteers to extend park/recreation programs.
+- DC VOAD – coordinating nonprofit disaster response.
+- Serve DC (Mayor’s Office on Volunteerism) – DC’s volunteer coordination office and AmeriCorps grants.
+- DC Tool Library – non-profit tool lending program for residents.
+- Fix-It DC (DOEE) – free community repair events led by volunteer coaches.
+- DC Public Library Tool Library – “Labs” tool lending for DIY projects.
+- Greenbelt Makerspace – tool library in MD offering loans and repair cafes.
+- Ward 4 Mutual Aid – community aid distributing food/diapers monthly.
+- Mutual Aid Movement DC – grassroots meal and produce deliveries (Ward 1).
+- DMV Mutual Aid – aggregator of local mutual aid links (general resource).
+- Food Not Bombs DC – weekly free vegan meals volunteer-run (IG listing).
+- Bread for the City – food/clothing/social services provider (DC pantries).
+- Miriam’s Kitchen – meals to homeless with volunteer shifts.
+- Community of Hope – DC housing and health nonprofit (volunteer page).
+- DC Public Library (Labs) – maker space and tool library at central library.

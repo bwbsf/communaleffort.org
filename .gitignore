@@ -1,6 +1,12 @@
 # Generated deep-research prompt artifacts
 /research/generated/
 
+# Localized evidence captures and pass reports
+/evidence/raw/*
+!/evidence/raw/.gitkeep
+/evidence/reports/*
+!/evidence/reports/.gitkeep
+
 # Python local cache files
 __pycache__/
 *.py[cod]

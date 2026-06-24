@@ -1,34 +1,8 @@
----
-layout: chapter
-title: BWB Sydney
-description: "BWB Sydney chapter profile, contacts, collaboration opportunities, and related updates."
-permalink: /chapters/oceania/sydney/
-chapter_slug: sydney
-continent_name: Oceania
-status: unknown
-status_note: "Official directory lists active/dormant totals, but per-chapter status was not visible in accessible page text during import."
-continent: oceania
-metro_or_region: sydney
-country: Australia
-state_or_province: New South Wales
-city_or_area: Sydney
-official_url: "https://burnerswithoutborders.org/chapters/australia/"
-contact_url:
-social_media:
-  - platform: facebook
-    url: "https://www.facebook.com/groups/beneficentburnerssydney/"
-  - platform: facebook
-    url: "https://www.facebook.com/bwbaustralia/"
-external_websites: []
-email_addresses:
-  - cali@burningseed.com
-phone_numbers: []
-contact_names: []
-contact_note: Verify current contact details from the official BWB chapter page before outreach.
-focus_areas: []
-recent_projects: []
-known_collaborators: []
+Sydney’s strongest collaboration patterns are food rescue/direct service, practical repair-and-reuse, public-space/community arts, neighborhood resilience, and resident-led listening. The best leads have visible Sydney or Greater Sydney operations, volunteer pathways, public programs, or grant/venue infrastructure; for example, OzHarvest Sydney documents large local food-rescue operations, City of Sydney’s Resilient Sydney work is explicitly cross-sector, ACE is a Western Sydney participatory arts lead, and Greater Sydney Landcare has a clear local volunteer restoration network. ([OzHarvest][1])
+
+```yaml
 opportunities:
+  # arts-culture-organizations
   - opportunity_slug: "arts-cultural-exchange"
     organization_name: "Arts & Cultural Exchange"
     category_slug: "arts-culture-organizations"
@@ -46,7 +20,6 @@ opportunities:
     research_notes: >-
       Strong official evidence for Western Sydney arts and community-program fit. Before outreach, verify whether the relevant program stream has capacity for external collaboration and whether BWB Sydney wants to prioritize Western Sydney relationships.
     last_verified: "2026-06-24"
-
 
   - opportunity_slug: "pact-centre-for-emerging-artists"
     organization_name: "PACT Centre for Emerging Artists"
@@ -66,7 +39,23 @@ opportunities:
     last_verified: "2026-06-24"
 
   # direct-service-providers
-
+  - opportunity_slug: "ozharvest-sydney"
+    organization_name: "OzHarvest"
+    category_slug: "direct-service-providers"
+    status: "research-lead"
+    website: "https://www.ozharvest.org/your-local-ozharvest/sydney/"
+    why_it_may_fit: >-
+      OzHarvest began in Sydney and has a large local food-rescue and distribution footprint, including food donors, charity partners, volunteer roles, food education, and meal-related programs. BWB Sydney could plug into existing food-relief logistics rather than creating a parallel system.
+    possible_collaboration_shapes:
+      - "Organize BWB volunteer teams for approved OzHarvest sorting, cooking, education, or event-support roles."
+      - "Coordinate food-rescue planning for Burner or civic events so surplus edible food is directed into existing relief channels."
+    source_urls:
+      - "https://www.ozharvest.org/your-local-ozharvest/sydney/"
+      - "https://www.ozharvest.org/volunteer/"
+      - "https://www.ozharvest.org/"
+    research_notes: >-
+      Strong direct-service lead with public volunteer pathways. Verify current volunteer intake, group-volunteering rules, food-safety requirements, and whether BWB event food rescue is feasible under OzHarvest logistics.
+    last_verified: "2026-06-24"
 
   - opportunity_slug: "rev-bill-crews-foundation"
     organization_name: "The Rev. Bill Crews Foundation"
@@ -86,7 +75,6 @@ opportunities:
     last_verified: "2026-06-24"
 
   # environmental-resilience-organizations
-
   - opportunity_slug: "greater-sydney-landcare"
     organization_name: "Greater Sydney Landcare"
     category_slug: "environmental-resilience-organizations"
@@ -106,7 +94,6 @@ opportunities:
       Strong official evidence for regional environmental volunteer coordination. Verify current project geography, event calendar, and whether group-volunteer registration is required.
     last_verified: "2026-06-24"
 
-
   - opportunity_slug: "cooks-river-alliance"
     organization_name: "Cooks River Alliance"
     category_slug: "environmental-resilience-organizations"
@@ -125,7 +112,6 @@ opportunities:
     last_verified: "2026-06-24"
 
   # funders-fiscal-sponsors
-
   - opportunity_slug: "sydney-community-foundation"
     organization_name: "Sydney Community Foundation"
     category_slug: "funders-fiscal-sponsors"
@@ -144,7 +130,6 @@ opportunities:
       Strong funder lead, but not a guaranteed open grant pathway. Their grants page indicates funding rounds may be ad hoc or by invitation. Verify current eligibility, auspice requirements, and whether unsolicited approaches are welcome.
     last_verified: "2026-06-24"
 
-
   - opportunity_slug: "city-of-sydney-community-services-grants"
     organization_name: "City of Sydney"
     category_slug: "funders-fiscal-sponsors"
@@ -162,7 +147,23 @@ opportunities:
     last_verified: "2026-06-24"
 
   # labor-unions-worker-centers
-
+  - opportunity_slug: "unions-nsw"
+    organization_name: "Unions NSW"
+    category_slug: "labor-unions-worker-centers"
+    status: "research-lead"
+    website: "https://unionsnsw.org.au/"
+    why_it_may_fit: >-
+      Unions NSW is the peak union body for NSW and has public worker-rights, migrant-worker, and workplace health-and-safety resources. It could help BWB Sydney build safer volunteer practices for construction, event logistics, heat exposure, manual handling, and worker-resource events.
+    possible_collaboration_shapes:
+      - "Ask for guidance or referral on basic work health and safety practices for volunteer build days and public events."
+      - "Co-host a worker-rights or safety information session for community volunteers, artists, and event workers."
+    source_urls:
+      - "https://unionsnsw.org.au/about-us/"
+      - "https://unionsnsw.org.au/your-rights/worker-health-safety-training/"
+      - "https://unionsnsw.org.au/your-rights/migrant-workers/"
+    research_notes: >-
+      Good safety and worker-support lead. Verify whether collaboration should go through Unions NSW directly, an affiliated union, or the Migrant Workers Hub depending on the project.
+    last_verified: "2026-06-24"
 
   - opportunity_slug: "nsw-migrant-workers-centre"
     organization_name: "NSW Migrant Workers Centre"
@@ -183,7 +184,6 @@ opportunities:
     last_verified: "2026-06-24"
 
   # local-businesses-social-enterprises
-
   - opportunity_slug: "the-social-outfit"
     organization_name: "The Social Outfit"
     category_slug: "local-businesses-social-enterprises"
@@ -200,7 +200,6 @@ opportunities:
     research_notes: >-
       Strong social-enterprise fit. Verify budget, lead time, workshop availability, and whether any collaboration should be paid, donated, or jointly funded.
     last_verified: "2026-06-24"
-
 
   - opportunity_slug: "thread-together"
     organization_name: "Thread Together"
@@ -220,7 +219,6 @@ opportunities:
     last_verified: "2026-06-24"
 
   # local-government-public-agencies
-
   - opportunity_slug: "city-of-sydney-resilient-sydney"
     organization_name: "City of Sydney"
     category_slug: "local-government-public-agencies"
@@ -238,7 +236,6 @@ opportunities:
     research_notes: >-
       Strongest formal public-agency lead for the City of Sydney LGA. Verify project geography, required permits, venue rules, insurance, and whether a proposal belongs under grants, events, community centres, or resilience staff.
     last_verified: "2026-06-24"
-
 
   - opportunity_slug: "nsw-state-emergency-service"
     organization_name: "NSW State Emergency Service"
@@ -258,7 +255,6 @@ opportunities:
     last_verified: "2026-06-24"
 
   # makerspaces-tool-libraries-repair-groups
-
   - opportunity_slug: "inner-west-tool-library"
     organization_name: "Inner West Tool Library"
     category_slug: "makerspaces-tool-libraries-repair-groups"
@@ -276,7 +272,6 @@ opportunities:
       Strong fit for practical infrastructure. Verify membership rules, borrowing limits, insurance, item availability, and whether group or nonprofit borrowing is allowed.
     last_verified: "2026-06-24"
 
-
   - opportunity_slug: "repair-cafe-sydney-north"
     organization_name: "Repair Café Sydney North"
     category_slug: "makerspaces-tool-libraries-repair-groups"
@@ -293,7 +288,6 @@ opportunities:
     research_notes: >-
       Good repair lead. Verify current schedule, volunteer intake, liability rules, and whether collaboration should occur through Lane Cove, Willoughby, or the repair café directly.
     last_verified: "2026-06-24"
-
 
   - opportunity_slug: "the-sydney-library-of-things"
     organization_name: "The Sydney Library of Things"
@@ -313,7 +307,6 @@ opportunities:
     last_verified: "2026-06-24"
 
   # mutual-aid-groups
-
   - opportunity_slug: "food-not-bombs-sydney"
     organization_name: "Food Not Bombs Sydney"
     category_slug: "mutual-aid-groups"
@@ -329,7 +322,6 @@ opportunities:
     research_notes: >-
       Strong mutual-aid fit. Verify current schedule, volunteer protocols, safety expectations, and whether BWB participation would be welcome without changing the group’s autonomous culture.
     last_verified: "2026-06-24"
-
 
   - opportunity_slug: "addison-road-community-organisation"
     organization_name: "Addison Road Community Organisation"
@@ -349,7 +341,6 @@ opportunities:
     last_verified: "2026-06-24"
 
   # nonprofits-cbos
-
   - opportunity_slug: "newtown-neighbourhood-centre"
     organization_name: "Newtown Neighbourhood Centre"
     category_slug: "nonprofits-cbos"
@@ -366,7 +357,6 @@ opportunities:
     research_notes: >-
       Strong neighborhood CBO lead. Verify current programs, service boundaries, and whether external volunteer or event collaboration is appropriate.
     last_verified: "2026-06-24"
-
 
   - opportunity_slug: "surry-hills-neighbourhood-centre"
     organization_name: "Surry Hills Neighbourhood Centre"
@@ -385,7 +375,6 @@ opportunities:
     last_verified: "2026-06-24"
 
   # residents-neighborhood-leaders
-
   - opportunity_slug: "alexandria-residents-action-group"
     organization_name: "Alexandria Residents' Action Group"
     category_slug: "residents-neighborhood-leaders"
@@ -402,7 +391,6 @@ opportunities:
     research_notes: >-
       Resident groups are valuable but not fully representative of all residents. Pair any outreach with renters, youth, public-housing tenants, First Nations, migrant, and service-provider perspectives where relevant.
     last_verified: "2026-06-24"
-
 
   - opportunity_slug: "darlinghurst-resident-action-group"
     organization_name: "Darlinghurst Resident Action Group"
@@ -422,7 +410,6 @@ opportunities:
     last_verified: "2026-06-24"
 
   # schools-libraries-community-centers
-
   - opportunity_slug: "city-of-sydney-library-ideas-lab"
     organization_name: "City of Sydney Library"
     category_slug: "schools-libraries-community-centers"
@@ -441,175 +428,152 @@ opportunities:
       Strong public-program and facilities lead. Verify booking rules, program proposal process, equipment access, staff supervision requirements, and whether BWB needs an auspice or insurance.
     last_verified: "2026-06-24"
 
+  - opportunity_slug: "western-sydney-university-community-engagement"
+    organization_name: "Western Sydney University"
+    category_slug: "schools-libraries-community-centers"
+    status: "research-lead"
+    website: "https://www.westernsydney.edu.au/"
+    why_it_may_fit: >-
+      Western Sydney University has community engagement and service-learning pathways that connect students with local organizations and projects. It could support BWB Sydney projects through service-learning volunteers, research support, evaluation, design assistance, or Western Sydney community connections.
+    possible_collaboration_shapes:
+      - "Develop a service-learning project where students support community needs mapping, event evaluation, or resilience resource design."
+      - "Partner with a course, student group, or community-engagement office on a practical local project with defined deliverables."
+    source_urls:
+      - "https://www.westernsydney.edu.au/future/study/courses/the-academy/community-engagement-and-service-learning"
+      - "https://www.westernsydney.edu.au/"
+    research_notes: >-
+      Good education partner, especially if BWB Sydney wants Greater Western Sydney reach. Verify current service-learning contacts, semester timing, supervision expectations, and whether BWB has a nonprofit auspice suitable for student placements.
+    last_verified: "2026-06-24"
+```
 
-    - opportunity_slug: "western-sydney-university-community-engagement"
-      organization_name: "Western Sydney University"
-      category_slug: "schools-libraries-community-centers"
-      status: "research-lead"
-      website: "https://www.westernsydney.edu.au/"
-      why_it_may_fit: >-
-        Western Sydney University has community engagement and service-learning pathways that connect students with local organizations and projects. It could support BWB Sydney projects through service-learning volunteers, research support, evaluation, design assistance, or Western Sydney community connections.
-      possible_collaboration_shapes:
-        - "Develop a service-learning project where students support community needs mapping, event evaluation, or resilience resource design."
-        - "Partner with a course, student group, or community-engagement office on a practical local project with defined deliverables."
-      source_urls:
-        - "https://www.westernsydney.edu.au/future/study/courses/the-academy/community-engagement-and-service-learning"
-        - "https://www.westernsydney.edu.au/"
-      research_notes: >-
-        Good education partner, especially if BWB Sydney wants Greater Western Sydney reach. Verify current service-learning contacts, semester timing, supervision expectations, and whether BWB has a nonprofit auspice suitable for student placements.
-      last_verified: "2026-06-24"
-  ```
+```yaml
+no_good_leads_found: []
+```
 
-  ```yaml
-  no_good_leads_found: []
-  ```
+```yaml
+follow_up_questions:
+  - "Should BWB Sydney prioritize City of Sydney proper, Greater Sydney, Western Sydney, or all of NSW for this chapter page?"
+  - "Does the chapter have an incorporated entity, fiscal sponsor, insurance, or an Australian nonprofit partner that can receive grants and sign venue agreements?"
+  - "Which first collaboration lane is most realistic for Sydney: food relief, repair/reuse, public art, climate resilience, preparedness, or neighborhood listening?"
+  - "Are there existing relationships with Burning Seed, Sydney Burner communities, or Australian BWB contacts that should be checked before cold outreach?"
+  - "Should Aboriginal-led partnerships and cultural protocol review be researched as a separate category before any place-based land, waterway, or public-art project?"
+```
 
-  ```yaml
-  follow_up_questions:
-    - "Should BWB Sydney prioritize City of Sydney proper, Greater Sydney, Western Sydney, or all of NSW for this chapter page?"
-    - "Does the chapter have an incorporated entity, fiscal sponsor, insurance, or an Australian nonprofit partner that can receive grants and sign venue agreements?"
-    - "Which first collaboration lane is most realistic for Sydney: food relief, repair/reuse, public art, climate resilience, preparedness, or neighborhood listening?"
-    - "Are there existing relationships with Burning Seed, Sydney Burner communities, or Australian BWB contacts that should be checked before cold outreach?"
-    - "Should Aboriginal-led partnerships and cultural protocol review be researched as a separate category before any place-based land, waterway, or public-art project?"
-  ```
+```yaml
+source_index:
+  - url: "https://burnerswithoutborders.org/chapters/australia/"
+    supports: "Supplied BWB Australia chapter context and official BWB source URL for this research target."
+  - url: "https://burnerswithoutborders.org/chapters/"
+    supports: "Supplied general BWB chapters directory context."
+  - url: "https://aceinc.org.au/"
+    supports: "Official Arts & Cultural Exchange organizational identity and Western Sydney arts context."
+  - url: "https://aceinc.org.au/about-us/"
+    supports: "ACE mission, community arts approach, and program pillars."
+  - url: "https://atparramatta.com/business/news-resources-case-studies/ace-arts-cultural-exchange"
+    supports: "Local Parramatta profile supporting ACE’s Western Sydney cultural role."
+  - url: "https://www.pact.net.au/"
+    supports: "Official PACT Centre for Emerging Artists information."
+  - url: "https://www.sydney.com/destinations/sydney/inner-sydney/attractions/pact-centre-emerging-artists"
+    supports: "Local profile describing PACT’s workshops, residencies, talks, exhibitions, and performances."
+  - url: "https://www.ozharvest.org/your-local-ozharvest/sydney/"
+    supports: "OzHarvest Sydney local food-rescue footprint, partners, programs, and Sydney-specific activity."
+  - url: "https://www.ozharvest.org/volunteer/"
+    supports: "OzHarvest volunteer pathways."
+  - url: "https://www.ozharvest.org/"
+    supports: "OzHarvest organizational mission and national context."
+  - url: "https://www.billcrews.org/volunteer-ashfield-sydney"
+    supports: "Rev. Bill Crews Foundation Sydney volunteer roles including meals and food parcels."
+  - url: "https://www.billcrews.org/"
+    supports: "Rev. Bill Crews Foundation organizational context."
+  - url: "https://www.greatersydneylandcare.org/aboutus/"
+    supports: "Greater Sydney Landcare mission and regional environmental role."
+  - url: "https://landcare.nsw.gov.au/groups/greater-sydney-landcare-network-inc"
+    supports: "Landcare NSW profile for Greater Sydney Landcare Network."
+  - url: "https://www.greatersydneylandcare.org/volunteer-with-us/"
+    supports: "Greater Sydney Landcare volunteer pathway."
+  - url: "https://landcarensw.org.au/projects/creating-canopies-in-greater-sydney/"
+    supports: "Creating Canopies tree-planting and urban greening project context."
+  - url: "https://www.cooksriver.org.au/"
+    supports: "Cooks River Alliance organizational identity and catchment partnership."
+  - url: "https://haveyoursay.cbcity.nsw.gov.au/cooks-river-catchment-community-survey-what-matters-you"
+    supports: "Cooks River catchment community-engagement and planning context."
+  - url: "https://sydcf.org.au/grants/"
+    supports: "Sydney Community Foundation grant approach and eligibility caveats."
+  - url: "https://sydcf.org.au/announcing-the-winners-of-our-20th-anniversary-for-sydney-forever-grants/"
+    supports: "Sydney Community Foundation grant themes and examples."
+  - url: "https://www.acnc.gov.au/charity/charities/5be574c7-38af-e811-a963-000d3ad244fd"
+    supports: "Australian Charities and Not-for-profits Commission listing for Sydney Community Foundation."
+  - url: "https://www.cityofsydney.nsw.gov.au/community-support-funding/community-services-grants"
+    supports: "City of Sydney community services grants, cash funding, value-in-kind support, and eligibility."
+  - url: "https://unionsnsw.org.au/about-us/"
+    supports: "Unions NSW peak-body role."
+  - url: "https://unionsnsw.org.au/your-rights/worker-health-safety-training/"
+    supports: "Unions NSW workplace health and safety training information."
+  - url: "https://unionsnsw.org.au/your-rights/migrant-workers/"
+    supports: "Unions NSW migrant-worker support and hub context."
+  - url: "https://www.nsw.gov.au/ministerial-releases/operator-for-states-first-migrant-workers-centre-locked"
+    supports: "NSW Government announcement selecting Unions NSW to establish the NSW Migrant Workers Centre."
+  - url: "https://www.nsw.gov.au/ministerial-releases/nsws-first-migrant-workers-centre-set-to-open"
+    supports: "NSW Government details on the centre opening, Sydney CBD base, and statewide outreach."
+  - url: "https://thesocialoutfit.org/"
+    supports: "The Social Outfit official mission and social-enterprise context."
+  - url: "https://ethicalclothingaustralia.org.au/brands/the-social-outfit/"
+    supports: "Ethical Clothing Australia profile noting The Social Outfit’s Sydney Inner West workroom and employment mission."
+  - url: "https://www.threadtogether.org/"
+    supports: "Thread Together clothing redistribution model and mission."
+  - url: "https://au.goodman.com/sustainability/goodman-foundation/goodman-and-thread-together-solving-two-problems-with-one-solution"
+    supports: "Thread Together textile-waste and clothing-insecurity program context."
+  - url: "https://www.cityofsydney.nsw.gov.au/"
+    supports: "City of Sydney official local-government context."
+  - url: "https://www.cityofsydney.nsw.gov.au/governance-decision-making/resilient-sydney"
+    supports: "Resilient Sydney program and strategy context."
+  - url: "https://www.cityofsydney.nsw.gov.au/-/media/corporate/files/focus/governance-decision-making/resilient-city/resilient-strategy-2025.pdf?download=true"
+    supports: "Resilient Sydney 2025-2030 strategy document."
+  - url: "https://www.ses.nsw.gov.au/about-us"
+    supports: "NSW SES role in emergency and severe-weather support."
+  - url: "https://www.ses.nsw.gov.au/volunteer"
+    supports: "NSW SES volunteer roles and preparedness/response context."
+  - url: "https://www.innerwesttoollibrary.com.au/"
+    supports: "Inner West Tool Library mission and community tool-library model."
+  - url: "https://innerwesttoollibrary.myturn.com/"
+    supports: "Inner West Tool Library item catalog and operational context."
+  - url: "https://repaircafesydneynorth.net/"
+    supports: "Repair Café Sydney North schedule and repair initiative identity."
+  - url: "https://www.willoughby.nsw.gov.au/Events/Repair-Cafe"
+    supports: "Council event listing describing Repair Café volunteer repair services."
+  - url: "https://thesydneylibraryofthings.org.au/"
+    supports: "The Sydney Library of Things organizational model."
+  - url: "https://www.northsydney.nsw.gov.au/sustainability/sydney-library-things"
+    supports: "North Sydney Council page describing the Library of Things and available item categories."
+  - url: "https://fnbsydney.org/"
+    supports: "Food Not Bombs Sydney mutual-aid self-description, meal distribution, schedule, and volunteer contact context."
+  - url: "https://addiroad.org.au/"
+    supports: "Addison Road Community Organisation food relief, community, arts, rights, and sustainability context."
+  - url: "https://addiroad.org.au/sustainability-2/"
+    supports: "Addi Road sustainability programs including habitat, composting, and urban ecology work."
+  - url: "https://www.newtowncentre.org/"
+    supports: "Newtown Neighbourhood Centre community hub and service context."
+  - url: "https://www.newtowncentre.org/boarding-houses.html"
+    supports: "Newtown Neighbourhood Centre boarding-house outreach and service geography."
+  - url: "https://shnc.org/"
+    supports: "Surry Hills Neighbourhood Centre mission, programs, and community-centre context."
+  - url: "https://arag.org.au/"
+    supports: "Alexandria Residents' Action Group current website and resident-leader presence."
+  - url: "https://www.drag.sydney/"
+    supports: "Darlinghurst Resident Action Group focus areas and meeting context."
+  - url: "https://www.cityofsydney.nsw.gov.au/community-groups/local-community-resident-groups"
+    supports: "City of Sydney resident and community group directory context."
+  - url: "https://www.cityofsydney.nsw.gov.au/libraries/darling-square-library"
+    supports: "Darling Square Library facilities including Ideas Lab makerspace context."
+  - url: "https://whatson.cityofsydney.nsw.gov.au/programs/city-of-sydney-library"
+    supports: "City of Sydney Library public programming context."
+  - url: "https://www.cityofsydney.nsw.gov.au/talks-courses-workshops/makerspace-workshops-ideas-lab"
+    supports: "Ideas Lab hands-on maker and technology workshop context."
+  - url: "https://www.westernsydney.edu.au/future/study/courses/the-academy/community-engagement-and-service-learning"
+    supports: "Western Sydney University community engagement and service-learning pathway."
+  - url: "https://www.westernsydney.edu.au/"
+    supports: "Western Sydney University institutional context."
+```
 
-  ```yaml
-  source_index:
-    - url: "https://burnerswithoutborders.org/chapters/australia/"
-      supports: "Supplied BWB Australia chapter context and official BWB source URL for this research target."
-    - url: "https://burnerswithoutborders.org/chapters/"
-      supports: "Supplied general BWB chapters directory context."
-    - url: "https://aceinc.org.au/"
-      supports: "Official Arts & Cultural Exchange organizational identity and Western Sydney arts context."
-    - url: "https://aceinc.org.au/about-us/"
-      supports: "ACE mission, community arts approach, and program pillars."
-    - url: "https://atparramatta.com/business/news-resources-case-studies/ace-arts-cultural-exchange"
-      supports: "Local Parramatta profile supporting ACE’s Western Sydney cultural role."
-    - url: "https://www.pact.net.au/"
-      supports: "Official PACT Centre for Emerging Artists information."
-    - url: "https://www.sydney.com/destinations/sydney/inner-sydney/attractions/pact-centre-emerging-artists"
-      supports: "Local profile describing PACT’s workshops, residencies, talks, exhibitions, and performances."
-    - url: "https://www.ozharvest.org/your-local-ozharvest/sydney/"
-      supports: "OzHarvest Sydney local food-rescue footprint, partners, programs, and Sydney-specific activity."
-    - url: "https://www.ozharvest.org/volunteer/"
-      supports: "OzHarvest volunteer pathways."
-    - url: "https://www.ozharvest.org/"
-      supports: "OzHarvest organizational mission and national context."
-    - url: "https://www.billcrews.org/volunteer-ashfield-sydney"
-      supports: "Rev. Bill Crews Foundation Sydney volunteer roles including meals and food parcels."
-    - url: "https://www.billcrews.org/"
-      supports: "Rev. Bill Crews Foundation organizational context."
-    - url: "https://www.greatersydneylandcare.org/aboutus/"
-      supports: "Greater Sydney Landcare mission and regional environmental role."
-    - url: "https://landcare.nsw.gov.au/groups/greater-sydney-landcare-network-inc"
-      supports: "Landcare NSW profile for Greater Sydney Landcare Network."
-    - url: "https://www.greatersydneylandcare.org/volunteer-with-us/"
-      supports: "Greater Sydney Landcare volunteer pathway."
-    - url: "https://landcarensw.org.au/projects/creating-canopies-in-greater-sydney/"
-      supports: "Creating Canopies tree-planting and urban greening project context."
-    - url: "https://www.cooksriver.org.au/"
-      supports: "Cooks River Alliance organizational identity and catchment partnership."
-    - url: "https://haveyoursay.cbcity.nsw.gov.au/cooks-river-catchment-community-survey-what-matters-you"
-      supports: "Cooks River catchment community-engagement and planning context."
-    - url: "https://sydcf.org.au/grants/"
-      supports: "Sydney Community Foundation grant approach and eligibility caveats."
-    - url: "https://sydcf.org.au/announcing-the-winners-of-our-20th-anniversary-for-sydney-forever-grants/"
-      supports: "Sydney Community Foundation grant themes and examples."
-    - url: "https://www.acnc.gov.au/charity/charities/5be574c7-38af-e811-a963-000d3ad244fd"
-      supports: "Australian Charities and Not-for-profits Commission listing for Sydney Community Foundation."
-    - url: "https://www.cityofsydney.nsw.gov.au/community-support-funding/community-services-grants"
-      supports: "City of Sydney community services grants, cash funding, value-in-kind support, and eligibility."
-    - url: "https://unionsnsw.org.au/about-us/"
-      supports: "Unions NSW peak-body role."
-    - url: "https://unionsnsw.org.au/your-rights/worker-health-safety-training/"
-      supports: "Unions NSW workplace health and safety training information."
-    - url: "https://unionsnsw.org.au/your-rights/migrant-workers/"
-      supports: "Unions NSW migrant-worker support and hub context."
-    - url: "https://www.nsw.gov.au/ministerial-releases/operator-for-states-first-migrant-workers-centre-locked"
-      supports: "NSW Government announcement selecting Unions NSW to establish the NSW Migrant Workers Centre."
-    - url: "https://www.nsw.gov.au/ministerial-releases/nsws-first-migrant-workers-centre-set-to-open"
-      supports: "NSW Government details on the centre opening, Sydney CBD base, and statewide outreach."
-    - url: "https://thesocialoutfit.org/"
-      supports: "The Social Outfit official mission and social-enterprise context."
-    - url: "https://ethicalclothingaustralia.org.au/brands/the-social-outfit/"
-      supports: "Ethical Clothing Australia profile noting The Social Outfit’s Sydney Inner West workroom and employment mission."
-    - url: "https://www.threadtogether.org/"
-      supports: "Thread Together clothing redistribution model and mission."
-    - url: "https://au.goodman.com/sustainability/goodman-foundation/goodman-and-thread-together-solving-two-problems-with-one-solution"
-      supports: "Thread Together textile-waste and clothing-insecurity program context."
-    - url: "https://www.cityofsydney.nsw.gov.au/"
-      supports: "City of Sydney official local-government context."
-    - url: "https://www.cityofsydney.nsw.gov.au/governance-decision-making/resilient-sydney"
-      supports: "Resilient Sydney program and strategy context."
-    - url: "https://www.cityofsydney.nsw.gov.au/-/media/corporate/files/focus/governance-decision-making/resilient-city/resilient-strategy-2025.pdf?download=true"
-      supports: "Resilient Sydney 2025-2030 strategy document."
-    - url: "https://www.ses.nsw.gov.au/about-us"
-      supports: "NSW SES role in emergency and severe-weather support."
-    - url: "https://www.ses.nsw.gov.au/volunteer"
-      supports: "NSW SES volunteer roles and preparedness/response context."
-    - url: "https://www.innerwesttoollibrary.com.au/"
-      supports: "Inner West Tool Library mission and community tool-library model."
-    - url: "https://innerwesttoollibrary.myturn.com/"
-      supports: "Inner West Tool Library item catalog and operational context."
-    - url: "https://repaircafesydneynorth.net/"
-      supports: "Repair Café Sydney North schedule and repair initiative identity."
-    - url: "https://www.willoughby.nsw.gov.au/Events/Repair-Cafe"
-      supports: "Council event listing describing Repair Café volunteer repair services."
-    - url: "https://thesydneylibraryofthings.org.au/"
-      supports: "The Sydney Library of Things organizational model."
-    - url: "https://www.northsydney.nsw.gov.au/sustainability/sydney-library-things"
-      supports: "North Sydney Council page describing the Library of Things and available item categories."
-    - url: "https://fnbsydney.org/"
-      supports: "Food Not Bombs Sydney mutual-aid self-description, meal distribution, schedule, and volunteer contact context."
-    - url: "https://addiroad.org.au/"
-      supports: "Addison Road Community Organisation food relief, community, arts, rights, and sustainability context."
-    - url: "https://addiroad.org.au/sustainability-2/"
-      supports: "Addi Road sustainability programs including habitat, composting, and urban ecology work."
-    - url: "https://www.newtowncentre.org/"
-      supports: "Newtown Neighbourhood Centre community hub and service context."
-    - url: "https://www.newtowncentre.org/boarding-houses.html"
-      supports: "Newtown Neighbourhood Centre boarding-house outreach and service geography."
-    - url: "https://shnc.org/"
-      supports: "Surry Hills Neighbourhood Centre mission, programs, and community-centre context."
-    - url: "https://arag.org.au/"
-      supports: "Alexandria Residents' Action Group current website and resident-leader presence."
-    - url: "https://www.drag.sydney/"
-      supports: "Darlinghurst Resident Action Group focus areas and meeting context."
-    - url: "https://www.cityofsydney.nsw.gov.au/community-groups/local-community-resident-groups"
-      supports: "City of Sydney resident and community group directory context."
-    - url: "https://www.cityofsydney.nsw.gov.au/libraries/darling-square-library"
-      supports: "Darling Square Library facilities including Ideas Lab makerspace context."
-    - url: "https://whatson.cityofsydney.nsw.gov.au/programs/city-of-sydney-library"
-      supports: "City of Sydney Library public programming context."
-    - url: "https://www.cityofsydney.nsw.gov.au/talks-courses-workshops/makerspace-workshops-ideas-lab"
-      supports: "Ideas Lab hands-on maker and technology workshop context."
-    - url: "https://www.westernsydney.edu.au/future/study/courses/the-academy/community-engagement-and-service-learning"
-      supports: "Western Sydney University community engagement and service-learning pathway."
-    - url: "https://www.westernsydney.edu.au/"
-      supports: "Western Sydney University institutional context."
-  ```
+[1]: https://www.ozharvest.org/your-local-ozharvest/sydney/?utm_source=chatgpt.com "OzHarvest Sydney | Find Out More About the ..."
 
-  [1]: https://www.ozharvest.org/your-local-ozharvest/sydney/?utm_source=chatgpt.com "OzHarvest Sydney | Find Out More About the ..."
-
-sources:
-  - "https://burnerswithoutborders.org/chapters/australia/"
-  - "https://burnerswithoutborders.org/chapters/"
----
-
-## Local Context
-
-Add notes about the Sydney community, local priorities, existing relationships, and regional context.
-
-## Collaboration Priorities
-
-Add the kinds of collaboration opportunities that may fit this chapter.
-
-## Research Notes
-
-Add verification notes, source caveats, and follow-up research tasks.
-
-## Open Questions
-
-- What local organizations should be prioritized first?
-- Which opportunities are already connected to this chapter?
-- What recent chapter activity should be reflected here?

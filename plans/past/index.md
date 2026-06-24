@@ -2,6 +2,7 @@
 
 Format: `last_modified | path | title | summary`
 
+2026-06-24-13-06-26 | plans/past/2026-06-24-10-25-00_evidence-localization-archive.md | Evidence Localization Archive | Add an evidence archive workflow that localizes source URLs once, records reusable citation metadata, and lets future validation use local evidence notes before re-fetching websites.
 2026-06-24-09-39-13 | plans/past/2026-06-24-09-36-31_research-integration-validation-governance.md | Research Integration Validation Governance | Require source-level validation before regular or deep research findings can become chapter opportunities.
 2026-06-24-08-49-07 | plans/past/2026-06-24-08-47-40_category-generated-opportunity-lists.md | Category Generated Opportunity Lists | Clarify category pages by adding a generated opportunity-list explanation and rendering all matching chapter opportunities as category examples.
 2026-06-24-08-46-33 | plans/past/2026-06-24-08-36-17_integrate-completed-deep-research.md | Integrate Completed Deep Research | Update integration governance to require commits after each report, commit the SF integration, then integrate and commit Reno, Fly Ranch, and South Bay one at a time.

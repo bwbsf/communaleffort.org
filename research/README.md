@@ -34,7 +34,13 @@ It writes one prompt artifact only for chapters with prompt-generating targets. 
 
 ## Integrate Results
 
-Use `playbooks/how_to_integrate_deep_research_results.md` before copying completed report findings into a chapter page. Integration must independently verify that each opportunity exists, is active or recently operational, is accurately described, has local relevance, fits the proposed category, and is an appropriate potential collaboration for the chapter. Opportunities that cannot pass validation must not be imported; the agent should explain the failed checks to the user and leave the target unintegrated or mark it for rerun. Integration should preserve `source_urls`, remove Deep Research citation blobs, update `research/status.yml` so completed work is not regenerated, and move the fully integrated report from `research/completed/` to `research/archive/`.
+Use `playbooks/how_to_integrate_deep_research_results.md` before copying completed report findings into a chapter page. Integration must independently verify that each opportunity exists, is active or recently operational, is accurately described, has local relevance, fits the proposed category, and is an appropriate potential collaboration for the chapter. Opportunities that cannot pass validation must not be imported; the agent should explain the failed checks to the user and leave the target unintegrated or mark it for rerun. Integration should preserve `source_urls`, remove Deep Research citation blobs, localize source evidence with `scripts/localize_evidence.py`, update `research/status.yml` so completed work is not regenerated, and move the fully integrated report from `research/completed/` to `research/archive/`.
+
+## Localize Evidence
+
+Use `scripts/localize_evidence.py` to copy source URLs into the local `evidence/` archive before validation. The script saves ignored raw captures under `evidence/raw/`, writes committed Markdown evidence notes under `evidence/notes/`, updates `evidence/index.yml`, and writes ignored pass reports under `evidence/reports/`.
+
+Future agents should inspect existing evidence notes before fetching sources again. Re-run localization with `--refresh` only when local evidence is missing, stale, incomplete, or disputed.
 
 ## Reset Results
 
