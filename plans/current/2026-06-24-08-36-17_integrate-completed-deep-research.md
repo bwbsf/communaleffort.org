@@ -16,12 +16,12 @@ Key: `[ ]` pending task, `[x]` completed task, `[?]` needs validation, `[-]` clo
 - [x] 2. Commit already-completed SF integration.
   - [x] 2.1 Verify SF chapter opportunities and archive state.
   - [x] 2.2 Commit SF integration and playbook governance update.
-- [ ] 3. Integrate Reno report.
-  - [ ] 3.1 Import Reno opportunities into `chapters/north-america/reno/index.md`.
-  - [ ] 3.2 Move Reno report to `research/archive/`.
-  - [ ] 3.3 Mark Reno targets integrated in `research/status.yml`.
-  - [ ] 3.4 Verify prompt generation and chapter YAML.
-  - [ ] 3.5 Commit Reno integration.
+- [x] 3. Integrate Reno report.
+  - [x] 3.1 Import Reno opportunities into `chapters/north-america/reno/index.md`.
+  - [x] 3.2 Move Reno report to `research/archive/`.
+  - [x] 3.3 Mark Reno targets integrated in `research/status.yml`.
+  - [x] 3.4 Verify prompt generation and chapter YAML.
+  - [x] 3.5 Commit Reno integration.
 - [ ] 4. Integrate Fly Ranch report.
   - [ ] 4.1 Import Fly Ranch opportunities into `chapters/north-america/fly-ranch/index.md`.
   - [ ] 4.2 Move Fly Ranch report to `research/archive/`.

@@ -87,88 +87,88 @@ targets:
     notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
   - chapter_slug: reno
     category_slug: arts-culture-organizations
-    status: completed
-    completed_report: research/completed/deep-research-report-reno.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-reno.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/reno/index.md; archived report preserved for audit."
   - chapter_slug: reno
     category_slug: direct-service-providers
-    status: completed
-    completed_report: research/completed/deep-research-report-reno.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-reno.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/reno/index.md; archived report preserved for audit."
   - chapter_slug: reno
     category_slug: environmental-resilience-organizations
-    status: completed
-    completed_report: research/completed/deep-research-report-reno.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-reno.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/reno/index.md; archived report preserved for audit."
   - chapter_slug: reno
     category_slug: funders-fiscal-sponsors
-    status: completed
-    completed_report: research/completed/deep-research-report-reno.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-reno.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/reno/index.md; archived report preserved for audit."
   - chapter_slug: reno
     category_slug: labor-unions-worker-centers
-    status: completed
-    completed_report: research/completed/deep-research-report-reno.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-reno.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/reno/index.md; archived report preserved for audit."
   - chapter_slug: reno
     category_slug: local-businesses-social-enterprises
-    status: completed
-    completed_report: research/completed/deep-research-report-reno.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-reno.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/reno/index.md; archived report preserved for audit."
   - chapter_slug: reno
     category_slug: local-government-public-agencies
-    status: completed
-    completed_report: research/completed/deep-research-report-reno.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-reno.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/reno/index.md; archived report preserved for audit."
   - chapter_slug: reno
     category_slug: makerspaces-tool-libraries-repair-groups
-    status: completed
-    completed_report: research/completed/deep-research-report-reno.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-reno.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/reno/index.md; archived report preserved for audit."
   - chapter_slug: reno
     category_slug: mutual-aid-groups
-    status: completed
-    completed_report: research/completed/deep-research-report-reno.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-reno.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/reno/index.md; archived report preserved for audit."
   - chapter_slug: reno
     category_slug: nonprofits-cbos
-    status: completed
-    completed_report: research/completed/deep-research-report-reno.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-reno.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/reno/index.md; archived report preserved for audit."
   - chapter_slug: reno
     category_slug: residents-neighborhood-leaders
-    status: completed
-    completed_report: research/completed/deep-research-report-reno.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-reno.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/reno/index.md; archived report preserved for audit."
   - chapter_slug: reno
     category_slug: schools-libraries-community-centers
-    status: completed
-    completed_report: research/completed/deep-research-report-reno.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-reno.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/reno/index.md; archived report preserved for audit."
   - chapter_slug: sf-bay-area
     category_slug: arts-culture-organizations
     status: integrated
