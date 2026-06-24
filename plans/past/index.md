@@ -2,6 +2,7 @@
 
 Format: `last_modified | path | title | summary`
 
+2026-06-23-17-03-56 | plans/past/2026-06-23-17-03-35_fix-github-pages-liquid-build.md | Fix GitHub Pages Liquid Build | Replace GitHub Pages-incompatible compound Liquid `where_exp` filters with page/post loops that render the same chapter, category, opportunity, and related-post lists.
 2026-06-23-16-58-32 | plans/past/2026-06-23-16-32-44_canonical-chapter-pages.md | Canonical Chapter and Opportunity Pages | Move chapter metadata into canonical per-chapter pages and model collaboration opportunities as first-class regional pages that can appear on chapter, category, and post indexes.
 2026-06-23-12-50-57 | plans/past/2026-06-23-12-48-13_update-website-taxonomy-standard.md | Update Website Taxonomy Standard | Revise the queued website hierarchy plan and agent guidance to use a continent-to-metro/region taxonomy instead of jurisdiction-first paths.
 2026-06-23-16-51-40 | plans/past/2026-06-23-12-41-07_website-hierarchy-and-content-taxonomy.md | Website Hierarchy and Content Taxonomy | Build a GitHub Pages/Jekyll site hierarchy where README.md remains the homepage and normal GitHub README while metro/region-first chapter pages, collaborator data, and collaboration posts scale cleanly.

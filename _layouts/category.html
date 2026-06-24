@@ -18,7 +18,6 @@ layout: default
     {{ content }}
 
     <h2>Matching Opportunities</h2>
-    {% assign category_opportunities = site.pages | where_exp: "opportunity", "opportunity.layout == 'opportunity' and opportunity.category_slug == page.category_slug" | sort: "title" %}
-    {% include opportunity-list.html opportunities=category_opportunities empty_message="No opportunity pages have been added for this category yet." %}
+    {% include opportunity-list.html category_slug=page.category_slug empty_message="No opportunity pages have been added for this category yet." %}
   </div>
 </article>
