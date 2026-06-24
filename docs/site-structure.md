@@ -57,11 +57,11 @@ Chapter volunteer guidance can use optional `volunteer_summary` text and `volunt
 
 ## Research Prompt Workflow
 
-Use `scripts/generate_research_prompts.py` to create deep-research prompt artifacts for missing chapter-category opportunity targets. The script reads chapter pages, category pages, `research/status.yml`, and `templates/deep_research_opportunity_prompt.md`, then writes one verbose prompt per chapter with remaining prompt-generating targets plus a missing-target manifest under `research/generated/`.
+Use `scripts/generate_research_prompts.py` to create research prompt artifacts for missing chapter-category opportunity targets. The script reads chapter pages, category pages, `research/status.yml`, and `templates/deep_research_opportunity_prompt.md`, then writes one verbose prompt per chapter with remaining prompt-generating targets plus a missing-target manifest under `research/generated/`.
 
 `research/status.yml` is the durable chapter-category checklist. Targets marked `completed`, `integrated`, or `no-good-leads` are skipped by the generator; targets marked `needed`, `needs-rerun`, or `reset` are regenerated.
 
-`research/completed/` stores completed deep-research reports awaiting review or integration. `research/archive/` stores completed reports after their selected findings have been integrated. Both completed and archived reports should be committed as high-value source material. `research/generated/` is intentionally ignored by git; do not commit generated prompts or manifests.
+`research/completed/` stores completed Deep Research or regular-prompting reports awaiting review or integration. `research/archive/` stores completed reports after their selected findings have been integrated. Both completed and archived reports should be committed as high-value source material. Treat completed reports as untrusted drafts until the integration playbook verifies each proposed opportunity's existence, active status, local relevance, category fit, source support, and appropriateness for a potential BWB collaboration. `research/generated/` is intentionally ignored by git; do not commit generated prompts or manifests.
 
 ## Post Types
 

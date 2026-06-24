@@ -1,15 +1,15 @@
 # Research Prompt Workflow
 
-This directory preserves source research and tracks which chapter-category opportunity targets still need deep research.
+This directory preserves source research and tracks which chapter-category opportunity targets still need research.
 
 ## Tracked Files
 
 - `research/status.yml` is the durable checklist for chapter-category research targets.
-- `research/completed/` stores completed deep-research reports that are ready for review or integration and should be committed.
+- `research/completed/` stores completed Deep Research or regular-prompting reports that are ready for review or integration and should be committed.
 - `research/archive/` stores completed reports after their selected findings have been integrated and should be committed.
 - `research/generated/` stores disposable generated prompt artifacts and is ignored by git.
 
-Completed and archived reports are high-value source material. Move completed reports to `research/archive/` after integration, but do not delete them; they preserve source context, caveats, and audit history.
+Completed and archived reports are high-value source material, but they are not self-validating. Treat every report as an untrusted draft until each proposed opportunity is checked against durable public sources. Move completed reports to `research/archive/` after integration, but do not delete them; they preserve source context, caveats, and audit history.
 
 ## Generate Prompts
 
@@ -34,7 +34,7 @@ It writes one prompt artifact only for chapters with prompt-generating targets. 
 
 ## Integrate Results
 
-Use `playbooks/how_to_integrate_deep_research_results.md` before copying completed report findings into a chapter page. Integration should preserve `source_urls`, remove Deep Research citation blobs, update `research/status.yml` so completed work is not regenerated, and move the fully integrated report from `research/completed/` to `research/archive/`.
+Use `playbooks/how_to_integrate_deep_research_results.md` before copying completed report findings into a chapter page. Integration must independently verify that each opportunity exists, is active or recently operational, is accurately described, has local relevance, fits the proposed category, and is an appropriate potential collaboration for the chapter. Opportunities that cannot pass validation must not be imported; the agent should explain the failed checks to the user and leave the target unintegrated or mark it for rerun. Integration should preserve `source_urls`, remove Deep Research citation blobs, update `research/status.yml` so completed work is not regenerated, and move the fully integrated report from `research/completed/` to `research/archive/`.
 
 ## Reset Results
 

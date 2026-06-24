@@ -2,6 +2,7 @@
 
 Format: `last_modified | path | title | summary`
 
+2026-06-24-09-39-13 | plans/past/2026-06-24-09-36-31_research-integration-validation-governance.md | Research Integration Validation Governance | Require source-level validation before regular or deep research findings can become chapter opportunities.
 2026-06-24-08-49-07 | plans/past/2026-06-24-08-47-40_category-generated-opportunity-lists.md | Category Generated Opportunity Lists | Clarify category pages by adding a generated opportunity-list explanation and rendering all matching chapter opportunities as category examples.
 2026-06-24-08-46-33 | plans/past/2026-06-24-08-36-17_integrate-completed-deep-research.md | Integrate Completed Deep Research | Update integration governance to require commits after each report, commit the SF integration, then integrate and commit Reno, Fly Ranch, and South Bay one at a time.
 2026-06-24-08-33-13 | plans/past/2026-06-24-08-28-15_integrate-sf-deep-research.md | Integrate SF Deep Research | Integrate the completed SF Bay Area deep-research report into the BWB SF chapter opportunities, update research status, archive the report, and verify prompt generation skips integrated targets.
