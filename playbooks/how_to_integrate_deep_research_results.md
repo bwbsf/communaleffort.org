@@ -61,14 +61,20 @@ Safely preserve completed deep-research reports, convert selected findings into 
    * Confirm generated prompt artifacts remain under ignored `research/generated/`.
    * Review `research/generated/missing-research-targets.json` for expected counts.
 
-8. **Reset all opportunities for a chapter if results are wrong**
+8. **Commit before the next report**
+   * After verification passes for one completed report, commit that report's integration before starting another report.
+   * Use a task-scoped commit message naming the chapter or report, such as `Integrate SF deep research opportunities`.
+   * If verification fails or the report has unclear results, stop before committing or starting another report and ask for direction.
+   * Do not batch multiple report integrations into one commit unless the user explicitly requests it.
+
+9. **Reset all opportunities for a chapter if results are wrong**
    * Remove the affected entries from the chapter page's `opportunities` array.
    * In `research/status.yml`, mark every affected target `needs-rerun` or `reset`.
    * Add `notes` explaining why prior results should not be reused blindly.
    * Preserve the original completed or archived report for audit/history.
    * Regenerate prompts and confirm only the intended targets return.
 
-9. **Reset one category for a chapter**
+10. **Reset one category for a chapter**
    * Remove only opportunities matching that `category_slug` from the chapter page.
    * Mark only that `chapter_slug` + `category_slug` target as `needs-rerun` or `reset`.
    * Keep unrelated category targets unchanged.
@@ -95,4 +101,4 @@ Prompt -> Select/Create Plan (using relevant playbook guidance) -> Request appro
 If this occurs inside a git repo:
 * Review `git status` and relevant diffs.
 * Suggest a commit message that summarizes the completed checkpoint.
-* Commit after approved checkpoint completion.
+* Commit after each verified report integration before proceeding to another report.

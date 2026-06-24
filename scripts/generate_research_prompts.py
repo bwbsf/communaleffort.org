@@ -320,10 +320,6 @@ def generate(args: argparse.Namespace) -> None:
 
         for category in categories:
             status_record = research_statuses.get((chapter.slug, category.slug))
-            if category.slug in chapter.existing_category_slugs:
-                covered_by_chapter.append(category.slug)
-                status_summary["covered-by-chapter"] += 1
-                continue
             if status_record and status_record.status in STATUS_SKIP_VALUES:
                 skipped_by_status.setdefault(status_record.status, []).append(category.slug)
                 status_summary[status_record.status] += 1
@@ -332,6 +328,10 @@ def generate(args: argparse.Namespace) -> None:
                 prompt_by_status.setdefault(status_record.status, []).append(category.slug)
                 status_summary[status_record.status] += 1
                 missing_categories.append(category)
+                continue
+            if category.slug in chapter.existing_category_slugs:
+                covered_by_chapter.append(category.slug)
+                status_summary["covered-by-chapter"] += 1
                 continue
 
             prompt_by_status.setdefault("needed", []).append(category.slug)
