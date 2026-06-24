@@ -1,7 +1,8 @@
+{% assign category_pages = site.pages | where: "layout", "category" | sort: "title" %}
 <div class="category-grid">
-  {% for category in site.data.collaboration_categories %}
+  {% for category in category_pages %}
   <article class="card">
-    <h2>{{ category.name }}</h2>
+    <h2><a href="{{ category.url | relative_url }}">{{ category.title }}</a></h2>
     <p>{{ category.description }}</p>
     {% if category.examples %}
     <p class="meta-row">Examples: {{ category.examples | join: ", " }}</p>

@@ -30,22 +30,25 @@ Country, state, and province labels are metadata only. They should not become de
 
 - `_layouts/`: Shared page, post, chapter, and README-home wrappers.
 - `_includes/`: Reusable navigation, cards, lists, and post summaries.
-- `_data/`: YAML data for places, chapters, collaborator categories, and chapter collaborators.
-- `chapters/`: Public chapter and collaborator pages.
+- `_data/`: Shared support data when a content type does not need its own page collection.
+- `chapters/`: Canonical chapter profile pages.
+- `opportunities/`: Canonical collaboration opportunity pages.
 - `updates/`: Public update index.
 - `_posts/`: Dated updates grouped by type.
 - `assets/css/`: Site styles.
 
 ## Data Files
 
-- `_data/collaboration_categories.yml`: Shared collaboration category definitions.
 - `_data/places.yml`: Continents and metro/region place metadata.
-- `_data/chapters.yml`: Chapter metadata.
-- `_data/collaborators/{chapter-slug}.yml`: Potential collaborator records for one chapter.
+- `chapters/{continent}/{metro-or-region}/index.md`: Canonical chapter metadata and editable chapter notes.
+- `opportunities/{continent}/{metro-or-region}/{opportunity-slug}/index.md`: Canonical opportunity metadata and editable opportunity notes.
+- `categories/{category-slug}/index.md`: Canonical collaboration category metadata and category notes.
 
-Chapter `status` values should use `active`, `dormant`, or `unknown`. Use `unknown` when a source confirms the chapter exists but does not expose a reliable per-chapter active/dormant value. Chapter cards may link to a local `page_url` or to an external `official_url` while local chapter pages are still being built.
+Chapter `status` values should use `active`, `dormant`, or `unknown`. Use `unknown` when a source confirms the chapter exists but does not expose a reliable per-chapter active/dormant value. Chapter directory links should point to local chapter pages; external BWB pages and social links are supporting profile links only.
 
 Chapter contact fields include `contact_names`, `phone_numbers`, `email_addresses`, `external_websites`, and `social_media`. Copy only values visible on the matching official chapter page or another listed source, and leave empty arrays when that contact type is not published.
+
+Opportunity pages use the same continent-to-metro/region spine as chapter pages, but they live under `opportunities/` so they remain first-class records rather than chapter-owned subpages. Link opportunities to chapters with `chapter_slugs`, to categories with `category_slug`, and to posts with `opportunity_slug` or `opportunity_slugs`.
 
 ## Post Types
 
@@ -67,7 +70,7 @@ Required fields:
 - `categories`
 - `summary`
 
-Use `chapter_slug` when a post relates to a chapter. Use `collaboration_categories` when a post relates to partner categories.
+Use `chapter_slug` when a post relates to one chapter and `chapter_slugs` when it relates to multiple chapters. Use `opportunity_slug` or `opportunity_slugs` when a post relates to specific opportunity pages. Use `category_slug` when a post primarily concerns one collaboration category, and `collaboration_categories` when it spans multiple categories.
 
 Optional fields:
 

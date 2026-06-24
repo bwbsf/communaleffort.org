@@ -1,0 +1,21 @@
+{% assign opportunity_slug = include.opportunity_slug %}
+{% assign single_opportunity_posts = site.posts | where: "opportunity_slug", opportunity_slug %}
+{% assign multi_opportunity_posts = site.posts | where_exp: "post", "post.opportunity_slugs contains opportunity_slug" %}
+{% assign related_posts = single_opportunity_posts | concat: multi_opportunity_posts | uniq | sort: "date" | reverse %}
+
+<section class="profile-section">
+  <h2>Related Posts</h2>
+  {% if related_posts and related_posts.size > 0 %}
+  <ul class="post-list">
+    {% for post in related_posts %}
+    <li>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p class="meta-row">{{ post.date | date: "%B %-d, %Y" }}{% if post.categories %} | {{ post.categories | join: ", " }}{% endif %}</p>
+      {% if post.summary %}<p>{{ post.summary }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>No related posts have been added yet.</p>
+  {% endif %}
+</section>

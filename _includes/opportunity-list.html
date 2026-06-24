@@ -1,0 +1,20 @@
+{% assign opportunities = include.opportunities %}
+{% if opportunities and opportunities.size > 0 %}
+<ul class="opportunity-list">
+  {% for opportunity in opportunities %}
+  <li class="opportunity-list-item">
+    <h3><a href="{{ opportunity.url | relative_url }}">{{ opportunity.title }}</a></h3>
+    {% if opportunity.description %}
+    <p>{{ opportunity.description }}</p>
+    {% endif %}
+    <p class="opportunity-meta">
+      {% if opportunity.status %}Status: {{ opportunity.status }}{% endif %}
+      {% if opportunity.category_slug %}{% if opportunity.status %} | {% endif %}Category: <a href="{{ '/categories/' | append: opportunity.category_slug | append: '/' | relative_url }}">{{ opportunity.category_slug }}</a>{% endif %}
+      {% if opportunity.metro_or_region %} | Region: {{ opportunity.metro_or_region }}{% endif %}
+    </p>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>{{ include.empty_message | default: "No opportunity pages have been added yet." }}</p>
+{% endif %}

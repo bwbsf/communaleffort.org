@@ -1,0 +1,59 @@
+{% assign chapter = include.chapter %}
+
+<section class="profile-section">
+  <h2>Chapter Snapshot</h2>
+  <dl class="profile-list">
+    {% if chapter.status %}<dt>Status</dt><dd>{{ chapter.status }}</dd>{% endif %}
+    {% if chapter.city_or_area %}<dt>Metro / Region</dt><dd>{{ chapter.city_or_area }}</dd>{% endif %}
+    {% if chapter.country %}<dt>Country</dt><dd>{{ chapter.country }}</dd>{% endif %}
+    {% if chapter.state_or_province %}<dt>State / Province</dt><dd>{{ chapter.state_or_province }}</dd>{% endif %}
+  </dl>
+  {% if chapter.status_note %}
+  <p class="meta-row">{{ chapter.status_note }}</p>
+  {% endif %}
+</section>
+
+<section class="profile-section">
+  <h2>Contact and Links</h2>
+  {% if chapter.contact_names and chapter.contact_names.size > 0 %}
+  <p><strong>Contacts:</strong> {{ chapter.contact_names | join: ", " }}</p>
+  {% endif %}
+  {% if chapter.email_addresses and chapter.email_addresses.size > 0 %}
+  <p><strong>Email:</strong>
+    {% for email in chapter.email_addresses %}
+    <a href="mailto:{{ email }}">{{ email }}</a>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </p>
+  {% endif %}
+  {% if chapter.phone_numbers and chapter.phone_numbers.size > 0 %}
+  <p><strong>Phone:</strong> {{ chapter.phone_numbers | join: ", " }}</p>
+  {% endif %}
+  {% if chapter.official_url %}
+  <p><strong>Official BWB page:</strong> <a href="{{ chapter.official_url }}">{{ chapter.official_url }}</a></p>
+  {% endif %}
+  {% if chapter.external_websites and chapter.external_websites.size > 0 %}
+  <p><strong>External websites:</strong>
+    {% for website in chapter.external_websites %}
+    <a href="{{ website.url }}">{{ website.label | default: website.url }}</a>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </p>
+  {% endif %}
+  {% if chapter.social_media and chapter.social_media.size > 0 %}
+  <p><strong>Social media:</strong>
+    {% for social in chapter.social_media %}
+    <a href="{{ social.url }}">{{ social.platform | default: social.url }}</a>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </p>
+  {% endif %}
+</section>
+
+{% if chapter.sources and chapter.sources.size > 0 %}
+<section class="profile-section">
+  <h2>Sources</h2>
+  <ul>
+    {% for source in chapter.sources %}
+    <li><a href="{{ source }}">{{ source }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

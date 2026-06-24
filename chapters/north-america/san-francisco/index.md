@@ -1,35 +1,60 @@
 ---
 layout: chapter
-title: San Francisco Bay Area
-description: Initial chapter page for BWB SF Bay Area and its local collaboration mapping.
+title: BWB SF Bay Area
+description: "BWB SF Bay Area chapter profile, contacts, collaboration opportunities, and related updates."
 permalink: /chapters/north-america/san-francisco/
 chapter_slug: sf-bay-area
+continent_name: North America
+status: active
+continent: north-america
+metro_or_region: san-francisco
+country: United States
+state_or_province: California
+city_or_area: San Francisco Bay Area
+latitude:
+longitude:
+official_url: "https://burnerswithoutborders.org/chapters/san-francisco-bay-area/"
+contact_url:
+social_media:
+  - platform: facebook
+    url: "https://www.facebook.com/groups/2026667817560697/"
+external_websites:
+  - label: BWB SF Bay Area
+    url: "https://bwbsf.org/"
+email_addresses:
+  - cj@cjtrowbridge.com
+phone_numbers: []
+contact_names:
+  - CJ
+contact_note: Use the chapter's public website for current contact options.
+focus_areas:
+  - mutual aid
+  - community development
+  - disaster preparation
+  - disaster response
+  - mesh networks
+recent_projects: []
+known_collaborators: []
+sources:
+  - "https://burnerswithoutborders.org/chapters/san-francisco-bay-area/"
+  - "https://bwbsf.org/"
+  - "https://burnerswithoutborders.org/chapters/"
 ---
 
-{% assign chapter = site.data.chapters | where: "slug", page.chapter_slug | first %}
+## Local Context
 
-{% if chapter %}
-## Chapter Snapshot
+Add notes about the San Francisco Bay Area community, local priorities, existing relationships, and regional context.
 
-- **Chapter:** {{ chapter.name }}
-- **Status:** {{ chapter.status }}
-- **Metro / Region:** {{ chapter.city_or_area }}
-- **Public site:** [{{ chapter.official_url }}]({{ chapter.official_url }})
+## Collaboration Priorities
 
-{% if chapter.focus_areas %}
-## Focus Areas
+Add the kinds of collaboration opportunities that may fit this chapter.
 
-{% for area in chapter.focus_areas %}
-- {{ area }}
-{% endfor %}
-{% endif %}
+## Research Notes
 
-## Collaborator Inventory
+Add verification notes, source caveats, and follow-up research tasks.
 
-This page is the chapter profile. The local collaborator list lives on the companion page:
+## Open Questions
 
-- [San Francisco Bay Area collaborators](collaborators/)
-
-{% else %}
-Chapter data has not been added yet.
-{% endif %}
+- What local organizations should be prioritized first?
+- Which opportunities are already connected to this chapter?
+- What recent chapter activity should be reflected here?

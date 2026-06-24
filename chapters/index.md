@@ -8,17 +8,33 @@ This directory uses a **continent → metro/region** structure rather than a cou
 
 ## Continents
 
-- [North America](north-america/)
+{% assign chapter_pages = site.pages | where: "layout", "chapter" | sort: "metro_or_region" %}
+{% assign chapter_groups = chapter_pages | group_by: "continent_name" | sort: "name" %}
 
-## Initial Chapter Records
-
-{% assign chapters = site.data.chapters %}
-{% if chapters and chapters.size > 0 %}
-<div class="grid-cards">
-{% for chapter in chapters %}
-  {% include chapter-card.html chapter=chapter %}
+{% if chapter_groups and chapter_groups.size > 0 %}
+<ul class="inline-list">
+{% for group in chapter_groups %}
+  <li><a href="#{{ group.name | slugify }}">{{ group.name }}</a></li>
 {% endfor %}
-</div>
+</ul>
 {% else %}
 No chapter records have been added yet.
+{% endif %}
+
+## Chapter Records
+
+{% if chapter_groups and chapter_groups.size > 0 %}
+<div class="chapter-directory">
+{% for group in chapter_groups %}
+  <section class="chapter-continent-group" id="{{ group.name | slugify }}">
+    <h2>{{ group.name }}</h2>
+    {% assign group_chapters = group.items | sort: "metro_or_region" %}
+    <ul class="chapter-list">
+    {% for chapter in group_chapters %}
+      {% include chapter-card.html chapter=chapter %}
+    {% endfor %}
+    </ul>
+  </section>
+{% endfor %}
+</div>
 {% endif %}

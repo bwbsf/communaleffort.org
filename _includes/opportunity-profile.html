@@ -1,0 +1,36 @@
+{% assign opportunity = include.opportunity %}
+
+<section class="profile-section">
+  <h2>Opportunity Snapshot</h2>
+  <dl class="profile-list">
+    {% if opportunity.status %}<dt>Status</dt><dd>{{ opportunity.status }}</dd>{% endif %}
+    {% if opportunity.category_slug %}<dt>Category</dt><dd><a href="{{ '/categories/' | append: opportunity.category_slug | append: '/' | relative_url }}">{{ opportunity.category_slug }}</a></dd>{% endif %}
+    {% if opportunity.geographic_area %}<dt>Geographic Area</dt><dd>{{ opportunity.geographic_area }}</dd>{% endif %}
+    {% if opportunity.website %}<dt>Website</dt><dd><a href="{{ opportunity.website }}">{{ opportunity.website }}</a></dd>{% endif %}
+  </dl>
+</section>
+
+{% if opportunity.chapter_slugs and opportunity.chapter_slugs.size > 0 %}
+<section class="profile-section">
+  <h2>Related Chapters</h2>
+  <ul>
+    {% assign chapter_pages = site.pages | where: "layout", "chapter" %}
+    {% for chapter in chapter_pages %}
+      {% if opportunity.chapter_slugs contains chapter.chapter_slug %}
+      <li><a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if opportunity.source_urls and opportunity.source_urls.size > 0 %}
+<section class="profile-section">
+  <h2>Sources</h2>
+  <ul>
+    {% for source in opportunity.source_urls %}
+    <li><a href="{{ source }}">{{ source }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

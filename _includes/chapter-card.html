@@ -1,19 +1,9 @@
 {% assign chapter = include.chapter %}
-{% assign chapter_href = chapter.page_url %}
-{% if chapter_href == nil or chapter_href == "" %}
-  {% assign chapter_href = chapter.official_url %}
-{% endif %}
-<article class="card">
-  <h2>
-    {% if chapter_href contains "://" %}
-    <a href="{{ chapter_href }}">{{ chapter.name }}</a>
-    {% else %}
-    <a href="{{ chapter_href | relative_url }}">{{ chapter.name }}</a>
-    {% endif %}
-  </h2>
-  <p>{{ chapter.metro_or_region }}{% if chapter.continent %}, {{ chapter.continent }}{% endif %}</p>
+<li class="chapter-list-item">
+  <h3><a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></h3>
+  <p>{{ chapter.city_or_area | default: chapter.metro_or_region }}{% if chapter.continent_name %}, {{ chapter.continent_name }}{% endif %}</p>
   {% if chapter.status %}
-  <p>Status: {{ chapter.status }}</p>
+  <p class="meta-row">Status: {{ chapter.status }}</p>
   {% endif %}
   {% if chapter.focus_areas %}
   <ul class="inline-list">
@@ -22,4 +12,7 @@
     {% endfor %}
   </ul>
   {% endif %}
-</article>
+  {% if chapter.official_url %}
+  <p class="meta-row"><a href="{{ chapter.official_url }}">Official BWB chapter page</a></p>
+  {% endif %}
+</li>

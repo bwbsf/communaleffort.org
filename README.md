@@ -4,7 +4,7 @@ This is a project of [BWB/SF](https://bwbsf.org). This repo renders from the [Gi
 
 ## Project Purpose
 
-Communal Effort is building a practical map of Burners Without Borders chapters and the local organizations they could collaborate with. The goal is to make it easier for chapters to find relevant community partners by region and by type of work.
+Communal Effort is building a practical map of Burners Without Borders chapters and local collaboration opportunities. The goal is to make it easier for chapters to find relevant community partners by region and by type of work.
 
 ## What Burners Without Borders Is
 
@@ -24,7 +24,7 @@ The next major step is to compile a complete list of BWB chapters. Each chapter 
 
 ## Local Partner Lists
 
-For each chapter, the project will build local partner lists by collaboration category. Each potential partner should include its name, website, geographic area, relevant category, reason for fit, and any known relationship to BWB, Burning Man communities, or local civic projects.
+For each chapter, the project will build local opportunity pages by collaboration category. Each opportunity should include its organization name, website, geographic area, relevant category, reason for fit, source links, and any known relationship to BWB, Burning Man communities, or local civic projects.
 
 ## Background Reference
 
@@ -33,6 +33,7 @@ The longer background document lives in [`README.background.md`](README.backgrou
 ## Website Sections
 
 - [Chapters](chapters/) lists chapter research pages using the continent-to-metro/region taxonomy.
+- [Opportunities](opportunities/) lists regional collaboration opportunities connected to chapters and categories.
 - [Collaboration Categories](categories/) defines the partner categories used across chapter inventories.
 - [Updates](updates/) will publish collaboration announcements, chapter updates, research notes, and calls for partners.
 - [Sources](sources/) describes the source standards for chapter and collaborator research.

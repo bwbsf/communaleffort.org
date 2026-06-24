@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="page-frame container">
+  <header class="page-hero">
+    <p class="eyebrow">Collaboration Opportunity</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}
+    <p class="lede">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <div class="page-body">
+    {% include opportunity-profile.html opportunity=page %}
+    {{ content }}
+    {% include related-opportunity-posts.html opportunity_slug=page.opportunity_slug %}
+  </div>
+</article>

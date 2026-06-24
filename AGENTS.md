@@ -25,3 +25,6 @@ Website taxonomy standard:
 - Prefer local identity and chapter usage over government-boundary precision when choosing public URL slugs.
 - This convention is intentional: it better fits a “Without Borders” project than a jurisdiction-first hierarchy.
 - Future plans, page paths, data schemas, navigation, and generated links should preserve this taxonomy unless the user explicitly approves a replacement standard.
+- Chapter pages under `chapters/{continent}/{metro-or-region}/` are canonical chapter records; chapter metadata belongs in page front matter, and editable chapter notes belong in the Markdown body.
+- Collaboration opportunity pages are first-class records under `opportunities/{continent}/{metro-or-region}/{opportunity-slug}/`; they use the same regional spine as chapter pages but do not live under chapter directories.
+- Chapter-name links should point to local chapter pages, and opportunity-name links should point to local opportunity pages. External websites, official BWB pages, and social links are supporting profile links only.

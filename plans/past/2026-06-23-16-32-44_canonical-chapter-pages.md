@@ -1,0 +1,312 @@
+---
+plan_id: 2026-06-23-16-32-44_canonical-chapter-pages
+title: Canonical Chapter and Opportunity Pages
+summary: Move chapter metadata into canonical per-chapter pages and model collaboration opportunities as first-class regional pages that can appear on chapter, category, and post indexes.
+status: past
+created_at: 2026-06-23-16-32-44
+---
+
+# Canonical Chapter and Opportunity Pages
+
+Key: `[ ]` pending task, `[x]` completed task, `[?]` needs validation, `[-]` closed task
+
+- [x] 1. Confirm migration assumptions.
+  - [x] 1.1 Review current chapter data.
+    - [x] 1.1.1 Read `_data/chapters.yml`.
+    - [x] 1.1.2 Count chapter records in `_data/chapters.yml`.
+    - [x] 1.1.3 Confirm Second Life remains excluded.
+    - [x] 1.1.4 Confirm every chapter record has a unique `slug`.
+    - [x] 1.1.5 Confirm every chapter record has a unique `continent` plus `metro_or_region` path.
+  - [x] 1.2 Review current chapter rendering.
+    - [x] 1.2.1 Read `chapters/index.md`.
+    - [x] 1.2.2 Read `_includes/chapter-card.html`.
+    - [x] 1.2.3 Read `_layouts/chapter.html`.
+    - [x] 1.2.4 Read `chapters/north-america/san-francisco/index.md`.
+    - [-] 1.2.5 The old `chapters/north-america/san-francisco/collaborators.md` page was removed because opportunity pages replace chapter-specific collaborator data pages.
+  - [x] 1.3 Review related content rendering.
+    - [x] 1.3.1 Read `_layouts/post.html`.
+    - [x] 1.3.2 Inspect existing `_posts/` directories.
+    - [x] 1.3.3 Confirm current post front matter standards for `chapter_slug` and `chapter_slugs`.
+
+- [x] 2. Define canonical chapter page model.
+  - [x] 2.1 Treat per-chapter pages as canonical chapter records.
+    - [x] 2.1.1 Store chapter metadata in each page's YAML front matter.
+    - [x] 2.1.2 Store human-editable chapter notes in each page's Markdown body.
+    - [x] 2.1.3 Stop treating `_data/chapters.yml` as the canonical source after migration.
+  - [x] 2.2 Preserve approved URL taxonomy.
+    - [x] 2.2.1 Use `chapters/{continent}/{metro_or_region}/` for every chapter page.
+    - [x] 2.2.2 Do not add country, state, or province as URL path levels.
+    - [x] 2.2.3 Use a final chapter slug only if a future path collision requires it.
+    - [x] 2.2.4 Keep country, state, and province labels as metadata only.
+  - [x] 2.3 Define required chapter front matter fields.
+    - [x] 2.3.1 Include `layout: chapter`.
+    - [x] 2.3.2 Include `title`.
+    - [x] 2.3.3 Include `description`.
+    - [x] 2.3.4 Include `permalink`.
+    - [x] 2.3.5 Include `chapter_slug`.
+    - [x] 2.3.6 Include `status`.
+    - [x] 2.3.7 Include `status_note` when status is uncertain.
+    - [x] 2.3.8 Include `continent`.
+    - [x] 2.3.9 Include `metro_or_region`.
+    - [x] 2.3.10 Include `country`.
+    - [x] 2.3.11 Include `state_or_province`.
+    - [x] 2.3.12 Include `city_or_area`.
+    - [x] 2.3.13 Include `latitude` and `longitude` when available.
+    - [x] 2.3.14 Include `official_url`.
+    - [x] 2.3.15 Include `contact_url`.
+    - [x] 2.3.16 Include `contact_names`.
+    - [x] 2.3.17 Include `phone_numbers`.
+    - [x] 2.3.18 Include `email_addresses`.
+    - [x] 2.3.19 Include `external_websites`.
+    - [x] 2.3.20 Include `social_media`.
+    - [x] 2.3.21 Include `focus_areas`.
+    - [x] 2.3.22 Include `recent_projects`.
+    - [x] 2.3.23 Include `known_collaborators`.
+    - [x] 2.3.24 Include `sources`.
+  - [x] 2.4 Define chapter body sections.
+    - [x] 2.4.1 Add a `## Local Context` section.
+    - [x] 2.4.2 Add a `## Collaboration Priorities` section.
+    - [x] 2.4.3 Add a `## Research Notes` section.
+    - [x] 2.4.4 Add a `## Open Questions` section.
+    - [x] 2.4.5 Keep placeholder body text brief and clearly editable.
+
+- [x] 3. Define canonical opportunity page model.
+  - [x] 3.1 Treat opportunities as first-class content pages.
+    - [x] 3.1.1 Use top-level `opportunities/` for collaboration opportunity pages.
+    - [x] 3.1.2 Do not bury opportunity pages under `chapters/`.
+    - [x] 3.1.3 Treat opportunities as records that may relate to one chapter, multiple chapters, one region, multiple regions, and one collaboration category.
+    - [x] 3.1.4 Store opportunity metadata in each opportunity page's YAML front matter.
+    - [x] 3.1.5 Store human-editable opportunity notes in each opportunity page's Markdown body.
+  - [x] 3.2 Preserve shared geographic taxonomy.
+    - [x] 3.2.1 Use `opportunities/{continent}/{metro_or_region}/{opportunity_slug}/` for region-scoped opportunity pages.
+    - [x] 3.2.2 Use the same `continent` and `metro_or_region` slugs as chapter pages.
+    - [x] 3.2.3 Do not add country, state, or province as opportunity URL path levels.
+    - [x] 3.2.4 Keep country, state, and province labels as metadata only when useful.
+    - [x] 3.2.5 Allow future opportunity records to use multiple `region_slugs` when one opportunity fits more than one region.
+  - [x] 3.3 Define required opportunity front matter fields.
+    - [x] 3.3.1 Include `layout: opportunity`.
+    - [x] 3.3.2 Include `title`.
+    - [x] 3.3.3 Include `description`.
+    - [x] 3.3.4 Include `permalink`.
+    - [x] 3.3.5 Include `opportunity_slug`.
+    - [x] 3.3.6 Include `status` using values such as `research-lead`, `contacted`, `active`, `completed`, or `archived`.
+    - [x] 3.3.7 Include `continent`.
+    - [x] 3.3.8 Include `metro_or_region`.
+    - [x] 3.3.9 Include `chapter_slugs`.
+    - [x] 3.3.10 Include `category_slug`.
+    - [x] 3.3.11 Include `organization_name`.
+    - [x] 3.3.12 Include `website`.
+    - [x] 3.3.13 Include `geographic_area`.
+    - [x] 3.3.14 Include `contact_names`.
+    - [x] 3.3.15 Include `email_addresses`.
+    - [x] 3.3.16 Include `phone_numbers`.
+    - [x] 3.3.17 Include `social_media`.
+    - [x] 3.3.18 Include `source_urls`.
+    - [x] 3.3.19 Include `last_verified`.
+  - [x] 3.4 Define opportunity body sections.
+    - [x] 3.4.1 Add a `## Why This May Fit` section.
+    - [x] 3.4.2 Add a `## Possible Collaboration Shapes` section.
+    - [x] 3.4.3 Add a `## Local Context` section.
+    - [x] 3.4.4 Add a `## Research Notes` section.
+    - [x] 3.4.5 Add a `## Open Questions` section.
+  - [x] 3.5 Define opportunity relationship behavior.
+    - [x] 3.5.1 Show an opportunity on every chapter page whose `chapter_slug` appears in the opportunity's `chapter_slugs`.
+    - [x] 3.5.2 Show an opportunity on the category page whose slug matches the opportunity's `category_slug`.
+    - [x] 3.5.3 Show an opportunity on regional opportunity indexes whose `continent` and `metro_or_region` match the opportunity.
+    - [x] 3.5.4 Show related posts on an opportunity page when posts reference `opportunity_slug` or `opportunity_slugs`.
+    - [x] 3.5.5 Link every opportunity page back to its related chapter pages.
+    - [x] 3.5.6 Link every opportunity page back to its category page.
+    - [x] 3.5.7 Link every opportunity page back to related posts.
+
+- [x] 4. Migrate chapter records into pages.
+  - [x] 4.1 Generate chapter directories.
+    - [x] 4.1.1 Create one directory for each unique `chapters/{continent}/{metro_or_region}/` path.
+    - [x] 4.1.2 Preserve the existing `chapters/north-america/san-francisco/` directory.
+    - [x] 4.1.3 Do not create `second-life` paths.
+  - [x] 4.2 Generate chapter `index.md` files.
+    - [x] 4.2.1 Create one `index.md` per chapter path.
+    - [x] 4.2.2 Move the matching chapter metadata into that page's front matter.
+    - [x] 4.2.3 Set `permalink` to the approved local chapter URL.
+    - [x] 4.2.4 Set `chapter_slug` to the former data-record `slug`.
+    - [x] 4.2.5 Preserve all source URLs from the data record.
+    - [x] 4.2.6 Preserve all contact fields from the data record.
+    - [x] 4.2.7 Preserve SF Bay Area body/link content where it remains useful.
+    - [x] 4.2.8 Add the standard editable body sections to every generated page.
+  - [x] 4.3 Retire central chapter data.
+    - [x] 4.3.1 Remove `_data/chapters.yml` after all records are migrated.
+    - [x] 4.3.2 Confirm no template still depends on `site.data.chapters`.
+    - [x] 4.3.3 Do not create a generated replacement index file unless explicitly approved.
+
+- [x] 5. Create opportunity page infrastructure.
+  - [x] 5.1 Create opportunity directories.
+    - [x] 5.1.1 Create top-level `opportunities/`.
+    - [x] 5.1.2 Create regional opportunity directories only when an opportunity exists for that region.
+    - [-] 5.1.3 Create `opportunities/north-america/san-francisco/ifr/index.md` if IFR is approved as the first SF opportunity.
+  - [x] 5.2 Create opportunity layout and includes.
+    - [x] 5.2.1 Create `_layouts/opportunity.html`.
+    - [x] 5.2.2 Create `_includes/opportunity-profile.html`.
+    - [x] 5.2.3 Create `_includes/opportunity-list.html`.
+    - [x] 5.2.4 Create `_includes/related-opportunity-posts.html`.
+  - [x] 5.3 Create opportunity index pages.
+    - [x] 5.3.1 Create `opportunities/index.md`.
+    - [x] 5.3.2 Create `opportunities/north-america/index.md` only when at least one North America opportunity exists.
+    - [x] 5.3.3 Create `opportunities/north-america/san-francisco/index.md` only when at least one San Francisco opportunity exists.
+    - [x] 5.3.4 Generate opportunity index listings from pages with `layout: opportunity`.
+
+- [x] 6. Update chapter directory rendering.
+  - [x] 6.1 Generate continent jump links from chapter pages.
+    - [x] 6.1.1 Select pages where `layout` is `chapter`.
+    - [x] 6.1.2 Derive unique continent slugs from selected pages.
+    - [x] 6.1.3 Sort continent slugs alphabetically.
+    - [x] 6.1.4 Render one jump link per continent.
+  - [x] 6.2 Group chapter list by continent.
+    - [x] 6.2.1 Render a heading for each continent.
+    - [x] 6.2.2 Filter chapter pages by matching continent.
+    - [x] 6.2.3 Sort chapters inside each continent by `metro_or_region`.
+    - [x] 6.2.4 Render chapters as block-level list items.
+    - [x] 6.2.5 Link chapter names only to local chapter page URLs.
+    - [x] 6.2.6 Do not link chapter names directly to external websites.
+  - [x] 6.3 Replace tile-specific directory markup.
+    - [x] 6.3.1 Remove `.grid-cards` wrapping from the chapter directory list.
+    - [x] 6.3.2 Add semantic list markup for chapter directory rows.
+    - [x] 6.3.3 Keep homepage and category card grids unchanged.
+
+- [x] 7. Update chapter profile rendering.
+  - [x] 7.1 Create reusable chapter profile include.
+    - [x] 7.1.1 Create `_includes/chapter-profile.html`.
+    - [x] 7.1.2 Render chapter snapshot from page front matter.
+    - [x] 7.1.3 Render contact names when present.
+    - [x] 7.1.4 Render phone numbers when present.
+    - [x] 7.1.5 Render email addresses when present.
+    - [x] 7.1.6 Render external websites when present.
+    - [x] 7.1.7 Render social media links when present.
+    - [x] 7.1.8 Render sources when present.
+  - [x] 7.2 Render opportunities on chapter pages.
+    - [x] 7.2.1 Select opportunity pages where `page.chapter_slug` appears in `opportunity.chapter_slugs`.
+    - [x] 7.2.2 Render matching opportunities with `_includes/opportunity-list.html`.
+    - [x] 7.2.3 Show opportunity status, category, region, and summary in the chapter opportunity list.
+    - [x] 7.2.4 Show a brief empty-state message when no opportunity pages match yet.
+    - [x] 7.2.5 Link to the collaboration category index for future research.
+  - [x] 7.3 Render related posts on chapter pages.
+    - [x] 7.3.1 Create `_includes/related-chapter-posts.html`.
+    - [x] 7.3.2 Include posts where `post.chapter_slug == page.chapter_slug`.
+    - [x] 7.3.3 Include posts where `post.chapter_slugs` contains `page.chapter_slug`.
+    - [x] 7.3.4 Sort related posts newest first.
+    - [x] 7.3.5 Render post title, date, categories, and summary.
+    - [x] 7.3.6 Show a brief empty-state message when no related posts exist yet.
+  - [x] 7.4 Update chapter layout.
+    - [x] 7.4.1 Update `_layouts/chapter.html` to render the profile include before page body content.
+    - [x] 7.4.2 Render page body Markdown after the profile include.
+    - [x] 7.4.3 Render opportunities after page body content.
+    - [x] 7.4.4 Render related posts after opportunities.
+
+- [x] 8. Update category rendering.
+  - [x] 8.1 Convert categories into first-class pages if needed.
+    - [x] 8.1.1 Create one category page per category slug under `categories/{category_slug}/`.
+    - [x] 8.1.2 Move category metadata from `_data/collaboration_categories.yml` into category page front matter when approved.
+    - [x] 8.1.3 Keep `categories/index.md` as the category directory.
+  - [x] 8.2 Render opportunities on category pages.
+    - [x] 8.2.1 Select opportunity pages whose `category_slug` matches the category page slug.
+    - [x] 8.2.2 Render matching opportunities with `_includes/opportunity-list.html`.
+    - [x] 8.2.3 Group category opportunities by continent and region when helpful.
+    - [x] 8.2.4 Show a brief empty-state message when no opportunity pages match yet.
+  - [x] 8.3 Update category directory behavior.
+    - [x] 8.3.1 Link category cards to dedicated category pages.
+    - [x] 8.3.2 Show opportunity counts per category when possible.
+    - [x] 8.3.3 Keep category cards from linking to external sites.
+
+- [x] 9. Update post relationship standards.
+  - [x] 9.1 Define chapter post relationship fields.
+    - [x] 9.1.1 Continue supporting `chapter_slug` for single-chapter posts.
+    - [x] 9.1.2 Continue supporting `chapter_slugs` for multi-chapter posts.
+  - [x] 9.2 Define opportunity post relationship fields.
+    - [x] 9.2.1 Add `opportunity_slug` for single-opportunity posts.
+    - [x] 9.2.2 Add `opportunity_slugs` for multi-opportunity posts.
+    - [x] 9.2.3 Render related posts on opportunity pages using both fields.
+  - [x] 9.3 Define category post relationship fields.
+    - [x] 9.3.1 Continue supporting `collaboration_categories` for posts about categories.
+    - [x] 9.3.2 Prefer `category_slug` when a post is primarily about one category.
+
+- [x] 10. Update styling.
+  - [x] 10.1 Add block-level chapter directory styles.
+    - [x] 10.1.1 Add `.chapter-directory`.
+    - [x] 10.1.2 Add `.chapter-continent-group`.
+    - [x] 10.1.3 Add `.chapter-list`.
+    - [x] 10.1.4 Add `.chapter-list-item`.
+    - [x] 10.1.5 Ensure chapter list items span full width.
+  - [x] 10.2 Add opportunity list styles.
+    - [x] 10.2.1 Add `.opportunity-list`.
+    - [x] 10.2.2 Add `.opportunity-list-item`.
+    - [x] 10.2.3 Add `.opportunity-meta`.
+    - [x] 10.2.4 Ensure opportunity list items span full width.
+  - [x] 10.3 Preserve existing card styles elsewhere.
+    - [x] 10.3.1 Do not remove `.grid-cards`.
+    - [x] 10.3.2 Confirm homepage cards still use the existing grid.
+    - [x] 10.3.3 Confirm category cards still use the existing grid unless category pages are converted.
+  - [x] 10.4 Add page section styles.
+    - [x] 10.4.1 Style contact lists.
+    - [x] 10.4.2 Style source lists.
+    - [x] 10.4.3 Style related post lists.
+    - [x] 10.4.4 Confirm mobile readability.
+
+- [x] 11. Update documentation and standards.
+  - [x] 11.1 Update `docs/site-structure.md`.
+    - [x] 11.1.1 Document per-chapter pages as canonical chapter records.
+    - [x] 11.1.2 Document opportunity pages as canonical collaboration opportunity records.
+    - [x] 11.1.3 Remove references to `_data/chapters.yml` as canonical chapter metadata.
+    - [x] 11.1.4 Remove references to `_data/collaborators/{chapter-slug}.yml` as the preferred opportunity model if opportunity pages replace it.
+    - [x] 11.1.5 Document required chapter front matter fields.
+    - [x] 11.1.6 Document required opportunity front matter fields.
+    - [x] 11.1.7 Document related-post matching with `chapter_slug`, `chapter_slugs`, `opportunity_slug`, and `opportunity_slugs`.
+  - [x] 11.2 Update `AGENTS.md` taxonomy notes if needed.
+    - [x] 11.2.1 Preserve continent-to-metro/region URL standard.
+    - [x] 11.2.2 Add that chapter pages are canonical records if the migration is implemented.
+    - [x] 11.2.3 Add that opportunity pages are first-class records under `opportunities/`.
+    - [x] 11.2.4 Add that chapter-name links should point to local chapter pages.
+    - [x] 11.2.5 Add that opportunity links should point to local opportunity pages.
+  - [x] 11.3 Update journal and plan indexes.
+    - [x] 11.3.1 Append a journal checkpoint for the migration.
+    - [x] 11.3.2 Regenerate plan indexes after plan edits or moves.
+
+- [x] 12. Verify migration.
+  - [x] 12.1 Verify chapter page inventory.
+    - [x] 12.1.1 Count generated chapter pages.
+    - [x] 12.1.2 Confirm generated page count matches the pre-migration chapter count.
+    - [x] 12.1.3 Confirm no Second Life page exists.
+    - [x] 12.1.4 Confirm every chapter page has required front matter.
+    - [x] 12.1.5 Confirm every chapter page has a unique permalink.
+    - [x] 12.1.6 Confirm every chapter page path follows `chapters/{continent}/{metro_or_region}/`.
+  - [x] 12.2 Verify opportunity page behavior.
+    - [x] 12.2.1 Confirm every opportunity page has required front matter.
+    - [x] 12.2.2 Confirm every opportunity page has a unique permalink.
+    - [x] 12.2.3 Confirm every region-scoped opportunity path follows `opportunities/{continent}/{metro_or_region}/{opportunity_slug}/`.
+    - [x] 12.2.4 Confirm opportunity pages link back to related chapter pages.
+    - [x] 12.2.5 Confirm opportunity pages link back to related category pages.
+    - [x] 12.2.6 Confirm opportunity pages render related posts when matching posts exist.
+  - [x] 12.3 Verify chapter directory behavior.
+    - [x] 12.3.1 Confirm continent jump links are generated from chapter pages.
+    - [x] 12.3.2 Confirm all continents represented by chapter pages appear in the jump list.
+    - [x] 12.3.3 Confirm chapter groups have continent headers.
+    - [x] 12.3.4 Confirm chapters sort by continent and then `metro_or_region`.
+    - [x] 12.3.5 Confirm chapter-name links are local URLs.
+    - [x] 12.3.6 Confirm no chapter-name link points directly to an external website.
+  - [x] 12.4 Verify chapter page behavior.
+    - [x] 12.4.1 Confirm contact fields render on representative pages.
+    - [x] 12.4.2 Confirm external websites render as secondary links.
+    - [-] 12.4.3 Confirm opportunity section renders on the SF Bay Area page when an SF opportunity exists.
+    - [x] 12.4.4 Confirm empty opportunity state renders on a page without opportunity data.
+    - [x] 12.4.5 Confirm related posts section renders even when empty.
+  - [x] 12.5 Verify category page behavior.
+    - [x] 12.5.1 Confirm category pages list matching opportunity pages.
+    - [x] 12.5.2 Confirm category pages do not list non-matching opportunity pages.
+    - [x] 12.5.3 Confirm category directory links to category pages.
+  - [x] 12.6 Run available local validation.
+    - [x] 12.6.1 Run a YAML/front matter parse check using available local tooling.
+    - [x] 12.6.2 Run a static link/path consistency check.
+    - [-] 12.6.3 Run a local Jekyll build if Ruby/Jekyll tooling is available.
+    - [x] 12.6.4 If Jekyll tooling is unavailable, record that limitation.
+  - [x] 12.7 Review final repository state.
+    - [x] 12.7.1 Run `git status --short`.
+    - [x] 12.7.2 Review relevant diffs.
+    - [x] 12.7.3 Confirm no unrelated files changed.
+    - [x] 12.7.4 Suggest a task-scoped commit message.
