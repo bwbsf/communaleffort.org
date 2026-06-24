@@ -22,12 +22,12 @@ Key: `[ ]` pending task, `[x]` completed task, `[?]` needs validation, `[-]` clo
   - [x] 3.3 Mark Reno targets integrated in `research/status.yml`.
   - [x] 3.4 Verify prompt generation and chapter YAML.
   - [x] 3.5 Commit Reno integration.
-- [ ] 4. Integrate Fly Ranch report.
-  - [ ] 4.1 Import Fly Ranch opportunities into `chapters/north-america/fly-ranch/index.md`.
-  - [ ] 4.2 Move Fly Ranch report to `research/archive/`.
-  - [ ] 4.3 Mark Fly Ranch targets integrated in `research/status.yml`.
-  - [ ] 4.4 Verify prompt generation and chapter YAML.
-  - [ ] 4.5 Commit Fly Ranch integration.
+- [x] 4. Integrate Fly Ranch report.
+  - [x] 4.1 Import Fly Ranch opportunities into `chapters/north-america/fly-ranch/index.md`.
+  - [x] 4.2 Move Fly Ranch report to `research/archive/`.
+  - [x] 4.3 Mark Fly Ranch targets integrated in `research/status.yml`.
+  - [x] 4.4 Verify prompt generation and chapter YAML.
+  - [x] 4.5 Commit Fly Ranch integration.
 - [ ] 5. Integrate South Bay report.
   - [ ] 5.1 Import South Bay opportunities into `chapters/north-america/south-bay/index.md`.
   - [ ] 5.2 Move South Bay report to `research/archive/`.
