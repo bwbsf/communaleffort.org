@@ -255,85 +255,85 @@ targets:
     notes: "Selected findings integrated into chapters/north-america/san-francisco/index.md; archived report preserved for audit."
   - chapter_slug: south-bay
     category_slug: arts-culture-organizations
-    status: completed
-    completed_report: research/completed/deep-research-report-south-bay.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-south-bay.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/south-bay/index.md; archived report preserved for audit."
   - chapter_slug: south-bay
     category_slug: direct-service-providers
-    status: completed
-    completed_report: research/completed/deep-research-report-south-bay.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-south-bay.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/south-bay/index.md; archived report preserved for audit."
   - chapter_slug: south-bay
     category_slug: environmental-resilience-organizations
-    status: completed
-    completed_report: research/completed/deep-research-report-south-bay.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-south-bay.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/south-bay/index.md; archived report preserved for audit."
   - chapter_slug: south-bay
     category_slug: funders-fiscal-sponsors
-    status: completed
-    completed_report: research/completed/deep-research-report-south-bay.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-south-bay.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/south-bay/index.md; archived report preserved for audit."
   - chapter_slug: south-bay
     category_slug: labor-unions-worker-centers
-    status: completed
-    completed_report: research/completed/deep-research-report-south-bay.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-south-bay.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/south-bay/index.md; archived report preserved for audit."
   - chapter_slug: south-bay
     category_slug: local-businesses-social-enterprises
-    status: completed
-    completed_report: research/completed/deep-research-report-south-bay.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-south-bay.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/south-bay/index.md; archived report preserved for audit."
   - chapter_slug: south-bay
     category_slug: local-government-public-agencies
-    status: completed
-    completed_report: research/completed/deep-research-report-south-bay.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-south-bay.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/south-bay/index.md; archived report preserved for audit."
   - chapter_slug: south-bay
     category_slug: makerspaces-tool-libraries-repair-groups
-    status: completed
-    completed_report: research/completed/deep-research-report-south-bay.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-south-bay.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/south-bay/index.md; archived report preserved for audit."
   - chapter_slug: south-bay
     category_slug: mutual-aid-groups
     status: no-good-leads
-    completed_report: research/completed/deep-research-report-south-bay.md
+    completed_report: research/archive/deep-research-report-south-bay.md
     completed_at: 2026-06-24
     integrated_at:
-    notes: "Completed report found insufficient durable public evidence for South Bay mutual-aid leads."
+    notes: "Archived report found insufficient durable public evidence for South Bay mutual-aid leads; no opportunity imported."
   - chapter_slug: south-bay
     category_slug: nonprofits-cbos
-    status: completed
-    completed_report: research/completed/deep-research-report-south-bay.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-south-bay.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/south-bay/index.md; archived report preserved for audit."
   - chapter_slug: south-bay
     category_slug: residents-neighborhood-leaders
-    status: completed
-    completed_report: research/completed/deep-research-report-south-bay.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-south-bay.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/south-bay/index.md; archived report preserved for audit."
   - chapter_slug: south-bay
     category_slug: schools-libraries-community-centers
-    status: completed
-    completed_report: research/completed/deep-research-report-south-bay.md
+    status: integrated
+    completed_report: research/archive/deep-research-report-south-bay.md
     completed_at: 2026-06-24
-    integrated_at:
-    notes: "Completed report preserved; opportunities not yet integrated into the chapter page."
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/south-bay/index.md; archived report preserved for audit."

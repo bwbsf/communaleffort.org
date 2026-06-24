@@ -28,12 +28,12 @@ Key: `[ ]` pending task, `[x]` completed task, `[?]` needs validation, `[-]` clo
   - [x] 4.3 Mark Fly Ranch targets integrated in `research/status.yml`.
   - [x] 4.4 Verify prompt generation and chapter YAML.
   - [x] 4.5 Commit Fly Ranch integration.
-- [ ] 5. Integrate South Bay report.
-  - [ ] 5.1 Import South Bay opportunities into `chapters/north-america/south-bay/index.md`.
-  - [ ] 5.2 Move South Bay report to `research/archive/`.
-  - [ ] 5.3 Mark South Bay imported targets integrated while preserving `no-good-leads` for mutual aid.
-  - [ ] 5.4 Verify prompt generation and chapter YAML.
-  - [ ] 5.5 Commit South Bay integration.
+- [x] 5. Integrate South Bay report.
+  - [x] 5.1 Import South Bay opportunities into `chapters/north-america/south-bay/index.md`.
+  - [x] 5.2 Move South Bay report to `research/archive/`.
+  - [x] 5.3 Mark South Bay imported targets integrated while preserving `no-good-leads` for mutual aid.
+  - [x] 5.4 Verify prompt generation and chapter YAML.
+  - [x] 5.5 Commit South Bay integration.
 - [ ] 6. Close the plan.
   - [ ] 6.1 Append journal checkpoints for each integration.
   - [ ] 6.2 Archive this plan and regenerate indexes.
