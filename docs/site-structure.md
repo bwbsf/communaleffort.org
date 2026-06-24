@@ -51,7 +51,7 @@ Chapter contact fields include `contact_names`, `phone_numbers`, `email_addresse
 
 Chapter collaboration opportunities live inside each chapter page's front matter as an `opportunities` array. Each opportunity can include `opportunity_slug`, `organization_name`, `category_slug`, `status`, `website`, `why_it_may_fit`, `possible_collaboration_shapes`, `source_urls`, `research_notes`, and `last_verified`.
 
-Category pages aggregate opportunities from chapter front matter by matching `category_slug`. Do not create standalone opportunity pages unless the user explicitly changes this content model.
+Category pages aggregate opportunities from chapter front matter by matching `category_slug`. Each category page explains that its opportunity list is procedurally generated from chapter-owned opportunities and shows the current matching opportunity count. Do not create standalone opportunity pages unless the user explicitly changes this content model.
 
 Chapter volunteer guidance can use optional `volunteer_summary` text and `volunteer_links` entries with `label` and `url`. When those fields are absent, chapter pages render fallback volunteer links from official chapter, external website, social, or email contact fields.
 

@@ -11,21 +11,46 @@ layout: default
   </header>
 
   <div class="page-body">
+    {% assign rendered_opportunity_count = 0 %}
+    {% assign chapter_pages = site.pages | where: "layout", "chapter" | sort: "title" %}
+    {% for chapter in chapter_pages %}
+      {% if chapter.opportunities %}
+        {% for opportunity in chapter.opportunities %}
+          {% if opportunity.category_slug == page.category_slug %}
+            {% assign rendered_opportunity_count = rendered_opportunity_count | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+
     {% if page.examples %}
-    <p class="meta-row">Examples: {{ page.examples | join: ", " }}</p>
+    <section class="profile-section">
+      <h2>Typical Collaboration Shapes</h2>
+      <p>These examples describe common ways this category can show up in local chapter work.</p>
+      <ul class="inline-list">
+        {% for example in page.examples %}
+        <li>{{ example }}</li>
+        {% endfor %}
+      </ul>
+    </section>
     {% endif %}
 
     {{ content }}
 
-    <h2>Matching Opportunities</h2>
-    {% assign rendered_opportunity_count = 0 %}
-    {% assign chapter_pages = site.pages | where: "layout", "chapter" | sort: "title" %}
+    <h2>Potential Collaboration Opportunities in This Category</h2>
+    <p>
+      This generated list shows researched opportunity examples from chapter pages whose
+      <code>category_slug</code> matches <code>{{ page.category_slug }}</code>.
+      Each item remains owned by its chapter page, so updates to chapter opportunities appear here automatically.
+      {% if rendered_opportunity_count > 0 %}
+      Current matching opportunities: {{ rendered_opportunity_count }}.
+      {% endif %}
+    </p>
     <ul class="opportunity-list">
     {% for chapter in chapter_pages %}
       {% if chapter.opportunities %}
         {% for opportunity in chapter.opportunities %}
           {% if opportunity.category_slug == page.category_slug %}
-          {% assign rendered_opportunity_count = rendered_opportunity_count | plus: 1 %}
           <li class="opportunity-list-item">
             <h3>
               {% if opportunity.website %}
