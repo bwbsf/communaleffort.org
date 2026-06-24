@@ -2,7 +2,7 @@
 plan_id: 2026-06-24-08-36-17_integrate-completed-deep-research
 title: Integrate Completed Deep Research
 summary: Update integration governance to require commits after each report, commit the SF integration, then integrate and commit Reno, Fly Ranch, and South Bay one at a time.
-status: current
+status: past
 created_at: 2026-06-24-08-36-17
 ---
 
@@ -34,7 +34,7 @@ Key: `[ ]` pending task, `[x]` completed task, `[?]` needs validation, `[-]` clo
   - [x] 5.3 Mark South Bay imported targets integrated while preserving `no-good-leads` for mutual aid.
   - [x] 5.4 Verify prompt generation and chapter YAML.
   - [x] 5.5 Commit South Bay integration.
-- [ ] 6. Close the plan.
-  - [ ] 6.1 Append journal checkpoints for each integration.
-  - [ ] 6.2 Archive this plan and regenerate indexes.
-  - [ ] 6.3 Verify final status and report commit hashes.
+- [x] 6. Close the plan.
+  - [x] 6.1 Append journal checkpoints for each integration.
+  - [x] 6.2 Archive this plan and regenerate indexes.
+  - [x] 6.3 Verify final status and report commit hashes.

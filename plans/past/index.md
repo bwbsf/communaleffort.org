@@ -2,6 +2,7 @@
 
 Format: `last_modified | path | title | summary`
 
+2026-06-24-08-46-33 | plans/past/2026-06-24-08-36-17_integrate-completed-deep-research.md | Integrate Completed Deep Research | Update integration governance to require commits after each report, commit the SF integration, then integrate and commit Reno, Fly Ranch, and South Bay one at a time.
 2026-06-24-08-33-13 | plans/past/2026-06-24-08-28-15_integrate-sf-deep-research.md | Integrate SF Deep Research | Integrate the completed SF Bay Area deep-research report into the BWB SF chapter opportunities, update research status, archive the report, and verify prompt generation skips integrated targets.
 2026-06-24-08-23-39 | plans/past/2026-06-24-08-22-06_deep-research-archive-folder.md | Deep Research Archive Folder | Add an archive folder and workflow rules for moving completed deep-research reports after integration while preserving status tracking.
 2026-06-24-08-05-21 | plans/past/2026-06-24-07-55-10_deep-research-completion-governance.md | Deep Research Completion Governance | Preserve completed deep-research reports, track completed chapter-category targets, skip completed targets in prompt generation, add integration/reset playbook governance, and update chapter opportunity/volunteer presentation.
