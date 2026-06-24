@@ -2,6 +2,7 @@
 
 Format: `last_modified | path | title | summary`
 
+2026-06-23-17-30-40 | plans/past/2026-06-23-17-27-13_research-prompt-generator.md | Research Prompt Generator | Create an ignored generated-artifact workflow for chapter-by-category collaboration research prompts.
 2026-06-23-17-19-39 | plans/past/2026-06-23-17-09-17_chapter-opportunity-lists-and-dark-mode.md | Chapter Opportunity Lists and Dark Mode | Replace separate opportunity pages with nested per-chapter opportunity lists, repair chapter-directory formatting, and convert the site to a cohesive dark-mode design.
 2026-06-23-17-03-56 | plans/past/2026-06-23-17-03-35_fix-github-pages-liquid-build.md | Fix GitHub Pages Liquid Build | Replace GitHub Pages-incompatible compound Liquid `where_exp` filters with page/post loops that render the same chapter, category, opportunity, and related-post lists.
 2026-06-23-16-58-32 | plans/past/2026-06-23-16-32-44_canonical-chapter-pages.md | Canonical Chapter and Opportunity Pages | Move chapter metadata into canonical per-chapter pages and model collaboration opportunities as first-class regional pages that can appear on chapter, category, and post indexes.

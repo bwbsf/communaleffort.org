@@ -35,6 +35,9 @@ Country, state, and province labels are metadata only. They should not become de
 - `updates/`: Public update index.
 - `_posts/`: Dated updates grouped by type.
 - `assets/css/`: Site styles.
+- `research/`: Tracked research workflow notes; generated prompt artifacts are written under ignored `research/generated/`.
+- `templates/`: Reusable project templates, including the deep-research opportunity prompt boilerplate.
+- `scripts/`: Local automation, including prompt generation.
 
 ## Data Files
 
@@ -49,6 +52,12 @@ Chapter contact fields include `contact_names`, `phone_numbers`, `email_addresse
 Chapter collaboration opportunities live inside each chapter page's front matter as an `opportunities` array. Each opportunity can include `opportunity_slug`, `organization_name`, `category_slug`, `status`, `website`, `why_it_may_fit`, `possible_collaboration_shapes`, `source_urls`, `research_notes`, and `last_verified`.
 
 Category pages aggregate opportunities from chapter front matter by matching `category_slug`. Do not create standalone opportunity pages unless the user explicitly changes this content model.
+
+## Research Prompt Workflow
+
+Use `scripts/generate_research_prompts.py` to create deep-research prompt artifacts for missing chapter-category opportunity targets. The script reads chapter pages, category pages, and `templates/deep_research_opportunity_prompt.md`, then writes one verbose prompt per chapter plus a missing-target manifest under `research/generated/`.
+
+`research/generated/` is intentionally ignored by git. Commit the generator script, boilerplate, and workflow documentation; do not commit generated prompts or manifests.
 
 ## Post Types
 

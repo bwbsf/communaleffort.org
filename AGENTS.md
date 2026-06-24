@@ -30,3 +30,5 @@ Website taxonomy standard:
 - Category pages should aggregate chapter-contained opportunities by `category_slug`.
 - Chapter-name links should point to local chapter pages. External websites, official BWB pages, and social links are supporting profile links only.
 - The public website should use dark mode by default; new styling should use shared variables in `assets/css/site.css` instead of hard-coded light surfaces.
+- Deep-research prompt artifacts are generated local working files under `research/generated/` and must not be committed.
+- The reusable deep-research boilerplate lives at `templates/deep_research_opportunity_prompt.md`; `scripts/generate_research_prompts.py` transposes chapter and category metadata into one prompt artifact per chapter.
