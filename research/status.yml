@@ -421,3 +421,87 @@ targets:
     completed_at: 2026-06-24
     integrated_at: 2026-06-24
     notes: "Selected findings integrated into chapters/europe/europe/index.md after website validation; archived report preserved for audit."
+  - chapter_slug: portland-oregon
+    category_slug: arts-culture-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-pdx.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/portland-oregon/index.md after website validation; archived report preserved for audit."
+  - chapter_slug: portland-oregon
+    category_slug: direct-service-providers
+    status: integrated
+    completed_report: research/archive/deep-research-report-pdx.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/portland-oregon/index.md after website validation; archived report preserved for audit."
+  - chapter_slug: portland-oregon
+    category_slug: environmental-resilience-organizations
+    status: integrated
+    completed_report: research/archive/deep-research-report-pdx.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/portland-oregon/index.md after website validation; archived report preserved for audit."
+  - chapter_slug: portland-oregon
+    category_slug: funders-fiscal-sponsors
+    status: integrated
+    completed_report: research/archive/deep-research-report-pdx.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/portland-oregon/index.md after website validation; archived report preserved for audit."
+  - chapter_slug: portland-oregon
+    category_slug: labor-unions-worker-centers
+    status: integrated
+    completed_report: research/archive/deep-research-report-pdx.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/portland-oregon/index.md after website validation; archived report preserved for audit."
+  - chapter_slug: portland-oregon
+    category_slug: local-businesses-social-enterprises
+    status: integrated
+    completed_report: research/archive/deep-research-report-pdx.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/portland-oregon/index.md after website validation; archived report preserved for audit."
+  - chapter_slug: portland-oregon
+    category_slug: local-government-public-agencies
+    status: integrated
+    completed_report: research/archive/deep-research-report-pdx.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/portland-oregon/index.md after website validation; archived report preserved for audit."
+  - chapter_slug: portland-oregon
+    category_slug: makerspaces-tool-libraries-repair-groups
+    status: integrated
+    completed_report: research/archive/deep-research-report-pdx.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/portland-oregon/index.md after website validation; archived report preserved for audit."
+  - chapter_slug: portland-oregon
+    category_slug: mutual-aid-groups
+    status: integrated
+    completed_report: research/archive/deep-research-report-pdx.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/portland-oregon/index.md after website validation; archived report preserved for audit."
+  - chapter_slug: portland-oregon
+    category_slug: nonprofits-cbos
+    status: integrated
+    completed_report: research/archive/deep-research-report-pdx.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/portland-oregon/index.md after website validation; archived report preserved for audit."
+  - chapter_slug: portland-oregon
+    category_slug: residents-neighborhood-leaders
+    status: integrated
+    completed_report: research/archive/deep-research-report-pdx.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/portland-oregon/index.md after website validation; archived report preserved for audit."
+  - chapter_slug: portland-oregon
+    category_slug: schools-libraries-community-centers
+    status: integrated
+    completed_report: research/archive/deep-research-report-pdx.md
+    completed_at: 2026-06-24
+    integrated_at: 2026-06-24
+    notes: "Selected findings integrated into chapters/north-america/portland-oregon/index.md after website validation; archived report preserved for audit."

@@ -29,7 +29,9 @@ Pending completed reports at plan creation:
 - `research/completed/deep-research-report-sac.md`
 - `research/completed/deep-research-report-vancouver-bc.md`
 - `research/completed/melbourne.md`
+- `research/completed/perth.md`
 - `research/completed/south africa.txt`
+- `research/completed/sydney.md`
 
 ## Checklist
 
@@ -38,7 +40,7 @@ Pending completed reports at plan creation:
 - [ ] Validate Chicago opportunities and either integrate or document failure reasons.
 - [ ] Validate Washington DC opportunities and either integrate or document failure reasons.
 - [ ] Validate Vancouver BC opportunities and either integrate or document failure reasons.
-- [ ] Validate Portland opportunities and either integrate or document failure reasons.
+- [x] Validate Portland opportunities and either integrate or document failure reasons.
 - [ ] Validate Sacramento opportunities and either integrate or document failure reasons.
 - [x] Validate BWB Europe opportunities and either integrate or document failure reasons.
 - [ ] Validate BWB United Kingdom opportunities and either integrate or document failure reasons.
@@ -46,6 +48,8 @@ Pending completed reports at plan creation:
 - [ ] Validate Corumbau opportunities and either integrate or document failure reasons.
 - [ ] Validate Colombia opportunities and either integrate or document failure reasons.
 - [ ] Validate Melbourne opportunities and either integrate or document failure reasons.
+- [ ] Validate Perth opportunities and either integrate or document failure reasons.
+- [ ] Validate Sydney opportunities and either integrate or document failure reasons.
 - [ ] Move fully integrated reports to `research/archive/` and update `research/status.yml`.
 - [ ] Regenerate research prompts and confirm integrated targets are skipped.
 - [ ] Add journal entries describing successful integrations and failed validation outcomes.
