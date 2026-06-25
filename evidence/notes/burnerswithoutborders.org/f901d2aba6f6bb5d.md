@@ -1,0 +1,73 @@
+---
+url: "https://burnerswithoutborders.org/chapters/new-mexico/"
+final_url: "https://burnerswithoutborders.org/chapters/new-mexico/"
+title: "BWB New Mexico (USA) - Burners Without Borders"
+status: "200"
+content_type: "text/html"
+captured_at: "2026-06-25"
+sha256: "5714fba6bf4f702de984ddeddcdd9b123b0537e0523db7b30851977ace6e4abf"
+raw_path: "evidence/raw/burnerswithoutborders.org/f901d2aba6f6bb5d/source.html"
+markdown_path: "evidence/raw/burnerswithoutborders.org/f901d2aba6f6bb5d/source.md"
+---
+
+# Evidence Note
+
+## Source
+
+- URL: https://burnerswithoutborders.org/chapters/new-mexico/
+- Final URL: https://burnerswithoutborders.org/chapters/new-mexico/
+- Retrieved: 2026-06-25
+- HTTP status: 200
+- Content type: text/html
+- SHA-256: `5714fba6bf4f702de984ddeddcdd9b123b0537e0523db7b30851977ace6e4abf`
+- Raw capture: `evidence/raw/burnerswithoutborders.org/f901d2aba6f6bb5d/source.html`
+- Local Markdown: `evidence/raw/burnerswithoutborders.org/f901d2aba6f6bb5d/source.md`
+
+## Agent Review Notes
+
+- Confirm the organization still exists and is accurately represented.
+- Confirm local relevance, active status, contact pathways, and category fit before importing opportunity data.
+- Prefer this local evidence note and raw capture before re-fetching the source URL.
+
+## Extract Preview
+
+> BWB New Mexico (USA) - Burners Without Borders
+>
+> Burners Without Borders (https://burnerswithoutborders.org/)
+>
+> About Us (https://burnerswithoutborders.org/about-us/)
+>
+> Mission (https://burnerswithoutborders.org/about-us/mission/) Our Team (https://burnerswithoutborders.org/about-us/team/) Community Structure (https://burnerswithoutborders.org/about-us/community-structure/) Impact (https://burnerswithoutborders.org/about-us/impact/) Sustainability (https://burnerswithoutborders.org/about-us/sustainability/) The 10 Principles (https://burnerswithoutborders.org/the-10-principles-of-burning-man/)
+>
+> Our Network (https://burnerswithoutborders.org/network/)
+>
+> Chapters/Working Groups (https://burnerswithoutborders.org/chapters/) Projects (https://burnerswithoutborders.org/projects/) Grantees (https://burnerswithoutborders.org/grantees/)
+>
+> Resources (https://burnerswithoutborders.org/resources/)
+>
+> Grant Programs (https://burnerswithoutborders.org/resources/grants-2/) Disaster Relief (https://burnerswithoutborders.org/resources/disaster-relief/) Resource Partners (https://burnerswithoutborders.org/resource-partners/)
+>
+> Projects (https://burnerswithoutborders.org/projects/)
+>
+> Projects (https://burnerswithoutborders.org/projects/) Project Ideas (https://burnerswithoutborders.org/resources/project-ideas/) Create a Project (https://burnerswithoutborders.org/create-a-project/)
+>
+> News (https://burnerswithoutborders.org/news-updates/)
+>
+> Overview (https://burnerswithoutborders.org/news-updates/) BWB News (https://burnerswithoutborders.org/category/uncategorized/) Project Updates (https://burnerswithoutborders.org/category/project-updates/) Galleries (https://burnerswithoutborders.org/galleries/) Join Our Newsletter (https://burnerswithoutborders.org/network/join-us/)
+>
+> Participate (https://burnerswithoutborders.org/get-involved/)
+>
+> Join the BWB Network (https://burnerswithoutborders.org/get-involved/join-the-network/) Volunteer (https://burnerswithoutborders.org/get-involved/volunteer/) Events (https://burnerswithoutborders.org/get-involved/events/) Donate (https://burnerswithoutborders.org/get-involved/donate/) Contact (https://burnerswithoutborders.org/contact/)
+>
+> Burners Without Borders (https://burnerswithoutborders.org/)
+>
+> Receive our Newsletter (https://burnerswithoutborders.org/network/join-us/)
+>
+> DONATE
+>
+> Menu
+>
+> About Us (https://burnerswithoutborders.org/about-us/)
+> Mission (https://burnerswithoutborders.org/about-us/mission/) Our Team (https://burnerswithoutborders.org/about-us/team/) Community Structure (https://burnerswithoutborders.org/about-us/community-structure/) Impact (https://burnerswithoutborders.org/about-us/impact/) Sustainability (https://burnerswithoutborders.org/about-us/sustainability/) The 10 Principles (https://burnerswithoutborders.org/the-10-principles-of-burning-man/)
+>
+> Our Network (https://burnerswithoutborders.org/network/)
