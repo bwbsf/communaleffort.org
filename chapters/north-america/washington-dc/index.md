@@ -500,6 +500,134 @@ opportunities:
   - Community of Hope – DC housing and health nonprofit (volunteer page).
   - DC Public Library (Labs) – maker space and tool library at central library.
 
+
+  - opportunity_slug: dc-jobs-with-justice
+    organization_name: DC Jobs with Justice
+    category_slug: labor-unions-worker-centers
+    status: research-lead
+    website: https://www.dcjwj.org/
+    why_it_may_fit: DC Jobs with Justice is a Washington, D.C. coalition of labor organizations, community groups, student groups, and other civic partners dedicated to protecting working people's rights and supporting community struggles. Its public work includes wage-theft advocacy, rent-control campaigning, worker and resident resources, action alerts, and local organizing, making it a strong bridge between BWB DC volunteer capacity and worker-centered civic campaigns.
+    possible_collaboration_shapes:
+      - Co-host a worker-rights, wage-theft, or know-your-rights resource table at a BWB-supported community event.
+      - Offer BWB logistics volunteers for a DC JWJ-led worker-resource fair, rally support role, or community outreach day.
+      - Ask DC JWJ to advise BWB DC on how to avoid labor harms when planning builds, events, cleanups, or mutual-aid projects.
+    source_urls:
+      - https://www.dcjwj.org/
+    research_notes: Strong local category fit and active public contact pathways. Verify current campaign priorities, whether DC JWJ wants external volunteer support, and ensure any BWB role follows worker-led direction rather than replacing paid labor.
+    last_verified: 2026-06-25
+
+  - opportunity_slug: metropolitan-washington-council-afl-cio
+    organization_name: Metropolitan Washington Council, AFL-CIO
+    category_slug: labor-unions-worker-centers
+    status: research-lead
+    website: https://www.dclabor.org/
+    why_it_may_fit: The Metropolitan Washington Council, AFL-CIO brings together more than 150 affiliated unions representing more than 150,000 workers in Washington, D.C. and nearby Maryland counties. Its programs include mobilization, movement building, union apprenticeship pathways, claimant advocacy, and a community-services agency, which makes it a high-value gateway for skilled-trades referrals, worker-safety norms, apprenticeship information, and labor-community coordination.
+    possible_collaboration_shapes:
+      - Ask for referrals to appropriate union apprenticeship or safety-training contacts before any BWB construction, repair, stage, or public-build activity.
+      - Invite labor council or affiliate representatives to a community resilience fair focused on worker rights, apprenticeships, and safe volunteering.
+      - Coordinate BWB volunteer support for non-struck-worker logistics or community-service events only when requested by the Council or affiliates.
+    source_urls:
+      - https://www.dclabor.org/
+      - https://www.dclabor.org/about
+      - https://www.dclabor.org/apprenticeships
+      - https://www.communityservicesagency.org/
+    research_notes: Strong umbrella lead rather than a single project partner. Human review should identify a specific affiliate or program contact for each proposed activity; do not solicit uncompensated skilled labor or use BWB volunteers in ways that undermine union work.
+    last_verified: 2026-06-25
+
+  - opportunity_slug: one-dc-black-workers-wellness-center
+    organization_name: ONE DC Black Workers & Wellness Center
+    category_slug: labor-unions-worker-centers
+    status: research-lead
+    website: https://www.onedconline.org/black_workers_wellness_center
+    why_it_may_fit: ONE DC's Black Workers & Wellness Center is described as a member-led community and wellness space in Anacostia focused on racial and economic justice through popular education, sustainable employment, and incubation of economic alternatives. This fits BWB DC's potential worker-center category through community-rooted worker wellness, popular education, cooperative economics, and East-of-the-River resident leadership.
+    possible_collaboration_shapes:
+      - Offer BWB event setup, hospitality, or art/build support for worker-wellness or popular-education events if requested by ONE DC members.
+      - Co-host a low-barrier skill-share about cooperative project planning, safe volunteer builds, or community resource mapping.
+      - Connect BWB DC volunteers to ONE DC-led campaigns where logistics, creative materials, or turnout support are needed.
+    source_urls:
+      - https://www.onedconline.org/
+      - https://www.onedconline.org/about
+      - https://www.onedconline.org/black_workers_wellness_center
+    research_notes: The Black Workers & Wellness Center page is dated 2022, while ONE DC's site shows active 2025 updates. Verify current center programming, location access, and member-led priorities before outreach.
+    last_verified: 2026-06-25
+
+  - opportunity_slug: many-languages-one-voice
+    organization_name: Many Languages One Voice
+    category_slug: labor-unions-worker-centers
+    status: research-lead
+    website: https://www.mlovdc.org/
+    why_it_may_fit: Many Languages One Voice is a D.C. immigrant-led organization founded in 2010 that builds leadership and civic participation among immigrants who do not speak English as their primary language. Its adult education and workforce development programs, individualized job coaching, know-your-rights outreach, immigrant community support, and essential-rights trainings make it a practical partner for immigrant-worker support and multilingual community outreach.
+    possible_collaboration_shapes:
+      - Support MLOV-led know-your-rights outreach with BWB volunteers for setup, food, childcare logistics, or materials distribution.
+      - Co-host a multilingual resource table at a community event focused on workplace rights, digital literacy, or family safety planning.
+      - Ask MLOV to advise BWB DC on language access and immigrant-community safety before planning public outreach projects.
+    source_urls:
+      - https://www.mlovdc.org/
+    research_notes: Strong local immigrant-worker and workforce-development fit, though MLOV is broader than a traditional labor union or worker center. Verify current program needs, language access requirements, and whether external volunteers need background checks or training.
+    last_verified: 2026-06-25
+
+  - opportunity_slug: office-of-advisory-neighborhood-commissions
+    organization_name: Office of Advisory Neighborhood Commissions
+    category_slug: residents-neighborhood-leaders
+    status: research-lead
+    website: https://oanc.dc.gov/
+    why_it_may_fit: D.C.'s Advisory Neighborhood Commissions are hyperlocal elected neighborhood bodies, and the Office of Advisory Neighborhood Commissions maintains ANC-by-ward pages, public meeting calendars, documents, grant information, commissioner lookup tools, and resources. This is one of the strongest pathways for BWB DC to begin with resident priorities before proposing public-space, resilience, mutual-aid, or arts projects.
+    possible_collaboration_shapes:
+      - Attend relevant ANC public meetings to listen before selecting BWB DC project locations or partners.
+      - Ask a specific ANC to host or review a neighborhood listening session for a proposed cleanup, preparedness, repair, or public-art pilot.
+      - Use ANC commissioner lookup and meeting calendars to route project ideas to the affected Single Member District rather than contacting generic citywide channels.
+    source_urls:
+      - https://oanc.dc.gov/
+      - https://oanc.dc.gov/landing-page/ancs-ward
+    research_notes: Strong official gateway but not a single community organization. Human review must identify the exact ANC/SMD for any proposed project and verify meeting rules, grant restrictions, and whether the ANC can partner or only advise.
+    last_verified: 2026-06-25
+
+  - opportunity_slug: serve-your-city-ward-6-mutual-aid
+    organization_name: Serve Your City / Ward 6 Mutual Aid
+    category_slug: residents-neighborhood-leaders
+    status: research-lead
+    website: https://serveyourcitydc.org/
+    why_it_may_fit: Serve Your City is a Washington, D.C.-based nonprofit that serves as the Ward 6 hub for DC Mutual Aid and focuses on resources and opportunities for Black and Brown youth and families. Its public updates describe youth programs, Ward 6 Mutual Aid, volunteer engagement, encampment outreach, distribution of meals and essentials, and citywide mutual-aid support, making it a strong resident-led and neighborhood-trust partner for practical BWB volunteer mobilization.
+    possible_collaboration_shapes:
+      - Plug BWB DC volunteers into Serve Your City/Ward 6 Mutual Aid's existing volunteer, supply, or outreach workflows.
+      - Coordinate a materials drive tied to published wishlist needs for youth, families, or unhoused neighbors.
+      - Offer BWB art/build/logistics support for a Serve Your City-led community event, back-to-school effort, or resource distribution.
+    source_urls:
+      - https://serveyourcitydc.org/
+    research_notes: Strong active lead with embedded social-media evidence and a local address. Verify current volunteer intake, safeguarding practices for youth work, encampment outreach protocols, and whether needs are still current before import.
+    last_verified: 2026-06-25
+
+  - opportunity_slug: free-dc
+    organization_name: Free DC
+    category_slug: residents-neighborhood-leaders
+    status: research-lead
+    website: https://freedcproject.org/
+    why_it_may_fit: Free DC is a renewed campaign focused on D.C. Home Rule, dignity for local communities, orientations, organizing structure, events, local businesses, and resident voice. While its core issue is local self-governance, its public calendar and Ward-based events could help BWB DC connect with active neighborhood leaders and resident networks when civic autonomy, public-space use, community care, and neighborhood organizing overlap.
+    possible_collaboration_shapes:
+      - Attend a campaign orientation to understand current resident priorities and appropriate ways for BWB DC to support local civic infrastructure.
+      - Offer event logistics, creative materials, or volunteer hospitality for resident-led cultural or neighborhood gatherings if requested.
+      - Use Free DC's Ward events as listening opportunities before BWB designs neighborhood-based projects.
+    source_urls:
+      - https://freedcproject.org/
+    research_notes: Strong active resident-mobilization lead, but it is issue-centered rather than a neighborhood association. Verify whether collaboration should be nonpartisan/civic-service framed, avoid electoral activity, and confirm fiscal-host/project structure before outreach.
+    last_verified: 2026-06-25
+
+  - opportunity_slug: one-dc
+    organization_name: ONE DC - Organizing Neighborhood Equity
+    category_slug: residents-neighborhood-leaders
+    status: research-lead
+    website: https://www.onedconline.org/
+    why_it_may_fit: ONE DC is a member-led D.C. organizing group focused on political education, community organizing, equitable development, right to housing, tenant organizing, cooperation, and grassroots leadership by low-income people of color. Its recent public updates include housing action coalition meetings and leadership-development programming, making it a strong resident-leadership partner for BWB projects that must be community-designed rather than externally imposed.
+    possible_collaboration_shapes:
+      - Invite ONE DC members or staff to shape a BWB listening session about housing, displacement, cooperative economics, or neighborhood repair needs.
+      - Support ONE DC-led community meetings with setup, food logistics, art materials, or accessibility support.
+      - Collaborate on a resident-led storytelling, walking-tour, or public-history activation connected to neighborhood change and community memory.
+    source_urls:
+      - https://www.onedconline.org/
+      - https://www.onedconline.org/about
+    research_notes: Strong fit for resident leadership and community power. Verify current organizing priorities, member consent, and whether any BWB role should be limited to support capacity under ONE DC direction.
+    last_verified: 2026-06-25
+
 sources:
   - "https://burnerswithoutborders.org/chapters/bwb-dc/"
   - "https://burnerswithoutborders.org/chapters/"

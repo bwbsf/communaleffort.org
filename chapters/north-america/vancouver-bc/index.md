@@ -490,6 +490,58 @@ opportunities:
     research_notes: Best fit for collaborations that respect DTES community protocols and reciprocity; verify whether the proposed project is community-prioritized before pitching student involvement.
     last_verified: 2026-06-24
 
+
+  - opportunity_slug: city-of-vancouver-green-streets-program
+    organization_name: City of Vancouver Green Streets Program
+    category_slug: local-government-public-agencies
+    status: research-lead
+    website: https://vancouver.ca/home-property-development/green-streets-program.aspx
+    why_it_may_fit: The City of Vancouver Green Streets Program is a municipal volunteer gardening program for planted traffic circles and street corners across Vancouver. BWB Vancouver already has a public history of beach and street cleanups, so this program could offer a structured public-space stewardship pathway with clear municipal guidelines, contact channels, and small-scale neighbourhood sites.
+    possible_collaboration_shapes:
+      - Coordinate BWB volunteer teams to adopt or maintain available Green Streets gardens in neighbourhoods where members already gather.
+      - Pair street-garden work parties with public education on drought-tolerant planting, rainwater management, pollinator habitat, and safe street-gardening practices.
+      - Use Green Streets newsletter and mentor-gardener resources to train chapter volunteers before recurring maintenance days.
+    source_urls:
+      - https://vancouver.ca/home-property-development/green-streets-program.aspx
+      - https://burnerswithoutborders.org/chapters/bwb-vancouver/
+    research_notes: The City page confirms the program, volunteer gardening model, public-space benefits, volunteer application pathway, and Engineering Services contact. Before outreach, verify which gardens are currently available, whether group participation is allowed under the volunteer program, and whether BWB should apply as individuals or coordinate through a City contact.
+    last_verified: 2026-06-25
+
+  - opportunity_slug: vancouver-board-of-parks-and-recreation
+    organization_name: Vancouver Board of Parks and Recreation
+    category_slug: local-government-public-agencies
+    status: research-lead
+    website: https://vancouver.ca/your-government/vancouver-board-of-parks-and-recreation.aspx
+    why_it_may_fit: The Vancouver Board of Parks and Recreation looks after Vancouver's public parks, beaches, community centres, recreation facilities, street trees, marinas, sports fields, and playgrounds, with a mission to benefit people, communities, and the environment. This is a strong public-agency fit for BWB Vancouver's cleanup and community-service history, especially for park, beach, and community-centre-based activities that need public legitimacy or site coordination.
+    possible_collaboration_shapes:
+      - Develop recurring volunteer cleanups or stewardship days at parks and beaches where BWB Vancouver already has local volunteer capacity.
+      - Coordinate small permitted community-service or civic-art events in park spaces, using Park Board event-permit guidance where required.
+      - Ask Park Board staff which parks, beaches, or community-centre areas have current stewardship, accessibility, litter, or event-support needs suitable for non-profit volunteers.
+    source_urls:
+      - https://vancouver.ca/your-government/vancouver-board-of-parks-and-recreation.aspx
+      - https://vancouver.ca/parks-recreation-culture/parks-gardens-and-beaches.aspx
+      - https://vancouver.ca/parks-recreation-culture/plan-and-book-an-event.aspx
+      - https://vancouver.ca/doing-business/organize-an-event-in-a-park.aspx
+      - https://burnerswithoutborders.org/chapters/bwb-vancouver/
+    research_notes: Sources confirm Park Board scope, park/beach inventory, event planning needs, and permit review requirements. This is a broad public-agency lead rather than a named program lead; before importing as a live opportunity, a maintainer should identify the right Park Board contact or special-event/stewardship channel and verify whether the intended activity is maintenance, public event, private recreation, or another permit category.
+    last_verified: 2026-06-25
+
+  - opportunity_slug: british-columbia-emergency-management-and-climate-readiness
+    organization_name: British Columbia Ministry of Emergency Management and Climate Readiness
+    category_slug: local-government-public-agencies
+    status: research-lead
+    website: https://www2.gov.bc.ca/gov/content/safety/emergency-management/local-emergency-programs/volunteers
+    why_it_may_fit: B.C.'s Ministry of Emergency Management and Climate Readiness provides the provincial framework for emergency response volunteers, while First Nations and local governments manage recruitment, retention, and community programs. This could help BWB Vancouver align any disaster-preparedness or emergency-volunteer interest with official local-government channels rather than self-deploying during emergencies.
+    possible_collaboration_shapes:
+      - Ask City of Vancouver or local emergency-program contacts how BWB volunteers can support preparedness education, sandbagging call-outs, emergency support services, or other non-coercive community tasks when requested.
+      - Host preparedness workshops for BWB members and neighbours using provincial volunteer-program guidance and local-government referral pathways.
+      - Build a chapter protocol that directs spontaneous volunteers toward official local-government or First Nations call-outs during emergencies.
+    source_urls:
+      - https://www2.gov.bc.ca/gov/content/safety/emergency-management/local-emergency-programs/volunteers
+      - https://burnerswithoutborders.org/chapters/bwb-vancouver/
+    research_notes: This is a provincial public-agency lead rather than a Vancouver-only office, but the source explicitly states that First Nations and local governments manage community programs and call-outs. Before adding as a Vancouver opportunity, verify the City of Vancouver's current emergency volunteer intake pathway, whether Emergency Support Services or other roles are open locally, and whether BWB's role would be preparedness education, logistics support, or referral only.
+    last_verified: 2026-06-25
+
 sources:
   - "https://burnerswithoutborders.org/chapters/bwb-vancouver/"
   - "https://burnerswithoutborders.org/chapters/"

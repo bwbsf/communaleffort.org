@@ -56,11 +56,11 @@ Complete the generated research prompts that were not part of the first two-agen
 - [x] Spawn subagents in bounded batches with one output file per prompt.
 - [x] Confirm every expected completed report file exists.
 - [x] Run structural checks for required fields, categories, source URLs, and citation blobs.
-- [?] Run evidence localization and website/source validation for candidate reports.
-- [ ] Integrate reports that pass validation into their chapter pages.
-- [ ] Archive integrated reports and update `research/status.yml`.
-- [ ] Regenerate prompts and plan indexes.
-- [ ] Record batch outcomes in the journal.
+- [x] Run evidence localization and website/source validation for candidate reports.
+- [x] Integrate reports that pass validation into their chapter pages.
+- [x] Archive integrated reports and update `research/status.yml`.
+- [x] Regenerate prompts and plan indexes.
+- [x] Record batch outcomes in the journal.
 - [ ] Review git status and summarize commits needed.
 
 ## Batch Outcomes
@@ -70,6 +70,11 @@ Complete the generated research prompts that were not part of the first two-agen
 - Evidence localization processed 602 distinct source URLs from subagent reports: 537 localized and 65 failed.
 - The latest evidence localization report is `evidence/reports/2026-06-25-04-45-40_evidence-localization.md`; `evidence/reports/` remains ignored, while `evidence/index.yml` and `evidence/notes/` are commit-worthy evidence records.
 - Integration is not yet safe as a blind batch because the playbook requires each imported opportunity to pass existence, activity, local relevance, category-fit, collaboration-fit, and source-support validation; failed localized URLs must be treated as validation warnings or blockers for affected opportunities.
+- Committed the generated research/evidence checkpoint as `d46a651 Archive subagent research evidence checkpoint`.
+- Localized remaining Arizona and South Afrika sources: 59 localized, 3 failed, and 1 skipped because it was already present.
+- Imported localized-source-validated opportunities from all completed reports, archived processed reports into `research/archive/`, and updated `research/status.yml`.
+- Left 15 chapter-category targets as `needs-rerun` because no candidate in that category passed localized-source validation.
+- Regenerated research prompts; 11 prompt artifacts remain for those 15 `needs-rerun` targets.
 
 ## Agent Waves
 

@@ -454,6 +454,63 @@ opportunities:
 
   [1]: https://burnerswithoutborders.org/chapters/colombia/ "BWB Colombia - Burners Without Borders"
 
+
+  - opportunity_slug: servicio-nacional-de-aprendizaje-sena
+    organization_name: Servicio Nacional de Aprendizaje - SENA
+    category_slug: labor-unions-worker-centers
+    status: research-lead
+    website: https://www.sena.edu.co/
+    why_it_may_fit: SENA is Colombia's national public workforce-training institution under the labor-sector ecosystem, with 33 regional offices and 118 training centers, including Bogotá headquarters. Its documented programs include safe work-at-heights training, labor-competency evaluation and certification, mobile classrooms for rural and vulnerable communities, and short technical courses in fields such as construction, electronics, mechanics, agriculture, audiovisual production, graphic arts, and ICT. For BWB Colombia, whose official chapter page emphasizes volunteer mobilization, environmental field projects, youth empowerment, and hands-on local action, SENA could be a practical partner for safety preparation, field-skills training, and pathways for community participants to receive recognized competency support.
+    possible_collaboration_shapes:
+      - Coordinate safe-work-at-heights, rescue, tool-safety, or fieldwork-preparation training for BWB volunteers before reforestation, rural-school, or community build days.
+      - Invite SENA regional centers or mobile classrooms to co-host short skills workshops with community partners in rural areas where BWB Colombia already works.
+      - Refer interested community participants to SENA's free labor-competency certification process when BWB projects surface existing practical skills.
+    source_urls:
+      - https://www.sena.edu.co/
+      - https://www.sena.edu.co/es-co/formacion/Paginas/trabajo-seguro-en-alturas.aspx
+      - https://www.sena.edu.co/es-co/formacion/Paginas/Evaluaci%C3%B3n-y-Certificaci%C3%B3n-por-competencias-laborales.aspx
+      - https://www.sena.edu.co/es-co/formacion/Paginas/aulasMoviles.aspx
+      - https://burnerswithoutborders.org/chapters/colombia/
+    research_notes: SENA is not a labor union or worker center; it is included because the category prompt explicitly includes worker training pathways, safety training, and build support. Before outreach, verify which SENA regional center is closest to the specific BWB Colombia project site and whether SENA can partner with an informal volunteer chapter rather than a formal municipality, school, NGO, or employer.
+    last_verified: 2026-06-24
+
+  - opportunity_slug: escuela-nacional-sindical
+    organization_name: Escuela Nacional Sindical
+    category_slug: labor-unions-worker-centers
+    status: research-lead
+    website: https://www.ens.org.co/
+    why_it_may_fit: Escuela Nacional Sindical is a Medellín-based Colombian civil-society organization focused on the world of work, labor rights, worker organizations, research, training, advocacy, and advisory services. Its public materials describe more than 40 years of work with workers and unions across Colombia, including education, research, health and work, gender and differential approaches, negotiation, production and work, and support for new forms of worker organization. BWB Colombia could use ENS as a knowledge partner when volunteer projects touch labor rights, informal work, community employment pathways, safe and healthy work, or worker participation in civic projects.
+    possible_collaboration_shapes:
+      - Host a nonpartisan worker-rights and safe-volunteer-practice workshop for BWB volunteers and community participants.
+      - Ask ENS to advise on ethical community-project design where unpaid volunteer work, paid local labor, and youth skill-building overlap.
+      - Co-create a discussion or training session on informal work, care work, migrant labor vulnerability, or worker safety for communities involved in BWB Colombia projects.
+    source_urls:
+      - https://www.ens.org.co/
+      - https://www.ens.org.co/quienes-somos/
+      - https://www.ens.org.co/servicios/
+      - https://burnerswithoutborders.org/chapters/colombia/
+    research_notes: ENS appears active and publishes current labor content, including 2026 event/news items on its homepage. The services page lists a services email but does not expose detailed service descriptions in crawlable text, so a human should verify current training formats, fees, and whether ENS wants a civic-volunteer partnership before import or outreach.
+    last_verified: 2026-06-24
+
+  - opportunity_slug: central-unitaria-de-trabajadores-de-colombia-cut
+    organization_name: Central Unitaria de Trabajadores de Colombia
+    category_slug: labor-unions-worker-centers
+    status: research-lead
+    website: https://www.cut.org.co/
+    why_it_may_fit: CUT Colombia is one of the country's major national labor federations and is publicly described as a large umbrella organization of unions. Secondary public sources identify CUT as a major Colombian trade-union center, and available directory-style sources indicate functional labor departments such as education, health and work, youth, women, environment/resources, organization, and relations with social sectors. That breadth could make CUT a useful referral or convening lead if BWB Colombia wants worker-informed safety culture, union volunteer participation, or links to sector-specific unions for community build, repair, or resource-distribution projects.
+    possible_collaboration_shapes:
+      - Request a referral to local or sector-specific unions with members experienced in construction safety, logistics, education, environmental work, or community mobilization.
+      - Explore a low-risk volunteer orientation on worker safety culture, dignified collaboration with paid local labor, and avoiding accidental labor exploitation in community projects.
+      - Invite CUT's social-sector or education contacts, if active and appropriate, to join a listening session about community resilience projects in Bogotá or nearby regions.
+    source_urls:
+      - https://www.cut.org.co/
+      - https://en.wikipedia.org/wiki/Central_Union_of_Workers
+      - https://es.wikipedia.org/wiki/Central_Unitaria_de_Trabajadores_de_Colombia
+      - https://en.wikipedia.org/wiki/International_Trade_Union_Confederation
+      - https://burnerswithoutborders.org/chapters/colombia/
+    research_notes: The official CUT site was difficult to verify through search/open tooling during this pass, so this is a weaker lead than SENA or ENS. Do not import without a human checking the current official CUT website, active contact route, local chapter/department structure, and whether political positioning could complicate a BWB collaboration.
+    last_verified: 2026-06-24
+
 sources:
   - "https://burnerswithoutborders.org/chapters/colombia/"
   - "https://burnerswithoutborders.org/chapters/"

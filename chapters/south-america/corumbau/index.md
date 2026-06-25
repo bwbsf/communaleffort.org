@@ -375,6 +375,71 @@ opportunities:
       Very strong community venue lead for Cumuruxatiba; verify whether programming can include Corumbau residents and transport/logistics.
     last_verified: 2026-06-24
 
+
+  - opportunity_slug: associacao-dos-pescadores-de-cumuruxatiba-apec
+    organization_name: Associação dos Pescadores de Cumuruxatiba - APEC
+    category_slug: labor-unions-worker-centers
+    status: research-lead
+    website: https://uc.socioambiental.org/pt-br/arp/2585
+    why_it_may_fit: APEC is documented in the legal record for the Corumbau Marine Extractive Reserve through a 2012 ICMBio concession-of-use term, and the reserve itself is organized around traditional extractive fishing families in Prado and Porto Seguro communities including Corumbau, Cumuruxatiba, Barra do Cahy, Imbassuaba, and Veleiro. For BWB Corumbau, APEC is a practical worker-organization lead because fishing livelihoods, safe coastal work, boat access, cold-chain/storage limitations, and resource stewardship are central local needs.
+    possible_collaboration_shapes:
+      - Ask APEC whether BWB volunteers can support fisher-requested infrastructure such as storage, shade, signage, tool organization, or event logistics without disrupting livelihoods.
+      - Co-host a listening session on fisher safety, storm preparedness, marine debris, and supply-chain bottlenecks before designing any build or donation project.
+      - Pair BWB volunteer capacity with APEC-identified needs for cleanup days, community meals, or mutual support around fishing-season disruptions.
+    source_urls:
+      - https://uc.socioambiental.org/pt-br/arp/2585
+    research_notes: The source confirms APEC's formal relationship to ICMBio/RESEX land-use arrangements, but does not provide a current public website, current officers, or recent activity record. Verify whether APEC remains active, who is authorized to receive partnership inquiries, and whether Corumbau-based fishers prefer APEC, the RESEX council, or another local association as the first contact.
+    last_verified: 2026-06-25
+
+  - opportunity_slug: if-baiano-campus-teixeira-de-freitas
+    organization_name: IF Baiano Campus Teixeira de Freitas
+    category_slug: makerspaces-tool-libraries-repair-groups
+    status: research-lead
+    website: https://www.ifbaiano.edu.br/
+    why_it_may_fit: IF Baiano is a public federal professional and technological education institution with a campus in Teixeira de Freitas, the regional education hub for municipalities near Prado. Although it is not a makerspace or tool library, it is the strongest regional infrastructure lead found for technical education, extension, student projects, and practical training that could support community repair, agroecology, environmental education, or low-cost prototyping for Corumbau-area projects.
+    possible_collaboration_shapes:
+      - Ask campus extension staff whether students or instructors can advise on low-cost repair, water, waste, signage, or community-build prototypes requested by Corumbau partners.
+      - Explore a small field workshop in Prado/Corumbau on tool safety, maintenance, reuse, or basic fabrication tied to a locally identified need.
+      - Invite BWB volunteers to support an IF Baiano extension activity if the campus already has coastal, rural, agroecology, or environmental projects serving nearby communities.
+    source_urls:
+      - https://www.ifbaiano.edu.br/
+      - https://en.wikipedia.org/wiki/Teixeira_de_Freitas
+    research_notes: This is a regional technical-institution lead, not a confirmed makerspace. Search did not find a Corumbau/Prado tool library, repair collective, or maker group. Human reviewer should verify the campus's current courses, labs, extension contacts, distance/logistics to Corumbau, and whether community-facing projects can operate in Prado before adding this as an opportunity.
+    last_verified: 2026-06-25
+
+  - opportunity_slug: conselho-deliberativo-resex-marinha-do-corumbau
+    organization_name: Conselho Deliberativo da Reserva Extrativista Marinha do Corumbau
+    category_slug: nonprofits-cbos
+    status: research-lead
+    website: https://uc.socioambiental.org/pt-br/arp/2585
+    why_it_may_fit: The Corumbau Marine Extractive Reserve has a deliberative council, federal ICMBio management, a 2023 approved management plan, and documented beneficiary communities across Prado and Porto Seguro, including Corumbau. Because the council exists to support reserve implementation and traditional-population participation, it is likely the most legitimate place to vet BWB Corumbau ideas that affect fishing communities, mangroves, beaches, marine debris, or protected-area livelihoods.
+    possible_collaboration_shapes:
+      - Request guidance on community-approved volunteer roles for beach cleanup, marine-debris sorting, visitor education, or low-impact event support.
+      - Use the council as a listening-first forum before approaching individual communities or proposing projects in RESEX territory.
+      - Offer BWB logistics support for council-approved education, mapping, or stewardship activities that need volunteers, materials, or public communication.
+    source_urls:
+      - https://uc.socioambiental.org/pt-br/arp/2585
+      - https://www.in.gov.br/web/dou/-/portaria-icmbio-n-3.594-de-3-de-novembro-de-2023-521107271
+    research_notes: This lead is a governance/community interface rather than an ordinary nonprofit. Verify current council composition, meeting process, ICMBio contact path, and whether grassroots volunteer proposals should go through ICMBio, community representatives, APEC, or specific village associations.
+    last_verified: 2026-06-25
+
+  - opportunity_slug: instituto-baleia-jubarte
+    organization_name: Instituto Baleia Jubarte
+    category_slug: nonprofits-cbos
+    status: research-lead
+    website: https://www.baleiajubarte.org.br/
+    why_it_may_fit: Instituto Baleia Jubarte is a regional marine-conservation nonprofit rooted in the Abrolhos/Caravelas area, with documented work in humpback whale protection, research, environmental education, and public awareness along Bahia's whale coast. Corumbau sits within a coastal region where whale watching, fishing communities, reefs, turtles, and marine biodiversity are important, making the institute a plausible partner for education-oriented BWB projects.
+    possible_collaboration_shapes:
+      - Co-host a marine-stewardship or responsible whale-watching education pop-up with local fishers, schools, or tourism operators if invited.
+      - Ask whether BWB volunteers can support public education, beach cleanups, visitor materials, or citizen-science logistics during whale season.
+      - Connect BWB Corumbau projects with conservation messaging that protects marine wildlife while respecting traditional fishing livelihoods.
+    source_urls:
+      - https://www.baleiajubarte.org.br/
+      - https://pt.wikipedia.org/wiki/Instituto_Baleia_Jubarte
+      - https://pt.wikipedia.org/wiki/Zona_tur%C3%ADstica_da_Costa_das_Baleias
+    research_notes: Official website discoverability through search was limited during this pass, so the report also uses secondary summaries. Verify current programs, nearest active base/contact for Prado or Corumbau, volunteer policies, and whether the institute works directly in Corumbau before outreach.
+    last_verified: 2026-06-25
+
 sources:
   - "https://burnerswithoutborders.org/chapters/bwb-brazil/"
   - "https://burnerswithoutborders.org/chapters/"
