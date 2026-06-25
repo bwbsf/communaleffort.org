@@ -48,11 +48,13 @@ exclude:
   - OPENCODE.md
   - agents
   - downtime
+  - evidence
   - journal
   - kanban
   - plans
   - playbooks
   - references
+  - research
   - scripts
   - templates
   - third_party

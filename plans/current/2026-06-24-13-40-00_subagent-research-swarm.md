@@ -75,6 +75,7 @@ Complete the generated research prompts that were not part of the first two-agen
 - Imported localized-source-validated opportunities from all completed reports, archived processed reports into `research/archive/`, and updated `research/status.yml`.
 - Left 15 chapter-category targets as `needs-rerun` because no candidate in that category passed localized-source validation.
 - Regenerated research prompts; 11 prompt artifacts remain for those 15 `needs-rerun` targets.
+- Follow-up CI fix: added `evidence` and `research` to the Jekyll `exclude` list because GitHub Pages attempted to render archived evidence notes as public pages.
 
 ## Agent Waves
 
