@@ -77,7 +77,7 @@ opportunities:
     category_slug: funders-fiscal-sponsors
     status: research-lead
     website: https://madisongives.org/
-    why_it_may_fit: Madison Community Foundation supports charitable giving, nonprofit endowments, donor-advised funds, competitive grant opportunities, and a Greater Madison Nonprofit Directory. For BWB Madison, MCF is most relevant as a local funding-intelligence and philanthropy partner rather than an immediate project operator: it can help identify aligned grant cycles, funder priorities, nonprofit partners, and possible administrative pathways for community projects.
+    why_it_may_fit: "Madison Community Foundation supports charitable giving, nonprofit endowments, donor-advised funds, competitive grant opportunities, and a Greater Madison Nonprofit Directory. For BWB Madison, MCF is most relevant as a local funding-intelligence and philanthropy partner rather than an immediate project operator: it can help identify aligned grant cycles, funder priorities, nonprofit partners, and possible administrative pathways for community projects."
     possible_collaboration_shapes:
       - Use MCF's nonprofit directory and grant pages to identify fiscal or nonprofit partners for a BWB-led micro-project.
       - Explore whether an eligible local nonprofit partner could apply for community-impact or field-of-interest funding with BWB volunteer support.
@@ -183,7 +183,7 @@ opportunities:
     category_slug: residents-neighborhood-leaders
     status: research-lead
     website: https://www.cityofmadison.com/neighborhoods/
-    why_it_may_fit: Madison has a large network of officially recognized neighborhood associations, and neighborhood identity is a meaningful part of local civic life. For BWB Madison, neighborhood associations are a practical way to avoid top-down project design: they can identify block-level needs, advise on trusted local partners, co-host listening sessions, and help route volunteer energy to projects residents actually want.
+    why_it_may_fit: "Madison has a large network of officially recognized neighborhood associations, and neighborhood identity is a meaningful part of local civic life. For BWB Madison, neighborhood associations are a practical way to avoid top-down project design: they can identify block-level needs, advise on trusted local partners, co-host listening sessions, and help route volunteer energy to projects residents actually want."
     possible_collaboration_shapes:
       - Hold a listening session with one neighborhood association before designing a cleanup, art, repair, or resilience project.
       - Offer BWB volunteer support for a neighborhood-led event, resource fair, public-space care day, or emergency-preparedness activity.

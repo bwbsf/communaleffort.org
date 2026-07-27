@@ -445,61 +445,20 @@ opportunities:
     last_verified: 2026-06-24
 
 
-    - opportunity_slug: dc-public-library-the-labs
-      organization_name: DC Public Library – The Labs
-      category_slug: schools-libraries-community-centers
-      status: research-lead
-      website: https://www.dclibrary.org/
-      why_it_may_fit: DCPL’s flagship Martin Luther King Jr. Memorial Library includes The Labs makerspace, which has 3D printers and tools for public use. It also runs workshops and classes. BWB DC could use library rooms for workshops or collaborate on STEM/youth programs.
-      possible_collaboration_shapes:
-        - Co-develop maker/arts workshops (e.g. 3D printing for art) with The Labs staff.
-        - Host BWB project planning sessions or volunteer trainings in library meeting rooms.
-      source_urls:
-        - https://www.dclibrary.org/using-the-library/tool-library (The Labs tool library details)
-        - https://www.dclibrary.org/labs (about The Labs – not in sources but available)
-      research_notes: Public institutions encourage community use. Check reservation process.
-      last_verified: 2026-06-24
-  ```
-
-  no_good_leads_found:
-    - labor-unions-worker-centers: "No obvious DC-wide labor or union volunteer programs were found. Construction trades unions focus on city contracts, and local worker centers in DC (e.g. SEIU or AFGE locals) do not list public volunteer initiatives relevant to BWB’s focus."
-
-  follow_up_questions:
-    - "Should we reach out to any labor trade councils (e.g. DC Building Trades) for skill-share events, despite lack of obvious volunteer arms?"
-    - "Are universities or youth service organizations (e.g. DC public schools’ service clubs) considered under 'schools' category for outreach?"
-    - "Verify whether any local arts festivals (Fringe Fest, Atlas Arts Fest) could be added under arts-culture for seasonal events."
-    - "Confirm interest in partnering with local makerspaces beyond Greenbelt (e.g. Arlington’s The Makers Hub, TechShop DC if any)."
-
-  source_index:
-  - Washington Project for the Arts – organization description (about) supports community art projects.
-  - Dance Place – mission to build dance community; volunteer program “hub of dance activity”.
-  - Capital Area Food Bank – food distribution stats and volunteer (warehouse) roles.
-  - DC Central Kitchen – volunteer meal prep roles.
-  - Martha’s Table – volunteers distribute food and clothing, serving 45,000 people/year.
-  - SOME (So Others Might Eat) – homeless services and volunteer needs.
-  - Empower DC – local environmental justice campaigns.
-  - Casey Trees – volunteer tree-planting, 40% canopy goal.
-  - Anacostia Watershed Society – river cleanup and habitat restoration volunteer activities.
-  - Rock Creek Conservancy – park restoration volunteer stats (trees, trash removed).
-  - Greater Washington Community Foundation – offers fiscal sponsorship and community grants.
-  - United Way NCA – community impact through volunteering, with specific event campaigns.
-  - Busboys & Poets – cultural hub promoting social change and community events.
-  - DC DPR – relies on volunteers to extend park/recreation programs.
-  - DC VOAD – coordinating nonprofit disaster response.
-  - Serve DC (Mayor’s Office on Volunteerism) – DC’s volunteer coordination office and AmeriCorps grants.
-  - DC Tool Library – non-profit tool lending program for residents.
-  - Fix-It DC (DOEE) – free community repair events led by volunteer coaches.
-  - DC Public Library Tool Library – “Labs” tool lending for DIY projects.
-  - Greenbelt Makerspace – tool library in MD offering loans and repair cafes.
-  - Ward 4 Mutual Aid – community aid distributing food/diapers monthly.
-  - Mutual Aid Movement DC – grassroots meal and produce deliveries (Ward 1).
-  - DMV Mutual Aid – aggregator of local mutual aid links (general resource).
-  - Food Not Bombs DC – weekly free vegan meals volunteer-run (IG listing).
-  - Bread for the City – food/clothing/social services provider (DC pantries).
-  - Miriam’s Kitchen – meals to homeless with volunteer shifts.
-  - Community of Hope – DC housing and health nonprofit (volunteer page).
-  - DC Public Library (Labs) – maker space and tool library at central library.
-
+  - opportunity_slug: dc-public-library-the-labs
+    organization_name: DC Public Library – The Labs
+    category_slug: schools-libraries-community-centers
+    status: research-lead
+    website: https://www.dclibrary.org/
+    why_it_may_fit: DCPL’s flagship Martin Luther King Jr. Memorial Library includes The Labs makerspace, which has 3D printers and tools for public use. It also runs workshops and classes. BWB DC could use library rooms for workshops or collaborate on STEM/youth programs.
+    possible_collaboration_shapes:
+      - Co-develop maker/arts workshops (e.g. 3D printing for art) with The Labs staff.
+      - Host BWB project planning sessions or volunteer trainings in library meeting rooms.
+    source_urls:
+      - https://www.dclibrary.org/using-the-library/tool-library (The Labs tool library details)
+      - https://www.dclibrary.org/labs (about The Labs – not in sources but available)
+    research_notes: Public institutions encourage community use. Check reservation process.
+    last_verified: 2026-06-24
 
   - opportunity_slug: dc-jobs-with-justice
     organization_name: DC Jobs with Justice

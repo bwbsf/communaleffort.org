@@ -172,7 +172,7 @@ opportunities:
       - https://www.onetruckeeriver.org/about-otr
       - https://www.onetruckeeriver.org/volunteer-for-the-truckee-river
       - https://www.onetruckeeriver.org/plans-and-reports
-    research_notes: Strong fit for both environmental work and resident-engagement work. Verify the best entry point: staff-led volunteer events, watershed coalition work, or advisory-team-facing work.
+    research_notes: "Strong fit for both environmental work and resident-engagement work. Verify the best entry point: staff-led volunteer events, watershed coalition work, or advisory-team-facing work."
     last_verified: 2026-06-24
 
   - opportunity_slug: urban-roots

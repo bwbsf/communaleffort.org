@@ -130,7 +130,7 @@ opportunities:
     source_urls:
       - https://kctenants.org/home
       - https://en.wikipedia.org/wiki/KC_Tenants
-    research_notes: The official site should be checked directly before outreach; the browser session captured a public reference summary describing KC Tenants' Kansas City organizing, tenant hotline/report forms, right-to-counsel/source-of-income advocacy, and tenant union activity. Treat this as a politically sensitive, tenant-led space: collaboration should be opt-in, practical, and deferential to existing organizers.
+    research_notes: "The official site should be checked directly before outreach; the browser session captured a public reference summary describing KC Tenants' Kansas City organizing, tenant hotline/report forms, right-to-counsel/source-of-income advocacy, and tenant union activity. Treat this as a politically sensitive, tenant-led space: collaboration should be opt-in, practical, and deferential to existing organizers."
     last_verified: 2026-06-24
 
   - opportunity_slug: el-centro-inc

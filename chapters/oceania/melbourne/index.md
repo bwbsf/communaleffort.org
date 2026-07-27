@@ -73,8 +73,6 @@ opportunities:
     research_notes: Arts House is a public cultural venue, not a generic volunteer-service partner. Verify program fit, lead times, and whether a BWB project would need an artist/producer partner.
     last_verified: 2026-06-24
 
-  # direct-service-providers
-
   - opportunity_slug: foodbank-victoria
     organization_name: Foodbank Victoria
     category_slug: direct-service-providers
@@ -125,8 +123,6 @@ opportunities:
       - https://www.volunteer.com.au/volunteering/225078/laundry-van-volunteer-orange-sky-australia
     research_notes: Verify active Melbourne shift locations, volunteer requirements, safety protocols, and whether external groups can coordinate around existing service delivery.
     last_verified: 2026-06-24
-
-  # environmental-resilience-organizations
 
   - opportunity_slug: ceres-community-environment-park
     organization_name: CERES Community Environment Park
@@ -207,8 +203,6 @@ opportunities:
     research_notes: Best fit is arts/cultural project administration, not general disaster-response fundraising. Verify whether the project is arts-led enough to qualify.
     last_verified: 2026-06-24
 
-  # labor-unions-worker-centers
-
   - opportunity_slug: victorian-trades-hall-council
     organization_name: Victorian Trades Hall Council
     category_slug: labor-unions-worker-centers
@@ -261,8 +255,6 @@ opportunities:
     research_notes: Verify current Melbourne program capacity and whether community volunteer projects are within scope.
     last_verified: 2026-06-24
 
-  # local-businesses-social-enterprises
-
   - opportunity_slug: good-cycles
     organization_name: Good Cycles
     category_slug: local-businesses-social-enterprises
@@ -310,9 +302,6 @@ opportunities:
       - https://www.csi.edu.au/education/student-stories/creating-pathways-out-of-homelessness-through-social-enterprise/
     research_notes: Verify current sites, catering availability, costs, and whether a collaboration would materially support training/employment pathways.
     last_verified: 2026-06-24
-
-  # local-government-public-agencies
-
 
   - opportunity_slug: victoria-state-emergency-service
     organization_name: Victoria State Emergency Service
@@ -393,8 +382,6 @@ opportunities:
     research_notes: Evidence is mostly social/event-listing based. Verify current organizers, frequency, donation handling, political context, and whether a BWB collaboration would be welcome.
     last_verified: 2026-06-24
 
-  # nonprofits-cbos
-
   - opportunity_slug: cohealth
     organization_name: cohealth
     category_slug: nonprofits-cbos
@@ -441,8 +428,6 @@ opportunities:
       - https://vcoss.org.au/projects/disaster-resilience/
     research_notes: VCOSS is a peak body, not a front-line volunteer host. Best used for referrals, policy context, and partnership mapping.
     last_verified: 2026-06-24
-
-  # residents-neighborhood-leaders
 
   - opportunity_slug: neighbourhood-houses-victoria
     organization_name: Neighbourhood Houses Victoria
@@ -510,9 +495,6 @@ opportunities:
     research_notes: Verify current public-housing-community priorities, safeguarding requirements, and language-access needs before proposing a project.
     last_verified: 2026-06-24
 
-  # schools-libraries-community-centers
-
-
   - opportunity_slug: victoria-university-community-partnerships
     organization_name: Victoria University Community Partnerships
     category_slug: schools-libraries-community-centers
@@ -529,230 +511,21 @@ opportunities:
     last_verified: 2026-06-24
 
 
-    - opportunity_slug: melbourne-polytechnic-amep-volunteer-tutor-scheme
-      organization_name: Melbourne Polytechnic AMEP Volunteer Tutor Scheme
-      category_slug: schools-libraries-community-centers
-      status: research-lead
-      website: https://www.melbournepolytechnic.edu.au/
-      why_it_may_fit: Melbourne Polytechnic's AMEP Volunteer Tutor Scheme prepares volunteers to support English learning for migrants and refugees. This is relevant where BWB Melbourne wants to build inclusive volunteer pathways, community connection, and practical support for newcomers.
-      possible_collaboration_shapes:
-        - Refer interested BWB members into volunteer-tutor training as a sustained civic-service pathway.
-        - Co-host a community resource or social-connection event that complements, but does not replace, formal language-learning programs.
-      source_urls:
-        - https://www.melbournepolytechnic.edu.au/study/human-services/community-services/
-        - https://www.melbournepolytechnic.edu.au/short-courses/training-volunteer-tutors/
-        - https://www.volunteer.com.au/volunteering-organisations/16708/adult-migrant-english-program-melbourne-polytechnic
-      research_notes: This is a structured education/volunteering pathway, not a short-notice event partner. Verify intake dates, training requirements, and eligibility.
-      last_verified: 2026-06-24
-  ```
-
-  ## 3. `no_good_leads_found`
-
-  ```yaml
-  no_good_leads_found: []
-  ```
-
-  All requested categories had at least two credible local leads with enough public evidence for a `research-lead` entry. The weakest-evidence category is `mutual-aid-groups`, because some Melbourne/Naarm mutual-aid activity is documented primarily through social media, event pages, or politically explicit organizing sites rather than durable nonprofit program pages.
-
-  ## 4. `follow_up_questions`
-
-  ```yaml
-  follow_up_questions:
-    - Should BWB Melbourne prioritize the City of Melbourne municipality, inner north, inner west, or the wider Melbourne metro area?
-    - Does BWB Melbourne have an incorporated local entity, auspice, or fiscal sponsor, or should opportunities assume unincorporated volunteer-group status?
-    - Is the chapter comfortable collaborating with politically explicit mutual-aid groups, or should maintainers restrict recommendations to nonpartisan service providers and neighbourhood houses?
-    - Are the chapter's likely first projects more focused on food/hygiene support, public art, environmental cleanup, repair/reuse, or disaster preparedness?
-    - Should opportunities involving public agencies be framed only as preparedness/resource partners, avoiding any operational emergency-response role?
-    - Does the maintainer want separate entries for specific library branches, neighbourhood houses, or council areas once BWB Melbourne identifies its actual neighbourhood base?
-  ```
-
-  ## 5. `source_index`
-
-  ```yaml
-  source_index:
-    - url: https://burnerswithoutborders.org/chapters/
-      notes: Official BWB chapter directory; confirms Melbourne, VIC appears as a BWB chapter listing.
-    - url: https://burningman.org/global-events-groups/burners-without-borders/
-      notes: Burning Man Project background on BWB as a grassroots volunteer-driven civic action and resilience network.
-    - url: https://burnerswithoutborders.org/network/
-      notes: BWB network page describing chapters, working groups, affiliates, partners, and project collaboration.
-    - url: https://footscrayarts.com/schools-program/
-      notes: Footscray Community Arts school and workshop programming, including creative education themes.
-    - url: https://www.vu.edu.au/partnerships/community-partnerships/footscray-community-arts
-      notes: Victoria University description of Footscray Community Arts partnership, student placements, events, production, and community arts activity.
-    - url: https://collingwoodyards.org/
-      notes: Official Collingwood Yards arts precinct website.
-    - url: https://events.humanitix.com/host/collingwoodyards
-      notes: Collingwood Yards public events host page, supporting active programming evidence.
-    - url: https://www.arts.gov.au/sites/default/files/documents/a-new-national-cultural-policy-ncp0168_collingwood-yards.pdf
-      notes: Collingwood Yards submission describing shared spaces, public arts precinct functions, and community/artist-led presentation capacity.
-    - url: https://www.artshouse.com.au/
-      notes: Official Arts House site describing the City of Melbourne contemporary performance venue in North Melbourne.
-    - url: https://www.melbourne.vic.gov.au/arts-and-culture
-      notes: City of Melbourne arts and culture program context.
-    - url: https://www.melbourne.vic.gov.au/public-art
-      notes: City of Melbourne public-art program context and public-space cultural framing.
-    - url: https://www.foodbank.org.au/vic/
-      notes: Foodbank Victoria official home page; supports statewide food-relief role.
-    - url: https://www.foodbank.org.au/vic/hunger-in-australia/who-we-are/
-      notes: Foodbank Victoria scale, charity/school network, volunteers, and meals information.
-    - url: https://www.foodbank.org.au/vic/group-warehouse-volunteering/
-      notes: Foodbank Victoria group warehouse volunteering information.
-    - url: https://www.foodbank.org.au/vic/community-volunteer-program/
-      notes: Foodbank Victoria community volunteering option for schools, government, and local community groups.
-    - url: https://www.fareshare.net.au/corporate-volunteering-abbotsford-kitchen/
-      notes: FareShare Abbotsford kitchen volunteering details.
-    - url: https://secondbite.org/fareshare-charity-kitchen-opening/
-      notes: FareShare/SecondBite source on charity-kitchen scale and meal-production model.
-    - url: https://events.humanitix.com/host/fareshare2026
-      notes: FareShare event/volunteer host page confirming continuing public volunteer activity.
-    - url: https://orangesky.org.au/
-      notes: Orange Sky official site describing free laundry, showers, and conversation support.
-    - url: https://orangesky.org.au/use-our-service/
-      notes: Orange Sky service-access description, including no booking or ID requirements.
-    - url: https://www.volunteer.com.au/volunteering/225078/laundry-van-volunteer-orange-sky-australia
-      notes: Melbourne-area Orange Sky volunteer listing.
-    - url: https://ceres.org.au/
-      notes: CERES official site describing environmental education, community garden, urban farm, and social enterprise hub.
-    - url: https://mcmc.org.au/
-      notes: Merri Creek Management Committee official site describing creek stewardship and ecological restoration.
-    - url: https://mcmc.org.au/get-involved/volunteering-opportunities/volunteering-with-the-ecological-restoration-team
-      notes: Merri Creek ecological restoration volunteering page.
-    - url: https://www.beachpatrol.com.au/
-      notes: BeachPatrol and Love Our Street official site describing volunteer cleanups and postcode-based groups.
-    - url: https://www.bayside.vic.gov.au/explore-bayside/volunteering/beachpatrol-and-love-our-street-community-clean
-      notes: Local council page confirming BeachPatrol and Love Our Street cleanup activity.
-    - url: https://www.greatermelbournefoundation.org.au/about/greater-melbourne-foundation
-      notes: Greater Melbourne Foundation mission and place-based philanthropic role.
-    - url: https://www.greatermelbournefoundation.org.au/apply-grant/grants-program
-      notes: Greater Melbourne Foundation grants program priorities.
-    - url: https://www.greatermelbournefoundation.org.au/apply-grant/grant-opportunities/2026-greater-melbourne-foundation-funding-round
-      notes: Greater Melbourne Foundation current funding-round structure and grant-size evidence.
-    - url: https://www.innernorthfoundation.org.au/
-      notes: Inner North Community Foundation official site.
-    - url: https://www.innernorthfoundation.org.au/grants/current-grants/
-      notes: Inner North Community Foundation local grant eligibility and geography.
-    - url: https://www.innernorthfoundation.org.au/brunswick-voice-fund/
-      notes: Example of local Brunswick community-lunch/emergency-relief fundraising through Inner North Community Foundation.
-    - url: https://www.auspicious.com.au/
-      notes: Auspicious Arts Projects official site describing arts project management and support.
-    - url: https://www.auspicious.com.au/faqs
-      notes: Auspicious Arts Projects FAQ explaining auspicing and project approval process.
-    - url: https://www.weareunion.org.au/
-      notes: Victorian Trades Hall Council official site.
-    - url: https://www.weareunion.org.au/training
-      notes: Victorian Trades Hall Council training page.
-    - url: https://www.weareunion.org.au/delegatetraining2025
-      notes: Victorian Trades Hall Council delegate-training page and venue context.
-    - url: https://www.dcceew.gov.au/parks-heritage/heritage/places/national/victorian-trades-hall
-      notes: Australian Government heritage page describing Victorian Trades Hall's historic worker-rights role.
-    - url: https://www.migrantworkers.org.au/
-      notes: Migrant Workers Centre official site.
-    - url: https://www.migrantworkers.org.au/who_we_are
-      notes: Migrant Workers Centre mission and worker-rights role.
-    - url: https://www.migrantworkers.org.au/get_help
-      notes: Migrant Workers Centre legal-help eligibility and service boundaries.
-    - url: https://scoa.org.au/members/migrant-workers-centre/
-      notes: Settlement Council of Australia member page describing Migrant Workers Centre support and education roles.
-    - url: https://tradeswomenaus.com/
-      notes: Tradeswomen Australia official site.
-    - url: https://tradeswomenaus.com/employers/trainings/
-      notes: Tradeswomen Australia training-support services.
-    - url: https://tradeswomenaustralia.com.au/wp-content/uploads/2021/04/TWA_Information-Brochure_edited-210421.pdf
-      notes: Tradeswomen Australia brochure describing mission, Melbourne office, and trades-inclusion focus.
-    - url: https://www.goodcycles.org.au/tag/social-enterprise/
-      notes: Good Cycles official social-enterprise tag page describing youth employment and green jobs.
-    - url: https://www.communitydirectors.com.au/articles/employment-program-makes-life-cycle-easier-young-unemployed
-      notes: Secondary source describing Good Cycles youth employment program.
-    - url: https://au.linkedin.com/company/good-cycles-ltd
-      notes: Secondary profile describing Good Cycles as a not-for-profit social enterprise.
-    - url: https://greencollect.org/pages/office-clear-out
-      notes: Green Collect official page describing Melbourne office clear-out, reuse, and circular-economy services.
-    - url: https://understorey.org.au/organisations/green-collect
-      notes: Secondary profile describing Green Collect's circular-economy and employment-barrier mission.
-    - url: https://forchangeco.com.au/
-      notes: For Change Co. official site describing youth homelessness pathways through hospitality training and employment.
-    - url: https://www.csi.edu.au/education/student-stories/creating-pathways-out-of-homelessness-through-social-enterprise/
-      notes: Centre for Social Impact profile of For Change Co.'s social-enterprise model.
-    - url: https://www.melbourne.vic.gov.au/neighbourhood-grants
-      notes: City of Melbourne connected-neighbourhood grants and social-connection funding pathway.
-    - url: https://www.melbourne.vic.gov.au/city-resilience
-      notes: City of Melbourne resilience planning context.
-    - url: https://www.melbourne.vic.gov.au/neighbourhood-houses
-      notes: City of Melbourne neighbourhood-house page describing local connection, learning, and volunteering.
-    - url: https://www.ses.vic.gov.au/
-      notes: Victoria State Emergency Service official site and volunteer emergency-service context.
-    - url: https://www.ses.vic.gov.au/join-us/volunteer-opportunities/community-engagement
-      notes: VICSES community-engagement volunteer role description.
-    - url: https://www.emv.vic.gov.au/responsibilities/state-emergency-management-plan-semp/roles-and-responsibilities/role-statements/role-statement-victoria-state-emergency-services
-      notes: Emergency Management Victoria role statement for VICSES.
-    - url: https://www.emv.vic.gov.au/how-we-help/community-resilience/community-resilience-framework-for-emergency-management
-      notes: Emergency Management Victoria community resilience framework.
-    - url: https://www.emv.vic.gov.au/volunteer
-      notes: Emergency Management Victoria page on emergency-management volunteers.
-    - url: https://www.brunswicktoollibrary.org/
-      notes: Brunswick Tool Library official site describing volunteer-led tool lending and repair/build ethos.
-    - url: https://www.brunswicktoollibrary.org/btlevents
-      notes: Brunswick Tool Library events page, including repair cafe activity.
-    - url: https://makercommunity.org.au/product/repair-cafe/
-      notes: Maker Community page confirming repair cafes at Brunswick Tool Library and repair categories.
-    - url: https://www.hackmelbourne.org/
-      notes: Connected Community HackerSpace official site.
-    - url: https://makerspaces.com.au/place/connected-community-hackerspace-hackmelbourne
-      notes: Makerspaces directory profile listing Connected Community HackerSpace tools and activities.
-    - url: https://www.melbourne.vic.gov.au/makerspaces
-      notes: City of Melbourne Libraries makerspaces page.
-    - url: https://librarysearch.melbourne.vic.gov.au/cgi-bin/spydus.exe/MSGTRNGEN/WPAC/MAKERTOOLS?HOMEPRMS=UD_TOOLS
-      notes: City of Melbourne Libraries tool-library page.
-    - url: https://makerspaces.com.au/place/library-at-the-dock
-      notes: Makerspaces directory profile for Library at The Dock equipment and public maker access.
-    - url: https://www.cudl.org.au/
-      notes: Community Union Defence League official site describing street kitchens, workshops, and direct-action support.
-    - url: https://www.cudl.org.au/vicbranch
-      notes: CUDL Victorian branch page describing weekly food service, cooking, driving, and donation roles.
-    - url: https://www.instagram.com/mutualaidmarketnaarm/
-      notes: Mutual Aid Market Naarm social page; primary public contact/activity source.
-    - url: https://www.pbsfm.org.au/news/mutual-aid-market
-      notes: PBS FM event page describing Mutual Aid Market Naarm fundraising market activity.
-    - url: https://www.cohealth.org.au/
-      notes: cohealth official site describing community health and health-equity mission.
-    - url: https://www.health.gov.au/ministers/the-hon-mark-butler-mp/media/securing-the-future-of-cohealth?language=en
-      notes: Australian Government source describing cohealth clinics and integrated health/social support.
-    - url: https://www.cmy.net.au/
-      notes: Centre for Multicultural Youth official site.
-    - url: https://www.homeaffairs.gov.au/reports-and-pubs/PDFs/multicultural-framework-review-public-anonymous-submissions/a-c/centre-for-multicultural-youth.PDF
-      notes: Centre for Multicultural Youth public submission describing mission, constituency, and programs.
-    - url: https://vcoss.org.au/
-      notes: Victorian Council of Social Service official site.
-    - url: https://vcoss.org.au/projects/disaster-resilience/
-      notes: VCOSS disaster-resilience project page and emergency-management sector role.
-    - url: https://www.nhvic.org.au/
-      notes: Neighbourhood Houses Victoria official site and statewide network context.
-    - url: https://bnhc.vic.edu.au/
-      notes: Brunswick Neighbourhood House official site.
-    - url: https://www.nhvic.org.au/properties/brunswick-neighbourhood-house
-      notes: Neighbourhood Houses Victoria listing for Brunswick Neighbourhood House.
-    - url: https://cnlc.org.au/
-      notes: Carlton Neighbourhood Learning Centre official site.
-    - url: https://cnlc.org.au/about/
-      notes: Carlton Neighbourhood Learning Centre description as a community learning hub and neighbourhood house.
-    - url: https://www.yarracity.vic.gov.au/things-to-do/community-centres-and-venues/carlton-neighbourhood-learning-centre
-      notes: Yarra City Council listing describing CNLC programs including food relief, community lunch, urban farming, compost, and garden activity.
-    - url: https://www.nmll.org.au/
-      notes: North Melbourne Language & Learning official site.
-    - url: https://www.nhvic.org.au/properties/north-melbourne-language-%26-learning
-      notes: Neighbourhood Houses Victoria listing for North Melbourne Language & Learning.
-    - url: https://www.northmelbourne.net/index.php/members/profile/view/5
-      notes: North Melbourne community directory description of NMLL's work with CALD communities and public-housing residents.
-    - url: https://www.vu.edu.au/partnerships/community-partnerships
-      notes: Victoria University community partnerships page.
-    - url: https://www.melbournepolytechnic.edu.au/study/human-services/community-services/
-      notes: Melbourne Polytechnic community services page referencing volunteer-tutor pathways.
-    - url: https://www.melbournepolytechnic.edu.au/short-courses/training-volunteer-tutors/
-      notes: Melbourne Polytechnic volunteer tutor training page.
-    - url: https://www.volunteer.com.au/volunteering-organisations/16708/adult-migrant-english-program-melbourne-polytechnic
-      notes: Volunteer listing for Melbourne Polytechnic Adult Migrant English Program volunteer activity.
-  ```
+  - opportunity_slug: melbourne-polytechnic-amep-volunteer-tutor-scheme
+    organization_name: Melbourne Polytechnic AMEP Volunteer Tutor Scheme
+    category_slug: schools-libraries-community-centers
+    status: research-lead
+    website: https://www.melbournepolytechnic.edu.au/
+    why_it_may_fit: Melbourne Polytechnic's AMEP Volunteer Tutor Scheme prepares volunteers to support English learning for migrants and refugees. This is relevant where BWB Melbourne wants to build inclusive volunteer pathways, community connection, and practical support for newcomers.
+    possible_collaboration_shapes:
+      - Refer interested BWB members into volunteer-tutor training as a sustained civic-service pathway.
+      - Co-host a community resource or social-connection event that complements, but does not replace, formal language-learning programs.
+    source_urls:
+      - https://www.melbournepolytechnic.edu.au/study/human-services/community-services/
+      - https://www.melbournepolytechnic.edu.au/short-courses/training-volunteer-tutors/
+      - https://www.volunteer.com.au/volunteering-organisations/16708/adult-migrant-english-program-melbourne-polytechnic
+    research_notes: This is a structured education/volunteering pathway, not a short-notice event partner. Verify intake dates, training requirements, and eligibility.
+    last_verified: 2026-06-24
 
 sources:
   - "https://burnerswithoutborders.org/chapters/melbourne-vic-australia/"

@@ -115,7 +115,7 @@ opportunities:
       - Explore volunteer support for vetted nonprofit facility-improvement days where union participation is appropriate.
     source_urls:
       - https://www.ibew354.org/
-    research_notes: This lead requires careful verification: any build or repair work must respect licensing, liability, contractor relationships, union rules, and member availability. The official site contains politically worded mission text; evaluate fit based on practical worker-safety and skilled-trades collaboration only.
+    research_notes: "This lead requires careful verification: any build or repair work must respect licensing, liability, contractor relationships, union rules, and member availability. The official site contains politically worded mission text; evaluate fit based on practical worker-safety and skilled-trades collaboration only."
     last_verified: 2026-06-25
 
   - opportunity_slug: spice-kitchen-incubator

@@ -178,7 +178,7 @@ opportunities:
       - Collaborate only on projects co-designed with residents and led by Resilience OC's existing organizing spaces.
     source_urls:
       - https://resilienceoc.org/
-    research_notes: Category fit is adjacent, not exact: this is a community organizing and leadership organization rather than a named mutual-aid collective. Verify whether mutual-aid support is welcome and avoid imposing outside agendas.
+    research_notes: "Category fit is adjacent, not exact: this is a community organizing and leadership organization rather than a named mutual-aid collective. Verify whether mutual-aid support is welcome and avoid imposing outside agendas."
     last_verified: 2026-06-24
   
   # nonprofits-cbos

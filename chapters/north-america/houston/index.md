@@ -207,7 +207,7 @@ opportunities:
     source_urls:
       - https://www.houstonlibrary.org/
       - https://en.wikipedia.org/wiki/Houston_Public_Library
-    research_notes: Official HPL pages were rate-limited during this pass, so the secondary source is included only as a temporary support for system scale and branch infrastructure. Before import, verify directly on Houston Public Library's official site or with staff: current branch availability, room-use rules, programming proposal process, accessibility, insurance, and whether BWB can present as a community partner.
+    research_notes: "Official HPL pages were rate-limited during this pass, so the secondary source is included only as a temporary support for system scale and branch infrastructure. Before import, verify directly on Houston Public Library's official site or with staff: current branch availability, room-use rules, programming proposal process, accessibility, insurance, and whether BWB can present as a community partner."
     last_verified: 2026-06-24
 sources:
   - "https://burnerswithoutborders.org/chapters/bwb-houston/"

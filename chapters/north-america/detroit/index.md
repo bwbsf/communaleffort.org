@@ -257,11 +257,11 @@ opportunities:
     last_verified: 2026-06-24
 
   - opportunity_slug: focus-hope
-    organization_name: Focus: HOPE
+    organization_name: "Focus: HOPE"
     category_slug: nonprofits-cbos
     status: research-lead
     website: https://www.focushope.edu/
-    why_it_may_fit: Focus: HOPE is a long-standing Detroit nonprofit lead for food, workforce, education, and community support. It may fit BWB Detroit collaborations involving volunteer support, community resource events, food distribution, or training/referral connections.
+    why_it_may_fit: "Focus: HOPE is a long-standing Detroit nonprofit lead for food, workforce, education, and community support. It may fit BWB Detroit collaborations involving volunteer support, community resource events, food distribution, or training/referral connections."
     possible_collaboration_shapes:
       - Provide BWB volunteers for food-box, community event, or neighborhood-support needs identified by Focus: HOPE.
       - Include workforce or education referrals at a BWB resource fair.

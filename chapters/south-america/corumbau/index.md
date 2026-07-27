@@ -49,44 +49,44 @@ opportunities:
     last_verified: 2026-06-24
 
 
-    - opportunity_slug: movimento-cultural-arte-manha
-      organization_name: Movimento Cultural Arte Manha
-      category_slug: arts-culture-organizations
-      status: research-lead
-      website: https://cadastro.museus.gov.br/pontos-de-memoria/movimento-cultural-arte-manha/
-      why_it_may_fit: >-
-        Movimento Cultural Arte Manha is a regional cultural point and memory/culture organization in Caravelas, in Bahia’s Extremo Sul. Public museum-directory information describes collaborative volunteer cultural practices and workshops in dance, music, capoeira, percussion, visual arts, screen printing, recycled instruments, and Afro-Indigenous culture. It is not Corumbau-local, but it is a plausible regional creative-practice partner for public art, recycled-material workshops, and community activation.
-      possible_collaboration_shapes:
-        - Invite artists/facilitators for recycled-instrument, visual-art, or public-culture workshops in Corumbau or Cumuruxatiba.
-        - Pair regional cultural educators with local schools or youth groups for participatory arts tied to coastal stewardship.
-      source_urls:
-        - https://cadastro.museus.gov.br/pontos-de-memoria/movimento-cultural-arte-manha/
-      research_notes: >-
-        Regional rather than local lead; verify travel feasibility, current activity, and whether the group has existing ties to Prado/Corumbau communities.
-      last_verified: 2026-06-24
+  - opportunity_slug: movimento-cultural-arte-manha
+    organization_name: Movimento Cultural Arte Manha
+    category_slug: arts-culture-organizations
+    status: research-lead
+    website: https://cadastro.museus.gov.br/pontos-de-memoria/movimento-cultural-arte-manha/
+    why_it_may_fit: >-
+      Movimento Cultural Arte Manha is a regional cultural point and memory/culture organization in Caravelas, in Bahia’s Extremo Sul. Public museum-directory information describes collaborative volunteer cultural practices and workshops in dance, music, capoeira, percussion, visual arts, screen printing, recycled instruments, and Afro-Indigenous culture. It is not Corumbau-local, but it is a plausible regional creative-practice partner for public art, recycled-material workshops, and community activation.
+    possible_collaboration_shapes:
+      - Invite artists/facilitators for recycled-instrument, visual-art, or public-culture workshops in Corumbau or Cumuruxatiba.
+      - Pair regional cultural educators with local schools or youth groups for participatory arts tied to coastal stewardship.
+    source_urls:
+      - https://cadastro.museus.gov.br/pontos-de-memoria/movimento-cultural-arte-manha/
+    research_notes: >-
+      Regional rather than local lead; verify travel feasibility, current activity, and whether the group has existing ties to Prado/Corumbau communities.
+    last_verified: 2026-06-24
 
-  direct-service-providers:
+direct-service-providers:
 
-    - opportunity_slug: secretaria-assistencia-social-prado
-      organization_name: Secretaria Municipal de Assistência e Desenvolvimento Social, Família e Combate à Fome de Prado
-      category_slug: direct-service-providers
-      status: research-lead
-      website: https://prado.ba.gov.br/desenvolvimento-e-acao-social/
-      why_it_may_fit: >-
-        Prado’s municipal social-assistance department is the most credible local public direct-service lead identified. Official municipal structure pages describe responsibilities around social vulnerability, low-income families, risk areas, social emergencies/calamities, community integration, housing, and civil defense-related support. This office could help BWB Corumbau avoid duplicating services and coordinate practical volunteer efforts with existing CRAS/CREAS and municipal assistance channels.
-      possible_collaboration_shapes:
-        - Coordinate resource fairs, hygiene-kit drives, or food/supply sorting through CRAS/CREAS referral pathways.
-        - Support disaster-preparedness or post-storm community check-ins with municipal social-assistance staff and local associations.
-        - Map non-sensitive service-navigation information for Corumbau residents and seasonal workers.
-      source_urls:
-        - https://prado.ba.gov.br/desenvolvimento-e-acao-social/
-        - https://www.acessoinformacao.com.br/ba/prado/estrutura-organizacional/
-        - https://www.gov.br/pt-br/servicos/acessar-o-cras-centro-de-referencia-da-assistencia-social
-      research_notes: >-
-        Verify the current CRAS/CREAS service locations, schedules, and whether outreach reaches Corumbau directly or primarily the Prado municipal seat. Do not collect or publish sensitive resident information.
-      last_verified: 2026-06-24
+  - opportunity_slug: secretaria-assistencia-social-prado
+    organization_name: Secretaria Municipal de Assistência e Desenvolvimento Social, Família e Combate à Fome de Prado
+    category_slug: direct-service-providers
+    status: research-lead
+    website: https://prado.ba.gov.br/desenvolvimento-e-acao-social/
+    why_it_may_fit: >-
+      Prado’s municipal social-assistance department is the most credible local public direct-service lead identified. Official municipal structure pages describe responsibilities around social vulnerability, low-income families, risk areas, social emergencies/calamities, community integration, housing, and civil defense-related support. This office could help BWB Corumbau avoid duplicating services and coordinate practical volunteer efforts with existing CRAS/CREAS and municipal assistance channels.
+    possible_collaboration_shapes:
+      - Coordinate resource fairs, hygiene-kit drives, or food/supply sorting through CRAS/CREAS referral pathways.
+      - Support disaster-preparedness or post-storm community check-ins with municipal social-assistance staff and local associations.
+      - Map non-sensitive service-navigation information for Corumbau residents and seasonal workers.
+    source_urls:
+      - https://prado.ba.gov.br/desenvolvimento-e-acao-social/
+      - https://www.acessoinformacao.com.br/ba/prado/estrutura-organizacional/
+      - https://www.gov.br/pt-br/servicos/acessar-o-cras-centro-de-referencia-da-assistencia-social
+    research_notes: >-
+      Verify the current CRAS/CREAS service locations, schedules, and whether outreach reaches Corumbau directly or primarily the Prado municipal seat. Do not collect or publish sensitive resident information.
+    last_verified: 2026-06-24
 
-  environmental-resilience-organizations:
+environmental-resilience-organizations:
 
   - opportunity_slug: icmbio-resex-marinha-corumbau
     organization_name: ICMBio – Reserva Extrativista Marinha de Corumbau
@@ -128,24 +128,24 @@ opportunities:
     last_verified: 2026-06-24
 
 
-    - opportunity_slug: instituto-baleia-jubarte-cumuruxatiba-prado
-      organization_name: Instituto Baleia Jubarte – Cumuruxatiba/Prado operator network
-      category_slug: environmental-resilience-organizations
-      status: research-lead
-      website: https://www.baleiajubarte.org.br/operadoras-cumuruxatiba-prado
-      why_it_may_fit: >-
-        Instituto Baleia Jubarte lists partner operators in Cumuruxatiba/Prado for responsible whale-watching and monitoring. Because humpback whale tourism overlaps with visitor education, boats, coastal livelihoods, and marine stewardship, the institute’s local operator network could help BWB Corumbau connect low-impact tourism with conservation messaging and volunteer beach/ocean care.
-      possible_collaboration_shapes:
-        - Co-create visitor stewardship cards or briefings for whale-watching and reef-tour participants.
-        - Coordinate marine-debris reporting or cleanup days with tour operators during shoulder seasons.
-        - Host a public talk or school session about whales, boat safety, tourism pressure, and conservation.
-      source_urls:
-        - https://www.baleiajubarte.org.br/operadoras-cumuruxatiba-prado
-      research_notes: >-
-        The listed local pathway appears to be through tourism operators, with broader institute infrastructure in the Abrolhos/Caravelas region. Verify current local operator contacts and seasonal availability.
-      last_verified: 2026-06-24
+  - opportunity_slug: instituto-baleia-jubarte-cumuruxatiba-prado
+    organization_name: Instituto Baleia Jubarte – Cumuruxatiba/Prado operator network
+    category_slug: environmental-resilience-organizations
+    status: research-lead
+    website: https://www.baleiajubarte.org.br/operadoras-cumuruxatiba-prado
+    why_it_may_fit: >-
+      Instituto Baleia Jubarte lists partner operators in Cumuruxatiba/Prado for responsible whale-watching and monitoring. Because humpback whale tourism overlaps with visitor education, boats, coastal livelihoods, and marine stewardship, the institute’s local operator network could help BWB Corumbau connect low-impact tourism with conservation messaging and volunteer beach/ocean care.
+    possible_collaboration_shapes:
+      - Co-create visitor stewardship cards or briefings for whale-watching and reef-tour participants.
+      - Coordinate marine-debris reporting or cleanup days with tour operators during shoulder seasons.
+      - Host a public talk or school session about whales, boat safety, tourism pressure, and conservation.
+    source_urls:
+      - https://www.baleiajubarte.org.br/operadoras-cumuruxatiba-prado
+    research_notes: >-
+      The listed local pathway appears to be through tourism operators, with broader institute infrastructure in the Abrolhos/Caravelas region. Verify current local operator contacts and seasonal availability.
+    last_verified: 2026-06-24
 
-  funders-fiscal-sponsors:
+funders-fiscal-sponsors:
 
   - opportunity_slug: funbio-gef-mar-corumbau
     organization_name: Fundo Brasileiro para a Biodiversidade – FUNBIO / GEF Mar
@@ -184,25 +184,25 @@ opportunities:
     last_verified: 2026-06-24
 
 
-    - opportunity_slug: conservacao-internacional-brasil-abrolhos-trindade
-      organization_name: Conservação Internacional Brasil – Projeto Abrolhos-Trindade + Resiliente
-      category_slug: funders-fiscal-sponsors
-      status: research-lead
-      website: https://www.conservation.org/brasil
-      why_it_may_fit: >-
-        BNDES announced funding for Conservação Internacional Brasil’s Abrolhos-Trindade + Resiliente project, including work in the Corumbau, Cassurubá, and Canavieiras extractive reserves. The project is described as supporting sustainable tourism, fisheries, mapping, sustainable activities, resident training, and small-business engagement. This is a plausible funding/program-alignment lead for BWB projects that connect local livelihoods, conservation, and resilience.
-      possible_collaboration_shapes:
-        - Align BWB volunteer projects with community-based tourism, fishery, or resilience priorities already mapped through the project.
-        - Offer volunteer support for workshops, local mapping, event logistics, or public-facing conservation materials.
-        - Ask whether small community-led pilot projects need implementation partners or matching volunteer capacity.
-      source_urls:
-        - https://agenciadenoticias.bndes.gov.br/cultura/BNDES-aprova-R%24-72-milhoes-para-novo-projeto-de-conservacao-de-corais-na-regiao-de-Abrolhos-Trindade/
-        - https://www.conservation.org/brasil
-      research_notes: >-
-        Program appears regional and funder-mediated; verify current local implementation contacts in Corumbau before adding as a direct collaboration opportunity.
-      last_verified: 2026-06-24
+  - opportunity_slug: conservacao-internacional-brasil-abrolhos-trindade
+    organization_name: Conservação Internacional Brasil – Projeto Abrolhos-Trindade + Resiliente
+    category_slug: funders-fiscal-sponsors
+    status: research-lead
+    website: https://www.conservation.org/brasil
+    why_it_may_fit: >-
+      BNDES announced funding for Conservação Internacional Brasil’s Abrolhos-Trindade + Resiliente project, including work in the Corumbau, Cassurubá, and Canavieiras extractive reserves. The project is described as supporting sustainable tourism, fisheries, mapping, sustainable activities, resident training, and small-business engagement. This is a plausible funding/program-alignment lead for BWB projects that connect local livelihoods, conservation, and resilience.
+    possible_collaboration_shapes:
+      - Align BWB volunteer projects with community-based tourism, fishery, or resilience priorities already mapped through the project.
+      - Offer volunteer support for workshops, local mapping, event logistics, or public-facing conservation materials.
+      - Ask whether small community-led pilot projects need implementation partners or matching volunteer capacity.
+    source_urls:
+      - https://agenciadenoticias.bndes.gov.br/cultura/BNDES-aprova-R%24-72-milhoes-para-novo-projeto-de-conservacao-de-corais-na-regiao-de-Abrolhos-Trindade/
+      - https://www.conservation.org/brasil
+    research_notes: >-
+      Program appears regional and funder-mediated; verify current local implementation contacts in Corumbau before adding as a direct collaboration opportunity.
+    last_verified: 2026-06-24
 
-  labor-unions-worker-centers:
+labor-unions-worker-centers:
 
   - opportunity_slug: corumbau-passeios
     organization_name: Corumbau Passeios
@@ -240,25 +240,25 @@ opportunities:
     last_verified: 2026-06-24
 
 
-    - opportunity_slug: aprhope-festival-gastronomico-cultural-prado
-      organization_name: Associação Pradense de Restaurantes, Hotéis, Operadoras, Pousadas e Estabelecimentos Comerciais – APRHOPE / Festival Gastronômico e Cultural de Prado
-      category_slug: local-businesses-social-enterprises
-      status: research-lead
-      website: https://festivalprado.com.br/
-      why_it_may_fit: >-
-        APRHOPE, Sebrae, the Prefeitura, and Senac promote the Festival Gastronômico e Cultural de Prado, a public event involving local restaurants, hotels, operators, producers, and cultural activation. Festival sources describe programming across Prado and districts including Cumuruxatiba and Corumbau. This business network could support in-kind materials, food logistics, event waste reduction, local producer connections, and community fundraising.
-      possible_collaboration_shapes:
-        - Partner on zero-waste vendor guidance, sorting stations, and reusable serviceware pilots during festival-related events.
-        - Invite participating businesses to donate supplies, food, or space for community service days.
-        - Connect local producers and fishers with community meals or benefit events designed by residents.
-      source_urls:
-        - https://festivalprado.com.br/festival-gastronomico-de-prado-destaca-cultura-e-sabores-de-cumuruxatiba/
-        - https://ba.agenciasebrae.com.br/cultura-empreendedora/19o-festival-gastronomico-e-cultural-de-prado-destaca-sabores-autenticos-da-terra/
-      research_notes: >-
-        Good business-network lead, but outreach should avoid letting commercial festival priorities define community needs. Verify APRHOPE contacts and whether Corumbau businesses participate actively.
-      last_verified: 2026-06-24
+  - opportunity_slug: aprhope-festival-gastronomico-cultural-prado
+    organization_name: Associação Pradense de Restaurantes, Hotéis, Operadoras, Pousadas e Estabelecimentos Comerciais – APRHOPE / Festival Gastronômico e Cultural de Prado
+    category_slug: local-businesses-social-enterprises
+    status: research-lead
+    website: https://festivalprado.com.br/
+    why_it_may_fit: >-
+      APRHOPE, Sebrae, the Prefeitura, and Senac promote the Festival Gastronômico e Cultural de Prado, a public event involving local restaurants, hotels, operators, producers, and cultural activation. Festival sources describe programming across Prado and districts including Cumuruxatiba and Corumbau. This business network could support in-kind materials, food logistics, event waste reduction, local producer connections, and community fundraising.
+    possible_collaboration_shapes:
+      - Partner on zero-waste vendor guidance, sorting stations, and reusable serviceware pilots during festival-related events.
+      - Invite participating businesses to donate supplies, food, or space for community service days.
+      - Connect local producers and fishers with community meals or benefit events designed by residents.
+    source_urls:
+      - https://festivalprado.com.br/festival-gastronomico-de-prado-destaca-cultura-e-sabores-de-cumuruxatiba/
+      - https://ba.agenciasebrae.com.br/cultura-empreendedora/19o-festival-gastronomico-e-cultural-de-prado-destaca-sabores-autenticos-da-terra/
+    research_notes: >-
+      Good business-network lead, but outreach should avoid letting commercial festival priorities define community needs. Verify APRHOPE contacts and whether Corumbau businesses participate actively.
+    last_verified: 2026-06-24
 
-  local-government-public-agencies:
+local-government-public-agencies:
 
   - opportunity_slug: secretaria-meio-ambiente-prado
     organization_name: Secretaria Municipal de Meio Ambiente de Prado
@@ -298,25 +298,25 @@ opportunities:
     last_verified: 2026-06-24
 
 
-    - opportunity_slug: secretaria-desenvolvimento-indigena-prado
-      organization_name: Secretaria Municipal de Desenvolvimento Indígena de Prado
-      category_slug: local-government-public-agencies
-      status: research-lead
-      website: https://www.acessoinformacao.com.br/ba/prado/estrutura-organizacional/
-      why_it_may_fit: >-
-        Prado has a municipal secretariat focused on Indigenous development, with official responsibilities related to public policies and local agropecuary, fishing, environmental, and tourism potential. Because RESEX Corumbau includes Pataxó communities and associations, this agency could be a useful public-sector coordination point when a project intersects Indigenous public policy, community tourism, fishing, or environmental programs.
-      possible_collaboration_shapes:
-        - Ask for guidance on appropriate public-agency coordination when projects involve Pataxó communities or territories.
-        - Support community-led workshops only when local associations and leaders define the need and invite participation.
-        - Coordinate non-sensitive public-resource information with Indigenous development and social-assistance offices.
-      source_urls:
-        - https://www.acessoinformacao.com.br/ba/prado/estrutura-organizacional/
-        - https://www.gov.br/icmbio/pt-br/assuntos/populacoes-tradicionais/producao-e-uso-sustentavel/uso-sustentavel-em-ucs/reserva-extrativista-marinha-de-corumbau
-      research_notes: >-
-        Do not treat municipal coordination as a substitute for consent from community associations and residents. Verify culturally appropriate outreach pathways before public listing.
-      last_verified: 2026-06-24
+  - opportunity_slug: secretaria-desenvolvimento-indigena-prado
+    organization_name: Secretaria Municipal de Desenvolvimento Indígena de Prado
+    category_slug: local-government-public-agencies
+    status: research-lead
+    website: https://www.acessoinformacao.com.br/ba/prado/estrutura-organizacional/
+    why_it_may_fit: >-
+      Prado has a municipal secretariat focused on Indigenous development, with official responsibilities related to public policies and local agropecuary, fishing, environmental, and tourism potential. Because RESEX Corumbau includes Pataxó communities and associations, this agency could be a useful public-sector coordination point when a project intersects Indigenous public policy, community tourism, fishing, or environmental programs.
+    possible_collaboration_shapes:
+      - Ask for guidance on appropriate public-agency coordination when projects involve Pataxó communities or territories.
+      - Support community-led workshops only when local associations and leaders define the need and invite participation.
+      - Coordinate non-sensitive public-resource information with Indigenous development and social-assistance offices.
+    source_urls:
+      - https://www.acessoinformacao.com.br/ba/prado/estrutura-organizacional/
+      - https://www.gov.br/icmbio/pt-br/assuntos/populacoes-tradicionais/producao-e-uso-sustentavel/uso-sustentavel-em-ucs/reserva-extrativista-marinha-de-corumbau
+    research_notes: >-
+      Do not treat municipal coordination as a substitute for consent from community associations and residents. Verify culturally appropriate outreach pathways before public listing.
+    last_verified: 2026-06-24
 
-  mutual-aid-groups:
+mutual-aid-groups:
 
   - opportunity_slug: associacao-carroula-moradores-proprietarios-corumbau
     organization_name: Associação Carroula de Moradores e Proprietários de Corumbau – ACMPC
@@ -336,25 +336,25 @@ opportunities:
     last_verified: 2026-06-24
 
 
-    - opportunity_slug: conselho-deliberativo-resex-corumbau
-      organization_name: Conselho Deliberativo da Reserva Extrativista Marinha de Corumbau
-      category_slug: residents-neighborhood-leaders
-      status: research-lead
-      website: https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/resex-marinha-corumbau
-      why_it_may_fit: >-
-        The RESEX management plan describes a deliberative council composed of extractivists, government bodies, and civil society organizations that contributes to RESEX objectives and management-plan implementation. For BWB Corumbau, the council is a key place to verify whether proposed projects align with resident, fisher, and traditional-community priorities.
-      possible_collaboration_shapes:
-        - Present early project ideas for feedback before public launch.
-        - Ask the council which volunteer efforts would complement, rather than disrupt, existing RESEX priorities.
-        - Coordinate public-use, environmental education, or stewardship events through council-aligned procedures.
-      source_urls:
-        - https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/resex-marinha-corumbau/arquivos/minuta_plano_manejo_resex_corumbau_versao_7_final.pdf
-        - https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/resex-marinha-corumbau
-      research_notes: >-
-        This is a governance body, not a standalone nonprofit. Verify current meeting cadence, representation, and appropriate public-contact pathway through ICMBio or FAREMCO.
-      last_verified: 2026-06-24
+  - opportunity_slug: conselho-deliberativo-resex-corumbau
+    organization_name: Conselho Deliberativo da Reserva Extrativista Marinha de Corumbau
+    category_slug: residents-neighborhood-leaders
+    status: research-lead
+    website: https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/resex-marinha-corumbau
+    why_it_may_fit: >-
+      The RESEX management plan describes a deliberative council composed of extractivists, government bodies, and civil society organizations that contributes to RESEX objectives and management-plan implementation. For BWB Corumbau, the council is a key place to verify whether proposed projects align with resident, fisher, and traditional-community priorities.
+    possible_collaboration_shapes:
+      - Present early project ideas for feedback before public launch.
+      - Ask the council which volunteer efforts would complement, rather than disrupt, existing RESEX priorities.
+      - Coordinate public-use, environmental education, or stewardship events through council-aligned procedures.
+    source_urls:
+      - https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/resex-marinha-corumbau/arquivos/minuta_plano_manejo_resex_corumbau_versao_7_final.pdf
+      - https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/resex-marinha-corumbau
+    research_notes: >-
+      This is a governance body, not a standalone nonprofit. Verify current meeting cadence, representation, and appropriate public-contact pathway through ICMBio or FAREMCO.
+    last_verified: 2026-06-24
 
-  schools-libraries-community-centers:
+schools-libraries-community-centers:
 
   - opportunity_slug: biblioteca-comunitaria-canta-galo
     organization_name: Biblioteca Comunitária do Canta Galo

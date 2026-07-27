@@ -163,7 +163,7 @@ opportunities:
     category_slug: residents-neighborhood-leaders
     status: research-lead
     website: https://www.galvestontx.gov/
-    why_it_may_fit: The City of Galveston announced a community-driven comprehensive plan update intended to guide long-term growth, development, and resilience. For a BWB chapter, this is a useful resident-listening and priority-discovery channel rather than a conventional organization: attending public meetings, reviewing survey outputs, and listening to neighborhood concerns can ground BWB projects in local priorities before outreach or implementation.
+    why_it_may_fit: "The City of Galveston announced a community-driven comprehensive plan update intended to guide long-term growth, development, and resilience. For a BWB chapter, this is a useful resident-listening and priority-discovery channel rather than a conventional organization: attending public meetings, reviewing survey outputs, and listening to neighborhood concerns can ground BWB projects in local priorities before outreach or implementation."
     possible_collaboration_shapes:
       - Attend comprehensive-plan meetings as listeners to identify resident concerns around resilience, transportation, public space, and neighborhood needs.
       - Offer follow-up volunteer support for resident-prioritized cleanups, preparedness workshops, or resource-mapping projects.

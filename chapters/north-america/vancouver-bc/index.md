@@ -76,11 +76,6 @@ opportunities:
       - https://www.artsumbrella.com/community-programs/eco-theatre/
     research_notes: Best fit if BWB Vancouver wants youth/family engagement; verify safeguarding requirements, age ranges, and whether Arts Umbrella is open to one-off external collaborations.
     last_verified: 2026-06-24
-  ```
-
-
-  ```yaml
-
   - opportunity_slug: greater-vancouver-food-bank
     organization_name: Greater Vancouver Food Bank
     category_slug: direct-service-providers
@@ -166,10 +161,8 @@ opportunities:
       - https://falsecreekfriends.org/new-dropdown
     research_notes: Still appears to be a growing organization; verify staffing depth, event cadence, and whether collaboration should focus on festivals/education or on field stewardship.
     last_verified: 2026-06-24
-  ```
 
 
-  ```yaml
 
   - opportunity_slug: vancouver-foundation
     organization_name: Vancouver Foundation
@@ -218,10 +211,8 @@ opportunities:
       - https://makeway.org/
     research_notes: Shared-platform admission is selective and not designed for casual projects; verify fit, scale, and whether a referral to a hosted project is more realistic than direct platform entry.
     last_verified: 2026-06-24
-  ```
 
 
-  ```yaml
 
   - opportunity_slug: vancouver-and-district-labour-council
     organization_name: Vancouver and District Labour Council
@@ -272,10 +263,8 @@ opportunities:
       - https://www.liuna1611.org/dispatch
     research_notes: Formal training is member-facing; outreach should not assume free skilled labor. Verify whether the right path is a community-relations conversation, a retiree contact, or a one-off educational role.
     last_verified: 2026-06-24
-  ```
 
 
-  ```yaml
 
   - opportunity_slug: recycling-alternative
     organization_name: Recycling Alternative
@@ -324,10 +313,8 @@ opportunities:
       - https://www.sharewares.ca/for-the-curious
     research_notes: Commercial service rather than charitable partner; verify minimum order size, wash/return logistics, and whether small grassroots events are a workable customer profile.
     last_verified: 2026-06-24
-  ```
 
 
-  ```yaml
 
   - opportunity_slug: vancouver-tool-library
     organization_name: Vancouver Tool Library
@@ -375,10 +362,8 @@ opportunities:
       - https://spec.bc.ca/repair-cafe/volunteer/
     research_notes: Since SPEC has publicly noted funding pressure on Repair Cafés, verify current schedule, insurance, space needs, and whether outside co-hosts are being sought.
     last_verified: 2026-06-24
-  ```
 
 
-  ```yaml
 
   - opportunity_slug: vancouver-community-fridge-project
     organization_name: Vancouver Community Fridge Project
@@ -394,10 +379,8 @@ opportunities:
       - https://bc.211.ca/agency-details/vancouver-community-fridge-project-80315417/
     research_notes: Grassroots structure is a strength but may mean limited centralized capacity; verify current fridge locations, volunteer coordination, and whether outreach should happen through email or local site stewards.
     last_verified: 2026-06-24
-  ```
 
 
-  ```yaml
 
   - opportunity_slug: frog-hollow-neighbourhood-house
     organization_name: Frog Hollow Neighbourhood House
@@ -448,10 +431,8 @@ opportunities:
       - https://mosaicbc.org/our-locations/vancouver/
     research_notes: Larger organization with established processes; verify which Vancouver office or program area would be the most relevant partner for a small volunteer-led chapter.
     last_verified: 2026-06-24
-  ```
 
 
-  ```yaml
 
 
   - opportunity_slug: false-creek-south-neighbourhood-association
@@ -468,10 +449,8 @@ opportunities:
       - https://www.falsecreeksouth.org/betweenthebridges/
     research_notes: FCSNA is especially relevant if the chapter wants a planning/placemaking angle; verify whether it prefers advocacy/policy collaboration, practical stewardship, or community events.
     last_verified: 2026-06-24
-  ```
 
 
-  ```yaml
 
 
   - opportunity_slug: ubc-learning-exchange

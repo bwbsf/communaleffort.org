@@ -60,8 +60,6 @@ opportunities:
     research_notes: Public-agency collaboration may require formal proposals, city calendar alignment, or event permits. Confirm whether BWB Colombia should approach FUGA directly or through Bogotá cultural-program channels.
     last_verified: 2026-06-24
 
-  # direct-service-providers
-
   - opportunity_slug: banco-de-alimentos-de-bogota
     organization_name: Banco de Alimentos de Bogotá
     category_slug: direct-service-providers
@@ -96,8 +94,6 @@ opportunities:
     research_notes: SACIAR has strong service relevance, but BWB should verify collaboration procedures, whether volunteer groups are accepted, and whether the chapter's Medellín work overlaps with existing SACIAR partners.
     last_verified: 2026-06-24
 
-  # environmental-resilience-organizations
-
   - opportunity_slug: fundacion-natura-colombia
     organization_name: Fundación Natura Colombia
     category_slug: environmental-resilience-organizations
@@ -131,8 +127,6 @@ opportunities:
     research_notes: Official website is concise but directly relevant. Verify current projects, geographic priorities, and whether they accept volunteer collaboration or prefer technical/education partnerships.
     last_verified: 2026-06-24
 
-  # funders-fiscal-sponsors
-
   - opportunity_slug: caring-for-colombia
     organization_name: Caring for Colombia
     category_slug: funders-fiscal-sponsors
@@ -163,8 +157,6 @@ opportunities:
       - https://givetocolombia.org/
     research_notes: Verify whether they support small grassroots/Burner-led projects or only vetted institutional partners. Confirm grant size, fiscal fees, due diligence, and required Colombian implementing entity.
     last_verified: 2026-06-24
-
-  # labor-unions-worker-centers
 
   - opportunity_slug: conceptos-plasticos
     organization_name: Conceptos Plásticos
@@ -199,9 +191,6 @@ opportunities:
     research_notes: Verify whether grassroots/community groups can participate directly or must be registered food-bank/social-organization partners. Confirm food-safety, pickup, storage, and liability requirements.
     last_verified: 2026-06-24
 
-  # local-government-public-agencies
-
-
   - opportunity_slug: jardin-botanico-de-bogota-jose-celestino-mutis
     organization_name: Jardín Botánico de Bogotá José Celestino Mutis
     category_slug: local-government-public-agencies
@@ -216,8 +205,6 @@ opportunities:
       - https://jbb.gov.co/
     research_notes: Verify the correct department for citizen participation, urban agriculture, pollinator work, or native-plant education. Public-agency scheduling and permissions may be required.
     last_verified: 2026-06-24
-
-  # makerspaces-tool-libraries-repair-groups
 
   - opportunity_slug: sena-tecnoparque
     organization_name: SENA Tecnoparque
@@ -251,8 +238,6 @@ opportunities:
     research_notes: Source is older and public/community access is unclear. Verify current activity, equipment availability, and whether non-university community projects are accepted.
     last_verified: 2026-06-24
 
-  # mutual-aid-groups
-
   - opportunity_slug: mupho-bosa-olla-comunitaria
     organization_name: Mupho
     category_slug: mutual-aid-groups
@@ -267,8 +252,6 @@ opportunities:
       - https://bogota.gov.co/mi-ciudad/gobierno/olla-comunitaria-en-bosa-que-ayuda-habitantes-de-calle-en-bogota
     research_notes: No standalone Mupho website was found in this pass; the lead is grounded in an official Bogotá.gov article. Verify contact pathway, activity status, safety practices, and whether outside volunteers are welcome.
     last_verified: 2026-06-24
-
-  # nonprofits-cbos
 
   - opportunity_slug: techo-colombia
     organization_name: TECHO Colombia
@@ -304,8 +287,6 @@ opportunities:
     research_notes: Good mission fit, but verify current geography, program cohorts, and whether collaboration should be national, Bogotá-based, Medellín-based, or Cartagena/Caribbean-linked.
     last_verified: 2026-06-24
 
-  # residents-neighborhood-leaders
-
   - opportunity_slug: instituto-distrital-de-la-participacion-y-accion-comunal-idpac
     organization_name: Instituto Distrital de la Participación y Acción Comunal - IDPAC
     category_slug: residents-neighborhood-leaders
@@ -323,137 +304,22 @@ opportunities:
     research_notes: This is a public participation agency, not a resident group itself. It is useful as a gateway to JACs and neighborhood leaders. Verify the correct locality and avoid treating IDPAC as a substitute for direct resident consent.
     last_verified: 2026-06-24
 
-  # schools-libraries-community-centers
-
-    - opportunity_slug: biblored-red-distrital-de-bibliotecas-publicas-de-bogota
-      organization_name: BibloRed - Red Distrital de Bibliotecas Públicas de Bogotá
-      category_slug: schools-libraries-community-centers
-      status: research-lead
-      website: https://biblored.gov.co/
-      why_it_may_fit: BibloRed is Bogotá's public-library network and includes community-facing spaces for reading, culture, research, science, technology, innovation, and co-creation. Its Salas LabCo are explicitly designed for experimentation, learning by doing, collaboration, and connecting organizations, people, and projects.
-      possible_collaboration_shapes:
-        - Host BWB youth workshops on repair, reuse, pollinators, water, or civic imagination in a library setting.
-        - Use Salas LabCo for co-creation sessions around neighborhood resilience or public art.
-        - Build a resource fair with BWB volunteers, local nonprofits, and library staff around practical community needs.
-      source_urls:
-        - https://biblored.gov.co/
-        - https://www.biblored.gov.co/visita/espacios-alternativos-salas-labco
-        - https://biblored.gov.co/nosotros
-      research_notes: Strong Bogotá facility/network fit. Verify library-specific programming rules, whether BWB can reserve space, and whether target communities are near the selected branch.
-      last_verified: 2026-06-24
-  ```
-
-  ```yaml
-  no_good_leads_found: []
-  ```
-
-  ```yaml
-  follow_up_questions:
-    - Should BWB Colombia be treated primarily as Bogotá/Chingaza-centered, or should the chapter page intentionally include Medellín leads because of the documented food-distribution work there?
-    - Is Ancestral Foundation/Shambala already a formal partner of BWB Colombia, and should existing partners be added separately or excluded from new opportunity research?
-    - Does the maintainer want public agencies listed as opportunities when collaboration requires formal permitting or MOUs, or should those be moved to a separate "coordination contacts" section?
-    - For mutual-aid leads, should social-media-only groups such as Red Nacional de Ollas Comunitarias be included after human verification, or excluded unless they have a durable website/contact pathway?
-    - Does BWB Colombia have a Colombian legal entity or fiscal sponsor already, or should fiscal-sponsorship leads be prioritized for outreach?
-  ```
-
-  ```yaml
-  source_index:
-    - url: https://burnerswithoutborders.org/chapters/colombia/
-      supports: BWB Colombia chapter location, mission themes, listed projects, Bogotá context, and contact path.
-    - url: https://burnerswithoutborders.org/uncategorized/bwb-colombia-uplifting-communities/
-      supports: Context on BWB Colombia's Chingaza/Germinator work, Medellín food distribution, Bee Safe, Ikigai Explorers, and local-partner emphasis.
-    - url: https://burnerswithoutborders.org/projects/
-      supports: Cross-check of BWB Colombia projects including Burning Clean, The Germinator, Ikigai Explorers, and Bee Safe.
-    - url: https://www.casatrespatios.org/
-      supports: Casa Tres Patios mission, Medellín location, social-justice/art pedagogy focus, programs, and contact information.
-    - url: https://artscollaboratory.org/fundacion-casa-tres-patios/
-      supports: Independent profile of Casa Tres Patios as an arts, pedagogy, research, and social-justice organization.
-    - url: https://www.fuga.gov.co/
-      supports: FUGA public cultural programming, Bogotá cultural facilities, Bronx Distrito Creativo link, events, and public contact details.
-    - url: https://bronxdistritocreativo.gov.co/
-      supports: FUGA-linked creative-district context for public culture and placemaking in Bogotá.
-    - url: https://www.bancodealimentos.org.co/
-      supports: Banco de Alimentos de Bogotá mission, food/goods donation logistics, volunteer pathways, distribution model, and 2026 impact figures.
-    - url: https://www.bancodealimentos.org.co/ayudanos-a-ayudar/voluntariado-corporativo/
-      supports: Banco de Alimentos volunteer/corporate engagement pathway.
-    - url: https://elpais.com/america-colombia/2024-10-16/la-mayor-central-de-abastos-de-colombia-combate-el-hambre-y-los-desperdicios.html
-      supports: Corabastos/Banco de Alimentos food-recovery context and Bogotá surplus-food distribution ecosystem.
-    - url: https://saciar.org.co/
-      supports: Fundación SACIAR mission, food-bank impact figures, hunger and food-waste focus, and public-private-community alliance language.
-    - url: https://www.foodbanking.org/es/resources/child-hunger-case-study-colombia/
-      supports: SACIAR's food-bank role and Medellín child-nutrition context.
-    - url: https://natura.org.co/
-      supports: Fundación Natura Colombia reserves, native nurseries, restoration, research centers, and environmental program areas.
-    - url: https://initiative20x20.org/partners/fundacion-natura
-      supports: External profile of Fundación Natura as a Colombian conservation NGO working on biodiversity and resilient territories.
-    - url: https://fundacionhumedales.org/
-      supports: Fundación Humedales mission, Bogotá base, aquatic-ecosystem conservation, environmental education, participatory resource management, and community-association strengthening.
-    - url: https://www.caringforcolombia.org/our-solutions
-      supports: Caring for Colombia fiscal sponsorship and grant/funding functions for Colombia-based nonprofits.
-    - url: https://givetocolombia.org/
-      supports: Give To Colombia's tax-exempt resource-mobilization role and thematic pillars including education, environment, humanitarian aid, water/sanitation, and health/nutrition.
-    - url: https://www.ens.org.co/
-      supports: Escuela Nacional Sindical official presence, training/publications, Medellín contact, and labor-rights focus.
-    - url: https://www.dol.gov/resource-library/strengthening-protections-internationally-recognized-labor-rights-colombia-0
-      supports: Documentation of ENS Workers' Rights Centers in Bogotá, Cartagena, Bucaramanga, and Medellín and worker-rights support role.
-    - url: https://conceptosplasticos.com/
-      supports: Conceptos Plásticos recycled-plastic building materials, circular-economy projects, and social/environmental impact framing.
-    - url: https://www.unicef.org/press-releases/unicef-breaks-ground-africas-first-kind-recycled-plastic-brick-factory-c%C3%B4te
-      supports: External validation of Conceptos Plásticos as a Colombian social enterprise making recycled-plastic bricks for classrooms.
-    - url: https://www.eatcloud.com/en/
-      supports: EatCloud official description as a food-surplus redistribution and impact-tracking platform.
-    - url: https://www.urbanagendaplatform.org/best-practice/eatcloud-zero-waste-zero-hunger-zero-emissions
-      supports: EatCloud best-practice profile for zero waste, hunger, and emissions, connecting food actors with food banks and social organizations.
-    - url: https://portal.gestiondelriesgo.gov.co/
-      supports: UNGRD official national disaster-risk-management role and public-agency context.
-    - url: https://www.preventionweb.net/news/colombia-kicks-new-disaster-risk-reduction-effort-el-nino-takes-hold
-      supports: Colombia disaster-risk-reduction context and UNGRD's national coordination role.
-    - url: https://www.idiger.gov.co/
-      supports: IDIGER official Bogotá risk-management and climate-adaptation agency presence.
-    - url: https://bogota.gov.co/servicios/entidad/instituto-distrital-de-gestion-de-riesgos-y-cambio-climatico-idiger
-      supports: Official Bogotá entity page for IDIGER services, contact channels, emergency-plan review, and public-event/crowd-management processes.
-    - url: https://bogota.gov.co/mi-ciudad/ambiente/bogota-cultura-de-gestion-del-riesgo-segundo-dialogo-ciudadano-idiger
-      supports: IDIGER citizen-dialogue and neighborhood emergency-preparedness context.
-    - url: https://jbb.gov.co/
-      supports: Jardín Botánico de Bogotá public environmental, cultural, educational, and participation functions.
-    - url: https://www.sena.edu.co/es-co/formacion/Paginas/tecnoparques.aspx
-      supports: SENA Tecnoparque technical advising, technology transfer, knowledge appropriation, specialized labs, and prototype-production services.
-    - url: https://www.innovamos.gov.co/instrumentos/tecnoparques-imagina-crea-y-hazlo-realidad
-      supports: Additional public description of Tecnoparque as a technology-development and innovation strategy.
-    - url: https://medellin.unal.edu.co/noticias/1059-el-fablab-un-espacio-para-experimentar-
-      supports: Universidad Nacional de Colombia Medellín FabLab equipment and prototyping capacity.
-    - url: https://bogota.gov.co/mi-ciudad/gobierno/olla-comunitaria-en-bosa-que-ayuda-habitantes-de-calle-en-bogota
-      supports: Mupho as a Bosa community organization operating an olla comunitaria serving recyclers and people experiencing homelessness.
-    - url: https://www.elespectador.com/colombia/mas-regiones/red-nacional-de-ollas-comunitarias-recorrera-varios-municipios-del-pais/
-      supports: Context that Red Nacional de Ollas Comunitarias has operated in multiple Colombian cities, but not used as a standalone opportunity because durable contact evidence was limited.
-    - url: https://elpais.com/america-colombia/2023-01-14/el-sancocho-de-petro-el-gobierno-busca-formalizar-las-ollas-comunitarias-del-pais.html
-      supports: General explanation of Colombian ollas comunitarias as citizen/community food initiatives.
-    - url: https://colombia.techo.org/
-      supports: TECHO Colombia work in informal settlements on housing and habitat.
-    - url: https://colombia.techo.org/preguntas-frecuentes/
-      supports: TECHO Colombia volunteer/community framing and nonpartisan participation language.
-    - url: https://fundacionmisangre.org/
-      supports: Fundación Mi Sangre youth-led peacebuilding, leadership, and current program context.
-    - url: https://fundacionmisangre.org/quelapaztetoque/
-      supports: Fundación Mi Sangre public peacebuilding/community activity materials.
-    - url: https://www.bancomundial.org/es/news/feature/2013/07/18/mi-sangre-foundation-juanes-world-bank-peace-colombia
-      supports: External context on Fundación Mi Sangre using art/music for youth peacebuilding in Colombia.
-    - url: https://www.participacionbogota.gov.co/
-      supports: IDPAC role in citizen participation, social-organization strengthening, elections, leadership, and participation ecosystem.
-    - url: https://www.participacionbogota.gov.co/transparencia/tramites-y-servicios
-      supports: IDPAC services for Juntas de Acción Comunal, Casa de la Participación, registration, certification, and community-organization support.
-    - url: https://bogota.gov.co/mi-ciudad/gobierno/conoce-todo-sobre-las-juntas-de-accion-comunal-en-bogota
-      supports: Official Bogotá explanation of Juntas de Acción Comunal and their neighborhood/community role.
-    - url: https://biblored.gov.co/
-      supports: BibloRed official public-library network presence.
-    - url: https://www.biblored.gov.co/visita/espacios-alternativos-salas-labco
-      supports: BibloRed Salas LabCo as physical co-creation spaces for experimentation, learning by doing, collaboration, and connecting organizations/people/projects.
-    - url: https://biblored.gov.co/nosotros
-      supports: BibloRed network scale and public-library role in culture, research, science, technology, innovation, and community empowerment.
-  ```
-
-  [1]: https://burnerswithoutborders.org/chapters/colombia/ "BWB Colombia - Burners Without Borders"
-
+  - opportunity_slug: biblored-red-distrital-de-bibliotecas-publicas-de-bogota
+    organization_name: BibloRed - Red Distrital de Bibliotecas Públicas de Bogotá
+    category_slug: schools-libraries-community-centers
+    status: research-lead
+    website: https://biblored.gov.co/
+    why_it_may_fit: BibloRed is Bogotá's public-library network and includes community-facing spaces for reading, culture, research, science, technology, innovation, and co-creation. Its Salas LabCo are explicitly designed for experimentation, learning by doing, collaboration, and connecting organizations, people, and projects.
+    possible_collaboration_shapes:
+      - Host BWB youth workshops on repair, reuse, pollinators, water, or civic imagination in a library setting.
+      - Use Salas LabCo for co-creation sessions around neighborhood resilience or public art.
+      - Build a resource fair with BWB volunteers, local nonprofits, and library staff around practical community needs.
+    source_urls:
+      - https://biblored.gov.co/
+      - https://www.biblored.gov.co/visita/espacios-alternativos-salas-labco
+      - https://biblored.gov.co/nosotros
+    research_notes: Strong Bogotá facility/network fit. Verify library-specific programming rules, whether BWB can reserve space, and whether target communities are near the selected branch.
+    last_verified: 2026-06-24
 
   - opportunity_slug: servicio-nacional-de-aprendizaje-sena
     organization_name: Servicio Nacional de Aprendizaje - SENA
